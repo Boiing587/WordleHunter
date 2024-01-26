@@ -1,17 +1,74 @@
 {
-  "rathalos": {
-    "species": "Flying wyvern",
-    "subspecies": "Base species",
-    "generation": "Gen 1",
-    "game": "Monster Hunter",
-    "elements": [
-      "Fire"
-    ],
-    "statuses": [
-      "Poison"
-    ]
-  },
-  "gore Magala": {},
-  "gammoth": {},
-  "jyuratodus": {}
+    "rathalos": {
+        "name": "Rathalos",
+        "species": "Flying wyvern",
+        "subspecies": "Base species",
+        "generation": "Gen 1",
+        "game": "Monster Hunter",
+        "elements": [
+            "Fire"
+        ],
+        "statuses": [
+            "Poison"
+        ],
+        "weakness": [
+            "Dragon"
+        ]
+    },
+    "gore magala": {
+        "name": "Gore Magala",
+        "species": "???",
+        "subspecies": "Base species",
+        "generation": "Gen 4",
+        "game": "Monster Hunter 4",
+        "statuses": [
+            "Frenzy"
+        ],
+        "weaknesses": [
+            "Fire"
+        ]
+    },
+    "gammoth": {
+        "name": "Gammoth",
+        "species": "Fanged beast",
+        "subspecies": "Base species",
+        "generation": "Gen 4",
+        "game": "Monster hunter Generations",
+        "elements": [
+            "Ice"
+        ],
+        "statuses": [
+            "Snowman"
+        ],
+        "weaknesses": [
+            "Fire"
+        ]
+    },
+    "jyuratodus": {
+        "name": "Jyuratodus",
+        "species": "Piscine wyvern",
+        "subspecies": "Base species",
+        "generation": "Gen 5",
+        "game": "Monster Hunter World",
+        "elements": [
+            "Water"
+        ],
+        "weaknesses": [
+            "Thunder"
+        ]
+    },
+    "molten tigrex": {
+        "name": "Molten Tigrex",
+        "species": "Flying wyvern",
+        "subspecies": "Rare species",
+        "generation": "Gen 4",
+        "game": "Monster Hunter 4",
+        "statuses": [
+            "Blast"
+        ],
+        "weaknesses": [
+            "Water",
+            "Ice"
+        ]
+    }
 }
