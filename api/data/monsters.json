@@ -1,5 +1,5 @@
-{
-    "rathalos": {
+[
+    {
         "name": "Rathalos",
         "species": "Flying wyvern",
         "subspecies": "Base species",
@@ -15,7 +15,7 @@
             "Dragon"
         ]
     },
-    "gore magala": {
+    {
         "name": "Gore Magala",
         "species": "???",
         "subspecies": "Base species",
@@ -28,7 +28,7 @@
             "Fire"
         ]
     },
-    "gammoth": {
+    {
         "name": "Gammoth",
         "species": "Fanged beast",
         "subspecies": "Base species",
@@ -44,7 +44,7 @@
             "Fire"
         ]
     },
-    "jyuratodus": {
+    {
         "name": "Jyuratodus",
         "species": "Piscine wyvern",
         "subspecies": "Base species",
@@ -57,7 +57,7 @@
             "Thunder"
         ]
     },
-    "molten tigrex": {
+    {
         "name": "Molten Tigrex",
         "species": "Flying wyvern",
         "subspecies": "Rare species",
@@ -71,4 +71,4 @@
             "Ice"
         ]
     }
-}
+]

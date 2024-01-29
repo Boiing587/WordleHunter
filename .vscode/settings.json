@@ -4,6 +4,6 @@
     ".vscode{,/**}"
   ],
   "appService.defaultWebAppToDeploy": "/subscriptions/60d079b4-4790-4759-b24c-30fe1c99bb95/resourceGroups/Worlde_Hunter/providers/Microsoft.Web/sites/worldehunterapi",
-  "appService.deploySubpath": ".",
+  "appService.deploySubpath": "./api",
   "appService.showBuildDuringDeployPrompt": false
 }
