@@ -15,7 +15,7 @@ routers = [
 for router in routers:
     app.include_router(router.router)
 
-@app.get('/health')
+@app.get('/api/health')
 async def health():
     return JSONResponse({'status': '0', 'message': 'ok'})
 

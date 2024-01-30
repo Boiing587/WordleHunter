@@ -1,0 +1,18 @@
+version: '3.3'
+
+services:
+  api:
+    hostname: wordlehunter-api
+    container_name: wordlehunter-api
+    build: ./api
+    restart: unless-stopped
+  
+  nginx:
+    hostname: wordlehunter-nginx
+    container_name: wordlehunter-nginx
+    image: nginx:latest
+    ports:
+      - 8000:80
+    volumes:
+      - ./nginx:/etc/nginx
+    restart: unless-stopped

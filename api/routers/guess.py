@@ -7,6 +7,6 @@ from interfaces.Generations import Generations
 
 router = APIRouter()
 
-@router.get("/guess")
+@router.get("/api/guess")
 async def guess(generations: Generations):
     return JSONResponse(monsterOfTheDay(generations))
