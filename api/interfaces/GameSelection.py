@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-class Generations(BaseModel):
+class GameSelection(BaseModel):
     gen1: list[str] | None
     gen2: list[str] | None
     gen3: list[str] | None

@@ -4,10 +4,10 @@ from datetime import datetime
 
 from methods.monsterList import loadMonsterList
 
-from interfaces.Generations import Generations
+from interfaces.GameSelection import GameSelection
 from interfaces.Monster import Monster
 
-def monsterOfTheDay(generations: Generations) -> Monster:
+def monsterOfTheDay(generations: GameSelection) -> Monster:
     monsterList = loadMonsterList(generations)
     monsterNames = [monster['name'] for monster in monsterList]
     seed = datetime.today().strftime("%d/%m/%Y")

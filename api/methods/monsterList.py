@@ -1,10 +1,10 @@
 import json
 
-from interfaces.Generations import Generations
+from interfaces.GameSelection import GameSelection
 from interfaces.Monster import Monster
 
 # TODO include monsters that are present in, but not new in generation
-def loadMonsterList(generations: Generations) -> list[Monster]:
+def loadMonsterList(generations: GameSelection) -> list[Monster]:
     monsterList: list[Monster] = []
     _properties = generations.__annotations__
     for generation, _ in _properties.items():
