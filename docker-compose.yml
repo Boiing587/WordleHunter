@@ -14,5 +14,5 @@ services:
     ports:
       - 8000:80
     volumes:
-      - ./nginx:/etc/nginx
+      - ./nginx/conf.d:/etc/nginx/conf.d
     restart: unless-stopped
