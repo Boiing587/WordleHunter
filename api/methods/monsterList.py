@@ -3,7 +3,8 @@ import json
 from interfaces.GameSelection import GameSelection
 from interfaces.Monster import Monster
 
-# TODO include monsters that are present in, but not new in generation
+# FIXME include monsters that are present in, but not new in generation
+# NOTE Frontier: each season also includes monsters of all previous seasons
 def loadMonsterList(game_selection: GameSelection) -> list[Monster]:
     monster_list: list[Monster] = []
     _properties = game_selection.__annotations__
