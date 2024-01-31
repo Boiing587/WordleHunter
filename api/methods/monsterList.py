@@ -6,6 +6,15 @@ from interfaces.Monster import Monster
 # FIXME include monsters that are present in, but not new in generation
 # NOTE Frontier: each season also includes monsters of all previous seasons
 def loadMonsterList(game_selection: GameSelection) -> list[Monster]:
+    """Loads a list of monsters given the selected games.
+
+    Args:
+        game_selection: GameSelection object with information on what games to get monsters from.
+
+    Returns:
+        list of Monster objects.
+    """
+
     monster_list: list[Monster] = []
     _properties = game_selection.__annotations__
     for generation, _ in _properties.items():

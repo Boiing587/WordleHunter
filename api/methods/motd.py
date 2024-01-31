@@ -5,6 +5,15 @@ from datetime import datetime
 from interfaces.Monster import Monster
 
 def monsterOfTheDay(monster_list: list[Monster]) -> Monster:
+    """Generates a random monster using the current date as a seed
+
+    Args:
+        monster_list: A list of monster objects to generate the monster of the day from
+
+    Returns:
+        Monster object with today's monster
+    """
+
     monsterNames = [monster['name'] for monster in monster_list]
     seed = datetime.today().strftime("%d/%m/%Y")
     random.seed(seed)
