@@ -4,11 +4,11 @@ from interfaces.GameSelection import GameSelection
 from interfaces.Monster import Monster
 
 # TODO include monsters that are present in, but not new in generation
-def loadMonsterList(generations: GameSelection) -> list[Monster]:
-    monsterList: list[Monster] = []
-    _properties = generations.__annotations__
+def loadMonsterList(game_selection: GameSelection) -> list[Monster]:
+    monster_list: list[Monster] = []
+    _properties = game_selection.__annotations__
     for generation, _ in _properties.items():
-        for game in getattr(generations, generation):
+        for game in getattr(game_selection, generation):
             with open(f"./data/{generation}/{game}.json") as f:
-                monsterList += json.loads(f.read())
-    return monsterList
+                monster_list += json.loads(f.read())
+    return monster_list
