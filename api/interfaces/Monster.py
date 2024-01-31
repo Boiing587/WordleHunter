@@ -4,7 +4,6 @@ class Monster(BaseModel):
     name: str
     species: str
     category: str
-    introduced: str
     games: list[str]
     elements: list[str] | None
     statuses: list[str] | None
