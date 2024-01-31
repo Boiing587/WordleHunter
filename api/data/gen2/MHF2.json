@@ -1,11 +1,32 @@
 [
   {
-    "name": "Akantor"
+    "name": "Akantor",
+    "species": "",
+    "category": "",
+    "introduced": "",
+    "games": [],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": []
   },
   {
-    "name": "Giadrome"
+    "name": "Giadrome",
+    "species": "",
+    "category": "",
+    "introduced": "",
+    "games": [],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": []
   },
   {
-    "name": "Tigrex"
+    "name": "Tigrex",
+    "species": "",
+    "category": "",
+    "introduced": "",
+    "games": [],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": []
   }
 ]
