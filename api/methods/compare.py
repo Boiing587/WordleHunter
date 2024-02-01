@@ -14,29 +14,25 @@ def compareGuess(guess: str, motd: Monster) -> Proximity | None:
         motd: Monster object for the monster of the day.
 
     Returns:
-        Proximity object with information on how close the guess is.
+        Proximity object with information on how close the guess is, or None if the guessed monster doesn't exist.
     """
 
     if guess == motd.name:
-        return {
-            'correct': 0,
-            'species': 0,
-            'category': 0,
-            'game': 0,
-            'elements': 0,
-            'statuses': 0,
-            'weaknesses': 0
-        }
+        return Proximity(correct=0,
+                         species=0,
+                         category=0,
+                         game=0,
+                         elements=0,
+                         statuses=0,
+                         weaknesses=0)
 
     if not (monster := getMonster(guess)):
         return None
 
-    return {
-        'correct': 1,
-        'species': 1,
-        'category': 2,
-        'game': 2,
-        'elements': 2,
-        'statuses': 2,
-        'weaknesses': 2
-    }
+    return Proximity(correct=1,
+                     species=1,
+                     category=2,
+                     game=2,
+                     elements=2,
+                     statuses=2,
+                     weaknesses=2)
