@@ -1,172 +1,445 @@
 [
   {
     "name": "Basarios",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Flying Wyvern",
+    "category": "Base species",
+    "games": [
+      "MH1",
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MH4U",
+      "MHGU",
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Poison",
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Water"
+    ]
   },
   {
     "name": "Cephadrome",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Piscine Wyvern",
+    "category": "Base species",
+    "games": [
+      "MH1",
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4U",
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ]
   },
   {
     "name": "Diablos",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Flying Wyvern",
+    "category": "Base species",
+    "games": [
+      "MH1",
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH3",
+      "MHP3",
+      "MH3U",
+      "MH4U",
+      "MHGU",
+      "MHW",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
+    "elements": null,
+    "statuses": null,
+    "weaknesses": [
+      "Ice"
+    ]
   },
   {
     "name": "Fatalis",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Elder Dragon",
+    "category": "Base species",
+    "games": [
+      "MH1",
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MH4U",
+      "MHGU",
+      "MHWI"
+    ],
+    "elements": [
+      "Dragon",
+      "Fire"
+    ],
+    "statuses": null,
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ]
   },
   {
     "name": "Gendrome",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Bird Wyvern",
+    "category": "Base species",
+    "games": [
+      "MH1",
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": null,
+    "statuses": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Water"
+    ]
   },
   {
     "name": "Gravios",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Flying Wyvern",
+    "category": "Base species",
+    "games": [
+      "MH1",
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MH4U",
+      "MHGU"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Water"
+    ]
   },
   {
     "name": "Gypceros",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Bird Wyvern",
+    "category": "Base species",
+    "games": [
+      "MH1",
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": null,
+    "statuses": [
+      "Poison"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Iodrome",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Bird Wyvern",
+    "category": "Base species",
+    "games": [
+      "MH1",
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": null,
+    "statuses": [
+      "Poison"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Water"
+    ]
   },
   {
     "name": "Khezu",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Flying Wyvern",
+    "category": "Base species",
+    "games": [
+      "MH1",
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Thunder"
+    ],
+    "statuses": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Kirin",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Elder Dragon",
+    "category": "Base species",
+    "games": [
+      "MH1",
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHW",
+      "MHWI"
+    ],
+    "elements": [
+      "Thunder"
+    ],
+    "statuses": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Water"
+    ]
   },
   {
     "name": "Lao-Shan Lung",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Elder Dragon",
+    "category": "Base species",
+    "games": [
+      "MH1",
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MHGU"
+    ],
+    "elements": null,
+    "statuses": null,
+    "weaknesses": [
+      "Dragon"
+    ]
   },
   {
     "name": "Monoblos",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Flying Wyvern",
+    "category": "Base species",
+    "games": [
+      "MH1",
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4U"
+    ],
+    "elements": null,
+    "statuses": null,
+    "weaknesses": [
+      "Thunder",
+      "Ice"
+    ]
   },
   {
     "name": "Plesioth",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Piscine Wyvern",
+    "category": "Base species",
+    "games": [
+      "MH1",
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH3U",
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ]
   },
   {
     "name": "Rathalos",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Flying Wyvern",
+    "category": "Base species",
+    "games": [
+      "MH1",
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH3",
+      "MHP3",
+      "MH3U",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHW",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Poison"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ]
   },
   {
     "name": "Rathian",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Flying Wyvern",
+    "category": "Base species",
+    "games": [
+      "MH1",
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH3",
+      "MHP3",
+      "MH3U",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHW",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Poison"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ]
   },
   {
     "name": "Velocidrome",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Bird Wyvern",
+    "category": "Base species",
+    "games": [
+      "MH1",
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": null,
+    "statuses": null,
+    "weaknesses": [
+      "Thunder"
+    ]
   },
   {
     "name": "Yian Kut-Ku",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Bird Wyvern",
+    "category": "Base species",
+    "games": [
+      "MH1",
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": null,
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ]
   }
 ]

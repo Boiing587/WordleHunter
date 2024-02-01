@@ -1,12 +1,25 @@
 [
   {
-    "name": "Yian Garuga",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "name": "Scarred Yian Garuga",
+    "species": "Bird Wyvern",
+    "category": "Variant",
+    "games": [
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MH4U",
+      "MHWI"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Poison"
+    ],
+    "weaknesses": [
+      "Water"
+    ]
   }
 ]

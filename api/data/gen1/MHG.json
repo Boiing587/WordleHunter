@@ -1,29 +1,53 @@
 [
   {
     "name": "Ashen Lao-Shan Lung",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Elder Dragon",
+    "category": "Subspecies",
+    "games": [
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU"
+    ],
+    "elements": null,
+    "statuses": null,
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ]
   },
   {
     "name": "Azure Rathalos",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Flying Wyvern",
+    "category": "Subspecies",
+    "games": [
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH3U",
+      "MH4",
+      "MH4U",
+      "MHW",
+      "MHWI"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Poison"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ]
   },
   {
     "name": "Black Diablos",
     "species": "",
     "category": "",
-    "introduced": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -31,80 +55,199 @@
   },
   {
     "name": "Black Gravios",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Flying Wyvern",
+    "category": "Subspecies",
+    "games": [
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MHP3",
+      "MH3U",
+      "MH4U",
+      "MHW",
+      "MHWI"
+    ],
+    "elements": null,
+    "statuses": null,
+    "weaknesses": [
+      "Ice"
+    ]
   },
   {
     "name": "Crimson Fatalis",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Elder Dragon",
+    "category": "Base Species",
+    "games": [
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MH4U",
+      "MHGU"
+    ],
+    "elements": [
+      "Dragon",
+      "Fire"
+    ],
+    "statuses": [
+      "Blast"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ]
   },
   {
     "name": "Gold Rathian",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Flying Wyvern",
+    "category": "Rare Species",
+    "games": [
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MHP3",
+      "MH3U",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHWI",
+      "MHRS"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Poison",
+      "Noxious Poison"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Water"
+    ]
   },
   {
     "name": "Green Plesioth",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Piscine Wyvern",
+    "category": "Subspecies",
+    "games": [
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH3U"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ]
   },
   {
     "name": "Pink Rathian",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Flying Wyvern",
+    "category": "Subspecies",
+    "games": [
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH3U",
+      "MH4",
+      "MH4U",
+      "MHW",
+      "MHWI"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Poison",
+      "Noxious Poison"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ]
   },
   {
     "name": "Red Khezu",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Flying Wyvern",
+    "category": "Subspecies",
+    "games": [
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MH4U"
+    ],
+    "elements": [
+      "Thunder"
+    ],
+    "statuses": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Water"
+    ]
   },
   {
     "name": "Silver Rathalos",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "species": "Flying Wyvern",
+    "category": "Rare Species",
+    "games": [
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MHP3",
+      "MH3U",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHWI",
+      "MHRS"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Poison"
+    ],
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ]
   },
   {
     "name": "White Monoblos",
-    "species": "",
-    "category": "",
-    "introduced": "",
-    "games": [],
+    "species": "Flying Wyvern",
+    "category": "Subspecies",
+    "games": [
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4U"
+    ],
     "elements": [],
     "statuses": [],
     "weaknesses": []
