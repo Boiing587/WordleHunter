@@ -1,10 +1,27 @@
 GET http://localhost:5000/api/guess HTTP/1.1
+Content-Type: application/json
 
 {
-  "gen1": [],
+  "guess": "Rathalos",
+  "games": {
+    "gen1": ["MH1"],
+    "gen2": [],
+    "gen3": [],
+    "gen4": [],
+    "gen5": [],
+    "frontier": []
+  }
+}
+
+###
+
+GET http://localhost:5000/api/cheat HTTP/1.1
+
+{
+  "gen1": ["MH1"],
   "gen2": [],
   "gen3": [],
   "gen4": [],
-  "gen5": ["MHW"],
+  "gen5": [],
   "frontier": []
 }
