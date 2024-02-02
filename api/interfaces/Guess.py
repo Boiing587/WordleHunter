@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-from interfaces.GameSelection import GameSelection
+from interfaces.Games import GameSelection
 
 class Guess(BaseModel):
     guess: str

@@ -3,8 +3,9 @@ from pydantic import BaseModel, Field
 class Proximity(BaseModel):
     """
     correct:
-        0: Guess is correct
-        1: Guess is incorrect
+        0: Correct monster
+        1: Correct monster, but a different subspecies/etc
+        2: Incorrect monster
 
     species:
         0: Same species
@@ -19,6 +20,7 @@ class Proximity(BaseModel):
             :Base
             :Subspecies/Rare Species
             :Variant/Deviant
+            :Apex/Zenith
 
     game:
         0: Introduced in same game
@@ -40,7 +42,7 @@ class Proximity(BaseModel):
         1: Shares some weaknesses
         2: No weaknesses in common
     """
-    correct: int = Field(ge=0, le=1)
+    correct: int = Field(ge=0, le=2)
     species: int = Field(ge=0, le=1)
     category: int = Field(ge=0, le=2)
     game: int = Field(ge=0, le=2)

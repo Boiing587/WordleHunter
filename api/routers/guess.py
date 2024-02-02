@@ -5,7 +5,7 @@ from methods.compare import compareGuess
 from methods.monster import loadSelectedMonsterList, monsterOfTheDay
 
 from interfaces.Guess import Guess
-from interfaces.GameSelection import GameSelection
+from interfaces.Games import GameSelection
 
 router = APIRouter()
 
