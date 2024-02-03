@@ -4,46 +4,39 @@ import random
 from os import walk
 from os.path import join
 from datetime import datetime
+from difflib import SequenceMatcher
 
-from interfaces.GameSelection import GameSelection
+from interfaces.Games import Games
 from interfaces.Monster import Monster
 
-# FIXME include monsters that are present in, but not new in generation
-# NOTE Frontier: each season also includes monsters of all previous seasons
-def loadSelectedMonsterList(game_selection: GameSelection) -> list[Monster]:
-    """Loads a list of monsters given the selected games.
+
+def loadMonsterList(filter: Games | None = None) -> list[Monster]:
+    """Loads the entire monster list and filters if options are supplied.
 
     Args:
-        game_selection: GameSelection object with information on what games to get monsters from.
-
+        filter (optional): Games object containing what games to pick monsters from
+    
     Returns:
-        list of Monster objects.
+        list of Monster objects
     """
 
-    monster_list: list[Monster] = []
-    _properties = game_selection.__annotations__
-    for generation, _ in _properties.items():
-        for game in getattr(game_selection, generation):
-            with open(f"./data/{generation}/{game}.json") as f:
-                monster_list += [Monster.model_validate(monster) for monster in json.load(f)]
-    return monster_list
-
-
-def loadFullMonsterList() -> list[Monster]:
-    """Loads the entire list of monsters.
-
-    Returns:
-        List of all Monster objects
-    """
-
-    monster_list: list[Monster] = []
+    full_monster_list: list[Monster] = []
     for root, _, files in walk('./data'):
         for file in files:
             if not file.endswith('.json'): continue
             file_path = join(root, file)
             with open(file_path) as f:
-                monster_list += [Monster.model_validate(monster) for monster in json.load(f)]
-    return monster_list
+                full_monster_list += [Monster.model_validate(monster) for monster in json.load(f)]
+
+    if filter is None:
+        return full_monster_list
+
+    generations = [generation for generation, _ in filter.__annotations__.items()]
+    games = [game for generation in generations for game in getattr(filter, generation)]
+
+    filtered_monster_list = [monster for monster in full_monster_list if set(monster.games) & set(games)]
+    return filtered_monster_list
+
 
 def getMonster(name: str) -> Monster | None:
     """Retrieves a single monster from the full monster list by its name.
@@ -55,11 +48,21 @@ def getMonster(name: str) -> Monster | None:
         Monster object for the given monster, or None if it doesn't exist
     """
 
-    monster_list = loadFullMonsterList()
+    monster_list = loadMonsterList()
     result = [monster for monster in monster_list if monster.name == name]
     if result:
         return result[0]
     return None
+
+
+def getRelatives(monster: Monster, monster_list: list[Monster]) -> list[Monster]:
+    substring = ""
+    for entry in monster_list:
+        if entry == monster: continue
+        match = SequenceMatcher(None, monster.name, entry.name).find_longest_match(0, len(monster.name), 0, len(entry.name))
+        substring = max(substring, monster.name[match.a : match.a + match.size], key=len).strip()
+    return [relative for relative in monster_list if relative != monster and substring in relative.name]
+
 
 def monsterOfTheDay(monster_list: list[Monster]) -> Monster:
     """Generates a random monster using the current date as a seed
@@ -77,3 +80,15 @@ def monsterOfTheDay(monster_list: list[Monster]) -> Monster:
     random.shuffle(monsterNames)
     monster_of_the_day = random.choice(monsterNames)
     return [monster for monster in monster_list if monster.name == monster_of_the_day][0]
+
+
+def inSameCategory(guess: Monster, motd: Monster):
+    suborder_categories = Monster.suborderMapping()
+    reverse_map = {v: k for k, values in suborder_categories.items() for v in values}
+    return reverse_map.get(guess.suborder) == reverse_map.get(motd.suborder)
+
+
+def inSameGeneration(guess: Monster, motd: Monster):
+    generations = Games.generationMapping()
+    reverse_map = {v: k for k, values in generations.items() for v in values}
+    return reverse_map.get(guess.games[0]) == reverse_map.get(motd.games[0])
