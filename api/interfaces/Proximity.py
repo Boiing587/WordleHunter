@@ -1,22 +1,26 @@
 from pydantic import BaseModel, Field
 
-class Proximity(BaseModel):
+class PropertyProximity(BaseModel):
+    status: int = Field(default=2, ge=0, le=2)
+    hint: str | None = None
+
+class ProximityResponse(BaseModel):
     """
     correct:
         0: Correct monster
-        1: Correct monster, but a different subspecies/etc
+        1: Correct monster, but a different suborder
         2: Incorrect monster
 
-    species:
-        0: Same species
-        1: Different species
+    type:
+        0: Same monster type
+        2: Different monster type
 
-    category:
-        0: Same category
-        1: Similar category
-        2: Wrong category
+    suborder:
+        0: Same suborder
+        1: Similar suborder
+        2: Wrong suborder
         
-        categories:
+        suborder categories:
             :Base
             :Subspecies/Rare Species
             :Variant/Deviant
@@ -42,10 +46,11 @@ class Proximity(BaseModel):
         1: Shares some weaknesses
         2: No weaknesses in common
     """
-    correct: int = Field(ge=0, le=2)
-    species: int = Field(ge=0, le=1)
-    category: int = Field(ge=0, le=2)
-    game: int = Field(ge=0, le=2)
-    elements: int = Field(ge=0, le=2)
-    statuses: int = Field(ge=0, le=2)
-    weaknesses: int = Field(ge=0, le=2)
+
+    correct: PropertyProximity = PropertyProximity()
+    type: PropertyProximity = PropertyProximity()
+    suborder: PropertyProximity = PropertyProximity()
+    game: PropertyProximity = PropertyProximity()
+    elements: PropertyProximity = PropertyProximity()
+    statuses: PropertyProximity = PropertyProximity()
+    weaknesses: PropertyProximity = PropertyProximity()

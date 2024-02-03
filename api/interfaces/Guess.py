@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
-from interfaces.Games import GameSelection
+from interfaces.Games import Games
 
 class Guess(BaseModel):
     guess: str
-    games: GameSelection
+    games: Games
