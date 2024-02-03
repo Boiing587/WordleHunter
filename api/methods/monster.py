@@ -80,15 +80,3 @@ def monsterOfTheDay(monster_list: list[Monster]) -> Monster:
     random.shuffle(monsterNames)
     monster_of_the_day = random.choice(monsterNames)
     return [monster for monster in monster_list if monster.name == monster_of_the_day][0]
-
-
-def inSameCategory(guess: Monster, motd: Monster):
-    suborder_categories = Monster.suborderMapping()
-    reverse_map = {v: k for k, values in suborder_categories.items() for v in values}
-    return reverse_map.get(guess.suborder) == reverse_map.get(motd.suborder)
-
-
-def inSameGeneration(guess: Monster, motd: Monster):
-    generations = Games.generationMapping()
-    reverse_map = {v: k for k, values in generations.items() for v in values}
-    return reverse_map.get(guess.games[0]) == reverse_map.get(motd.games[0])

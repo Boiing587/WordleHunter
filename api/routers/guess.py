@@ -14,7 +14,6 @@ async def guess(data: Guess) -> JSONResponse:
     guess = getMonster(data.guess)
     game_selection = data.games
     monster_list = loadMonsterList(game_selection)
-    # monster_list = loadSelectedMonsterList(game_selection)
     motd = monsterOfTheDay(monster_list)
     if not (comparison := compareGuess(guess, motd)):
         return JSONResponse({'status': 404, 'message': 'monster not found'})
