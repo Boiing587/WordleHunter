@@ -1,8 +1,8 @@
 [
   {
     "name": "Ashen Lao-Shan Lung",
-    "species": "Elder Dragon",
-    "category": "Subspecies",
+    "type": "Elder Dragon",
+    "suborder": "Subspecies",
     "games": [
       "MHG",
       "MHF1",
@@ -10,8 +10,8 @@
       "MHF2",
       "MHFU"
     ],
-    "elements": null,
-    "statuses": null,
+    "elements": [],
+    "statuses": [],
     "weaknesses": [
       "Dragon",
       "Fire"
@@ -19,8 +19,8 @@
   },
   {
     "name": "Azure Rathalos",
-    "species": "Flying Wyvern",
-    "category": "Subspecies",
+    "type": "Flying Wyvern",
+    "suborder": "Subspecies",
     "games": [
       "MHG",
       "MHF1",
@@ -46,17 +46,8 @@
   },
   {
     "name": "Black Diablos",
-    "species": "",
-    "category": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
-  },
-  {
-    "name": "Black Gravios",
-    "species": "Flying Wyvern",
-    "category": "Subspecies",
+    "type": "Flying Wyvern",
+    "suborder": "Subspecies",
     "games": [
       "MHG",
       "MHF1",
@@ -69,16 +60,38 @@
       "MHW",
       "MHWI"
     ],
-    "elements": null,
-    "statuses": null,
+    "elements": [],
+    "statuses": [],
+    "weaknesses": [
+      "Ice"
+    ]
+  },
+  {
+    "name": "Black Gravios",
+    "type": "Flying Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MHP3",
+      "MH3U",
+      "MH4U",
+      "MHW",
+      "MHWI"
+    ],
+    "elements": [],
+    "statuses": [],
     "weaknesses": [
       "Ice"
     ]
   },
   {
     "name": "Crimson Fatalis",
-    "species": "Elder Dragon",
-    "category": "Base Species",
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
     "games": [
       "MHG",
       "MHF1",
@@ -103,8 +116,8 @@
   },
   {
     "name": "Gold Rathian",
-    "species": "Flying Wyvern",
-    "category": "Rare Species",
+    "type": "Flying Wyvern",
+    "suborder": "Rare Species",
     "games": [
       "MHG",
       "MHF1",
@@ -134,8 +147,8 @@
   },
   {
     "name": "Green Plesioth",
-    "species": "Piscine Wyvern",
-    "category": "Subspecies",
+    "type": "Piscine Wyvern",
+    "suborder": "Subspecies",
     "games": [
       "MHG",
       "MHF1",
@@ -157,8 +170,8 @@
   },
   {
     "name": "Pink Rathian",
-    "species": "Flying Wyvern",
-    "category": "Subspecies",
+    "type": "Flying Wyvern",
+    "suborder": "Subspecies",
     "games": [
       "MHG",
       "MHF1",
@@ -185,8 +198,8 @@
   },
   {
     "name": "Red Khezu",
-    "species": "Flying Wyvern",
-    "category": "Subspecies",
+    "type": "Flying Wyvern",
+    "suborder": "Subspecies",
     "games": [
       "MHG",
       "MHF1",
@@ -208,8 +221,8 @@
   },
   {
     "name": "Silver Rathalos",
-    "species": "Flying Wyvern",
-    "category": "Rare Species",
+    "type": "Flying Wyvern",
+    "suborder": "Rare Species",
     "games": [
       "MHG",
       "MHF1",
@@ -238,8 +251,8 @@
   },
   {
     "name": "White Monoblos",
-    "species": "Flying Wyvern",
-    "category": "Subspecies",
+    "type": "Flying Wyvern",
+    "suborder": "Subspecies",
     "games": [
       "MHG",
       "MHF1",

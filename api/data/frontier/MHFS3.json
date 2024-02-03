@@ -1,8 +1,8 @@
 [
   {
     "name": "Akura Vashimu",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -10,8 +10,8 @@
   },
   {
     "name": "White Hypnocatrice",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -19,8 +19,8 @@
   },
   {
     "name": "Akura Jebia",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],

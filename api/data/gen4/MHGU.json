@@ -1,8 +1,8 @@
 [
   {
     "name": "Ahtal-Ka",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -10,8 +10,8 @@
   },
   {
     "name": "Bloodbath Diablos",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -19,8 +19,8 @@
   },
   {
     "name": "Boltreaver Astalos",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -28,8 +28,8 @@
   },
   {
     "name": "Elderfrost Gammoth",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -37,8 +37,8 @@
   },
   {
     "name": "Nightcloak Malfestio",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -46,8 +46,8 @@
   },
   {
     "name": "Rustrazor Ceanataur",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -55,8 +55,8 @@
   },
   {
     "name": "Soulseer Mizutsune",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -64,8 +64,8 @@
   },
   {
     "name": "Valstrax",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],

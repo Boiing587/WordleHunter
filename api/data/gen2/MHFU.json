@@ -1,8 +1,8 @@
 [
   {
     "name": "Copper Blangonga",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -10,8 +10,8 @@
   },
   {
     "name": "Emerald Congalala",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -19,8 +19,8 @@
   },
   {
     "name": "Furious Rajang",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -28,8 +28,8 @@
   },
   {
     "name": "King Shakalaka",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -37,8 +37,8 @@
   },
   {
     "name": "Nargacuga",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -46,8 +46,8 @@
   },
   {
     "name": "Plum Daimyo Hermitaur",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -55,8 +55,8 @@
   },
   {
     "name": "Terra Shogun Ceanataur",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -64,8 +64,8 @@
   },
   {
     "name": "Ukanlos",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -73,8 +73,8 @@
   },
   {
     "name": "Vespoid Queen",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -82,8 +82,8 @@
   },
   {
     "name": "Yian Garuga",
-    "species": "Bird Wyvern",
-    "category": "Base Species",
+    "type": "Bird Wyvern",
+    "suborder": "Base Species",
     "games": [
       "MHFU",
       "MHGen",

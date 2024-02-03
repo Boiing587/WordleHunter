@@ -1,8 +1,8 @@
 [
   {
     "name": "Diorex",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -10,8 +10,8 @@
   },
   {
     "name": "Forokururu",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],

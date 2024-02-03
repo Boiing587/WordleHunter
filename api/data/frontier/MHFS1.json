@@ -1,8 +1,8 @@
 [
   {
     "name": "Hypnocatrice",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -10,8 +10,8 @@
   },
   {
     "name": "Lavasioth",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -19,8 +19,8 @@
   },
   {
     "name": "Bright Hypnocatrice",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],
@@ -28,8 +28,8 @@
   },
   {
     "name": "Red Lavasioth",
-    "species": "",
-    "category": "",
+    "type": "",
+    "suborder": "",
     "games": [],
     "elements": [],
     "statuses": [],

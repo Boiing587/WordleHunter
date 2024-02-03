@@ -1,8 +1,8 @@
 [
   {
     "name": "Basarios",
-    "species": "Flying Wyvern",
-    "category": "Base species",
+    "type": "Flying Wyvern",
+    "suborder": "Base species",
     "games": [
       "MH1",
       "MHG",
@@ -30,8 +30,8 @@
   },
   {
     "name": "Cephadrome",
-    "species": "Piscine Wyvern",
-    "category": "Base species",
+    "type": "Piscine Wyvern",
+    "suborder": "Base species",
     "games": [
       "MH1",
       "MHG",
@@ -56,8 +56,8 @@
   },
   {
     "name": "Diablos",
-    "species": "Flying Wyvern",
-    "category": "Base species",
+    "type": "Flying Wyvern",
+    "suborder": "Base species",
     "games": [
       "MH1",
       "MHG",
@@ -75,16 +75,16 @@
       "MHR",
       "MHRS"
     ],
-    "elements": null,
-    "statuses": null,
+    "elements": [],
+    "statuses": [],
     "weaknesses": [
       "Ice"
     ]
   },
   {
     "name": "Fatalis",
-    "species": "Elder Dragon",
-    "category": "Base species",
+    "type": "Elder Dragon",
+    "suborder": "Base species",
     "games": [
       "MH1",
       "MHG",
@@ -101,7 +101,7 @@
       "Dragon",
       "Fire"
     ],
-    "statuses": null,
+    "statuses": [],
     "weaknesses": [
       "Dragon",
       "Fire"
@@ -109,8 +109,8 @@
   },
   {
     "name": "Gendrome",
-    "species": "Bird Wyvern",
-    "category": "Base species",
+    "type": "Bird Wyvern",
+    "suborder": "Base species",
     "games": [
       "MH1",
       "MHG",
@@ -123,7 +123,7 @@
       "MHGen",
       "MHGU"
     ],
-    "elements": null,
+    "elements": [],
     "statuses": [
       "Paralysis"
     ],
@@ -133,8 +133,8 @@
   },
   {
     "name": "Gravios",
-    "species": "Flying Wyvern",
-    "category": "Base species",
+    "type": "Flying Wyvern",
+    "suborder": "Base species",
     "games": [
       "MH1",
       "MHG",
@@ -158,8 +158,8 @@
   },
   {
     "name": "Gypceros",
-    "species": "Bird Wyvern",
-    "category": "Base species",
+    "type": "Bird Wyvern",
+    "suborder": "Base species",
     "games": [
       "MH1",
       "MHG",
@@ -172,7 +172,7 @@
       "MHGen",
       "MHGU"
     ],
-    "elements": null,
+    "elements": [],
     "statuses": [
       "Poison"
     ],
@@ -182,8 +182,8 @@
   },
   {
     "name": "Iodrome",
-    "species": "Bird Wyvern",
-    "category": "Base species",
+    "type": "Bird Wyvern",
+    "suborder": "Base species",
     "games": [
       "MH1",
       "MHG",
@@ -196,7 +196,7 @@
       "MHGen",
       "MHGU"
     ],
-    "elements": null,
+    "elements": [],
     "statuses": [
       "Poison"
     ],
@@ -207,8 +207,8 @@
   },
   {
     "name": "Khezu",
-    "species": "Flying Wyvern",
-    "category": "Base species",
+    "type": "Flying Wyvern",
+    "suborder": "Base species",
     "games": [
       "MH1",
       "MHG",
@@ -235,8 +235,8 @@
   },
   {
     "name": "Kirin",
-    "species": "Elder Dragon",
-    "category": "Base species",
+    "type": "Elder Dragon",
+    "suborder": "Base species",
     "games": [
       "MH1",
       "MHG",
@@ -264,8 +264,8 @@
   },
   {
     "name": "Lao-Shan Lung",
-    "species": "Elder Dragon",
-    "category": "Base species",
+    "type": "Elder Dragon",
+    "suborder": "Base species",
     "games": [
       "MH1",
       "MHG",
@@ -275,16 +275,16 @@
       "MHFU",
       "MHGU"
     ],
-    "elements": null,
-    "statuses": null,
+    "elements": [],
+    "statuses": [],
     "weaknesses": [
       "Dragon"
     ]
   },
   {
     "name": "Monoblos",
-    "species": "Flying Wyvern",
-    "category": "Base species",
+    "type": "Flying Wyvern",
+    "suborder": "Base species",
     "games": [
       "MH1",
       "MHG",
@@ -294,8 +294,8 @@
       "MHFU",
       "MH4U"
     ],
-    "elements": null,
-    "statuses": null,
+    "elements": [],
+    "statuses": [],
     "weaknesses": [
       "Thunder",
       "Ice"
@@ -303,8 +303,8 @@
   },
   {
     "name": "Plesioth",
-    "species": "Piscine Wyvern",
-    "category": "Base species",
+    "type": "Piscine Wyvern",
+    "suborder": "Base species",
     "games": [
       "MH1",
       "MHG",
@@ -329,8 +329,8 @@
   },
   {
     "name": "Rathalos",
-    "species": "Flying Wyvern",
-    "category": "Base species",
+    "type": "Flying Wyvern",
+    "suborder": "Base species",
     "games": [
       "MH1",
       "MHG",
@@ -363,8 +363,8 @@
   },
   {
     "name": "Rathian",
-    "species": "Flying Wyvern",
-    "category": "Base species",
+    "type": "Flying Wyvern",
+    "suborder": "Base species",
     "games": [
       "MH1",
       "MHG",
@@ -397,8 +397,8 @@
   },
   {
     "name": "Velocidrome",
-    "species": "Bird Wyvern",
-    "category": "Base species",
+    "type": "Bird Wyvern",
+    "suborder": "Base species",
     "games": [
       "MH1",
       "MHG",
@@ -411,16 +411,16 @@
       "MHGen",
       "MHGU"
     ],
-    "elements": null,
-    "statuses": null,
+    "elements": [],
+    "statuses": [],
     "weaknesses": [
       "Thunder"
     ]
   },
   {
     "name": "Yian Kut-Ku",
-    "species": "Bird Wyvern",
-    "category": "Base species",
+    "type": "Bird Wyvern",
+    "suborder": "Base species",
     "games": [
       "MH1",
       "MHG",
@@ -436,7 +436,7 @@
     "elements": [
       "Fire"
     ],
-    "statuses": null,
+    "statuses": [],
     "weaknesses": [
       "Water",
       "Ice"

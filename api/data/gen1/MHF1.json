@@ -1,8 +1,8 @@
 [
   {
     "name": "Scarred Yian Garuga",
-    "species": "Bird Wyvern",
-    "category": "Variant",
+    "type": "Bird Wyvern",
+    "suborder": "Variant",
     "games": [
       "MHF1",
       "MH2",
