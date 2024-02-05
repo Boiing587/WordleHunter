@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+  client:
+    build:
+      dockerfile: Dockerfile.prod
+    restart: unless-stopped

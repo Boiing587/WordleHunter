@@ -6,7 +6,13 @@ services:
     container_name: wordlehunter-api
     build: ./api
     restart: unless-stopped
-  
+
+  client:
+    hostname: wordlehunter-client
+    container_name: wordlehunter-client
+    build:
+      context: ./client
+
   nginx:
     hostname: wordlehunter-nginx
     container_name: wordlehunter-nginx

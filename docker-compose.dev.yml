@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  client:
+    build:
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ./client:/usr/src/app
+    restart: no
