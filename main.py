@@ -4,11 +4,12 @@ import uvicorn
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 
-from routers import guess
+from routers import data, guess
 
 app = FastAPI()
 
 routers = [
+    data,
     guess
 ]
 
