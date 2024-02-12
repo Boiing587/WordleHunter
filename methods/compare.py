@@ -37,7 +37,7 @@ def compareGuess(guess: Monster, motd: Monster) -> ProximityResponse | None:
 
     if guess in motd_relatives:
         comparison.correct.status = 1
-        comparison.correct.hint = "The monster is of the same species, but a different suborder."
+        comparison.correct.hint = "The monster is related to your guess."
     else:
         comparison.correct.status = 2
         comparison.correct.hint = "Incorrect monster."
