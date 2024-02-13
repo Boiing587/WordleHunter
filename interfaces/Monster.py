@@ -15,8 +15,8 @@ class Monster(BaseModel):
     def suborderMapping():
         return {
             "base": [ "Base species" ],
-            "sub": [ "Subspecies", "Rare Species" ],
-            "variant": [ "Variant", "Devian" ],
+            "sub": [ "Subspecies", "Rare Species", "Origin Species", "Burst Species" ],
+            "variant": [ "Variant", "Risen", "Deviant" ],
             "apex": [ "Apex", "Zenith" ]
         }
 
