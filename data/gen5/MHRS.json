@@ -1,146 +1,271 @@
 [
   {
     "name": "Aurora Somnacanth",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Leviathan",
+    "suborder": "Subspecies",
+    "games": [
+      "MHRS"
+    ],
+    "elements": [
+      "Ice"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Blood Orange Bishaten",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Fanged Beast",
+    "suborder": "Subspecies",
+    "games": [
+      "MHRS"
+    ],
+    "elements": [
+      "Fire"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Water"
+    ]
   },
   {
     "name": "Gaismagorm",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Blastblight",
+      "Bloodblight"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ]
   },
   {
     "name": "Garangolm",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Fanged Beast",
+    "suborder": "Base Species",
+    "games": [
+      "MHRS"
+    ],
+    "elements": [
+      "Fire",
+      "Water"
+    ],
+    "statuses": [
+      "Blastblight"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Water",
+      "Thunder",
+      "Ice"
+    ]
   },
   {
     "name": "Lunagaron",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Fanged Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHRS"
+    ],
+    "elements": [
+      "Ice"
+    ],
+    "statuses": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Magma Almudron",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Leviathan",
+    "suborder": "Subspecies",
+    "games": [
+      "MHRS"
+    ],
+    "elements": [
+      "Fire"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ]
   },
   {
     "name": "Malzeno",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHRS"
+    ],
+    "elements": [
+      "Dragon"
+    ],
+    "statuses": [
+      "Bloodblight"
+    ],
+    "weaknesses": [
+      "Dragon"
+    ]
   },
   {
     "name": "Primordial Malzeno",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Elder Dragon",
+    "suborder": "Variant",
+    "games": [
+      "MHRS"
+    ],
+    "elements": [
+      "Dragon"
+    ],
+    "statuses": [
+      "Bloodblight"
+    ],
+    "weaknesses": [
+      "Dragon"
+    ]
   },
   {
     "name": "Pyre Rakna-Kadaki",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Temnoceran",
+    "suborder": "Subspecies",
+    "games": [
+      "MHRS"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Blastblight",
+      "Webbed"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ]
   },
   {
     "name": "Risen Chameleos",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Risen",
+    "games": [
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Noxious Poison"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Risen Crimson Glow Valstrax",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Risen",
+    "games": [
+      "MHRS"
+    ],
+    "elements": [
+      "Dragon"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Water",
+      "Thunder",
+      "Ice"
+    ]
   },
   {
     "name": "Risen Kushala Daora",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Risen",
+    "games": [
+      "MHRS"
+    ],
+    "elements": [
+      "Dragon"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Thunder"
+    ]
   },
   {
     "name": "Risen Shagaru Magala",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Risen",
+    "games": [
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
+    "statuses": [
+      "Stun",
+      "Frenzy"
+    ],
     "weaknesses": []
   },
   {
     "name": "Risen Teostra",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Elder Dragon",
+    "suborder": "Risen",
+    "games": [
+      "MHRS"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Blastblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ]
   },
   {
     "name": "Scorned Magnamalo",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Wyvern",
+    "suborder": "Variant",
+    "games": [
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Hellfireblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ]
   },
   {
     "name": "Violet Mizutsune",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Leviathan",
+    "suborder": "Rare Species",
+    "games": [
+      "MHRS"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Resistance Down"
+    ],
+    "weaknesses": [
+      "Ice"
+    ]
   }
 ]

@@ -1,200 +1,383 @@
 [
   {
     "name": "Ancient Leshen",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Relict",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Bleed"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Anjanath",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Brute Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Fire"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Water"
+    ]
   },
   {
     "name": "Bazelgeuse",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Flying Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Fire"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Thunder",
+      "Ice",
+      "Dragon"
+    ]
   },
   {
     "name": "Behemoth",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI"
+    ],
+    "elements": [
+      "Fire",
+      "Thunder"
+    ],
+    "statuses": [
+      "Bleed",
+      "Defense Down"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Water"
+    ]
   },
   {
     "name": "Dodogama",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Blastblight"
+    ],
+    "weaknesses": [
+      "Thunder"
+    ]
   },
   {
     "name": "Great Girros",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ]
   },
   {
     "name": "Great Jagras",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Jyuratodus",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Piscine Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Muddy"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Water"
+    ]
   },
   {
     "name": "Kulu-Ya-Ku",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Bird Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Water"
+    ]
   },
   {
     "name": "Kulve Taroth",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI"
+    ],
+    "elements": [
+      "Fire"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Thunder",
+      "Ice"
+    ]
   },
   {
     "name": "Legiana",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Flying Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI"
+    ],
+    "elements": [
+      "Ice"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ]
   },
   {
     "name": "Leshen",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Relict",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Bleed"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Nergigante",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Thunder",
+      "Dragon"
+    ]
   },
   {
     "name": "Odogaron",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Bleed"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ]
   },
   {
     "name": "Paolumu",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Pukei-Pukei",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Bird Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Poison"
+    ],
+    "weaknesses": [
+      "Thunder"
+    ]
   },
   {
     "name": "Radobaan",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Brute Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ]
   },
   {
     "name": "Tobi-Kadachi",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Fanged Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Thunder"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Water"
+    ]
   },
   {
     "name": "Tzitzi-Ya-Ku",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Bird Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Ice"
+    ]
   },
   {
     "name": "Vaal Hazak",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Effluvium"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ]
   },
   {
     "name": "Xeno'jiiva",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI"
+    ],
+    "elements": [
+      "Fire",
+      "Dragon"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Dragon",
+      "Water",
+      "Thunder",
+      "Ice"
+    ]
   },
   {
     "name": "Zorah Magdaros",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHW",
+      "MHWI"
+    ],
+    "elements": [
+      "Fire"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Water",
+      "Dragon"
+    ]
   }
 ]

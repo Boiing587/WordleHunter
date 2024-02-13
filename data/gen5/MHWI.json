@@ -1,155 +1,275 @@
 [
   {
     "name": "Acidic Glavenus",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Brute Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MHWI"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Defense Down"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Banbaro",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Brute Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHWI"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Effluvium"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ]
   },
   {
     "name": "Beotodus",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Piscine Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHWI"
+    ],
+    "elements": [
+      "Ice"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ]
   },
   {
     "name": "Blackveil Vaal Hazak",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Variant",
+    "games": [
+      "MHWI"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Effluvium",
+      "Zombification"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ]
   },
   {
     "name": "Coral Pukei-Pukei",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Bird Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MHWI"
+    ],
+    "elements": [
+      "Water"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Ice"
+    ]
   },
   {
     "name": "Ebony Odogaron",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Fanged Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MHWI"
+    ],
+    "elements": [
+      "Dragon"
+    ],
+    "statuses": [
+      "Bleed"
+    ],
+    "weaknesses": [
+      "Water"
+    ]
   },
   {
     "name": "Frostfang Barioth",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Flying Wyvern",
+    "suborder": "Variant",
+    "games": [
+      "MHWI"
+    ],
+    "elements": [
+      "Ice"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Fulgur Anjanath",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Brute Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MHWI"
+    ],
+    "elements": [
+      "Thunder"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ]
   },
   {
     "name": "Namielle",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHWI"
+    ],
+    "elements": [
+      "Water",
+      "Thunder"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Nightshade Paolumu",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MHWI"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Water"
+    ]
   },
   {
     "name": "Ruiner Nergigante",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Variant",
+    "games": [
+      "MHWI"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Bleed"
+    ],
+    "weaknesses": [
+      "Dragon"
+    ]
   },
   {
     "name": "Safi'jiiva",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHWI"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Water",
+      "Thunder",
+      "Ice",
+      "Dragon"
+    ]
   },
   {
     "name": "Seething Bazelgeuse",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Flying Wyvern",
+    "suborder": "Variant",
+    "games": [
+      "MHWI",
+      "MHRS"
+    ],
+    "elements": [
+      "Fire"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Ice"
+    ]
   },
   {
     "name": "Shara Ishvalda",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHWI"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Ice"
+    ]
   },
   {
     "name": "Shrieking Legiana",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Flying Wyvern",
+    "suborder": "Variant",
+    "games": [
+      "MHWI"
+    ],
+    "elements": [
+      "Ice"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Velkhana",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHWI",
+      "MHRS"
+    ],
+    "elements": [
+      "Ice"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Thunder",
+      "Dragon"
+    ]
   },
   {
     "name": "Viper Tobi-Kadachi",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MHWI"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Poison",
+      "Noxious Poison",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Ice"
+    ]
   }
 ]

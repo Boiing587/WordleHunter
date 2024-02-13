@@ -1,173 +1,347 @@
 [
   {
     "name": "Aknosom",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Bird Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Fire"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ]
   },
   {
     "name": "Almudron",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Leviathan",
+    "suborder": "Base Species",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Muddy"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Ice"
+    ]
   },
   {
     "name": "Apex Arzuros",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Beast",
+    "suborder": "Apex",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Thunder"
+    ]
   },
   {
     "name": "Apex Diablos",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Apex",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Ice"
+    ]
   },
   {
     "name": "Apex Mizutsune",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Leviathan",
+    "suborder": "Apex",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Hellfireblight",
+      "Blastblight"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Dragon",
+      "Ice"
+    ]
   },
   {
     "name": "Apex Rathalos",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Apex",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Poison"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ]
   },
   {
     "name": "Apex Rathian",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Apex",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Poison",
+      "Noxious Poison"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ]
   },
   {
     "name": "Apex Zinogre",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Fanged Beast",
+    "suborder": "Apex",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Thunder"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Ice"
+    ]
   },
   {
     "name": "Bishaten",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Beast",
+    "suborder": "Base Species",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Poison",
+      "Stun",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Fire"
+    ]
   },
   {
     "name": "Crimson Glow Valstrax",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Variant",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Dragon"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Water",
+      "Thunder",
+      "Ice"
+    ]
   },
   {
     "name": "Goss Harag",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Fanged Beast",
+    "suborder": "Base Species",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Ice"
+    ],
+    "statuses": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Great Izuchi",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Bird Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Thunder",
+      "Water"
+    ]
   },
   {
     "name": "Magnamalo",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Hellfireblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ]
   },
   {
     "name": "Narwa the Allmother",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Variant",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Thunder"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ]
   },
   {
     "name": "Rakna-Kadaki",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Temnoceran",
+    "suborder": "Base Species",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Webbed"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Water"
+    ]
   },
   {
     "name": "Somnacanth",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Leviathan",
+    "suborder": "Base Species",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Sleep",
+      "Stun",
+      "Blastblight"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ]
   },
   {
     "name": "Tetranadon",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Amphibian",
+    "suborder": "Base Species",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ]
   },
   {
     "name": "Thunder Serpent Narwa",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Thunder"
+    ],
+    "statuses": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ]
   },
   {
     "name": "Wind Serpent Ibushi",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Dragon"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ]
   }
 ]
