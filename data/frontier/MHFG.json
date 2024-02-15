@@ -1,6 +1,6 @@
 [
   {
-    "name": "Bogabadorumu",
+    "name": "Anorupatisu",
     "type": "",
     "suborder": "",
     "games": [],
@@ -9,7 +9,7 @@
     "weaknesses": []
   },
   {
-    "name": "Elzelion",
+    "name": "Baruragaru",
     "type": "",
     "suborder": "",
     "games": [],
@@ -18,7 +18,7 @@
     "weaknesses": []
   },
   {
-    "name": "Keoaruboru",
+    "name": "Berserk Raviente",
     "type": "",
     "suborder": "",
     "games": [],
@@ -27,7 +27,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenaserisu",
+    "name": "Diorex",
     "type": "",
     "suborder": "",
     "games": [],
@@ -36,7 +36,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Akura Vashimu",
+    "name": "Disufiora",
     "type": "",
     "suborder": "",
     "games": [],
@@ -45,7 +45,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Anorupatisu",
+    "name": "Duremudira",
     "type": "",
     "suborder": "",
     "games": [],
@@ -54,7 +54,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Baruragaru",
+    "name": "Farunokku",
     "type": "",
     "suborder": "",
     "games": [],
@@ -63,7 +63,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Blangonga",
+    "name": "Forokururu",
     "type": "",
     "suborder": "",
     "games": [],
@@ -72,7 +72,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Daimyo Hermitaur",
+    "name": "Garuba Daora",
     "type": "",
     "suborder": "",
     "games": [],
@@ -81,7 +81,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Doragyurosu",
+    "name": "Gasurabazura",
     "type": "",
     "suborder": "",
     "games": [],
@@ -90,7 +90,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Espinas",
+    "name": "Giaorugu",
     "type": "",
     "suborder": "",
     "games": [],
@@ -99,7 +99,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Gasurabazura",
+    "name": "Guanzorumu",
     "type": "",
     "suborder": "",
     "games": [],
@@ -108,7 +108,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Giaorugu",
+    "name": "Gureadomosu",
     "type": "",
     "suborder": "",
     "games": [],
@@ -117,7 +117,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Gravios",
+    "name": "Harudomerugu",
     "type": "",
     "suborder": "",
     "games": [],
@@ -126,7 +126,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Harudomerugu",
+    "name": "Hyujikiki",
     "type": "",
     "suborder": "",
     "games": [],
@@ -135,7 +135,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Hyijikiki",
+    "name": "Inagami",
     "type": "",
     "suborder": "",
     "games": [],
@@ -144,7 +144,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Hypnocatrice",
+    "name": "Lolo Gougarf",
     "type": "",
     "suborder": "",
     "games": [],
@@ -153,7 +153,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Inagami",
+    "name": "Meraginasu",
     "type": "",
     "suborder": "",
     "games": [],
@@ -162,7 +162,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Khezu",
+    "name": "Mi Ru",
     "type": "",
     "suborder": "",
     "games": [],
@@ -171,7 +171,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Midogaron",
+    "name": "Midogaron",
     "type": "",
     "suborder": "",
     "games": [],
@@ -180,7 +180,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Plesioth",
+    "name": "Poborubarumu",
     "type": "",
     "suborder": "",
     "games": [],
@@ -189,7 +189,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Rathalos",
+    "name": "Pokaradon",
     "type": "",
     "suborder": "",
     "games": [],
@@ -198,7 +198,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Rukodiora",
+    "name": "Ray Gougarf",
     "type": "",
     "suborder": "",
     "games": [],
@@ -207,7 +207,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Taikun Zamuza",
+    "name": "Rebidiora",
     "type": "",
     "suborder": "",
     "games": [],
@@ -216,7 +216,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Tigrex",
+    "name": "Shantien",
     "type": "",
     "suborder": "",
     "games": [],
@@ -225,7 +225,52 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Toridcless",
+    "name": "Toa Tesukatora",
+    "type": "",
+    "suborder": "",
+    "games": [],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": []
+  },
+  {
+    "name": "Toridcless",
+    "type": "",
+    "suborder": "",
+    "games": [],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": []
+  },
+  {
+    "name": "Varusaburosu",
+    "type": "",
+    "suborder": "",
+    "games": [],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": []
+  },
+  {
+    "name": "Voljang",
+    "type": "",
+    "suborder": "",
+    "games": [],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": []
+  },
+  {
+    "name": "Yama Kurai",
+    "type": "",
+    "suborder": "",
+    "games": [],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": []
+  },
+  {
+    "name": "Zerureusu",
     "type": "",
     "suborder": "",
     "games": [],

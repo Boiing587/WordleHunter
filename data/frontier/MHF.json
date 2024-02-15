@@ -1,6 +1,6 @@
 [
   {
-    "name": "Bogabadorumu",
+    "name": "Akura Jebia",
     "type": "",
     "suborder": "",
     "games": [],
@@ -9,7 +9,7 @@
     "weaknesses": []
   },
   {
-    "name": "Elzelion",
+    "name": "Akura Vashimu",
     "type": "",
     "suborder": "",
     "games": [],
@@ -18,7 +18,7 @@
     "weaknesses": []
   },
   {
-    "name": "Keoaruboru",
+    "name": "Berukyurosu",
     "type": "",
     "suborder": "",
     "games": [],
@@ -27,7 +27,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenaserisu",
+    "name": "Bright Hypnocatrice",
     "type": "",
     "suborder": "",
     "games": [],
@@ -36,7 +36,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Akura Vashimu",
+    "name": "Doragyurosu",
     "type": "",
     "suborder": "",
     "games": [],
@@ -45,7 +45,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Anorupatisu",
+    "name": "Dyuragaua",
     "type": "",
     "suborder": "",
     "games": [],
@@ -54,7 +54,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Baruragaru",
+    "name": "Espinas",
     "type": "",
     "suborder": "",
     "games": [],
@@ -63,7 +63,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Blangonga",
+    "name": "Flaming Espinas",
     "type": "",
     "suborder": "",
     "games": [],
@@ -72,7 +72,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Daimyo Hermitaur",
+    "name": "Gurenzeburu",
     "type": "",
     "suborder": "",
     "games": [],
@@ -81,7 +81,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Doragyurosu",
+    "name": "Hypnocatrice",
     "type": "",
     "suborder": "",
     "games": [],
@@ -90,7 +90,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Espinas",
+    "name": "Kamu Orugaron",
     "type": "",
     "suborder": "",
     "games": [],
@@ -99,7 +99,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Gasurabazura",
+    "name": "Lavasioth",
     "type": "",
     "suborder": "",
     "games": [],
@@ -108,7 +108,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Giaorugu",
+    "name": "Nono Orugaron",
     "type": "",
     "suborder": "",
     "games": [],
@@ -117,7 +117,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Gravios",
+    "name": "Paria Puria",
     "type": "",
     "suborder": "",
     "games": [],
@@ -126,7 +126,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Harudomerugu",
+    "name": "Raviente",
     "type": "",
     "suborder": "",
     "games": [],
@@ -135,7 +135,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Hyijikiki",
+    "name": "Red Lavasioth",
     "type": "",
     "suborder": "",
     "games": [],
@@ -144,7 +144,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Hypnocatrice",
+    "name": "White Espinas",
     "type": "",
     "suborder": "",
     "games": [],
@@ -153,79 +153,7 @@
     "weaknesses": []
   },
   {
-    "name": "Zenith Inagami",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
-  },
-  {
-    "name": "Zenith Khezu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
-  },
-  {
-    "name": "Zenith Midogaron",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
-  },
-  {
-    "name": "Zenith Plesioth",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
-  },
-  {
-    "name": "Zenith Rathalos",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
-  },
-  {
-    "name": "Zenith Rukodiora",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
-  },
-  {
-    "name": "Zenith Taikun Zamuza",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
-  },
-  {
-    "name": "Zenith Tigrex",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
-  },
-  {
-    "name": "Zenith Toridcless",
+    "name": "White Hypnocatrice",
     "type": "",
     "suborder": "",
     "games": [],
