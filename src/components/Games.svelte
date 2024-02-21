@@ -1,10 +1,10 @@
 <script lang='ts'>
   import { Badge, MultiSelect } from 'flowbite-svelte';
+  
+  import type { Games, GameSelection } from '../models/types';
 
-  import type { Games, GameSelection } from '../interfaces/Games';
-
-  import { getGameList, formatGameSelection } from '../functions/games';
-  import { importImage } from '../functions/images';
+  import { getGameList, formatGameSelection } from '../services/gameService';
+  import { importImage } from '../services/imageService';
 
   let game_list: Promise<Games> = getGameList()
   let game_selection: GameSelection = {gen1: [], gen2: [], gen3: [], gen4: [], gen5: [], frontier: []}
