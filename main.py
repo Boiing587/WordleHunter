@@ -3,6 +3,7 @@ import uvicorn
 
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
 
 from routers import data, guess
 
@@ -12,6 +13,10 @@ routers = [
     data,
     guess
 ]
+
+app.add_middleware(CORSMiddleware,
+                   allow_origins=['*'],
+                   allow_methods=['GET', 'POST'])
 
 for router in routers:
     app.include_router(router.router)
