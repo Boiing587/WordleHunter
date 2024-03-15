@@ -9,9 +9,10 @@ from interfaces.Games import Games
 
 router = APIRouter()
 
-@router.get("/api/guess")
+@router.post("/api/guess")
 async def guess(data: Guess) -> JSONResponse:
-    guess = getMonster(data.guess)
+    if not (guess := getMonster(data.guess)):
+        return JSONResponse({'status': 2, 'message': "Failed to get guessed monster. This shouldn't be possible unless you made a request to this endpoint yourself"})
     game_selection = data.games
     monster_list = loadMonsterList(game_selection)
     motd = monsterOfTheDay(monster_list)
@@ -19,7 +20,7 @@ async def guess(data: Guess) -> JSONResponse:
         return JSONResponse({'status': 404, 'message': 'monster not found'})
     return JSONResponse({'guess': guess.model_dump(mode="json"), 'result': comparison.model_dump(mode="json")})
 
-@router.get("/api/cheat")
+@router.post("/api/cheat")
 async def cheat(game_selection: Games) -> JSONResponse:
     monster_list = loadMonsterList(game_selection)
     motd = monsterOfTheDay(monster_list)
