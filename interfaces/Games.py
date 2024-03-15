@@ -21,31 +21,37 @@ class Games(BaseModel):
     @staticmethod
     def gameNames() -> dict[str,dict[str,str]]:
         return {
-            "gen1": {
-                "MH1"   : "Monster Hunter",
-                "MHG"   : "Monster Hunter G",
-                "MHF1"  : "Monster Hunter Freedom",
-            },
-            "gen2": {
-                "MH2"   : "Monster Hunter Dos",
-                "MHF2"  : "Monster Hunter Freedom 2",
-                "MHFU"  : "Monster Hunter Freedom Unite",
-            },
-            "gen3": {
-                "MH3"   : "Monster Hunter Tri",
-                "MHP3"  : "Monster Hunter Portable 3rd",
-                "MH3U"  : "Monster Hunter 3 Ultimate",
-            },
-            "gen4": {
-                "MH4"   : "Monster Hunter 4",
-                "MH4U"  : "Monster Hunter 4 Ultimate",
-                "MHGen" : "Monster Hunter Generations",
-                "MHGU"  : "Monster Hunter Generations Ultimate",
-            },
-            "gen5": {
-                "MHW"   : "Monster Hunter World",
-                "MHWI"  : "Monster Hunter World: Iceborne",
-                "MHR"   : "Monster Hunter Rise",
-                "MHRS"  : "Monster Hunter Rise: Sunbreak",
-            }
+            "gen1": [
+                { "code": "MH1", "name": "Monster Hunter" },
+                { "code": "MHG", "name": "Monster Hunter G" },
+                { "code": "MHF1", "name": "Monster Hunter Freedom" }
+            ],
+            "gen2": [
+                { "code": "MH2", "name": "Monster Hunter Dos" },
+                { "code": "MHF2", "name": "Monster Hunter Freedom 2" },
+                { "code": "MHFU", "name": "Monster Hunter Freedom Unite" }
+            ],
+            "gen3": [
+                { "code": "MH3", "name": "Monster Hunter Tri" },
+                { "code": "MHP3", "name": "Monster Hunter Portable 3rd" },
+                { "code": "MH3U", "name": "Monster Hunter 3 Ultimate" }
+            ],
+            "gen4": [
+                { "code": "MH4", "name": "Monster Hunter 4" },
+                { "code": "MH4U", "name": "Monster Hunter 4 Ultimate" },
+                { "code": "MHGen", "name": "Monster Hunter Generations" },
+                { "code": "MHGU", "name": "Monster Hunter Generations Ultimate" }
+            ],
+            "gen5": [
+                { "code": "MHW", "name": "Monster Hunter World" },
+                { "code": "MHWI", "name": "Monster Hunter World: Iceborne" },
+                { "code": "MHR", "name": "Monster Hunter Rise" },
+                { "code": "MHRS", "name": "Monster Hunter Rise: Sunbreak" }
+            ],
+            "frontier": [
+                { "code": "MHF", "name": "Monster Hunter Frontier" },
+                { "code": "MHFF", "name": "Monster Hunter Frontier Forward" },
+                { "code": "MHFG", "name": "Monster Hunter Frontier G" },
+                { "code": "MHFZ", "name": "Monster Hunter Frontier Z / Z Zenith" }
+            ]
         }
