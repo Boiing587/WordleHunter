@@ -10,7 +10,7 @@ from interfaces.Games import Games
 from interfaces.Monster import Monster
 
 
-def loadMonsterList(filter: Games | None = None) -> list[Monster]:
+def loadMonsterList(filter: Games) -> list[Monster]:
     """Loads the entire monster list and filters if options are supplied.
 
     Args:
@@ -27,8 +27,7 @@ def loadMonsterList(filter: Games | None = None) -> list[Monster]:
             file_path = join(root, file)
             with open(file_path) as f:
                 full_monster_list += [Monster.model_validate(monster) for monster in json.load(f)]
-
-    if filter is None:
+    if not any([gen[1] for gen in filter]):
         return full_monster_list
 
     generations = [generation for generation, _ in filter.__annotations__.items()]
@@ -54,7 +53,8 @@ def getMonster(name: str) -> Monster | None:
         return result[0]
     return None
 
-
+# REFACTOR edgecases
+#  e.g. magalas, not all greats are related
 def getRelatives(monster: Monster, monster_list: list[Monster]) -> list[Monster]:
     substring = ""
     for entry in monster_list:
