@@ -14,7 +14,7 @@ class Monster(BaseModel):
     @staticmethod
     def suborderMapping():
         return {
-            "base": [ "Base species" ],
+            "base": [ "Base Species" ],
             "sub": [ "Subspecies", "Rare Species", "Origin Species", "Burst Species" ],
             "variant": [ "Variant", "Risen", "Deviant" ],
             "apex": [ "Apex", "Zenith" ]
@@ -28,6 +28,6 @@ class Monster(BaseModel):
 
     def generation(self):
         generation_map = Games.generationMapping()
-        reverse_map: dict[str, list] = {v: k for k, values in generation_map.items() for v in values}
+        reverse_map = Games.reverseGenerationMapping()
         generation = generation_map[reverse_map.get(self.games[0])]
         return generation
