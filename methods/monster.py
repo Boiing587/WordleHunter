@@ -10,7 +10,7 @@ from interfaces.Games import Games
 from interfaces.Monster import Monster
 
 
-def loadMonsterList(filter: Games) -> list[Monster]:
+def loadMonsterList(filter: Games | None = None) -> list[Monster]:
     """Loads the entire monster list and filters if options are supplied.
 
     Args:
@@ -27,7 +27,7 @@ def loadMonsterList(filter: Games) -> list[Monster]:
             file_path = join(root, file)
             with open(file_path) as f:
                 full_monster_list += [Monster.model_validate(monster) for monster in json.load(f)]
-    if not any([gen[1] for gen in filter]):
+    if filter is None or not any([gen[1] for gen in filter]):
         return full_monster_list
 
     generations = [generation for generation, _ in filter.__annotations__.items()]
