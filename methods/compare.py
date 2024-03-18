@@ -52,9 +52,9 @@ def compareGuess(guess: Monster, motd: Monster) -> ProximityResponse | None:
     if guess.suborder == motd.suborder:
         comparison.suborder.status = 0
         comparison.suborder.hint = "The monster is of the same suborder."
-    elif guess.suborderCategory() == motd.suborderCategory():
+    elif (suborder_category := guess.suborderCategory()) == motd.suborderCategory():
         comparison.suborder.status = 1
-        comparison.suborder.hint = f"The monster is of a similar suborder ({', '.join(suborder for suborder in guess.suborderCategory())})."
+        comparison.suborder.hint = f"The monster is of a similar suborder ({', '.join(suborder for suborder in suborder_category)})."
     else:
         comparison.suborder.status = 2
         comparison.suborder.hint = "The monster is of a different suborder."
