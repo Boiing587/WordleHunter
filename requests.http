@@ -1,8 +1,8 @@
-GET http://localhost:5000/api/guess HTTP/1.1
+POST http://localhost:5000/api/guess HTTP/1.1
 Content-Type: application/json
 
 {
-  "guess": "Rathalos",
+  "guess": "Velocidrome",
   "games": {
     "gen1": ["MH1"],
     "gen2": [],
@@ -15,7 +15,7 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:5000/api/cheat HTTP/1.1
+POST http://localhost:5000/api/cheat HTTP/1.1
 
 {
   "gen1": ["MH1"],
@@ -25,3 +25,12 @@ GET http://localhost:5000/api/cheat HTTP/1.1
   "gen5": [],
   "frontier": []
 }
+
+###
+
+GET http://localhost:5000/api/data/gamelist HTTP/1.1
+
+###
+
+@name = Rathalos
+GET http://localhost:5000/api/data/relatives?name={{name}}
