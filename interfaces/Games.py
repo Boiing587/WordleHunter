@@ -19,6 +19,12 @@ class Games(BaseModel):
         }
     
     @staticmethod
+    def reverseGenerationMapping() -> dict[str, str]:
+        generation_map = Games.generationMapping()
+        reverse_map: dict[str, str] = {v: k for k, values in generation_map.items() for v in values}
+        return reverse_map
+    
+    @staticmethod
     def gameNames() -> dict[str,dict[str,str]]:
         return {
             "gen1": [
