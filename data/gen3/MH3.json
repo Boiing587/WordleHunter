@@ -1,137 +1,316 @@
 [
   {
     "name": "Agnaktor",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Leviathan",
+    "suborder": "Base Species",
+    "games": [
+      "MH3",
+      "MHP3",
+      "MH3U",
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Fire"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ]
   },
   {
     "name": "Alatreon",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MH3",
+      "MHP3",
+      "MH3U",
+      "MHGen",
+      "MHGU",
+      "MHWI"
+    ],
+    "elements": [
+      "Fire",
+      "Water",
+      "Thunder",
+      "Ice",
+      "Dragon"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Ice",
+      "Water",
+      "Fire",
+      "Dragon"
+    ]
   },
   {
     "name": "Barioth",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MH3",
+      "MHP3",
+      "MH3U",
+      "MHGU",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Ice"
+    ],
+    "statuses": [
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Barroth",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Brute Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MH3",
+      "MHP3",
+      "MH3U",
+      "MHGU",
+      "MHW",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Muddy"
+    ],
+    "weaknesses": [
+      "Water",
+      "Fire"
+    ]
   },
   {
     "name": "Ceadeus",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MH3",
+      "MH3U"
+    ],
+    "elements": [
+      "Water",
+      "Dragon"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ]
   },
   {
     "name": "Deviljho",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Brute Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MH3",
+      "MHP3",
+      "MH3U",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHW",
+      "MHWI"
+    ],
+    "elements": [
+      "Dragon"
+    ],
+    "statuses": [
+      "Defense Down"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ]
   },
   {
     "name": "Gigginox",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MH3",
+      "MHP3",
+      "MH3U"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Poison",
+      "Noxious Poison"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Gobul",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Leviathan",
+    "suborder": "Base Species",
+    "games": [
+      "MH3",
+      "MH3U"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Paralysis",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ]
   },
   {
     "name": "Great Baggi",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Bird Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MH3",
+      "MHP3",
+      "MH3U",
+      "MHR",
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Great Jaggi",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Bird Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MH3",
+      "MHP3",
+      "MH3U",
+      "MH4",
+      "MH4U"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Jhen Mohran",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MH3",
+      "MHP3",
+      "MH3U"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ]
   },
   {
     "name": "Lagiacrus",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Leviathan",
+    "suborder": "Base Species",
+    "games": [
+      "MH3",
+      "MH3U",
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Thunder"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Qurupeco",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Bird Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MH3",
+      "MHP3",
+      "MH3U"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Defense Down",
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Ice"
+    ]
   },
   {
     "name": "Royal Ludroth",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Leviathan",
+    "suborder": "Base Species",
+    "games": [
+      "MH3",
+      "MHP3",
+      "MH3U",
+      "MHGen",
+      "MHGU",
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Water"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Uragaan",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Brute Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MH3",
+      "MHP3",
+      "MH3U",
+      "MHGen",
+      "MHGU",
+      "MHW",
+      "MHWI"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Water",
+      "Dragon"
+    ]
   }
 ]

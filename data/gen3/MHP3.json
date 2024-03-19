@@ -1,155 +1,322 @@
 [
   {
     "name": "Amatsu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHP3",
+      "MHGen",
+      "MHGU",
+      "MHRS"
+    ],
+    "elements": [
+      "Water",
+      "Thunder"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ]
   },
   {
     "name": "Arzuros",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Beast",
+    "suborder": "Base Species",
+    "games": [
+      "MHP3",
+      "MH3U",
+      "MHGen",
+      "MHGU",
+      "MHR",
+      "MHRS"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Ice"
+    ]
   },
   {
     "name": "Baleful Gigginox",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MHP3",
+      "MH3U"
+    ],
+    "elements": [
+      "Thunder"
+    ],
+    "statuses": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Water"
+    ]
   },
   {
     "name": "Brute Tigrex",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MHP3",
+      "MH4",
+      "MH4U",
+      "MHWI"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Water"
+    ]
   },
   {
     "name": "Crimson Qurupeco",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Bird Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MHP3",
+      "MH3U"
+    ],
+    "elements": [
+      "Thunder"
+    ],
+    "statuses": [
+      "Stun",
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Ice"
+    ]
   },
   {
     "name": "Duramboros",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Brute Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHP3",
+      "MH3U",
+      "MHGen",
+      "MHGU"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Glacial Agnaktor",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Leviathan",
+    "suborder": "Subspecies",
+    "games": [
+      "MHP3",
+      "MH3U"
+    ],
+    "elements": [
+      "Ice",
+      "Water"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ]
   },
   {
     "name": "Great Wroggi",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Bird Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHP3",
+      "MH3U",
+      "MHR",
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Poison"
+    ],
+    "weaknesses": [
+      "Ice"
+    ]
   },
   {
     "name": "Green Nargacuga",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MHP3",
+      "MH3U"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ]
   },
   {
     "name": "Jade Barroth",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Brute Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MHP3",
+      "MH3U"
+    ],
+    "elements": [
+      "Ice"
+    ],
+    "statuses": [
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Lagombi",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Fanged Beast",
+    "suborder": "Base Species",
+    "games": [
+      "MHP3",
+      "MH3U",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Ice"
+    ],
+    "statuses": [
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Nibelsnarf",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Leviathan",
+    "suborder": "Base Species",
+    "games": [
+      "MHP3",
+      "MH3U",
+      "MHGen",
+      "MHGU"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ]
   },
   {
     "name": "Purple Ludroth",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Leviathan",
+    "suborder": "Subspecies",
+    "games": [
+      "MHP3",
+      "MH3U"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Poison",
+      "Noxious Poison"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Sand Barioth",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MHP3",
+      "MH3U"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ]
   },
   {
     "name": "Steel Uragaan",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Brute Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MHP3",
+      "MH3U"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Soiled"
+    ],
+    "weaknesses": [
+      "Water",
+      "Dragon"
+    ]
   },
   {
     "name": "Volvidon",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Beast",
+    "suborder": "Base Species",
+    "games": [
+      "MHP3",
+      "MH3U",
+      "MHGen",
+      "MHGU",
+      "MHR",
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Paralysis",
+      "Soiled"
+    ],
+    "weaknesses": [
+      "Water"
+    ]
   },
   {
     "name": "Zinogre",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Fanged Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHP3",
+      "MH3U",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Thunder"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Ice"
+    ]
   }
 ]

@@ -1,92 +1,174 @@
 [
   {
     "name": "Abyssal Lagiacrus",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Leviathan",
+    "suborder": "Rare Species",
+    "games": [
+      "MH3U"
+    ],
+    "elements": [
+      "Thunder"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Dragon"
+    ]
   },
   {
     "name": "Brachydios",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Brute Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MH3U",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHWI"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Blast"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ]
   },
   {
     "name": "Dire Miralis",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MH3U"
+    ],
+    "elements": [
+      "Fire"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ]
   },
   {
     "name": "Goldbeard Ceadeus",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Subspecies",
+    "games": [
+      "MH3U"
+    ],
+    "elements": [
+      "Water"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Dragon"
+    ]
   },
   {
     "name": "Hallowed Jhen Mohran",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Subspecies",
+    "games": [
+      "MH3U"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Ivory Lagiacrus",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Leviathan",
+    "suborder": "Subspecies",
+    "games": [
+      "MH3U"
+    ],
+    "elements": [
+      "Thunder",
+      "Water"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ]
   },
   {
     "name": "Lucent Nargacuga",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Rare Species",
+    "games": [
+      "MH3U",
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Poison",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Dragon"
+    ]
   },
   {
     "name": "Rust Duramboros",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Brute Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MH3U"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Muddy"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ]
   },
   {
     "name": "Savage Deviljho",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Brute Wyvern",
+    "suborder": "Variant",
+    "games": [
+      "MH3U",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHWI"
+    ],
+    "elements": [
+      "Dragon"
+    ],
+    "statuses": [
+      "Defense Down"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ]
   },
   {
     "name": "Stygian Zinogre",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Fanged Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MH3U",
+      "MH4",
+      "MH4U",
+      "MHWI"
+    ],
+    "elements": [
+      "Dragon"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Thunder"
+    ]
   }
 ]
