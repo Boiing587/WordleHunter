@@ -21,6 +21,7 @@ def compareGuess(guess: Monster, motd: Monster) -> ProximityResponse | None:
         return None
 
     comparison = ProximityResponse()
+    newline_list = '\n - '
 
     if guess == motd:
         comparison.correct.status = 0
@@ -54,7 +55,7 @@ def compareGuess(guess: Monster, motd: Monster) -> ProximityResponse | None:
         comparison.suborder.hint = "The monster is of the same suborder."
     elif (suborder_category := guess.suborderCategory()) == motd.suborderCategory():
         comparison.suborder.status = 1
-        comparison.suborder.hint = f"The monster is of a similar suborder ({', '.join(suborder for suborder in suborder_category)})."
+        comparison.suborder.hint = f"The monster is in the same suborder category:\n - {newline_list.join(suborder for suborder in suborder_category)}"
     else:
         comparison.suborder.status = 2
         comparison.suborder.hint = "The monster is of a different suborder."
@@ -74,7 +75,7 @@ def compareGuess(guess: Monster, motd: Monster) -> ProximityResponse | None:
         comparison.elements.hint = "The monster uses the same elements."
     elif (common_elements := list(set(guess.elements).intersection(set(motd.elements)))):
         comparison.elements.status = 1
-        comparison.elements.hint = f"The monster shares some elements ({', '.join(element for element in common_elements)})."
+        comparison.elements.hint = f"The monster shares the following elements:\n - {newline_list.join(element for element in common_elements)}"
     else:
         comparison.elements.status = 2
         comparison.elements.hint = "The monster has no elements in common."
@@ -84,7 +85,7 @@ def compareGuess(guess: Monster, motd: Monster) -> ProximityResponse | None:
         comparison.statuses.hint = "The monster uses the same statuses."
     elif (common_statuses := set(guess.statuses).intersection(set(motd.statuses))):
         comparison.statuses.status = 1
-        comparison.statuses.hint = f"The monster shares some statuses ({', '.join(status for status in common_statuses)})."
+        comparison.statuses.hint = f"The monster shares the following statuses:\n - {newline_list.join(status for status in common_statuses)}"
     else:
         comparison.statuses.status = 2
         comparison.statuses.hint = "The monster has no statuses in common."
@@ -94,7 +95,7 @@ def compareGuess(guess: Monster, motd: Monster) -> ProximityResponse | None:
         comparison.weaknesses.hint = "The monster has the same weaknesses."
     elif (common_weaknesses := set(guess.weaknesses).intersection(set(motd.weaknesses))):
         comparison.weaknesses.status = 1
-        comparison.weaknesses.hint = f"The monster shares some weaknesses ({', '.join(weakness for weakness in common_weaknesses)})."
+        comparison.weaknesses.hint = f"The monster shares the following weaknesses:\n - {newline_list.join(weakness for weakness in common_weaknesses)}"
     else:
         comparison.weaknesses.status = 2
         comparison.weaknesses.hint = "The monster has no weaknesses in common."
