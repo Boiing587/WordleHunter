@@ -1,29 +1,68 @@
 [
   {
     "name": "Akantor",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHF2",
+      "MHFU",
+      "MHP3",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Fire",
+      "Dragon"
+    ],
+    "statuses": [
+      "Defense Down"
+    ],
+    "weaknesses": [
+      "Dragon"
+    ]
   },
   {
     "name": "Giadrome",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Bird Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHF2",
+      "MHFU",
+      "MHGU"
+    ],
+    "elements": [
+      "Ice"
+    ],
+    "statuses": [
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Tigrex",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHF2",
+      "MHFU",
+      "MHP3",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Thunder",
+      "Dragon"
+    ]
   }
 ]

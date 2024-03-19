@@ -1,128 +1,308 @@
 [
   {
     "name": "Blangonga",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Fanged Beast",
+    "suborder": "Base Species",
+    "games": [
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Ice"
+    ],
+    "statuses": [
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Bulldrome",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Beast",
+    "suborder": "Base Species",
+    "games": [
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MHP3",
+      "MHGen",
+      "MHGU"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Thunder"
+    ]
   },
   {
     "name": "Chameleos",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHR",
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Poison",
+      "Noxious Poison"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ]
   },
   {
     "name": "Congalala",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Beast",
+    "suborder": "Base Species",
+    "games": [
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MH4U",
+      "MHGU"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Sleep",
+      "Soiled",
+      "Poison",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Daimyo Hermitaur",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Carapaceon",
+    "suborder": "Base Species",
+    "games": [
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHRS"
+    ],
+    "elements": [
+      "Water"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Thunder"
+    ]
   },
   {
     "name": "Kushala Daora",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MHFU",
+      "MHGen",
+      "MHGU",
+      "MHW",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Dragon"
+    ],
+    "statuses": [
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ]
   },
   {
     "name": "Lunastra",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MHW",
+      "MHWI"
+    ],
+    "elements": [
+      "Fire"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ]
   },
   {
     "name": "Rajang",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Fanged Beast",
+    "suborder": "Base Species",
+    "games": [
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Thunder"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Ice"
+    ]
   },
   {
     "name": "Rusted Kushala Daora",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Variant",
+    "games": [
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4U"
+    ],
+    "elements": [
+      "Dragon",
+      "Ice"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Water",
+      "Dragon"
+    ]
   },
   {
     "name": "Shen Gaoren",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Carapaceon",
+    "suborder": "Base Species",
+    "games": [
+      "MH2",
+      "MHF2",
+      "MHFU"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ]
   },
   {
     "name": "Shogun Ceanataur",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Carapaceon",
+    "suborder": "Base Species",
+    "games": [
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MHGen",
+      "MHGU",
+      "MHRS"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Bleed"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Ice"
+    ]
   },
   {
     "name": "Teostra",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHW",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Blast"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Water"
+    ]
   },
   {
     "name": "White Fatalis",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Base",
+    "games": [
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4U",
+      "MHGU"
+    ],
+    "elements": [
+      "Thunder",
+      "Dragon"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ]
   },
   {
     "name": "Yama Tsukami",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MH2",
+      "MHFU"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ]
   }
 ]

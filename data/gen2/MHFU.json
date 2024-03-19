@@ -1,84 +1,169 @@
 [
   {
     "name": "Copper Blangonga",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Beast",
+    "suborder": "Subspecies",
+    "games": [
+      "MHFU"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Ice"
+    ]
   },
   {
     "name": "Emerald Congalala",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Beast",
+    "suborder": "Subspecies",
+    "games": [
+      "MHFU",
+      "MH4",
+      "MH4U"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Sleep",
+      "Soiled",
+      "Poison",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Ice"
+    ]
   },
   {
     "name": "Furious Rajang",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Fanged Beast",
+    "suborder": "Variant",
+    "games": [
+      "MHFU",
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHWI",
+      "MHRS"
+    ],
+    "elements": [
+      "Thunder"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Ice"
+    ]
   },
   {
     "name": "King Shakalaka",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Lynian",
+    "suborder": "Base Species",
+    "games": [
+      "MHFU"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Ice"
+    ]
   },
   {
     "name": "Nargacuga",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHFU",
+      "MHP3",
+      "MH3U",
+      "MHGen",
+      "MHGU",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Bleed"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ]
   },
   {
     "name": "Plum Daimyo Hermitaur",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Carapaceon",
+    "suborder": "Subspecies",
+    "games": [
+      "MHFU",
+      "MH4U"
+    ],
+    "elements": [
+      "Water"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ]
   },
   {
     "name": "Terra Shogun Ceanataur",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Carapaceon",
+    "suborder": "Subspecies",
+    "games": [
+      "MHFU"
+    ],
+    "elements": [
+      "Water"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Thunder"
+    ]
   },
   {
     "name": "Ukanlos",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHFU",
+      "MHP3",
+      "MH4U",
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Ice"
+    ],
+    "statuses": [
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Vespoid Queen",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Neopteron",
+    "suborder": "Base Species",
+    "games": [
+      "MHFU"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Defense Down",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Yian Garuga",
