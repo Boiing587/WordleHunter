@@ -15,7 +15,11 @@ routers = [
 ]
 
 app.add_middleware(CORSMiddleware,
-                   allow_origins=['*'],
+                   allow_origins=['http://localhost',
+                                  'http://localhost:5173',
+                                  'https://polite-cliff-095e41a03.4.azurestaticapps.net',
+                                  'https://polite-cliff-095e41a03.4.azurestaticapps.net/',
+                                  'https://polite-cliff-095e41a03.4.azurestaticapps.net/play'],
                    allow_methods=['GET', 'POST'])
 
 for router in routers:
