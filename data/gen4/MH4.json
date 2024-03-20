@@ -1,128 +1,268 @@
 [
   {
     "name": "Dah'ren Mohran",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MH4",
+      "MH4U"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Thunder",
+      "Dragon"
+    ]
   },
   {
     "name": "Dalamadur",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MH4",
+      "MH4U"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Dragon"
+    ]
   },
   {
     "name": "Gore Magala",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "???",
+    "suborder": "Base Species",
+    "games": [
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Frenzy"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder",
+      "Dragon"
+    ]
   },
   {
     "name": "Kecha Wacha",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Fanged Beast",
+    "suborder": "Base Species",
+    "games": [
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Water"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Molten Tigrex",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Rare Species",
+    "games": [
+      "MH4",
+      "MH4U"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Blast"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ]
   },
   {
     "name": "Najarala",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Snake Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Paralysis",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Water"
+    ]
   },
   {
     "name": "Nerscylla",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Temnoceran",
+    "suborder": "Base Species",
+    "games": [
+      "MH4",
+      "MH4U",
+      "MHGU"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Poison",
+      "Noxious Poison",
+      "Sleep",
+      "Webbed"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Orshi Kirin",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Elder Dragon",
+    "suborder": "Subspecies",
+    "games": [
+      "MH4",
+      "MH4U"
+    ],
+    "elements": [
+      "Ice"
+    ],
+    "statuses": [
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Water"
+    ]
   },
   {
     "name": "Ruby Basarios",
-    "type": "",
-    "suborder": "",
+    "type": "Flying Wyvern",
+    "suborder": "Subspecies",
     "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Poison",
+      "Noxious Poison",
+      "Sleep",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Ice"
+    ]
   },
   {
     "name": "Seltas",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Neopteron",
+    "suborder": "Base Species",
+    "games": [
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Defense Down"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ]
   },
   {
     "name": "Seltas Queen",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Neopteron",
+    "suborder": "Base Species",
+    "games": [
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Soiled",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Ice"
+    ]
   },
   {
     "name": "Shagaru Magala",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Frenzy"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ]
   },
   {
     "name": "Tetsucabra",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Amphibian",
+    "suborder": "Base Species",
+    "games": [
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ]
   },
   {
     "name": "Zamtrios",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Amphibian",
+    "suborder": "Base Species",
+    "games": [
+      "MH4",
+      "MH4U",
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Water",
+      "Ice"
+    ],
+    "statuses": [
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ]
   }
 ]

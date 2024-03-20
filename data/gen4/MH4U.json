@@ -1,110 +1,214 @@
 [
   {
     "name": "Ash Kecha Wacha",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Fanged Beast",
+    "suborder": "Subspecies",
+    "games": [
+      "MH4U"
+    ],
+    "elements": [
+      "Fire"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Water",
+      "Ice",
+      "Thunder"
+    ]
   },
   {
     "name": "Berserk Tetsucabra",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Amphibian",
+    "suborder": "Subspecies",
+    "games": [
+      "MH4U"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ]
   },
   {
     "name": "Chaotic Gore Magala",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "???",
+    "suborder": "Variant",
+    "games": [
+      "MH4U",
+      "MHGU",
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Frenzy"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ]
   },
   {
     "name": "Desert Seltas",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Neopteron",
+    "suborder": "Subspecies",
+    "games": [
+      "MH4U"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ]
   },
   {
     "name": "Desert Seltas Queen",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Neopteron",
+    "suborder": "Subspecies",
+    "games": [
+      "MH4U"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Soiled",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Water",
+      "Thunder"
+    ]
   },
   {
     "name": "Gogmazios",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MH4U"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Tarred"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ]
   },
   {
     "name": "Raging Brachydios",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Brute Wyvern",
+    "suborder": "Variant",
+    "games": [
+      "MH4U",
+      "MHGU",
+      "MHWI"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Blast"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Water"
+    ]
   },
   {
     "name": "Seregios",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MH4U",
+      "MHGen",
+      "MHGU",
+      "MHRS"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Bleed"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Ice"
+    ]
   },
   {
     "name": "Shah Dalamadur",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Subspecies",
+    "games": [
+      "MH4U"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder",
+      "Ice"
+    ]
   },
   {
     "name": "Shrouded Nerscylla",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Temnoceran",
+    "suborder": "Subspecies",
+    "games": [
+      "MH4U"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Paralysis",
+      "Poison",
+      "Noxious Poison",
+      "Webbed"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Fire"
+    ]
   },
   {
     "name": "Tidal Najarala",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Snake Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MH4U"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Tigerstripe Zamtrios",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Amphibian",
+    "suborder": "Subspecies",
+    "games": [
+      "MH4U"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ]
   }
 ]

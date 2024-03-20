@@ -1,74 +1,140 @@
 [
   {
     "name": "Ahtal-Ka",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Neopteron",
+    "suborder": "Base Species",
+    "games": [
+      "MHGU"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Defense Down",
+      "Webbed"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Water"
+    ]
   },
   {
     "name": "Bloodbath Diablos",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Deviant",
+    "games": [
+      "MHGU"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Water"
+    ]
   },
   {
     "name": "Boltreaver Astalos",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Deviant",
+    "games": [
+      "MHGU"
+    ],
+    "elements": [
+      "Thunder"
+    ],
+    "statuses": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Water"
+    ]
   },
   {
     "name": "Elderfrost Gammoth",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Fanged Beast",
+    "suborder": "Deviant",
+    "games": [
+      "MHGU"
+    ],
+    "elements": [
+      "Ice"
+    ],
+    "statuses": [
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Nightcloak Malfestio",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Bird Wyvern",
+    "suborder": "Deviant",
+    "games": [
+      "MHGU"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Sleep",
+      "Confusion"
+    ],
+    "weaknesses": [
+      "Water"
+    ]
   },
   {
     "name": "Rustrazor Ceanataur",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Carapaceon",
+    "suborder": "Deviant",
+    "games": [
+      "MHGU"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Bleed",
+      "Defense Down"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Ice"
+    ]
   },
   {
     "name": "Soulseer Mizutsune",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Leviathan",
+    "suborder": "Deviant",
+    "games": [
+      "MHGU"
+    ],
+    "elements": [
+      "Water",
+      "Fire"
+    ],
+    "statuses": [
+      "Bubble"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Dragon"
+    ]
   },
   {
     "name": "Valstrax",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHGU"
+    ],
+    "elements": [
+      "Dragon"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Water",
+      "Thunder",
+      "Ice"
+    ]
   }
 ]

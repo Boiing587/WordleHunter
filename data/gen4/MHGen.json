@@ -1,173 +1,356 @@
 [
   {
     "name": "Astalos",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHGen",
+      "MHGU",
+      "MHRS"
+    ],
+    "elements": [
+      "Thunder"
+    ],
+    "statuses": [
+      "Paralysis",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Water"
+    ]
   },
   {
     "name": "Crystalbeard Uragaan",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Brute Wyvern",
+    "suborder": "Deviant",
+    "games": [
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Sleep",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Water",
+      "Dragon"
+    ]
   },
   {
     "name": "Deadeye Yian Garuga",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Bird Wyvern",
+    "suborder": "Deviant",
+    "games": [
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Poison",
+      "Noxious Poison",
+      "Deadly Poison"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ]
   },
   {
     "name": "Dreadking Rathalos",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Deviant",
+    "games": [
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Noxious Poison"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ]
   },
   {
     "name": "Dreadqueen Rathian",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Deviant",
+    "games": [
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Poison",
+      "Noxious Poison",
+      "Deadly Poison"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ]
   },
   {
     "name": "Drilltusk Tetsucabra",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Amphibian",
+    "suborder": "Deviant",
+    "games": [
+      "MHGen",
+      "MHGU"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ]
   },
   {
     "name": "Gammoth",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Fanged Beast",
+    "suborder": "Base Species",
+    "games": [
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Ice"
+    ],
+    "statuses": [
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Glavenus",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Brute Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHGen",
+      "MHGU",
+      "MHWI"
+    ],
+    "elements": [
+      "Fire"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Water",
+      "Dragon",
+      "Ice"
+    ]
   },
   {
     "name": "Great Maccao",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Bird Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHGen",
+      "MHGU"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Grimclaw Tigrex",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Deviant",
+    "games": [
+      "MHGen",
+      "MHGU"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Thunder",
+      "Dragon"
+    ]
   },
   {
     "name": "Hellblade Glavenus",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Brute Wyvern",
+    "suborder": "Deviant",
+    "games": [
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Blast"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ]
   },
   {
     "name": "Malfestio",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Bird Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHGen",
+      "MHGU"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Sleep",
+      "Confusion"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Water"
+    ]
   },
   {
     "name": "Mizutsune",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Leviathan",
+    "suborder": "Base Species",
+    "games": [
+      "MHGen",
+      "MHGU",
+      "MHR",
+      "MHRS"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Bubble"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Dragon"
+    ]
   },
   {
     "name": "Nakarkos",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Dragon"
+    ],
+    "statuses": [
+      "Mucus",
+      "Boned",
+      "Blast",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ]
   },
   {
     "name": "Redhelm Arzuros",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Beast",
+    "suborder": "Deviant",
+    "games": [
+      "MHGen",
+      "MHGU"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Ice"
+    ]
   },
   {
     "name": "Silverwind Nargacuga",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Deviant",
+    "games": [
+      "MHGen",
+      "MHGU"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Bleed"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ]
   },
   {
     "name": "Snowbaron Lagombi",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Fanged Beast",
+    "suborder": "Deviant",
+    "games": [
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Ice"
+    ],
+    "statuses": [
+      "Snowman",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Stonefist Hermitaur",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Carapaceon",
+    "suborder": "Deviant",
+    "games": [
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Water"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Thunder"
+    ]
   },
   {
     "name": "Thunderlord Zinogre",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Fanged Wyvern",
+    "suborder": "Deviant",
+    "games": [
+      "MHGen",
+      "MHGU"
+    ],
+    "elements": [
+      "Thunder"
+    ],
+    "statuses": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Ice"
+    ]
   }
 ]
