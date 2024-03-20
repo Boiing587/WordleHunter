@@ -103,8 +103,8 @@
       "Stun"
     ],
     "weaknesses": [
-      "Ice",
-      "Water"
+      "Water",
+      "Ice"
     ]
   },
   {
@@ -180,8 +180,8 @@
       "Defense Down"
     ],
     "weaknesses": [
-      "Thunder",
-      "Fire"
+      "Fire",
+      "Thunder"
     ]
   },
   {
@@ -222,8 +222,8 @@
       "Frenzy"
     ],
     "weaknesses": [
-      "Dragon",
-      "Fire"
+      "Fire",
+      "Dragon"
     ]
   },
   {
@@ -261,8 +261,8 @@
       "Snowman"
     ],
     "weaknesses": [
-      "Thunder",
-      "Fire"
+      "Fire",
+      "Thunder"
     ]
   }
 ]

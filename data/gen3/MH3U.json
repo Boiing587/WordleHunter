@@ -47,8 +47,8 @@
     ],
     "statuses": [],
     "weaknesses": [
-      "Dragon",
-      "Ice"
+      "Ice",
+      "Dragon"
     ]
   },
   {
@@ -87,8 +87,8 @@
       "MH3U"
     ],
     "elements": [
-      "Thunder",
-      "Water"
+      "Water",
+      "Thunder"
     ],
     "statuses": [],
     "weaknesses": [
@@ -149,8 +149,8 @@
       "Defense Down"
     ],
     "weaknesses": [
-      "Dragon",
-      "Thunder"
+      "Thunder",
+      "Dragon"
     ]
   },
   {

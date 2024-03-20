@@ -58,8 +58,8 @@
       "Noxious Poison"
     ],
     "weaknesses": [
-      "Dragon",
-      "Fire"
+      "Fire",
+      "Dragon"
     ]
   },
   {
@@ -130,8 +130,8 @@
       "Snowman"
     ],
     "weaknesses": [
-      "Dragon",
-      "Thunder"
+      "Thunder",
+      "Dragon"
     ]
   },
   {
@@ -150,8 +150,8 @@
     ],
     "statuses": [],
     "weaknesses": [
-      "Dragon",
-      "Ice"
+      "Ice",
+      "Dragon"
     ]
   },
   {
@@ -189,8 +189,8 @@
       "MH4U"
     ],
     "elements": [
-      "Dragon",
-      "Ice"
+      "Ice",
+      "Dragon"
     ],
     "statuses": [],
     "weaknesses": [
@@ -261,8 +261,8 @@
       "Blast"
     ],
     "weaknesses": [
-      "Dragon",
-      "Water"
+      "Water",
+      "Dragon"
     ]
   },
   {
@@ -282,8 +282,8 @@
     ],
     "statuses": [],
     "weaknesses": [
-      "Dragon",
-      "Fire"
+      "Fire",
+      "Dragon"
     ]
   },
   {
@@ -301,8 +301,8 @@
       "Paralysis"
     ],
     "weaknesses": [
-      "Dragon",
-      "Ice"
+      "Ice",
+      "Dragon"
     ]
   }
 ]

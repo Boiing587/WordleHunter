@@ -70,8 +70,8 @@
       "Defense Down"
     ],
     "weaknesses": [
-      "Dragon",
-      "Water"
+      "Water",
+      "Dragon"
     ]
   },
   {
@@ -138,8 +138,8 @@
       "Muddy"
     ],
     "weaknesses": [
-      "Thunder",
-      "Water"
+      "Water",
+      "Thunder"
     ]
   },
   {
@@ -190,8 +190,8 @@
     ],
     "statuses": [],
     "weaknesses": [
-      "Thunder",
-      "Fire"
+      "Fire",
+      "Thunder"
     ]
   },
   {
@@ -238,8 +238,8 @@
       "Bleed"
     ],
     "weaknesses": [
-      "Ice",
-      "Thunder"
+      "Thunder",
+      "Ice"
     ]
   },
   {
@@ -286,8 +286,8 @@
       "Sleep"
     ],
     "weaknesses": [
-      "Dragon",
-      "Ice"
+      "Ice",
+      "Dragon"
     ]
   },
   {
@@ -357,10 +357,10 @@
     "statuses": [],
     "weaknesses": [
       "Fire",
-      "Dragon",
       "Water",
       "Thunder",
-      "Ice"
+      "Ice",
+      "Dragon"
     ]
   },
   {

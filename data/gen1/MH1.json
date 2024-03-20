@@ -24,8 +24,8 @@
       "Sleep"
     ],
     "weaknesses": [
-      "Dragon",
-      "Water"
+      "Water",
+      "Dragon"
     ]
   },
   {
@@ -50,8 +50,8 @@
       "Paralysis"
     ],
     "weaknesses": [
-      "Ice",
-      "Thunder"
+      "Thunder",
+      "Ice"
     ]
   },
   {
@@ -98,13 +98,13 @@
       "MHWI"
     ],
     "elements": [
-      "Dragon",
-      "Fire"
+      "Fire",
+      "Dragon"
     ],
     "statuses": [],
     "weaknesses": [
-      "Dragon",
-      "Fire"
+      "Fire",
+      "Dragon"
     ]
   },
   {
@@ -201,8 +201,8 @@
       "Poison"
     ],
     "weaknesses": [
-      "Thunder",
-      "Water"
+      "Water",
+      "Thunder"
     ]
   },
   {
@@ -323,8 +323,8 @@
       "Sleep"
     ],
     "weaknesses": [
-      "Thunder",
-      "Fire"
+      "Fire",
+      "Thunder"
     ]
   },
   {
@@ -357,8 +357,8 @@
       "Poison"
     ],
     "weaknesses": [
-      "Dragon",
-      "Thunder"
+      "Thunder",
+      "Dragon"
     ]
   },
   {
@@ -391,8 +391,8 @@
       "Poison"
     ],
     "weaknesses": [
-      "Dragon",
-      "Thunder"
+      "Thunder",
+      "Dragon"
     ]
   },
   {

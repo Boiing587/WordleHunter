@@ -12,8 +12,8 @@
       "Webbed"
     ],
     "weaknesses": [
-      "Thunder",
-      "Water"
+      "Water",
+      "Thunder"
     ]
   },
   {
@@ -43,8 +43,8 @@
       "Paralysis"
     ],
     "weaknesses": [
-      "Ice",
-      "Water"
+      "Water",
+      "Ice"
     ]
   },
   {
@@ -108,8 +108,8 @@
       "MHGU"
     ],
     "elements": [
-      "Water",
-      "Fire"
+      "Fire",
+      "Water"
     ],
     "statuses": [
       "Bubble"

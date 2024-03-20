@@ -12,8 +12,8 @@
     "statuses": [],
     "weaknesses": [
       "Water",
-      "Ice",
-      "Thunder"
+      "Thunder",
+      "Ice"
     ]
   },
   {
@@ -26,8 +26,8 @@
     "elements": [],
     "statuses": [],
     "weaknesses": [
-      "Ice",
-      "Thunder"
+      "Thunder",
+      "Ice"
     ]
   },
   {
@@ -60,8 +60,8 @@
       "Paralysis"
     ],
     "weaknesses": [
-      "Ice",
-      "Thunder"
+      "Thunder",
+      "Ice"
     ]
   },
   {
@@ -79,9 +79,9 @@
       "Stun"
     ],
     "weaknesses": [
-      "Ice",
       "Water",
-      "Thunder"
+      "Thunder",
+      "Ice"
     ]
   },
   {
@@ -98,8 +98,8 @@
       "Tarred"
     ],
     "weaknesses": [
-      "Dragon",
-      "Fire"
+      "Fire",
+      "Dragon"
     ]
   },
   {
@@ -116,8 +116,8 @@
       "Blast"
     ],
     "weaknesses": [
-      "Ice",
-      "Water"
+      "Water",
+      "Ice"
     ]
   },
   {
@@ -151,9 +151,9 @@
       "Paralysis"
     ],
     "weaknesses": [
-      "Dragon",
       "Thunder",
-      "Ice"
+      "Ice",
+      "Dragon"
     ]
   },
   {
@@ -171,8 +171,8 @@
       "Webbed"
     ],
     "weaknesses": [
-      "Ice",
-      "Fire"
+      "Fire",
+      "Ice"
     ]
   },
   {
@@ -207,8 +207,8 @@
       "Paralysis"
     ],
     "weaknesses": [
-      "Ice",
-      "Thunder"
+      "Thunder",
+      "Ice"
     ]
   }
 ]

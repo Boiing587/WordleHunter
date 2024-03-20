@@ -15,8 +15,8 @@
     ],
     "statuses": [],
     "weaknesses": [
-      "Dragon",
-      "Fire"
+      "Fire",
+      "Dragon"
     ]
   },
   {
@@ -118,8 +118,8 @@
       "MH3U"
     ],
     "elements": [
-      "Ice",
-      "Water"
+      "Water",
+      "Ice"
     ],
     "statuses": [],
     "weaknesses": [
@@ -158,8 +158,8 @@
       "Stun"
     ],
     "weaknesses": [
-      "Thunder",
-      "Fire"
+      "Fire",
+      "Thunder"
     ]
   },
   {
@@ -219,8 +219,8 @@
     "elements": [],
     "statuses": [],
     "weaknesses": [
-      "Ice",
-      "Thunder"
+      "Thunder",
+      "Ice"
     ]
   },
   {
@@ -252,8 +252,8 @@
     "elements": [],
     "statuses": [],
     "weaknesses": [
-      "Ice",
-      "Thunder"
+      "Thunder",
+      "Ice"
     ]
   },
   {
