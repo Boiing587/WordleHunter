@@ -24,7 +24,9 @@
       "MH4U",
       "MHGen",
       "MHGU",
-      "MHWI"
+      "MHWI",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [],
     "statuses": [
@@ -140,7 +142,9 @@
       "MH4U",
       "MHGen",
       "MHGU",
-      "MHWI"
+      "MHWI",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Dragon"
@@ -161,7 +165,9 @@
       "MH3U",
       "MH4",
       "MH4U",
-      "MHWI"
+      "MHWI",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Dragon"

@@ -57,7 +57,9 @@
       "MHGU",
       "MHWI",
       "MHR",
-      "MHRS"
+      "MHRS",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Ice"
@@ -126,7 +128,9 @@
       "MHGen",
       "MHGU",
       "MHW",
-      "MHWI"
+      "MHWI",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Dragon"
@@ -300,7 +304,9 @@
       "MHGen",
       "MHGU",
       "MHW",
-      "MHWI"
+      "MHWI",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Fire"

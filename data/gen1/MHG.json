@@ -8,7 +8,11 @@
       "MHF1",
       "MH2",
       "MHF2",
-      "MHFU"
+      "MHFU",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [],
     "statuses": [],
@@ -31,7 +35,11 @@
       "MH4",
       "MH4U",
       "MHW",
-      "MHWI"
+      "MHWI",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Fire"
@@ -58,7 +66,11 @@
       "MH3U",
       "MH4U",
       "MHW",
-      "MHWI"
+      "MHWI",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [],
     "statuses": [],
@@ -77,12 +89,42 @@
       "MHF2",
       "MHFU",
       "MH4",
-      "MH4U"
+      "MH4U",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [],
     "statuses": [],
     "weaknesses": [
       "Ice"
+    ]
+  },
+  {
+    "name": "Blue Yian Kut-Ku",
+    "type": "Bird Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MH4U",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [],
+    "weaknesses": [
+      "Water",
+      "Thunder"
     ]
   },
   {
@@ -97,7 +139,11 @@
       "MHFU",
       "MH4",
       "MH4U",
-      "MHGU"
+      "MHGU",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Fire",
@@ -128,7 +174,11 @@
       "MHGen",
       "MHGU",
       "MHWI",
-      "MHRS"
+      "MHRS",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Fire"
@@ -152,7 +202,11 @@
       "MH2",
       "MHF2",
       "MHFU",
-      "MH3U"
+      "MH3U",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Water"
@@ -179,7 +233,11 @@
       "MH4",
       "MH4U",
       "MHW",
-      "MHWI"
+      "MHWI",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Fire"
@@ -194,6 +252,24 @@
     ]
   },
   {
+    "name": "Purple Gypceros",
+    "type": "Bird Wyvern",
+    "suborder": "Subspecies",
+    "games": [
+      "MHG",
+      "MHF1",
+      "MH2",
+      "MHF2",
+      "MHFU",
+      "MH4",
+      "MH4U",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
+    ]
+  },
+  {
     "name": "Red Khezu",
     "type": "Flying Wyvern",
     "suborder": "Subspecies",
@@ -204,7 +280,11 @@
       "MHF2",
       "MHFU",
       "MH4",
-      "MH4U"
+      "MH4U",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Thunder"
@@ -233,7 +313,11 @@
       "MHGen",
       "MHGU",
       "MHWI",
-      "MHRS"
+      "MHRS",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Fire"
@@ -256,7 +340,11 @@
       "MH2",
       "MHF2",
       "MHFU",
-      "MH4U"
+      "MH4U",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [],
     "statuses": [],

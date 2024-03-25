@@ -8,7 +8,11 @@
       "MHF2",
       "MHFU",
       "MHGen",
-      "MHGU"
+      "MHGU",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Ice"
@@ -30,7 +34,11 @@
       "MHFU",
       "MHP3",
       "MHGen",
-      "MHGU"
+      "MHGU",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [],
     "statuses": [],
@@ -50,7 +58,11 @@
       "MHGen",
       "MHGU",
       "MHR",
-      "MHRS"
+      "MHRS",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [],
     "statuses": [
@@ -72,7 +84,11 @@
       "MHFU",
       "MH4",
       "MH4U",
-      "MHGU"
+      "MHGU",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [],
     "statuses": [
@@ -96,7 +112,11 @@
       "MH4U",
       "MHGen",
       "MHGU",
-      "MHRS"
+      "MHRS",
+      "MHF",
+      "MHFG",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Water"
@@ -121,7 +141,11 @@
       "MHW",
       "MHWI",
       "MHR",
-      "MHRS"
+      "MHRS",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Dragon"
@@ -143,7 +167,11 @@
       "MHF2",
       "MHFU",
       "MHW",
-      "MHWI"
+      "MHWI",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Fire"
@@ -168,7 +196,11 @@
       "MHGU",
       "MHWI",
       "MHR",
-      "MHRS"
+      "MHRS",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Thunder"
@@ -186,7 +218,11 @@
       "MH2",
       "MHF2",
       "MHFU",
-      "MH4U"
+      "MH4U",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Ice",
@@ -205,7 +241,11 @@
     "games": [
       "MH2",
       "MHF2",
-      "MHFU"
+      "MHFU",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [],
     "statuses": [],
@@ -224,7 +264,11 @@
       "MHFU",
       "MHGen",
       "MHGU",
-      "MHRS"
+      "MHRS",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Water"
@@ -252,7 +296,11 @@
       "MHW",
       "MHWI",
       "MHR",
-      "MHRS"
+      "MHRS",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Fire"
@@ -274,7 +322,11 @@
       "MHF2",
       "MHFU",
       "MH4U",
-      "MHGU"
+      "MHGU",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Thunder",
@@ -292,7 +344,11 @@
     "suborder": "Base Species",
     "games": [
       "MH2",
-      "MHFU"
+      "MHFU",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Fire"

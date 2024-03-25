@@ -10,7 +10,11 @@
       "MH4",
       "MH4U",
       "MHGen",
-      "MHGU"
+      "MHGU",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Fire",
@@ -56,7 +60,11 @@
       "MHGU",
       "MHWI",
       "MHR",
-      "MHRS"
+      "MHRS",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [],
     "statuses": [],

@@ -84,7 +84,9 @@
       "MHGU",
       "MHWI",
       "MHR",
-      "MHRS"
+      "MHRS",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [],
     "statuses": [
@@ -173,7 +175,11 @@
       "MHFU",
       "MHGen",
       "MHGU",
-      "MHWI"
+      "MHWI",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Fire"

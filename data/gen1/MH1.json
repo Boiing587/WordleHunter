@@ -14,7 +14,11 @@
       "MH4U",
       "MHGU",
       "MHR",
-      "MHRS"
+      "MHRS",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Fire"
@@ -41,7 +45,11 @@
       "MHFU",
       "MH4U",
       "MHGen",
-      "MHGU"
+      "MHGU",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Water"
@@ -73,7 +81,11 @@
       "MHW",
       "MHWI",
       "MHR",
-      "MHRS"
+      "MHRS",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [],
     "statuses": [],
@@ -95,7 +107,11 @@
       "MH4",
       "MH4U",
       "MHGU",
-      "MHWI"
+      "MHWI",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Fire",
@@ -121,7 +137,11 @@
       "MH4",
       "MH4U",
       "MHGen",
-      "MHGU"
+      "MHGU",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [],
     "statuses": [
@@ -144,7 +164,11 @@
       "MHFU",
       "MH4",
       "MH4U",
-      "MHGU"
+      "MHGU",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Fire"
@@ -170,7 +194,11 @@
       "MH4",
       "MH4U",
       "MHGen",
-      "MHGU"
+      "MHGU",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [],
     "statuses": [
@@ -194,7 +222,11 @@
       "MH4",
       "MH4U",
       "MHGen",
-      "MHGU"
+      "MHGU",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [],
     "statuses": [
@@ -221,7 +253,11 @@
       "MHGen",
       "MHGU",
       "MHR",
-      "MHRS"
+      "MHRS",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Thunder"
@@ -249,7 +285,11 @@
       "MHGen",
       "MHGU",
       "MHW",
-      "MHWI"
+      "MHWI",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Thunder"
@@ -273,7 +313,11 @@
       "MH2",
       "MHF2",
       "MHFU",
-      "MHGU"
+      "MHGU",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [],
     "statuses": [],
@@ -292,7 +336,11 @@
       "MH2",
       "MHF2",
       "MHFU",
-      "MH4U"
+      "MH4U",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [],
     "statuses": [],
@@ -314,7 +362,11 @@
       "MHFU",
       "MH3U",
       "MHGen",
-      "MHGU"
+      "MHGU",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Water"
@@ -348,7 +400,11 @@
       "MHW",
       "MHWI",
       "MHR",
-      "MHRS"
+      "MHRS",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Fire"
@@ -382,7 +438,11 @@
       "MHW",
       "MHWI",
       "MHR",
-      "MHRS"
+      "MHRS",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Fire"
@@ -409,7 +469,11 @@
       "MH4",
       "MH4U",
       "MHGen",
-      "MHGU"
+      "MHGU",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [],
     "statuses": [],
@@ -431,7 +495,11 @@
       "MH4",
       "MH4U",
       "MHGen",
-      "MHGU"
+      "MHGU",
+      "MHF",
+      "MHFF",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Fire"

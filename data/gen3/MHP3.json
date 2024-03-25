@@ -7,7 +7,8 @@
       "MHP3",
       "MHGen",
       "MHGU",
-      "MHRS"
+      "MHRS",
+      "MHFZ"
     ],
     "elements": [
       "Water",
@@ -309,7 +310,9 @@
       "MHGU",
       "MHWI",
       "MHR",
-      "MHRS"
+      "MHRS",
+      "MHFG",
+      "MHFZ"
     ],
     "elements": [
       "Thunder"
