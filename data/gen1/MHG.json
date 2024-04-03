@@ -267,6 +267,16 @@
       "MHFF",
       "MHFG",
       "MHFZ"
+    ],
+    "elements": [],
+    "statuses": [
+      "Poison",
+      "Noxious Poison",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Water",
+      "Fire"
     ]
   },
   {
