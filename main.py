@@ -19,7 +19,10 @@ app.add_middleware(CORSMiddleware,
                                   'http://localhost:5173',
                                   'https://polite-cliff-095e41a03.4.azurestaticapps.net',
                                   'https://polite-cliff-095e41a03.4.azurestaticapps.net/',
-                                  'https://polite-cliff-095e41a03.4.azurestaticapps.net/play'],
+                                  'https://polite-cliff-095e41a03.4.azurestaticapps.net/play',
+                                  'https://wordlehunter.dev',
+                                  'https://wordlehunter.dev/',
+                                  'https://wordlehunter.dev/play'],
                    allow_methods=['GET', 'POST'])
 
 for router in routers:
