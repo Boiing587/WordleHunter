@@ -30,6 +30,12 @@
     game_selection.value = {gen1: [], gen2: [], gen3: [], gen4: [], gen5: [], frontier: []}
   }
 
+  function selectAll(): void {
+    if (game_list.value === undefined) { return }
+    game_selection.value = game_list.value
+    game_selection.value.frontier = [] // !!! remove when frontier is done
+  }
+
   function anyGamesSelected(): Booleanish {
     const flattened_selection: string[] = []
     for (const gen in game_selection.value) {
@@ -92,7 +98,7 @@
     <ToggleButton :model-value="casual_mode_enabled" off-label="Normal mode" on-label="Casual mode" @change="casualModeToggle" />
     <ButtonGroup class="p-4">
       <Button label="Play" :onClick="submitGameSelection" :disabled="anyGamesSelected()" />
-      <Button label="Clear all" :onClick="clearGameSelection" />
+      <Button :label="anyGamesSelected() ? 'Select all' : 'Clear all'" :onClick="anyGamesSelected() ? selectAll : clearGameSelection" />
     </ButtonGroup>
   </div>
 </template>
