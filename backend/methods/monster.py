@@ -64,7 +64,7 @@ def getRelatives(monster: Monster, monster_list: list[Monster]) -> list[Monster]
     return [relative for relative in monster_list if relative != monster and substring in relative.name]
 
 
-def monsterOfTheDay(monster_list: list[Monster]) -> Monster:
+def monsterOfTheDay(monster_list: list[Monster], seed: str | None = None) -> Monster:
     """Generates a random monster using the current date as a seed
 
     Args:
@@ -75,7 +75,8 @@ def monsterOfTheDay(monster_list: list[Monster]) -> Monster:
     """
 
     monsterNames = [monster.name for monster in monster_list]
-    seed = datetime.today().strftime("%d/%m/%Y")
+    if seed is None:
+        seed = datetime.today().strftime("%d/%m/%Y")
     random.seed(seed)
     random.shuffle(monsterNames)
     monster_of_the_day = random.choice(monsterNames)
