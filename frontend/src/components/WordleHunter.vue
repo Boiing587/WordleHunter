@@ -20,7 +20,8 @@
   const guess_history = ref<GuessResponse[]>()
   const ls_game_selection = localStorage.getItem('game_selection')
   const casual_mode_enabled = localStorage.getItem('casual_mode') === "true" ? ref(true) : ref(false)
-  if (ls_game_selection === null) {
+  let seed = localStorage.getItem('seed')
+  if (ls_game_selection === null || seed === null) {
     router.push('/')
   }
   const game_selection: GameList = formatGameSelection(JSON.parse(ls_game_selection as string))
@@ -36,7 +37,7 @@
   }
 
   function submit() {
-    guess((guessed_monster.value as Monster).name, game_selection)
+    guess((guessed_monster.value as Monster).name, game_selection, seed)
       .then((res) => {
         guess_response.value = res
         if (guess_history.value === undefined) { guess_history.value = [guess_response.value] }

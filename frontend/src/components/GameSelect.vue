@@ -18,6 +18,8 @@
   const router = useRouter()
   const confirm = useConfirm()
 
+  localStorage.removeItem('seed')
+
   let game_list = ref<GameNames>()
   getGameList()
     .then((games) => {
@@ -48,6 +50,14 @@
 
   function submitGameSelection(): void {
     localStorage.setItem('game_selection', JSON.stringify(game_selection.value))
+
+    const today = new Date()
+    const day = ('0' + today.getDate()).slice(-2)
+    const month = ('0' + (today.getMonth() + 1)).slice(-2) // month is 0-indexed
+    const year = today.getFullYear()
+    const seed = `${day}/${month}/${year}`
+    localStorage.setItem('seed', seed)
+
     router.push('/play')
   }
 

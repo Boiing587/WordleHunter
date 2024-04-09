@@ -15,7 +15,7 @@ async def guess(data: Guess) -> JSONResponse:
         return JSONResponse({'status': 2, 'message': "Failed to get guessed monster. This shouldn't be possible unless you made a request to this endpoint yourself"})
     game_selection = data.games
     monster_list = loadMonsterList(game_selection)
-    motd = monsterOfTheDay(monster_list)
+    motd = monsterOfTheDay(monster_list, data.seed)
     if not (comparison := compareGuess(guess, motd)):
         return JSONResponse({'status': 404, 'message': 'monster not found'})
     return JSONResponse({'guess': guess.model_dump(mode="json"), 'result': comparison.model_dump(mode="json")})
