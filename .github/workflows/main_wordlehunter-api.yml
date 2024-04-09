@@ -10,6 +10,10 @@ on:
       - main
   workflow_dispatch:
 
+env:
+  AZURE_WEBAPP_NAME: wordlehunter-api
+  AZURE_WEBAPP_PACKAGE_PATH: './backend'
+
 jobs:
   build:
     runs-on: ubuntu-latest
