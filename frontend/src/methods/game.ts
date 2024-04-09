@@ -3,10 +3,11 @@ import type { GameList, GuessResponse, Proximity, Monster } from "@models/types"
 const dev = false
 const base_url = !dev ? "https://wordlehunter-api.azurewebsites.net" : "http://localhost:5000"
 
-async function guess(guess: string, game_selection: GameList) {
+async function guess(guess: string, game_selection: GameList, seed: string | null = null) {
   const body = {
     guess: guess,
-    games: game_selection
+    games: game_selection,
+    seed: seed
   }
   const res = await fetch(`${base_url}/api/guess`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) })
   if (!res.ok) {
