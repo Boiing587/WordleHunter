@@ -46,9 +46,7 @@ function dialogVisibilityHandler (value: boolean) {
 
 <template>
   <div v-if="page == 'game_select'" class="flex flex-col justify-center items-center text-center py-4">
-    <p class="pb-6">Choose your selection of games to get started!</p>
-    <p><span class="text-red-600">NOTE:</span> Data for monsters from frontier is not complete. As such, Frontier is currently not available to select.</p>
-    <p>They will, however, be added very soon. Stay tuned!</p>
+    <p>Choose your selection of games to get started!</p>
     <Divider class="py-10" />
     <p>Please keep in mind, I am <strong>not</strong> a frontend developer.</p>
     <p>I do this for fun, and even though I want to learn, I much prefer backend.</p>
