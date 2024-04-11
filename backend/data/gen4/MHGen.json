@@ -197,7 +197,7 @@
       "Fire"
     ],
     "statuses": [
-      "Blast"
+      "Blastblight"
     ],
     "weaknesses": [
       "Water",
@@ -257,7 +257,7 @@
     "statuses": [
       "Mucus",
       "Boned",
-      "Blast",
+      "Blastblight",
       "Paralysis"
     ],
     "weaknesses": [
