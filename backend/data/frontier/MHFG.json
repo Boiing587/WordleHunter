@@ -1,281 +1,576 @@
 [
   {
     "name": "Anorupatisu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Ice",
+      "Dragon"
+    ],
+    "statuses": [
+      "Stun",
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Baruragaru",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Leviathan",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Poison",
+      "Paralysis",
+      "Defense Down"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Berserk Raviente",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
+    "type": "Unclassified",
+    "suborder": "Rare Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Paralysis",
+      "Stun"
+    ],
     "weaknesses": []
   },
   {
     "name": "Diorex",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Flying Wyvern",
+    "suborder": "Burst Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Thunder"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Ice",
+      "Dragon"
+    ]
   },
   {
     "name": "Disufiroa",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Frozen Seraphim"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Water",
+      "Thunder",
+      "Dragon"
+    ]
   },
   {
     "name": "Duremudira",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Ice"
+    ],
+    "statuses": [
+      "Frostbite",
+      "Corrupted Poison"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ]
   },
   {
     "name": "Farunokku",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Bird Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Thunder"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ]
   },
   {
     "name": "Forokururu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Bird Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Poison",
+      "Paralysis",
+      "Sleep",
+      "Soiled",
+      "Defense Down",
+      "Dark"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Ice"
+    ]
   },
   {
     "name": "Garuba Daora",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Elder Dragon",
+    "suborder": "Burst Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Wind"
+    ],
+    "statuses": [
+      "Crystallization"
+    ],
+    "weaknesses": [
+      "Thunder"
+    ]
   },
   {
     "name": "Gasurabazura",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Brute Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Poison",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Ice"
+    ]
   },
   {
     "name": "Giaorugu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Brute Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Ice"
+    ],
+    "statuses": [
+      "Defense Down",
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Guanzorumu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Fire",
+      "Dragon"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Water",
+      "Dragon"
+    ]
   },
   {
     "name": "Gureadomosu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Flying Wyvern",
+    "suborder": "Origin Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Water"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Harudomerugu",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Dragon",
+      "Black Flame"
+    ]
   },
   {
     "name": "Hyujikiki",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Poison",
+      "Paralysis",
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Inagami",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Lolo Gougarf",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Beast",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Stun",
+      "Magnet"
+    ],
+    "weaknesses": [
+      "Water"
+    ]
   },
   {
     "name": "Meraginasu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Flying Wyvern",
+    "suborder": "Burst Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Darkness"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Light"
+    ]
   },
   {
     "name": "Mi Ru",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Stun",
+      "Crystallization"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Water",
+      "Thunder",
+      "Ice",
+      "Dragon"
+    ]
   },
   {
     "name": "Midogaron",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Fanged Beast",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ]
   },
   {
     "name": "Poborubarumu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Kanade"
+    ],
+    "statuses": [
+      "Confusion"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Pokaradon",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Leviathan",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Stun",
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Ray Gougarf",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Beast",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Stun",
+      "Magnet"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Rebidiora",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Elder Dragon",
+    "suborder": "Subspecies",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Thunder Pole"
+    ],
+    "statuses": [
+      "Magnet"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice",
+      "Dragon"
+    ]
   },
   {
     "name": "Shantien",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Tenshou"
+    ],
+    "statuses": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Dragon"
+    ]
   },
   {
     "name": "Toa Tesukatora",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Elder Dragon",
+    "suborder": "Origin Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Ice"
+    ],
+    "statuses": [
+      "Frostbite"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ]
   },
   {
     "name": "Toridcless",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Bird Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Thunder Pole"
+    ],
+    "statuses": [
+      "Stun",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Water",
+      "Dragon"
+    ]
   },
   {
     "name": "Varusaburosu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Flying Wyvern",
+    "suborder": "Burst Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Fire"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Water"
+    ]
   },
   {
     "name": "Voljang",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Fanged Beast",
+    "suborder": "Origin Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Fire"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ]
   },
   {
     "name": "Yama Kurai",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Origin Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Poison",
+      "Paralysis",
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Zerureusu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Flying Wyvern",
+    "suborder": "Burst Species",
+    "games": [
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Light"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Dragon",
+      "Darkness"
+    ]
   }
 ]

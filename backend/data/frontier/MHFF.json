@@ -1,92 +1,204 @@
 [
   {
     "name": "Abiorugu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Brute Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHFF",
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Stun",
+      "Defense Down"
+    ],
+    "weaknesses": [
+      "Water",
+      "Thunder",
+      "Ice"
+    ]
   },
   {
     "name": "Aruganosu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Piscine Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHFF",
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Ice"
+    ],
+    "statuses": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Dragon"
+    ]
   },
   {
     "name": "Gogomoa",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Fanged Beast",
+    "suborder": "Base Species",
+    "games": [
+      "MHFF",
+      "MHFG",
+      "MHFZ"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Poison",
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Ice"
+    ]
   },
   {
     "name": "Goruganosu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Piscine Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHFF",
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Thunder"
+    ],
+    "statuses": [
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Dragon"
+    ]
   },
   {
     "name": "Kuarusepusu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Leviathan",
+    "suborder": "Base Species",
+    "games": [
+      "MHFF",
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Fire",
+      "Thunder"
+    ],
+    "statuses": [
+      "Paralysis",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Light"
+    ]
   },
   {
     "name": "Odibatorasu",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHFF",
+      "MHFG",
+      "MHFZ"
+    ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Thunder",
+      "Dragon"
+    ]
   },
   {
     "name": "Rukodiora",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHFF",
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Dragon"
+    ],
+    "statuses": [
+      "Magnet"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Dragon"
+    ]
   },
   {
     "name": "Taikun Zamuza",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Carapaceon",
+    "suborder": "Base Species",
+    "games": [
+      "MHFF",
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Thunder"
+    ],
+    "statuses": [
+      "Poison",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Water",
+      "Ice"
+    ]
   },
   {
     "name": "Unknown",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHFF",
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Poison",
+      "Defense Down"
+    ],
+    "weaknesses": [
+      "Water",
+      "Thunder",
+      "Ice",
+      "Dragon"
+    ]
   },
   {
     "name": "Violent Raviente",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
+    "type": "Unclassified",
+    "suborder": "Variant",
+    "games": [
+      "MHFF",
+      "MHFG",
+      "MHFZ"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Stun",
+      "Paralysis"
+    ],
     "weaknesses": []
   }
 ]

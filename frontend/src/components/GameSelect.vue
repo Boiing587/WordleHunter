@@ -35,7 +35,6 @@
   function selectAll(): void {
     if (game_list.value === undefined) { return }
     game_selection.value = game_list.value
-    game_selection.value.frontier = [] // !!! remove when frontier is done
   }
 
   function anyGamesSelected(): Booleanish {
@@ -88,7 +87,7 @@
     <div v-if="game_list" class="flex flex-row justify-evenly flex-wrap pb-6">
       <div v-for="(games, gen) in game_list" :key="gen" class="min-w-56 game-select-dropdown p-4 text-center">
         <h1 class="pb-4">{{ gen.toString().replace('gen', 'Generation ').replace('frontier', 'Frontier') }}</h1>
-        <MultiSelect :id="gen" v-model="game_selection[gen]" :options="games" optionLabel="name" placeholder="Select games" :maxSelectedLabels="0" :disabled="gen == 'frontier'" />
+        <MultiSelect :id="gen" v-model="game_selection[gen]" :options="games" optionLabel="name" placeholder="Select games" :maxSelectedLabels="0" />
       </div>
     </div>
     <div v-else>

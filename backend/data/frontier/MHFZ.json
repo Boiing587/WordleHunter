@@ -1,236 +1,436 @@
 [
   {
     "name": "Bogabadorumu",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
     "elements": [],
-    "statuses": [],
+    "statuses": [
+      "Blastblight"
+    ],
     "weaknesses": []
   },
   {
     "name": "Elzelion",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHFZ"
+    ],
+    "elements": [
+      "Fire",
+      "Ice",
+      "Burning Zero"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Ice"
+    ]
   },
   {
     "name": "Keoaruboru",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Elder Dragon",
+    "suborder": "Base Species",
+    "games": [
+      "MHFZ"
+    ],
+    "elements": [
+      "Fire"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Ice",
+      "Dragon"
+    ]
   },
   {
     "name": "Zenaserisu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
+    "type": "Flying Wyvern",
+    "suborder": "Base Species",
+    "games": [
+      "MHFZ"
+    ],
+    "elements": [
+      "Water"
+    ],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      "Thunder"
+    ]
   },
   {
     "name": "Zenith Akura Vashimu",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Carapaceon",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
     "elements": [],
-    "statuses": [],
+    "statuses": [
+      "Extreme Paralysis",
+      "Crystallization"
+    ],
     "weaknesses": []
   },
   {
     "name": "Zenith Anorupatisu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
+    "elements": [
+      "Ice",
+      "Dragon"
+    ],
+    "statuses": [
+      "Extreme Iceblight"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Zenith Baruragaru",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Leviathan",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Extreme Waterblight",
+      "Bleeding"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Zenith Blangonga",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Fanged Beast",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
+    "elements": [
+      "Ice"
+    ],
+    "statuses": [
+      "Extreme Iceblight"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Zenith Daimyo Hermitaur",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Carapaceon",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Extreme Waterblight"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Ice"
+    ]
   },
   {
     "name": "Zenith Doragyurosu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
+    "type": "Flying Wyvern",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
+    "elements": [
+      "Dragon"
+    ],
+    "statuses": [
+      "Extreme Dragonblight"
+    ],
     "weaknesses": []
   },
   {
     "name": "Zenith Espinas",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Extreme Poison",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Ice"
+    ]
   },
   {
     "name": "Zenith Gasurabazura",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Brute Wyvern",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Extreme Poison",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Ice"
+    ]
   },
   {
     "name": "Zenith Giaorugu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Brute Wyvern",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
+    "elements": [
+      "Ice"
+    ],
+    "statuses": [
+      "Extreme Iceblight",
+      "Snowman",
+      "Defense Down"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Zenith Gravios",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Extreme Fireblight"
+    ],
+    "weaknesses": [
+      "Water"
+    ]
   },
   {
     "name": "Zenith Harudomerugu",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
     "elements": [],
     "statuses": [],
     "weaknesses": []
   },
   {
     "name": "Zenith Hyujikiki",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Paralysis",
+      "Bleeding"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Zenith Hypnocatrice",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Bird Wyvern",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Extreme Sleep"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Zenith Inagami",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Elder Dragon",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Extreme Sleep"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Zenith Khezu",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
+    "elements": [
+      "Thunder"
+    ],
+    "statuses": [
+      "Extreme Thunderblight"
+    ],
+    "weaknesses": [
+      "Fire"
+    ]
   },
   {
     "name": "Zenith Midogaron",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Fanged Beast",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Extreme Fireblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ]
   },
   {
     "name": "Zenith Plesioth",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Piscine Wyvern",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
+    "elements": [
+      "Water"
+    ],
+    "statuses": [
+      "Extreme Waterblight"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ]
   },
   {
     "name": "Zenith Rathalos",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Flying Wyvern",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Extreme Fireblight",
+      "Poison"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ]
   },
   {
     "name": "Zenith Rukodiora",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Elder Dragon",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
+    "elements": [
+      "Dragon"
+    ],
+    "statuses": [
+      "Extreme Dragonblight",
+      "Magnet"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Dragon"
+    ]
   },
   {
     "name": "Zenith Taikun Zamuza",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
+    "type": "Carapaceon",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
+    "elements": [
+      "Thunder"
+    ],
+    "statuses": [
+      "Extreme Thunderblight"
+    ],
     "weaknesses": []
   },
   {
     "name": "Zenith Tigrex",
-    "type": "",
-    "suborder": "",
-    "games": [],
+    "type": "Flying Wyvern",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "statuses": [
+      "Bleeding"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Dragon"
+    ]
   },
   {
     "name": "Zenith Toridcless",
-    "type": "",
-    "suborder": "",
-    "games": [],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": []
+    "type": "Bird Wyvern",
+    "suborder": "Zenith",
+    "games": [
+      "MHFZ"
+    ],
+    "elements": [
+      "Thunder"
+    ],
+    "statuses": [
+      "Extreme Thunderblight",
+      "Paralysis",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Water",
+      "Dragon"
+    ]
   }
 ]
