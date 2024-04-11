@@ -34,4 +34,26 @@ function formatGameSelection(game_selection: GameNames) {
   return formatted_game_selection
 }
 
-export { apiFetch, formatGameSelection, getGameList, getMonsterList }
+function getDate(mode: string = 'daily'): string {
+  const now = new Date()
+  const day = ('0' + now.getDate()).slice(-2)
+  const month = ('0' + (now.getMonth() + 1)).slice(-2)
+  const year = now.getFullYear()
+  const hours = now.getHours()
+  const minutes = now.getMinutes()
+  const seconds = now.getSeconds()
+
+  switch (mode) {
+    case 'daily':
+      return `${day}/${month}/${year}`
+
+    case 'unlimited':
+      return `${day}/${month}/${year} ${hours}:${minutes}:${seconds}`
+
+    default:
+      return ''
+  }
+
+}
+
+export { apiFetch, formatGameSelection, getGameList, getMonsterList, getDate }

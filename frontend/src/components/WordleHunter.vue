@@ -5,12 +5,12 @@
   import Button from 'primevue/button'
   import Divider from 'primevue/divider'
   import Dropdown from 'primevue/dropdown'
+  import ButtonGroup from 'primevue/buttongroup'
 
   import type { GameList, GuessResponse, Monster } from '@models/types'
 
-  import { getMonsterList, formatGameSelection } from '@methods/data'
-  import { casualModeFilter, formatMonsterInfoData, responseInfoStyle, responseInfoTitle } from '@methods/game'
-  import { guess } from '@methods/game'
+  import { getMonsterList, formatGameSelection, getDate } from '@methods/data'
+  import { casualModeFilter, formatMonsterInfoData, responseInfoStyle, responseInfoTitle, guess } from '@methods/game'
 
   const router = useRouter()
 
@@ -28,13 +28,14 @@
 
   const monster_list = ref<Monster[]>()
   const error = ref<Boolean>(false)
-  if (game_selection != null) {
+  function loadMonsterList(): void {
     getMonsterList(game_selection)
       .then((monsters) => {
         monster_list.value = monsters.sort((a, b) => (a.name > b.name ? 1 : a.name < b.name ? -1 : 0))
       })
       .catch(() => { error.value = true })
   }
+  loadMonsterList()
 
   function submit() {
     guess((guessed_monster.value as Monster).name, game_selection, seed)
@@ -54,6 +55,18 @@
     if (!guessed_monster.value) return true
     if (guess_response.value?.result.correct.status === 0) return true
     return false
+  }
+
+  function replay(): void {
+    seed = getDate('unlimited')
+    localStorage.setItem('seed', seed)
+    guessed_monster.value = undefined
+    guess_response.value = undefined
+    guess_history.value = undefined
+    num_guesses.value = 0
+    if (casual_mode_enabled.value === true) {
+      loadMonsterList()
+    }
   }
 
   function returnToGameSelection() {
@@ -79,7 +92,10 @@
     <Divider class="py-10" />
     <h1>{{ guess_response.guess.name }}</h1>
     <p class="pb-4">Congratulations! You successfully guessed today's monster in {{ num_guesses }} attempt(s)!</p>
-    <Button label="Return to game selection" :onClick="returnToGameSelection" />
+    <ButtonGroup>
+      <Button :label="(seed as string).length > 10 ? 'Play again!' : 'Play infinite mode!'" @click="replay()" />
+      <Button label="Return to game selection" :onClick="returnToGameSelection" />
+    </ButtonGroup>
     
   </div>
 
