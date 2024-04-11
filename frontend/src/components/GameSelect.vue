@@ -13,7 +13,7 @@
   import type { GameNames } from '@models/types'
   import type { Booleanish } from 'primevue/ts-helpers'
   
-  import { getGameList } from '@methods/data'
+  import { getGameList, getDate } from '@methods/data'
 
   const router = useRouter()
   const confirm = useConfirm()
@@ -48,16 +48,9 @@
     return !(flattened_selection.some(Boolean))
   }
 
-  function submitGameSelection(): void {
+  function submitGameSelection(mode: string): void {
     localStorage.setItem('game_selection', JSON.stringify(game_selection.value))
-
-    const today = new Date()
-    const day = ('0' + today.getDate()).slice(-2)
-    const month = ('0' + (today.getMonth() + 1)).slice(-2) // month is 0-indexed
-    const year = today.getFullYear()
-    const seed = `${day}/${month}/${year}`
-    localStorage.setItem('seed', seed)
-
+    localStorage.setItem('seed', getDate(mode))
     router.push('/play')
   }
 
@@ -92,7 +85,7 @@
 
 <template>
   <div class="flex flex-col justify-center items-center">
-    <div v-if="game_list" class="flex flex-row justify-evenly flex-wrap">
+    <div v-if="game_list" class="flex flex-row justify-evenly flex-wrap pb-6">
       <div v-for="(games, gen) in game_list" :key="gen" class="min-w-56 game-select-dropdown p-4 text-center">
         <h1 class="pb-4">{{ gen.toString().replace('gen', 'Generation ').replace('frontier', 'Frontier') }}</h1>
         <MultiSelect :id="gen" v-model="game_selection[gen]" :options="games" optionLabel="name" placeholder="Select games" :maxSelectedLabels="0" :disabled="gen == 'frontier'" />
@@ -102,13 +95,14 @@
       Loading...
     </div>
 
+    <Button :label="anyGamesSelected() ? 'Select all' : 'Clear all'" :onClick="anyGamesSelected() ? selectAll : clearGameSelection" />
     <Divider class="py-10" />
 
     <ConfirmDialog style="width: 50%;"></ConfirmDialog>
     <ToggleButton :model-value="casual_mode_enabled" off-label="Normal mode" on-label="Casual mode" @change="casualModeToggle" />
     <ButtonGroup class="p-4">
-      <Button label="Play" :onClick="submitGameSelection" :disabled="anyGamesSelected()" />
-      <Button :label="anyGamesSelected() ? 'Select all' : 'Clear all'" :onClick="anyGamesSelected() ? selectAll : clearGameSelection" />
+      <Button label="Daily" @click="submitGameSelection('daily')" :disabled="anyGamesSelected()" />
+      <Button label="Unlimited" @click="submitGameSelection('unlimited')" :disabled="anyGamesSelected()" />
     </ButtonGroup>
   </div>
 </template>
