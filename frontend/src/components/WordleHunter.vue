@@ -9,7 +9,7 @@
 
   import type { GameList, GuessResponse, Monster } from '@models/types'
 
-  import { getMonsterList, formatGameSelection, getDate } from '@methods/data'
+  import { getMonsterList, formatGameSelection, generateSeed } from '@methods/data'
   import { casualModeFilter, formatMonsterInfoData, responseInfoStyle, responseInfoTitle, guess } from '@methods/game'
 
   const router = useRouter()
@@ -58,7 +58,7 @@
   }
 
   function replay(): void {
-    seed = getDate('unlimited')
+    seed = generateSeed('unlimited')
     localStorage.setItem('seed', seed)
     guessed_monster.value = undefined
     guess_response.value = undefined

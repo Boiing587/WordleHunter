@@ -13,7 +13,7 @@
   import type { GameNames } from '@models/types'
   import type { Booleanish } from 'primevue/ts-helpers'
   
-  import { getGameList, getDate } from '@methods/data'
+  import { getGameList, generateSeed } from '@methods/data'
 
   const router = useRouter()
   const confirm = useConfirm()
@@ -49,7 +49,7 @@
 
   function submitGameSelection(mode: string): void {
     localStorage.setItem('game_selection', JSON.stringify(game_selection.value))
-    localStorage.setItem('seed', getDate(mode))
+    localStorage.setItem('seed', generateSeed(mode))
     router.push('/play')
   }
 
