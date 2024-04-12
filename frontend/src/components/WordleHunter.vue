@@ -101,7 +101,7 @@
 
   <div v-if="guess_history" class="flex flex-col-reverse justify-center items-center">
     <div v-for="guess in guess_history" :key="guess.guess.name" class="flex flex-row flex-wrap justify-center items-stretch p-4">
-      <div v-for="(response_value, response_name) in guess.guess" :key="response_name" :title="responseInfoTitle(response_name, guess)" class="relative flex flex-col justify-center items-center p-4 my-4 min-w-20 border border-solid border-gray-600" :class="responseInfoStyle(response_name, guess)">
+      <div v-for="(response_value, response_name) in guess.guess" :key="response_name" :title="responseInfoTitle(response_name, guess)" class="relative flex flex-col justify-center items-center p-4 my-4 min-w-20 border border-solid border-gray-600" :class="[`history_${response_name}`, responseInfoStyle(response_name, guess)]">
         <h1 class="absolute bottom-full">{{ capitalize(response_name) }}</h1>
         <div v-for="item in formatMonsterInfoData(response_name, response_value)" :id="response_name" :key="item">
           {{ item }}
@@ -125,6 +125,16 @@
 .my-4{
   margin-top: 1rem !important;
   margin-bottom: 1rem !important;
+}
+
+@media only screen and (min-width: 1310px) {
+  .history_name       { min-width: 14rem; }
+  .history_type       { min-width: 9rem; }
+  .history_suborder   { min-width: 8rem; }
+  .history_games      { min-width: 6rem; }
+  .history_elements,
+  .history_weaknesses { min-width: 10rem; }
+  .history_statuses   { min-width: 12rem; }
 }
 
 .response_status_0 {
