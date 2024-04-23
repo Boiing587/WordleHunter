@@ -77,10 +77,9 @@ function formatPropertyTitle(property: string | string[]) {
   return property.join(', ')
 }
 
-function casualModeFilter(monster_list: Monster[], response: GuessResponse) {
+function filterType(monster_list: Monster[], response: GuessResponse): Monster[] {
   const guess = response.guess
   const result = response.result
-  // Type
   switch (result.type.status) {
     case 0:
       monster_list = monster_list.filter(monster => monster.type === guess.type)
@@ -89,10 +88,14 @@ function casualModeFilter(monster_list: Monster[], response: GuessResponse) {
     case 2:
       monster_list = monster_list.filter(monster => monster.type !== guess.type)
       break
-  }
+    }
+  return monster_list
+}
 
-  // Suborder
-  const suborder_category = result.suborder.hint ? result.suborder.hint.split('- ').slice(1) : null
+function filterSuborder(monster_list: Monster[], response: GuessResponse): Monster[] {
+  const guess = response.guess
+  const result = response.result
+  const suborder_category = result.suborder.hint ? result.suborder.hint.split('- ').slice(1).map(category => { return category.trim() }) : null
   switch (result.suborder.status) {
     case 0:
       monster_list = monster_list.filter(monster => monster.suborder === guess.suborder)
@@ -106,8 +109,12 @@ function casualModeFilter(monster_list: Monster[], response: GuessResponse) {
       monster_list = monster_list.filter(monster => monster.suborder !== guess.suborder)
       break
   }
+  return monster_list
+}
 
-  // Games
+function filterGames(monster_list: Monster[], response: GuessResponse): Monster[] {
+  const guess = response.guess
+  const result = response.result
   function sameGeneration(guess: Monster, comparator: Monster): boolean {
     const generations: string[][] = [
       [ "MH1", "MHG", "MHF1" ],
@@ -140,9 +147,13 @@ function casualModeFilter(monster_list: Monster[], response: GuessResponse) {
       monster_list = monster_list.filter(monster => monster.games[0] !== guess.games[0])
       break
   }
+  return monster_list
+}
 
-  // Elements
-  const common_elements = result.elements.hint ? result.elements.hint.split('- ').slice(1) : null
+function filterElements(monster_list: Monster[], response: GuessResponse): Monster[] {
+  const guess = response.guess
+  const result = response.result
+  const common_elements = result.elements.hint ? result.elements.hint.split('- ').slice(1).map(element => { return element.trim() }) : null
   switch (result.elements.status) {
     case 0:
       monster_list = monster_list.filter(monster => {
@@ -162,9 +173,13 @@ function casualModeFilter(monster_list: Monster[], response: GuessResponse) {
       monster_list = monster_list.filter(monster => guess.elements.every(element => !monster.elements.includes(element)))
       break
   }
+  return monster_list
+}
 
-  // Statuses
-  const common_statuses = result.statuses.hint ? result.statuses.hint.split('- ').slice(1) : null
+function filterStatuses(monster_list: Monster[], response: GuessResponse): Monster[] {
+  const guess = response.guess
+  const result = response.result
+  const common_statuses = result.statuses.hint ? result.statuses.hint.split('- ').slice(1).map(status => { return status.trim() }) : null
   switch (result.statuses.status) {
     case 0:
       monster_list = monster_list.filter(monster => {
@@ -184,10 +199,13 @@ function casualModeFilter(monster_list: Monster[], response: GuessResponse) {
       monster_list = monster_list.filter(monster => guess.statuses.every(status => !monster.statuses.includes(status)))
       break
   }
+  return monster_list
+}
 
-
-  // Weaknesses
-  const common_weaknesses = result.weaknesses.hint ? result.weaknesses.hint.split('- ').slice(1) : null
+function filterWeaknesses(monster_list: Monster[], response: GuessResponse): Monster[] {
+  const guess = response.guess
+  const result = response.result
+  const common_weaknesses = result.weaknesses.hint ? result.weaknesses.hint.split('- ').slice(1).map(weakness => { return weakness.trim() }) : null
   switch (result.weaknesses.status) {
     case 0:
       monster_list = monster_list.filter(monster => {
@@ -207,8 +225,7 @@ function casualModeFilter(monster_list: Monster[], response: GuessResponse) {
       monster_list = monster_list.filter(monster => guess.weaknesses.every(weakness => !monster.weaknesses.includes(weakness)))
       break
   }
-
   return monster_list
 }
 
-export { formatMonsterInfoData, formatPropertyTitle, responseInfoTitle, guess, responseInfoStyle, casualModeFilter }
+export { formatMonsterInfoData, formatPropertyTitle, responseInfoTitle, guess, responseInfoStyle, filterType, filterSuborder, filterGames, filterElements, filterStatuses, filterWeaknesses }
