@@ -10,7 +10,7 @@
   import type { GameList, GuessResponse, Monster } from '@models/types'
 
   import { getMonsterList, formatGameSelection, generateSeed } from '@methods/data'
-  import { casualModeFilter, formatMonsterInfoData, responseInfoStyle, responseInfoTitle, guess } from '@methods/game'
+  import { formatMonsterInfoData, responseInfoStyle, responseInfoTitle, guess, filterType, filterSuborder, filterGames, filterElements, filterStatuses, filterWeaknesses } from '@methods/game'
 
   const router = useRouter()
 
@@ -18,6 +18,7 @@
   const guessed_monster = ref<Monster>()
   const guess_response = ref<GuessResponse>()
   const guess_history = ref<GuessResponse[]>()
+  const remove_property_state = ref<Boolean>(false)
   const ls_game_selection = localStorage.getItem('game_selection')
   const casual_mode_enabled = localStorage.getItem('casual_mode') === "true" ? ref(true) : ref(false)
   let seed = localStorage.getItem('seed')
@@ -45,15 +46,48 @@
         else { guess_history.value.push(guess_response.value) }
 
         if (casual_mode_enabled.value === true) {
-          monster_list.value = casualModeFilter(monster_list.value as Monster[], guess_response.value)
+          remove_property_state.value = guess_response.value.result.correct.status === 0 ? false : true
+          // monster_list.value = casualModeFilter(monster_list.value as Monster[], guess_response.value)
         }
       })
+    guessed_monster.value = undefined
     num_guesses.value++
   }
+
+  function casualModeFilter(property: string) {
+    switch (property) {
+      case 'type':
+        monster_list.value = filterType(monster_list.value as Monster[], guess_response.value as GuessResponse)
+        break
+      case 'suborder':
+        monster_list.value = filterSuborder(monster_list.value as Monster[], guess_response.value as GuessResponse)
+        break
+      case 'games':
+        monster_list.value = filterGames(monster_list.value as Monster[], guess_response.value as GuessResponse)
+        break
+      case 'elements':
+        monster_list.value = filterElements(monster_list.value as Monster[], guess_response.value as GuessResponse)
+        break
+      case 'statuses':
+        monster_list.value = filterStatuses(monster_list.value as Monster[], guess_response.value as GuessResponse)
+        break
+      case 'weaknesses':
+        monster_list.value = filterWeaknesses(monster_list.value as Monster[], guess_response.value as GuessResponse)
+        break
+    }
+    remove_property_state.value = false
+  }
+
+    function searchBarDisabled(): boolean {
+      if (guess_response.value?.result.correct.status === 0) return true
+      if (remove_property_state.value === true) return true
+      return false
+    }
 
   function guessButtonDisabled(): boolean {
     if (!guessed_monster.value) return true
     if (guess_response.value?.result.correct.status === 0) return true
+    if (remove_property_state.value === true) return true
     return false
   }
 
@@ -66,6 +100,7 @@
     num_guesses.value = 0
     if (casual_mode_enabled.value === true) {
       loadMonsterList()
+      remove_property_state.value = false
     }
   }
 
@@ -75,9 +110,9 @@
 </script>
 
 <template>
-  <div class="flex flex-row justify-center items-center">
+  <div class="flex flex-col justify-center items-center">
     <div v-if="monster_list" class="flex flex-row justify-center items-center flex-wrap">
-      <Dropdown v-model="guessed_monster" :options="monster_list" optionLabel="name" placeholder="Select a Monster" filter showClear class="m-2 min-w-64" />
+      <Dropdown v-model="guessed_monster" :options="monster_list" optionLabel="name" placeholder="Select a Monster" filter showClear class="m-2 min-w-64" :disabled="searchBarDisabled()" />
       <Button label="Guess!" :onClick="submit" :disabled="guessButtonDisabled()" class="m-2" />
     </div>
     <div v-else-if="error">
@@ -86,10 +121,21 @@
     <div v-else>
       <p>Loading...</p>
     </div>
+    <div v-if="casual_mode_enabled" class="flex flex-col justify-center items-center pt-2">
+      <p>Select one property to filter after each guess!</p>
+      <div class="flex flex-row">
+        <Button class="mb-0 mt-4 mx-2 px-2 py-1" :disabled="!remove_property_state.valueOf()" @click="casualModeFilter('type')" >Type</Button>
+        <Button class="mb-0 mt-4 mx-2 px-2 py-1" :disabled="!remove_property_state.valueOf()" @click="casualModeFilter('suborder')" >Suborder</Button>
+        <Button class="mb-0 mt-4 mx-2 px-2 py-1" :disabled="!remove_property_state.valueOf()" @click="casualModeFilter('games')" >Games</Button>
+        <Button class="mb-0 mt-4 mx-2 px-2 py-1" :disabled="!remove_property_state.valueOf()" @click="casualModeFilter('elements')" >Elements</Button>
+        <Button class="mb-0 mt-4 mx-2 px-2 py-1" :disabled="!remove_property_state.valueOf()" @click="casualModeFilter('statuses')" >Statuses</Button>
+        <Button class="mb-0 mt-4 mx-2 px-2 py-1" :disabled="!remove_property_state.valueOf()" @click="casualModeFilter('weaknesses')" >Weaknesses</Button>
+      </div>
+    </div>
   </div>
   
   <div v-if="guess_response?.result.correct.status === 0" class="flex flex-col justify-center items-center text-center">
-    <Divider class="py-10" />
+    <Divider class="my-10" />
     <h1>{{ guess_response.guess.name }}</h1>
     <p class="pb-4">Congratulations! You successfully guessed today's monster in {{ num_guesses }} attempt(s)!</p>
     <ButtonGroup>
@@ -100,7 +146,7 @@
   </div>
 
   <div v-if="guess_history" class="flex flex-col-reverse justify-center items-center">
-    <div v-for="guess in guess_history" :key="guess.guess.name" class="flex flex-row flex-wrap justify-center items-stretch p-4">
+    <div v-for="guess in guess_history" :key="guess.guess.name" class="flex flex-row flex-wrap justify-center items-stretch p-4 guess" >
       <div v-for="(response_value, response_name) in guess.guess" :key="response_name" :title="responseInfoTitle(response_name, guess)" class="relative flex flex-col justify-center items-center p-4 my-4 min-w-20 border border-solid border-gray-600" :class="[`history_${response_name}`, responseInfoStyle(response_name, guess)]">
         <h1 class="absolute bottom-full">{{ capitalize(response_name) }}</h1>
         <div v-for="item in formatMonsterInfoData(response_name, response_value)" :id="response_name" :key="item">
@@ -109,24 +155,11 @@
       </div>
     </div>
     <p class="pb-5">Hover over each property to get more information!</p>
-    <Divider class="pt-10 pb-5" />
+    <Divider class="mt-10 mb-5" />
   </div>
 </template>
 
 <style>
-.p-dropdown-clear-icon, .p-dropdown-filter-icon {
-  top: 32% !important;
-}
-
-.m-2 {
-  margin: .5rem !important;
-}
-
-.my-4{
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
-}
-
 @media only screen and (min-width: 1310px) {
   .history_name       { min-width: 14rem; }
   .history_type       { min-width: 9rem; }

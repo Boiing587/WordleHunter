@@ -47,7 +47,7 @@ function dialogVisibilityHandler (value: boolean) {
 <template>
   <div v-if="page == 'game_select'" class="flex flex-col justify-center items-center text-center py-4">
     <p>Choose your selection of games to get started!</p>
-    <Divider class="py-10" />
+    <Divider class="my-10" />
     <p>Please keep in mind, I am <strong>not</strong> a frontend developer.</p>
     <p>I do this for fun, and even though I want to learn, I much prefer backend.</p>
     <p>I will likely work on the appearance of this site over time, but please do not expect this to look very much better than it already is.</p>
@@ -55,7 +55,7 @@ function dialogVisibilityHandler (value: boolean) {
   </div>
 
   <div v-else-if="page == 'game'" class="flex flex-col justify-center items-center">
-    <Divider class="py-10" />
+    <Divider class="my-10" />
     <p>Never tried this game before?</p>
     <p class="pb-4">Or maybe you just need a refresher?</p>
     <Button label="How to play!" @click="howToPlayVisible = true" />
@@ -113,7 +113,7 @@ function dialogVisibilityHandler (value: boolean) {
       </div>
     </Dialog>
   </div>
-  <Divider class="py-10" />
+  <Divider class="my-10" />
 </template>
 
 <style>
