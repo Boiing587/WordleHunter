@@ -3,10 +3,10 @@ import type { GameList, GuessResponse, Proximity, Monster } from "@models/types"
 const dev = false
 const base_url = !dev ? "https://wordlehunter-api.azurewebsites.net" : "http://localhost:5000"
 
-async function guess(guess: string, game_selection: GameList, seed: string | null = null) {
+async function submitGuess(guess: string, selected_games: GameList, seed: string | null = null) {
   const body = {
     guess: guess,
-    games: game_selection,
+    games: selected_games,
     seed: seed
   }
   const res = await fetch(`${base_url}/api/guess`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) })
@@ -228,4 +228,54 @@ function filterWeaknesses(monster_list: Monster[], response: GuessResponse): Mon
   return monster_list
 }
 
-export { formatMonsterInfoData, formatPropertyTitle, responseInfoTitle, guess, responseInfoStyle, filterType, filterSuborder, filterGames, filterElements, filterStatuses, filterWeaknesses }
+function shareResults(guess_history: GuessResponse[], selected_games: GameList, game_list: GameList) {
+  const seed = localStorage.getItem('seed')
+  if (seed === null) {
+    return
+  }
+  const date = `${seed.slice(0, 2)}/${seed.slice(2, 4)}/${seed.slice(4, 8)}`
+
+  const mode = seed.length === 8 ? 'daily' : 'unlimited'
+  const correct_guess = guess_history[guess_history.length - 1]
+  const games = generateShareMessageGames(selected_games, game_list)
+
+  let share_message = 'Wordle Hunter\n'
+  share_message += mode === 'daily' ? `Daily - ${date}\n${games}\n\n` : `Unlimited - Seed: ${seed}\n${games}\n\n${correct_guess.guess.name}\n`
+
+  const status_colors = [ '\u{1F7E2}', '\u{1F7E1}', '\u{1F534}']
+
+  // iterate over the guess history
+  // for each guess, add red, yellow or green based on the status of each property
+  guess_history.forEach((guess) => {
+    const result = guess.result
+    const name = result.correct.status
+    const type = result.type.status
+    const suborder = result.suborder.status
+    const games = result.game.status
+    const elements = result.elements.status
+    const statuses = result.statuses.status
+    const weaknesses = result.weaknesses.status
+    share_message += `${status_colors[name]}${status_colors[type]}${status_colors[suborder]}${status_colors[games]}${status_colors[elements]}${status_colors[statuses]}${status_colors[weaknesses]}\n`
+  })
+
+  navigator.clipboard.writeText(share_message)
+}
+
+function generateShareMessageGames(selected_games: GameList, game_list: GameList) {
+  if (JSON.stringify(selected_games) === JSON.stringify(game_list)) {
+    return 'All games'
+  }
+
+  const games = []
+  for (const gen in selected_games) {
+    if (selected_games[gen].length === game_list[gen].length) {
+      games.push(gen.replace('gen', 'Gen ').replace('frontier', 'Frontier'))
+      continue
+    }
+    selected_games[gen].forEach(game => games.push(game))
+  }
+
+  return games.join(', ')
+}
+
+export { formatMonsterInfoData, formatPropertyTitle, responseInfoTitle, submitGuess, responseInfoStyle, filterType, filterSuborder, filterGames, filterElements, filterStatuses, filterWeaknesses, shareResults }

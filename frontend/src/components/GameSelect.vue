@@ -48,7 +48,8 @@
   }
 
   function submitGameSelection(mode: string): void {
-    localStorage.setItem('game_selection', JSON.stringify(game_selection.value))
+    localStorage.setItem('selected_games', JSON.stringify(game_selection.value))
+    localStorage.setItem('game_list', JSON.stringify(game_list.value))
     localStorage.setItem('seed', generateSeed(mode))
     router.push('/play')
   }
