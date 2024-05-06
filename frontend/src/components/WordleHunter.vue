@@ -10,7 +10,7 @@
   import type { GameList, GuessResponse, Monster } from '@models/types'
 
   import { getMonsterList, formatGameSelection, generateSeed } from '@methods/data'
-  import { formatMonsterInfoData, responseInfoStyle, responseInfoTitle, guess, filterType, filterSuborder, filterGames, filterElements, filterStatuses, filterWeaknesses } from '@methods/game'
+  import { formatMonsterInfoData, responseInfoStyle, responseInfoTitle, submitGuess, filterType, filterSuborder, filterGames, filterElements, filterStatuses, filterWeaknesses, shareResults } from '@methods/game'
 
   const router = useRouter()
 
@@ -19,18 +19,19 @@
   const guess_response = ref<GuessResponse>()
   const guess_history = ref<GuessResponse[]>()
   const remove_property_state = ref<Boolean>(false)
-  const ls_game_selection = localStorage.getItem('game_selection')
+  const ls_selected_games = localStorage.getItem('selected_games')
   const casual_mode_enabled = localStorage.getItem('casual_mode') === "true" ? ref(true) : ref(false)
   let seed = localStorage.getItem('seed')
-  if (ls_game_selection === null || seed === null) {
+  if (ls_selected_games === null || seed === null) {
     router.push('/')
   }
-  const game_selection: GameList = formatGameSelection(JSON.parse(ls_game_selection as string))
+  const selected_games: GameList = formatGameSelection(JSON.parse(ls_selected_games as string))
+  const game_list: GameList = formatGameSelection(JSON.parse(localStorage.getItem('game_list') as string))
 
   const monster_list = ref<Monster[]>()
   const error = ref<Boolean>(false)
   function loadMonsterList(): void {
-    getMonsterList(game_selection)
+    getMonsterList(selected_games)
       .then((monsters) => {
         monster_list.value = monsters.sort((a, b) => (a.name > b.name ? 1 : a.name < b.name ? -1 : 0))
       })
@@ -39,7 +40,7 @@
   loadMonsterList()
 
   function submit() {
-    guess((guessed_monster.value as Monster).name, game_selection, seed)
+    submitGuess((guessed_monster.value as Monster).name, selected_games, seed)
       .then((res) => {
         guess_response.value = res
         if (guess_history.value === undefined) { guess_history.value = [guess_response.value] }
@@ -107,6 +108,13 @@
   function returnToGameSelection() {
     router.push('/')
   }
+
+  async function shareButton() {
+    shareResults(guess_history.value as GuessResponse[], selected_games, game_list)
+    const shareButtonText = document.getElementById('shareButton')?.firstElementChild
+    if (shareButtonText === null || shareButtonText === undefined) { return }
+    shareButtonText.innerHTML = 'Copied to Clipboard!'
+  }
 </script>
 
 <template>
@@ -140,6 +148,7 @@
     <p class="pb-4">Congratulations! You successfully guessed today's monster in {{ num_guesses }} attempt(s)!</p>
     <ButtonGroup>
       <Button :label="(seed as string).length > 10 ? 'Play again!' : 'Play infinite mode!'" @click="replay()" />
+      <Button label="Share your results!" id="shareButton" @click="shareButton" />
       <Button label="Return to game selection" :onClick="returnToGameSelection" />
     </ButtonGroup>
     
