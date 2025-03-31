@@ -95,8 +95,12 @@
       "MHFG",
       "MHFZ"
     ],
-    "elements": [],
-    "statuses": [],
+    "elements": [
+      "Fire"
+    ],
+    "statuses": [
+      "Sleep"
+    ],
     "weaknesses": [
       "Ice"
     ]
