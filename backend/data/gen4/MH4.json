@@ -130,7 +130,7 @@
     ]
   },
   {
-    "name": "Orshi Kirin",
+    "name": "Oroshi Kirin",
     "type": "Elder Dragon",
     "suborder": "Subspecies",
     "games": [
@@ -152,7 +152,10 @@
     "name": "Ruby Basarios",
     "type": "Flying Wyvern",
     "suborder": "Subspecies",
-    "games": [],
+    "games": [
+      "MH4",
+      "MH4U"
+    ],
     "elements": [
       "Fire"
     ],
