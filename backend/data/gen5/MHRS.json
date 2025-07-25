@@ -215,7 +215,10 @@
       "Stun",
       "Frenzy"
     ],
-    "weaknesses": []
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ]
   },
   {
     "name": "Risen Teostra",
