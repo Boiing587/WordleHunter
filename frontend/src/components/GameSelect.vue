@@ -34,7 +34,7 @@
 
   function selectAll(): void {
     if (game_list.value === undefined) { return }
-    game_selection.value = game_list.value
+    game_selection.value = {...game_list.value}
   }
 
   function anyGamesSelected(): Booleanish {
