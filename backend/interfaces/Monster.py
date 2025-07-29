@@ -7,9 +7,9 @@ class Monster(BaseModel):
     type: str
     suborder: str
     games: list[str]
-    elements: list[str] | None
-    statuses: list[str] | None
-    weaknesses: list[str] | None
+    elements: list[str]
+    statuses: list[str]
+    weaknesses: list[str]
 
     @staticmethod
     def suborderMapping():
@@ -22,12 +22,12 @@ class Monster(BaseModel):
 
     def suborderCategory(self):
         suborder_map = self.suborderMapping()
-        reverse_map: dict[str, list] = {v: k for k, values in suborder_map.items() for v in values}
-        category = suborder_map[reverse_map.get(self.suborder)]
+        reverse_map: dict[str, str] = {v: k for k, values in suborder_map.items() for v in values}
+        category = suborder_map[str(reverse_map.get(self.suborder))]
         return category
 
     def generation(self):
         generation_map = Games.generationMapping()
         reverse_map = Games.reverseGenerationMapping()
-        generation = generation_map[reverse_map.get(self.games[0])]
+        generation = generation_map[str(reverse_map.get(self.games[0]))]
         return generation

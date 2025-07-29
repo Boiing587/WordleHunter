@@ -26,7 +26,7 @@ class Games(BaseModel):
         return reverse_map
     
     @staticmethod
-    def gameNames() -> dict[str,dict[str,str]]:
+    def gameNames() -> dict[str,list[dict[str,str]]]:
         return {
             "gen1": [
                 { "code": "MH1", "name": "Monster Hunter" },
