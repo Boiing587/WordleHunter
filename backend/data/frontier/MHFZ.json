@@ -395,7 +395,10 @@
     "statuses": [
       "Extreme Thunderblight"
     ],
-    "weaknesses": []
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ]
   },
   {
     "name": "Zenith Tigrex",
