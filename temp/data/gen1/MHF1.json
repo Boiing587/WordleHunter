@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Scarred Yian Garuga",
+    "icon": "./icons/monsters/Scarred_Yian_Garuga.webp",
+    "description": "A tempered Yian Garuga that has survived a grueling battle with just a scar on its head. Be careful of its successive breath attacks.",
+    "games": [
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": null
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Bird Wyvern",
+    "alias": "Black Wolf Bird (\u9ed2\u72fc\u9ce5)",
+    "suborder": "Variant",
+    "related": [
+      "Yian Garuga",
+      "One-Eared Yian Garuga",
+      "Deadeye Yian Garuga",
+      "Yian Kut-Ku"
+    ]
+  }
+]

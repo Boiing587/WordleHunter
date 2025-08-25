@@ -1,0 +1,927 @@
+[
+  {
+    "name": "Gendrome",
+    "icon": "./icons/monsters/Gendrome.webp",
+    "description": "The alpha monster that leads a Genprey pack. They are larger and have more prominent crest. Found in the desert, they can paralyze prey using their fangs and claws.",
+    "games": [
+      "Monster Hunter",
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": "Hardcore (Monster Hunter Frontier)"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Bird Wyvern",
+    "alias": "None",
+    "suborder": "Base Species",
+    "related": [
+      "Genprey"
+    ]
+  },
+  {
+    "name": "Gypceros",
+    "icon": "./icons/monsters/Gypceros.webp",
+    "description": "Wyverns that can stun enemies by striking their prominent crests to produce powerful flashes of light. Their stretchy, rubbery hide resists blunt impacts and reduces the effectiveness of shock traps. A smart hunter knows to maneuver carefully around the poisonous filth they spew, which drips from ceilings or down slopes.",
+    "games": [
+      "Monster Hunter",
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Wilds",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Noxious Poison",
+        "icon": "./icons/attributes/Noxious_Poison.webp",
+        "note": "In Monster Hunter Freedom Unite."
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Bird Wyvern",
+    "alias": "Poison Strange Bird (\u6bd2\u602a\u9ce5)",
+    "suborder": "Base Species",
+    "related": [
+      "Purple Gypceros"
+    ]
+  },
+  {
+    "name": "Iodrome",
+    "icon": "./icons/monsters/Iodrome.webp",
+    "description": "The alpha monster that leads an Ioprey pack. They are larger and have a more prominent crest. Found in subtropical zones, they spit a poison that can sap the life force of prey.",
+    "games": [
+      "Monster Hunter",
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Bird Wyvern",
+    "alias": "None",
+    "suborder": "Base Species",
+    "related": [
+      "Ioprey"
+    ]
+  },
+  {
+    "name": "Velocidrome",
+    "icon": "./icons/monsters/Velocidrome.webp",
+    "description": "The alpha monster that leads a Velociprey pack. They are larger and have a more prominent crest. Highly territorial, but will retreat to a safe place when injured to recover.",
+    "games": [
+      "Monster Hunter",
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Soiled",
+        "icon": "./icons/attributes/Soiled.webp",
+        "note": "Hardcore (Monster Hunter Frontier)"
+      },
+      {
+        "name": "Defense",
+        "icon": "./icons/attributes/Defense.webp",
+        "note": "Hardcore (Monster Hunter Frontier)"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Bird Wyvern",
+    "alias": "None",
+    "suborder": "Base Species",
+    "related": [
+      "Giadrome",
+      "Velociprey"
+    ]
+  },
+  {
+    "name": "Yian Kut-Ku",
+    "icon": "./icons/monsters/Yian_Kut-Ku.webp",
+    "description": "Bird wyverns with impressive beaks and large ears. They tend to be skittish but will sometimes initiate attacks on a perceived threat. Yian Kut-Ku arrive in large groups during the season of Plenty in the Scarlet Forest. The absence of eggs or young suggests that the purpose of this is not to breed, but rather to seek out mates and nourishment.",
+    "games": [
+      "Monster Hunter",
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Wilds",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "From Monster Hunter 4 onwards."
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": "First/Second Generation"
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Bird Wyvern",
+    "alias": "Strange Bird (\u602a\u9ce5)",
+    "suborder": "Base Species",
+    "related": [
+      "Blue Yian Kut-Ku",
+      "Yian Garuga"
+    ]
+  },
+  {
+    "name": "Fatalis",
+    "icon": "./icons/monsters/Fatalis.webp",
+    "description": "A legendary black dragon known only as Fatalis. Rumored to have destroyed a kingdom in a single night, and has taken its castle for a roost.",
+    "games": [
+      "Monster Hunter",
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": "Until Monster Hunter 4"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Black Dragon (\u9ed2\u9f8d)",
+    "suborder": "Base Species",
+    "related": [
+      "Crimson Fatalis",
+      "Old Fatalis"
+    ]
+  },
+  {
+    "name": "Kirin",
+    "icon": "./icons/monsters/Kirin.webp",
+    "description": "Lightning-wielding mystical creatures. Said to cause lightning strikes with their unbridled howls to the sky. Classified as Elder Dragons, but due to the sheer lack of any reported sightings, their true nature remains a mystery.",
+    "games": [
+      "Monster Hunter",
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Thunderblight",
+        "icon": "./icons/attributes/Thunderblight.webp",
+        "note": "From Monster Hunter 4 onwards"
+      },
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": "Until Monster Hunter World"
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Phantom Beast (\u5e7b\u7363)",
+    "suborder": "Base Species",
+    "related": [
+      "Oroshi Kirin"
+    ]
+  },
+  {
+    "name": "Lao-Shan Lung",
+    "icon": "./icons/monsters/Lao-Shan_Lung.webp",
+    "description": "A giant dragon that has only been rarely sighted. It periodically prowls close to inhabited areas, and the damage it causes is comparable to that wreaked by a natural disaster. Its habits are a mystery, and no one knows why it occasionally wanders. The Guild has built defensive barricades where they appear, but to what effect.",
+    "games": [
+      "Monster Hunter",
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": "Until Monster Hunter Generations Ultimate"
+      }
+    ],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Old Mountain Dragon (\u8001\u5c71\u9f8d)",
+    "suborder": "Base Species",
+    "related": [
+      "Ashen Lao-Shan Lung"
+    ]
+  },
+  {
+    "name": "Basarios",
+    "icon": "./icons/monsters/Basarios.webp",
+    "description": "The juvenile form of Gravios, their most distinctive feature is the rock-hard carapace on their backs. Spend most of their time buried underground pretending to be boulders.",
+    "games": [
+      "Monster Hunter",
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "From Monster Hunter 4 onwards"
+      },
+      {
+        "name": "Sleep Attribute",
+        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Noxious Poison",
+        "icon": "./icons/attributes/Noxious_Poison.webp",
+        "note": "In G Rank (Fourth Generation)"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Rock Wyvern (\u5ca9\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Ruby Basarios",
+      "Gravios"
+    ]
+  },
+  {
+    "name": "Diablos",
+    "icon": "./icons/monsters/Diablos.webp",
+    "description": "Feared as tyrants of the desert, these Flying Wyverns attack any who stray into their territory. They use their huge horns in dash attacks to devastating effect. Their diet is comprised mostly of cacti.",
+    "games": [
+      "Monster Hunter",
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 3",
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": "First Generation"
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Horned Wyvern (\u89d2\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Black Diablos",
+      "Bloodbath Diablos",
+      "Apex Diablos",
+      "Monoblos"
+    ]
+  },
+  {
+    "name": "Gravios",
+    "icon": "./icons/monsters/Gravios.webp",
+    "description": "Large wyverns found in Oilwell Basin. They have a developed physique, powerful heat rays, and a host of gases they can emit from their body. Their bony carapaces are famously tough but expose a surprisingly brittle interior once destroyed.",
+    "games": [
+      "Monster Hunter",
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Wilds",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "From Monster Hunter 4 onwards"
+      },
+      {
+        "name": "Sleep Attribute",
+        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": "In Monster Hunter Wilds"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Armor Wyvern (\u93a7\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Black Gravios",
+      "Zenith Gravios",
+      "Basarios",
+      "Greadios"
+    ]
+  },
+  {
+    "name": "Khezu",
+    "icon": "./icons/monsters/Khezu.webp",
+    "description": "Loathsome Flying Wyverns that dwell in caves and other dark places. All but blind, Khezu hunt by smell, using electric shocks to paralyze their prey before pouncing on them from the walls or ceiling.",
+    "games": [
+      "Monster Hunter",
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Thunderblight",
+        "icon": "./icons/attributes/Thunderblight.webp",
+        "note": "From Monster Hunter 4 onwards"
+      },
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      },
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Strange Wyvern (\u5947\u602a\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Red Khezu"
+    ]
+  },
+  {
+    "name": "Monoblos",
+    "icon": "./icons/monsters/Monoblos.webp",
+    "description": "Endowed with an impressive cranial horn. They use this large horn in brutal attacks, screeching ear-splitting war cries. Defeating one is considered a truly heroic feat among Hunters.",
+    "games": [
+      "Monster Hunter",
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "One Horned Wyvern (\u4e00\u89d2\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "White Monoblos"
+    ]
+  },
+  {
+    "name": "Rathalos",
+    "icon": "./icons/monsters/Rathalos.webp",
+    "description": "Fearsome male wyverns known as the \u201cKings of the Skies.\u201d Alongside the Rathian, they stake out a wide territory around their nest, and it is the male\u2019s role to watch from above. Armed with powerful poisonous claws and fiery breath, Rathalos use their aerial prowess to descend on invaders.",
+    "games": [
+      "Monster Hunter",
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 3",
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Wilds",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": "Until Monster Hunter Freedom Unite."
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "From Monster Hunter 3 onwards."
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": "First Generation"
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": "Second Generation"
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": "Third Generation onwards"
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Fire Wyvern (\u706b\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Azure Rathalos",
+      "Silver Rathalos",
+      "Dreadking Rathalos",
+      "Apex Rathalos",
+      "Guardian Rathalos",
+      "Rathian"
+    ]
+  },
+  {
+    "name": "Rathian",
+    "icon": "./icons/monsters/Rathian.webp",
+    "description": "Fire-breathing female wyverns known as the \u201cQueens of the Land.\u201d Their powerful legs and venomous tails make them efficient ground hunters. At times, Rathian and Rathalos can be sighted hunting as a couple. After laying eggs, Rathian are extremely watchful of their nests. Proceed with extra caution, as a mother will move swiftly to protect her young.",
+    "games": [
+      "Monster Hunter",
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 3",
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Wilds",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "From Monster Hunter 3 onwards."
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Female Fire Wyvern (\u96cc\u706b\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Pink Rathian",
+      "Gold Rathian",
+      "Dreadqueen Rathian",
+      "Apex Rathian",
+      "Rathalos"
+    ]
+  },
+  {
+    "name": "Cephadrome",
+    "icon": "./icons/monsters/Cephadrome.webp",
+    "description": "Alpha monsters that lead group of Cephalos. Hardened black scales set them apart from the smaller Cephalos. They have excellent hearing, making them sensitive to loud noises. Their fins also secrete a paralytic agent.",
+    "games": [
+      "Monster Hunter",
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "icon": "./icons/attributes/Waterblight.webp",
+        "note": "From Monster Hunter 4 Ultimate onwards"
+      },
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": "First Generation"
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Piscine Wyvern",
+    "alias": "Sand Wyvern (\u7802\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Cephalos"
+    ]
+  },
+  {
+    "name": "Plesioth",
+    "icon": "./icons/monsters/Plesioth.webp",
+    "description": "Huge beasts active both on land and in water. With wings that have adapted to swimming rather than flight, these monsters leap from the water to snatch prey and drag them down in the depths to feast upon.",
+    "games": [
+      "Monster Hunter",
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "icon": "./icons/attributes/Waterblight.webp",
+        "note": "From Monster Hunter 3 Ultimate onwards"
+      },
+      {
+        "name": "Sleep Attribute",
+        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "note": "Except Monster Hunter 3 Ultimate"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Piscine Wyvern",
+    "alias": "Water Wyvern (\u6c34\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Green Plesioth"
+    ]
+  }
+]

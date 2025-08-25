@@ -1,0 +1,327 @@
+[
+  {
+    "name": "Nightcloak Malfestio",
+    "icon": "./icons/monsters/Nightcloak_Malfestio.webp",
+    "description": "This huge bird wyvern with its twilight-colored wings uses special scales to refract light and hide itself from its prey. This is why it's also known as \"Nightcloak\". Whoever or whatever sees it, be they monster or human, stands no chance of survival. Requires special permission to hunt.",
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Sleep Attribute",
+        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Confusion",
+        "icon": "./icons/attributes/Confusion.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Bird Wyvern",
+    "alias": "Nocturnal Bird (\u591c\u9ce5)",
+    "suborder": "Deviant",
+    "related": [
+      "Malfestio"
+    ]
+  },
+  {
+    "name": "Rustrazor Ceanataur",
+    "icon": "./icons/monsters/Rustrazor_Ceanataur.webp",
+    "description": "The Rustrazor Ceanataur uses its huge pincers and the shell on its back to attack any assailants. From its Gravios shell it shoots jets of water that drill into the ground, and its Glavenus-shaped pincers can shear through steel. This two-sided nature makes it a force to be reckoned with, and earned it the name \"Rustrazor\". Requires special permission to hunt.",
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "elements": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "icon": "./icons/attributes/Waterblight.webp",
+        "note": null
+      },
+      {
+        "name": "Defense",
+        "icon": "./icons/attributes/Defense.webp",
+        "note": null
+      },
+      {
+        "name": "Bleeding",
+        "icon": "./icons/attributes/Bleeding.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Carapaceon",
+    "alias": "Sickle Crab (\u938c\u87f9)",
+    "suborder": "Deviant",
+    "related": [
+      "Shogun Ceanataur",
+      "Terra Shogun Ceanataur",
+      "Ceanataur"
+    ]
+  },
+  {
+    "name": "Valstrax",
+    "icon": "./icons/monsters/Valstrax.webp",
+    "description": "An elder dragon that soars at very high altitudes far from human habitation. Its flaming red wings are often the only visible sign of it, giving rise to its nickname, the Argent Comet. Those wings aren't just for flying, though, and are easily used to stab, rend and blow away its enemies. Occasionally, one can find the scorched shells it has left behind.",
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "elements": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Dragonblight",
+        "icon": "./icons/attributes/Dragonblight.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Sky Comet Dragon (\u5929\u5f57\u9f8d)",
+    "suborder": "Base Species",
+    "related": [
+      "Crimson Glow Valstrax",
+      "Risen Crimson Glow Valstrax"
+    ]
+  },
+  {
+    "name": "Elderfrost Gammoth",
+    "icon": "./icons/monsters/Elderfrost_Gammoth.webp",
+    "description": "These Gammoth Deviants have grown so immense that their silvery backs could be mistaken for the foot of a mountain. Vast plains frost over where they tread, and blizzards follow in their wake. The superstitious believe they are mountains themselves that have come alive.",
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "elements": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Iceblight",
+        "icon": "./icons/attributes/Iceblight.webp",
+        "note": null
+      },
+      {
+        "name": "Snowman",
+        "icon": "./icons/attributes/Snowman.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": "When Ice armoured"
+      }
+    ],
+    "type": "Fanged Beast",
+    "alias": "Giant Beast (\u5de8\u7363)",
+    "suborder": "Deviant",
+    "related": [
+      "Gammoth"
+    ]
+  },
+  {
+    "name": "Boltreaver Astalos",
+    "icon": "./icons/monsters/Boltreaver_Astalos.webp",
+    "description": "These Astalos Deviants unleash electric bolts as blue as the clear sky. Their highly developed shockshells produce electromagnetic spheres to trap prey, which all but disappears among the crackling streaks of blue.",
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "elements": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Thunderblight",
+        "icon": "./icons/attributes/Thunderblight.webp",
+        "note": null
+      },
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Lightning Wyvern (\u96fb\u7adc)",
+    "suborder": "Deviant",
+    "related": [
+      "Astalos"
+    ]
+  },
+  {
+    "name": "Bloodbath Diablos",
+    "icon": "./icons/monsters/Bloodbath_Diablos.webp",
+    "description": "These Diablos Deviants are easily identified by their broken left horn, which branches out into three points. Their viciousness and terrifying power make all but the most daring flee in despair.",
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Two-Horned Wyvern (\u89d2\u7adc)",
+    "suborder": "Deviant",
+    "related": [
+      "Diablos",
+      "Black Diablos"
+    ]
+  },
+  {
+    "name": "Soulseer Mizutsune",
+    "icon": "./icons/monsters/Soulseer_Mizutsune.webp",
+    "description": "These Mizutsune Deviants lost their eyesight but adapted to use their bubbles as another sense. The malice of an undying grudge burns within their closed eyes.",
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": null
+      },
+      {
+        "name": "Waterblight",
+        "icon": "./icons/attributes/Waterblight.webp",
+        "note": null
+      },
+      {
+        "name": "Bubbleblight",
+        "icon": "./icons/attributes/Bubbleblight.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Leviathan",
+    "alias": "Bubble Fox Wyvern (\u6ce1\u72d0\u7adc)",
+    "suborder": "Deviant",
+    "related": [
+      "Mizutsune",
+      "Apex Mizutsune",
+      "Violet Mizutsune"
+    ]
+  },
+  {
+    "name": "Ahtal-Ka",
+    "icon": "./icons/monsters/Ahtal-Ka.webp",
+    "description": "The golden empress of praying mantises resides in a huge, ruined castle. She flattens towns and fortresses, and uses the wreckage to build her lair ever larger. It's rumored that the Empress's Throne, as it is known, is strewn with golden cocoons and webbing, which contain stolen treasures.",
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Defense",
+        "icon": "./icons/attributes/Defense.webp",
+        "note": null
+      },
+      {
+        "name": "Webbed",
+        "icon": "./icons/attributes/Webbed.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Neopteron",
+    "alias": "Pavilion Mantis (\u95a3\u87b3\u8782)",
+    "suborder": "Base Species",
+    "related": []
+  }
+]

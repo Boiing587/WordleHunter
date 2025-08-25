@@ -1,0 +1,793 @@
+[
+  {
+    "name": "Daimyo Hermitaur",
+    "icon": "./icons/monsters/Daimyo_Hermitaur.webp",
+    "description": "Large Carapaceons that live in coastal regions and sandy soil. Daimyo Hermitaurs use their massive claws to guard themselves against enemy attacks. These creatures wear wyvern skulls on their backs, unlike the shells carried in their infancy. These shells serve not only as protection, but also as a method for attacking prey. They are highly valued for their materials\u2014their brains in particular.",
+    "games": [
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "icon": "./icons/attributes/Waterblight.webp",
+        "note": "From Monster Hunter 4 Ultimate onwards"
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": "In Monster Hunter Online"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Carapaceon",
+    "alias": "Shield Crab (\u76fe\u87f9)",
+    "suborder": "Base Species",
+    "related": [
+      "Hermitaur",
+      "Plum Daimyo Hermitaur",
+      "Stonefist Hermitaur"
+    ]
+  },
+  {
+    "name": "Shen Gaoren",
+    "icon": "./icons/monsters/Shen_Gaoren.webp",
+    "description": "A giant Carapaceon with an equally giant monster's skull on its back. Prone to roaming and fiercely territorial, any intruders will be met with opposition, so nearby forts or towns must be warned of its presence.",
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter 2",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": "Monster Hunter Frontier"
+      }
+    ],
+    "type": "Carapaceon",
+    "alias": "Fortress Crab (\u7826\u87f9)",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
+    "name": "Shogun Ceanataur",
+    "icon": "./icons/monsters/Shogun_Ceanataur.webp",
+    "description": "These large Carapaceons can be found around volcanoes and in the Flooded Forest. Shogun Ceanataur wield long, developed claws that are usually folded away, but unfurl into terrifying blades when enraged. Shogun Ceanataur, like the Daimyo Hermitaur, are also known to use wyvern skulls as shells. Specimens that do, have been observed using a water jet-like attack.",
+    "games": [
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "icon": "./icons/attributes/Waterblight.webp",
+        "note": "From Monster Hunter Generations onwards"
+      },
+      {
+        "name": "Bleeding",
+        "icon": "./icons/attributes/Bleeding.webp",
+        "note": "From Monster Hunter Generations onwards"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Carapaceon",
+    "alias": "Sickle Crab (\u938c\u87f9)",
+    "suborder": "Base Species",
+    "related": [
+      "Terra Shogun Ceanataur",
+      "Rustrazor Ceanataur",
+      "Ceanataur"
+    ]
+  },
+  {
+    "name": "Chameleos",
+    "icon": "./icons/monsters/Chameleos.webp",
+    "description": "Precious few sightings of this elder dragon have been recorded, leading to claims it can vanish into its environment like a chameleon -- hence its name. Witnesses report attacks can come out of nowhere, but that Smoke Bombs keep the beast visible.",
+    "games": [
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": "In Second Generation/Monster Hunter Rise: Sunbreak"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": "Until Monster Hunter Rise"
+      },
+      {
+        "name": "Noxious Poison",
+        "icon": "./icons/attributes/Noxious_Poison.webp",
+        "note": "In Monster Hunter Rise: Sunbreak"
+      },
+      {
+        "name": "Fatigued",
+        "icon": "./icons/attributes/Fatigued.webp",
+        "note": "Until Monster Hunter 4 Ultimate"
+      },
+      {
+        "name": "Defense",
+        "icon": "./icons/attributes/Defense.webp",
+        "note": "Until Monster Hunter 4 Ultimate"
+      },
+      {
+        "name": "Vocal Cord Paralysis",
+        "icon": "./icons/attributes/Vocal_Cord_Paralysis.webp",
+        "note": "Until Monster Hunter 4 Ultimate"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": "Monster Hunter Frontier"
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Mist Dragon (\u971e\u9f8d)",
+    "suborder": "Base Species",
+    "related": [
+      "Risen Chameleos"
+    ]
+  },
+  {
+    "name": "Old Fatalis",
+    "icon": "./icons/monsters/Old_Fatalis.webp",
+    "description": "???",
+    "games": [
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Thunderblight",
+        "icon": "./icons/attributes/Thunderblight.webp",
+        "note": "From Monster Hunter 4 Ultimate onwards"
+      },
+      {
+        "name": "Dragonblight",
+        "icon": "./icons/attributes/Dragonblight.webp",
+        "note": "From Monster Hunter 4 Ultimate onwards"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Ancestral Dragon (\u7956\u9f8d)",
+    "suborder": "Base Species",
+    "related": [
+      "Fatalis",
+      "Crimson Fatalis"
+    ]
+  },
+  {
+    "name": "Kushala Daora",
+    "icon": "./icons/monsters/Kushala_Daora.webp",
+    "description": "Giant Elder Dragons clad in metal plating. Enrobed in gale-strength winds, they whip up storms wherever they go. When enraged, they unleash devastating vortexes that send foes flying. Getting close to one is no mean feat.",
+    "games": [
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": "On Cold Terrain/High level Guild Quests (Monster Hunter 4 Ultimate)"
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": " In Second Generation/Monster Hunter Generations Ultimate/Monster Hunter Rise: Sunbreak"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Iceblight",
+        "icon": "./icons/attributes/Iceblight.webp",
+        "note": "On Cold Terrain from Monster Hunter 4 onwards"
+      },
+      {
+        "name": "Dragonblight",
+        "icon": "./icons/attributes/Dragonblight.webp",
+        "note": "In Monster Hunter Generations Ultimate/Monster Hunter Rise: Sunbreak"
+      },
+      {
+        "name": "Snowman",
+        "icon": "./icons/attributes/Snowman.webp",
+        "note": "On Cold Terrain until Monster Hunter World"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": "Second Generation/MHNow"
+      },
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Steel Dragon (\u92fc\u9f8d)",
+    "suborder": "Base Species",
+    "related": [
+      "Rusted Kushala Daora",
+      "Risen Kushala Daora"
+    ]
+  },
+  {
+    "name": "Rusted Kushala Daora",
+    "icon": "./icons/monsters/Rusted_Kushala_Daora.webp",
+    "description": "A metal plated dragon known as the tempest of wind. Eyewitnesses report violent storms alongside the dragon, and its wide range means towns may be attacked.",
+    "games": [
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": "On Cold Terrain"
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": "Until Monster Hunter 4 Ultimate"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Iceblight",
+        "icon": "./icons/attributes/Iceblight.webp",
+        "note": "On Cold Terrain"
+      },
+      {
+        "name": "Snowman",
+        "icon": "./icons/attributes/Snowman.webp",
+        "note": "On Cold Terrain"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": "Monster Hunter Frontier"
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Steel Dragon (\u92fc\u9f8d)",
+    "suborder": "Variant",
+    "related": [
+      "Kushala Daora",
+      "Risen Kushala Daora"
+    ]
+  },
+  {
+    "name": "Lunastra",
+    "icon": "./icons/monsters/Lunastra.webp",
+    "description": "A brutal female Elder Dragon with breath of flame and expert control over fire. It is said that this control comes from the crown-like horns on its head, but this has not been confirmed.",
+    "games": [
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": "Until Monster Hunter World"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "From Monster Hunter World onwards"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": "Second Generation"
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Flame Queen Dragon (\u708e\u5983\u9f8d)",
+    "suborder": "Base Species",
+    "related": [
+      "Teostra"
+    ]
+  },
+  {
+    "name": "Teostra",
+    "icon": "./icons/monsters/Teostra.webp",
+    "description": "Wreathed in flame, they wield blistering breath attacks. Easily angered, any who stand against them face their unyielding molten judgement. The Guild monitors their movements and moods due to the threat they pose.",
+    "games": [
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": "Until Monster Hunter 4"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "From Monster Hunter 4 onwards"
+      },
+      {
+        "name": "Blastblight",
+        "icon": "./icons/attributes/Blastblight.webp",
+        "note": "From Monster Hunter 4 onwards"
+      },
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": "In Fourth Generation"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": "Second Generation"
+      },
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Flame King Dragon (\u708e\u738b\u9f8d)",
+    "suborder": "Base Species",
+    "related": [
+      "Risen Teostra",
+      "Lunastra",
+      "Toastra"
+    ]
+  },
+  {
+    "name": "Yama Tsukami",
+    "icon": "./icons/monsters/Yama_Tsukami.webp",
+    "description": "An Elder Dragon that floats through the sky. A bite of earth, a drink of forest, it\u2019s a veritable god of the sky made of the richest soil. Ancient trees grow thick on its back like on a mountain. It\u2019s rumored to live near a forlorn, remote tower.",
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 2",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Floating Mountain Dragon (\u6d6e\u5cb3\u9f8d)",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
+    "name": "Blangonga",
+    "icon": "./icons/monsters/Blangonga.webp",
+    "description": "Large, white fanged beasts that rule over other Blango, attacking intruders as a pack. Its muscularity and mobility allows it to strike swiftly, even on fresh snow, and pounce from long distances - so hunters with long-range weapons still need to stay on guard. Large tusks are the mark of a powerful leader.",
+    "games": [
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Wilds",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Iceblight",
+        "icon": "./icons/attributes/Iceblight.webp",
+        "note": "From Monster Hunter Generations onwards"
+      },
+      {
+        "name": "Snowman",
+        "icon": "./icons/attributes/Snowman.webp",
+        "note": "Until Monster Hunter Wilds."
+      },
+      {
+        "name": "Frostblight",
+        "icon": "./icons/attributes/Frostblight.webp",
+        "note": "In Monster Hunter Wilds"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Beast",
+    "alias": "Snow Lion (\u96ea\u7345\u5b50)",
+    "suborder": "Base Species",
+    "related": [
+      "Copper Blangonga",
+      "Zenith Blangonga",
+      "Flame Blangonga",
+      "Blango"
+    ]
+  },
+  {
+    "name": "Bulldrome",
+    "icon": "./icons/monsters/Bulldrome.webp",
+    "description": "Powerful alpha monsters that lead Bullfango herds. They mow down their prey with their sturdy tusks. Not only are they more aggressive than a regular Bullfango, but also far more alert.",
+    "games": [
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Beast",
+    "alias": "Great Boar (\u5927\u732a)",
+    "suborder": "Base Species",
+    "related": [
+      "Bullfango"
+    ]
+  },
+  {
+    "name": "Congalala",
+    "icon": "./icons/monsters/Congalala.webp",
+    "description": "Large fanged beasts with pink fur and a distinct crest, which the males sculpt with plant oils and juices as a sign of virility. Congalala are common in temperate forests and are therefore well researched. They're big eaters and love mushrooms, which they absorb and then exhale as a variety of potent breaths that inflict poison, blast, paralysis, and more.",
+    "games": [
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Wilds",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": "Depends on Mushroom eaten, or if Tempered"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "Depends on Mushroom eaten, or if Tempered"
+      },
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": "Depends on Mushroom eaten, or if Tempered"
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": "Depends on Mushroom eaten, or if Tempered"
+      },
+      {
+        "name": "Blastblight",
+        "icon": "./icons/attributes/Blastblight.webp",
+        "note": "Depends on Mushroom eaten, or if Tempered"
+      },
+      {
+        "name": "Soiled",
+        "icon": "./icons/attributes/Soiled.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Beast",
+    "alias": "Pink Fur Beast (\u6843\u6bdb\u7363)",
+    "suborder": "Base Species",
+    "related": [
+      "Emerald Congalala",
+      "Conga"
+    ]
+  },
+  {
+    "name": "Rajang",
+    "icon": "./icons/monsters/Rajang.webp",
+    "description": "The lack of confirmed sightings of these ultra-aggressive Fanged Beasts is a testament to their power, and also the reason why so little is known about their natural habitat. Widely regarded as the pinnacle of physical prowess.",
+    "games": [
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Thunderblight",
+        "icon": "./icons/attributes/Thunderblight.webp",
+        "note": "From Monster Hunter 4 onwards"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Beast",
+    "alias": "Gold Lion (\u91d1\u7345\u5b50)",
+    "suborder": "Base Species",
+    "related": [
+      "Furious Rajang"
+    ]
+  },
+  {
+    "name": "King Shakalaka",
+    "icon": "./icons/monsters/King_Shakalaka.webp",
+    "description": "This Shakalaka chieftain pulls together the Shakalaka's as one, in order to act. Extremely quick to anger when approached, this hot-head can invoke his fiery wrath with emotion alone. Feared by even the most skilled hunters.",
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Sleep Attribute",
+        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Lynian",
+    "alias": "None",
+    "suborder": "Base Species",
+    "related": [
+      "Shakalaka"
+    ]
+  }
+]

@@ -1,0 +1,810 @@
+[
+  {
+    "name": "Kulu-Ya-Ku",
+    "icon": "./icons/monsters/Kulu-Ya-Ku.webp",
+    "description": "A bird wyvern that has developed limbs capable of carrying objects. It has been spotted stealing eggs from the nests. If attacked while carrying an egg, it will drop the egg in fright and flee. When enraged, a Kulu-Ya-Ku will dig up a small boulder to shield itself against threats or use it in its attacks.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": "In Master Rank (Monster Hunter World: Iceborne)"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      },
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "In Master Rank (Monster Hunter World: Iceborne)"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Bird Wyvern",
+    "alias": "Scratching Bird (\u63bb\u9ce5)",
+    "suborder": "Base Species",
+    "related": [
+      "Tzitzi-Ya-Ku"
+    ]
+  },
+  {
+    "name": "Pukei-Pukei",
+    "icon": "./icons/monsters/Pukei-Pukei.webp",
+    "description": "A bird wyvern whose body contains a poisonous fluid. It ensnares its prey by brandishing its whiplike tongue, which can be expanded and contracted at will. By mixing the berries and plants it consumes with the venom in its body, it can release a devastating poison breath attack.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": "After eating a Scatternut {Monster Hunter World: Iceborne)"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Bird Wyvern",
+    "alias": "Poison Bewitching Bird (\u6bd2\u5996\u9ce5)",
+    "suborder": "Base Species",
+    "related": [
+      "Coral Pukei-Pukei"
+    ]
+  },
+  {
+    "name": "Tzitzi-Ya-Ku",
+    "icon": "./icons/monsters/Tzitzi-Ya-Ku.webp",
+    "description": "A monster that spreads its luminous pulsing organs when it spots prey or natural enemies, blinding them with a flash of light in order to create an opening. They make use of their astonishing leg power in order to finish off helpless prey.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Bird Wyvern",
+    "alias": "Dazzling Bird (\u7729\u9ce5)",
+    "suborder": "Base Species",
+    "related": [
+      "Kulu-Ya-Ku"
+    ]
+  },
+  {
+    "name": "Anjanath",
+    "icon": "./icons/monsters/Anjanath.webp",
+    "description": "Infamous for its belligerence, this brute wyvern indiscriminately attacks all without hesitation. The large membrane extending from its waist to the base of its tail fans out when it becomes agitated. This fan-like membrane is thought to be used not only for intimidation, but also as a mode of body temperature control. This is attributed to the fact that when Anjanath expels flames from its mouth, the membrane has been spotted expanding in tandem, releasing excess heat.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Brute Wyvern",
+    "alias": "Savage Jaw Wyvern (\u86ee\u984e\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Fulgur Anjanath",
+      "Guardian Fulgur Anjanath"
+    ]
+  },
+  {
+    "name": "Radobaan",
+    "icon": "./icons/monsters/Radobaan.webp",
+    "description": "A brute wyvern that feeds on the bones of corpses, adorning them all over its body. They have been sighted curling their bodies up into a ball and rolling around in order to attack foes.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Sleep Attribute",
+        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Brute Wyvern",
+    "alias": "Bone Hammer Wyvern (\u9aa8\u939a\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Uragaan"
+    ]
+  },
+  {
+    "name": "Behemoth",
+    "icon": "./icons/monsters/Behemoth.webp",
+    "description": "A powerful beast from another world. Its large horns and muscular frame defy nature. Unique strategies are required to battle it.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": null
+      },
+      {
+        "name": "Thunderblight",
+        "icon": "./icons/attributes/Thunderblight.webp",
+        "note": null
+      },
+      {
+        "name": "Bleeding",
+        "icon": "./icons/attributes/Bleeding.webp",
+        "note": null
+      },
+      {
+        "name": "Defense",
+        "icon": "./icons/attributes/Defense.webp",
+        "note": "Extreme Behemoth"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Demon Beast",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
+    "name": "Kulve Taroth",
+    "icon": "./icons/monsters/Kulve_Taroth.webp",
+    "description": "Elder Dragons that protect themselves with a glittering coat of metal over their scales. Some of the precious metal comes from the weapons of defeated Hunters who once tried to slay them.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": "While golden mantle is intact"
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Glorious Dragon (\u721b\u8f1d\u9f8d)",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
+    "name": "Nergigante",
+    "icon": "./icons/monsters/Nergigante.webp",
+    "description": "Large Elder Dragons bristling with sharp spikes, single-minded in spreading destruction. They possess an astonishing regenerative power, recovering from wounds almost instantly.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Extinction Dragon (\u6ec5\u5c3d\u9f8d)",
+    "suborder": "Base Species",
+    "related": [
+      "Ruiner Nergigante"
+    ]
+  },
+  {
+    "name": "Vaal Hazak",
+    "icon": "./icons/monsters/Vaal_Hazak.webp",
+    "description": "A grotesque Elder Dragon, that inhabits the deepest part of the Rotten Vale. It uses the fatal vapor of the vale in what appears to be a symbiotic relationship.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Effluvium",
+        "icon": "./icons/attributes/Effluvium.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Corpse Coat Dragon (\u5c4d\u5957\u9f8d)",
+    "suborder": "Base Species",
+    "related": [
+      "Blackveil Vaal Hazak"
+    ]
+  },
+  {
+    "name": "Xeno'jiiva",
+    "icon": "./icons/monsters/Xeno'jiiva.webp",
+    "description": "A new species discovered in the depths of the Elder's Recess. Its relationship to the other elder dragons is unclear, as is its ecology.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": null
+      },
+      {
+        "name": "Dragonblight",
+        "icon": "./icons/attributes/Dragonblight.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": "When supercritical"
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": "When supercritical"
+      },
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": "When supercritical"
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Dark Beacon Dragon (\u51a5\u706f\u9f8d)",
+    "suborder": "Base Species",
+    "related": [
+      "Safi'jiiva"
+    ]
+  },
+  {
+    "name": "Zorah Magdaros",
+    "icon": "./icons/monsters/Zorah_Magdaros.webp",
+    "description": "An elder dragon that rises from the earth like a volcano. Where it's headed, and why, the Research Commission has yet to figure out.",
+    "games": [
+      "Monster Hunter: World"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": null
+      },
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Molten Mountain Dragon (\u7194\u5c71\u9f8d)",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
+    "name": "Dodogama",
+    "icon": "./icons/monsters/Dodogama.webp",
+    "description": "A monster that devours rock as its primary diet. The Crystals it devours mix with its saliva to produce explosive minerals that it can spit at its enemies.",
+    "games": [
+      "Monster Hunter: World"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Blastblight",
+        "icon": "./icons/attributes/Blastblight.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Wyvern",
+    "alias": "Rock Bandit Wyvern (\u5ca9\u8cca\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Great Jagras"
+    ]
+  },
+  {
+    "name": "Great Girros",
+    "icon": "./icons/monsters/Great_Girros.webp",
+    "description": "This carnivorous monster prowls its territory, seeking out prey. It takes down its target using the paralytic toxins secreted from its large fangs.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Wyvern",
+    "alias": "Paralyzing Bandit Wyvern (\u75fa\u8cca\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Girros"
+    ]
+  },
+  {
+    "name": "Great Jagras",
+    "icon": "./icons/monsters/Great_Jagras.webp",
+    "description": "The leader of a pack of Jagras. Renowned for their voracious appetite, they will mercilessly assault even monsters higher up in the food chain. The sight of it devouring its prey whole is one to behold.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Wyvern",
+    "alias": "Bandit Wyvern (\u8cca\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Jagras"
+    ]
+  },
+  {
+    "name": "Odogaron",
+    "icon": "./icons/monsters/Odogaron.webp",
+    "description": "A fanged wyvern that roams about in search of carcasses. They have a habit of dragging their captured prey and hunks of meat back to their nest.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Bleeding",
+        "icon": "./icons/attributes/Bleeding.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Wyvern",
+    "alias": "Cruel Claw Wyvern (\u60e8\u722a\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Ebony Odogaron",
+      "Guardian Ebony Odogaron"
+    ]
+  },
+  {
+    "name": "Tobi-Kadachi",
+    "icon": "./icons/monsters/Tobi-Kadachi.webp",
+    "description": "Fanged Wyverns inhabiting forest habitats. Sharp claws allow them to climb up tree trunks with ease, building up static electricity within their fur as they rub against the bark. They can also glide through the air, thanks to the membrane stretching between their front and hind legs.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
+    "elements": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Thunderblight",
+        "icon": "./icons/attributes/Thunderblight.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Wyvern",
+    "alias": "Flying Thunder Wyvern (\u98db\u96f7\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Viper Tobi-Kadachi"
+    ]
+  },
+  {
+    "name": "Bazelgeuse",
+    "icon": "./icons/monsters/Bazelgeuse.webp",
+    "description": "Flying Wyverns that travel the world in search of prey. They scatter explosive scales over a wide area to prey on whatever gets caught in the blast.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Explosive Scale Wyvern (\u7206\u9c57\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Seething Bazelgeuse"
+    ]
+  },
+  {
+    "name": "Legiana",
+    "icon": "./icons/monsters/Legiana.webp",
+    "description": "Not even the strongest winds can take away from the gracefulness with which Legiana soar high in the skies. These swift, kite-like Flying Wyverns emit a chilling wind from their bodies, which dull their prey's ability to escape.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
+    "elements": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Iceblight",
+        "icon": "./icons/attributes/Iceblight.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Wind Drifting Wyvern (\u98a8\u6f02\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Shrieking Legiana"
+    ]
+  },
+  {
+    "name": "Paolumu",
+    "icon": "./icons/monsters/Paolumu.webp",
+    "description": "Paolumu inflate the sacs in their bodies to float in the air, directing their flight by exhaling this way or that. They can slow down their prey with bursts of compressed air to create an opening for a powerful tail attack.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Floating Sky Wyvern (\u6d6e\u7a7a\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Nightshade Paolumu"
+    ]
+  },
+  {
+    "name": "Jyuratodus",
+    "icon": "./icons/monsters/Jyuratodus.webp",
+    "description": "A piscine wyvern that makes its habitat in muddy swamps. It has a tendency to use mud as a means by which to both camouflage itself and hunt with. It is believed that they coat themselves with mud in order to restore moisture to their scales, which grow brittle and inhibit cutaneous respiration when dehydrated. Exercise caution should you come across the mud which Jyuratodus spits out, as its high viscosity can easily restrict body movement.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
+    "elements": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "icon": "./icons/attributes/Waterblight.webp",
+        "note": null
+      },
+      {
+        "name": "Muddy",
+        "icon": "./icons/attributes/Muddy.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": "With Mud armour"
+      }
+    ],
+    "type": "Piscine Wyvern",
+    "alias": "Mud Fish Wyvern (\u6ce5\u9b5a\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Lavasioth"
+    ]
+  },
+  {
+    "name": "Leshen",
+    "icon": "./icons/monsters/Leshen.webp",
+    "description": "Dwelling deep inside the forest, these creatures use their innate magic to control all flora and fauna within their territory.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Bleeding",
+        "icon": "./icons/attributes/Bleeding.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Relict",
+    "alias": "None",
+    "suborder": "Base Species",
+    "related": [
+      "Ancient Leshen"
+    ]
+  },
+  {
+    "name": "Ancient Leshen",
+    "icon": "./icons/monsters/Ancient_Leshen.webp",
+    "description": "An old Leshen that arrived through a portal to assume control over the Ancient Forest. Sometimes revered as an indigenous deity.",
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Bleeding",
+        "icon": "./icons/attributes/Bleeding.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Relict",
+    "alias": "None",
+    "suborder": "Base Species",
+    "related": [
+      "Leshen"
+    ]
+  }
+]
