@@ -6,6 +6,7 @@ class Games(BaseModel):
     gen3: list[str]
     gen4: list[str]
     gen5: list[str]
+    gen6: list[str]
     frontier: list[str]
 
     @staticmethod
@@ -15,8 +16,9 @@ class Games(BaseModel):
             'gen2': [ "MH2", "MHF2", "MHFU" ],
             'gen3': [ "MH3", "MHP3", "MH3U" ],
             'gen4': [ "MH4", "MH4U", "MHGen", "MHGU" ],
-            'gen5': [ "MHW", "MHWI", "MHR", "MHRS" ],
-            'frontier': [ "MHF", "MHFF", "MHFG", "MHFZ" ]
+            'gen5': [ "MHWorld", "MHWI", "MHRise", "MHRS" ],
+            'gen6': [ "MHWilds" ],
+            'frontier': [ "MHFrontier", "MHFF", "MHFG", "MHFZ" ]
         }
     
     @staticmethod
@@ -39,7 +41,7 @@ class Games(BaseModel):
                 { "code": "MHFU", "name": "Monster Hunter Freedom Unite" }
             ],
             "gen3": [
-                { "code": "MH3", "name": "Monster Hunter Tri" },
+                { "code": "MH3", "name": "Monster Hunter 3" },
                 { "code": "MHP3", "name": "Monster Hunter Portable 3rd" },
                 { "code": "MH3U", "name": "Monster Hunter 3 Ultimate" }
             ],
@@ -50,15 +52,25 @@ class Games(BaseModel):
                 { "code": "MHGU", "name": "Monster Hunter Generations Ultimate" }
             ],
             "gen5": [
-                { "code": "MHW", "name": "Monster Hunter World" },
+                { "code": "MHWorld", "name": "Monster Hunter: World" },
                 { "code": "MHWI", "name": "Monster Hunter World: Iceborne" },
-                { "code": "MHR", "name": "Monster Hunter Rise" },
+                { "code": "MHRise", "name": "Monster Hunter Rise" },
                 { "code": "MHRS", "name": "Monster Hunter Rise: Sunbreak" }
             ],
+            "gen6": [
+                { "code": "MHWilds", "name": "Monster Hunter Wilds" }
+            ],
             "frontier": [
-                { "code": "MHF", "name": "Monster Hunter Frontier" },
+                { "code": "MHFrontier", "name": "Monster Hunter Frontier" },
                 { "code": "MHFF", "name": "Monster Hunter Frontier Forward" },
                 { "code": "MHFG", "name": "Monster Hunter Frontier G" },
                 { "code": "MHFZ", "name": "Monster Hunter Frontier Z / Z Zenith" }
             ]
         }
+
+    @staticmethod
+    def nameToCode(name: str) -> str:
+        print(name)
+        all_games = [game for generation in Games.gameNames().values() for game in generation]
+        filtered = list(filter(lambda x: x['name'] == name, all_games))[0]
+        return filtered['code']

@@ -1,8 +1,16 @@
+from interfaces.Attribute import Attribute
 from interfaces.Games import Games
 from interfaces.Monster import Monster
 from interfaces.Proximity import ProximityResponse, PropertyProximity
 
 from methods.monster import getRelatives, loadMonsterList #, inSameCategory, inSameGeneration
+
+def compareAttributes(guess_attributes: list[Attribute], motd_attributes: list[Attribute]) -> list[Attribute]:
+    guess_attribute_names = set(map(lambda attr: attr.name, guess_attributes))
+    motd_attribute_names = set(map(lambda attr: attr.name, motd_attributes))
+    
+    shared_attributes = guess_attribute_names & motd_attribute_names
+    return list(filter(lambda attr: attr.name in shared_attributes, guess_attributes))
 
 # NOTE removed introduced property
 #  first game in list is game monster was introduced
@@ -73,9 +81,9 @@ def compareGuess(guess: Monster, motd: Monster) -> ProximityResponse | None:
     if guess.elements == motd.elements:
         comparison.elements.status = 0
         comparison.elements.hint = "The monster uses the same elements."
-    elif (common_elements := list(set(guess.elements).intersection(set(motd.elements)))):
+    elif (common_elements := compareAttributes(guess.elements, motd.elements)):
         comparison.elements.status = 1
-        comparison.elements.hint = f"The monster shares the following elements:\n - {newline_list.join(element for element in common_elements)}"
+        comparison.elements.hint = f"The monster shares the following elements:\n - {newline_list.join(element.name for element in common_elements)}"
     else:
         comparison.elements.status = 2
         comparison.elements.hint = "The monster has no elements in common."
@@ -83,9 +91,9 @@ def compareGuess(guess: Monster, motd: Monster) -> ProximityResponse | None:
     if guess.statuses == motd.statuses:
         comparison.statuses.status = 0
         comparison.statuses.hint = "The monster uses the same statuses."
-    elif (common_statuses := set(guess.statuses).intersection(set(motd.statuses))):
+    elif (common_statuses := compareAttributes(guess.statuses, motd.statuses)):
         comparison.statuses.status = 1
-        comparison.statuses.hint = f"The monster shares the following statuses:\n - {newline_list.join(status for status in common_statuses)}"
+        comparison.statuses.hint = f"The monster shares the following statuses:\n - {newline_list.join(status.name for status in common_statuses)}"
     else:
         comparison.statuses.status = 2
         comparison.statuses.hint = "The monster has no statuses in common."
@@ -93,9 +101,9 @@ def compareGuess(guess: Monster, motd: Monster) -> ProximityResponse | None:
     if guess.weaknesses == motd.weaknesses:
         comparison.weaknesses.status = 0
         comparison.weaknesses.hint = "The monster has the same weaknesses."
-    elif (common_weaknesses := set(guess.weaknesses).intersection(set(motd.weaknesses))):
+    elif (common_weaknesses := compareAttributes(guess.weaknesses, motd.weaknesses)):
         comparison.weaknesses.status = 1
-        comparison.weaknesses.hint = f"The monster shares the following weaknesses:\n - {newline_list.join(weakness for weakness in common_weaknesses)}"
+        comparison.weaknesses.hint = f"The monster shares the following weaknesses:\n - {newline_list.join(weakness.name for weakness in common_weaknesses)}"
     else:
         comparison.weaknesses.status = 2
         comparison.weaknesses.hint = "The monster has no weaknesses in common."

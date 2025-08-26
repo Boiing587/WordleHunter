@@ -1,6 +1,6 @@
 import type { GameList, GuessResponse, Proximity, Monster } from "@models/types";
 
-const dev = false
+const dev = true
 const base_url = !dev ? "https://wordlehunter-api.azurewebsites.net" : "http://localhost:5000"
 
 async function submitGuess(guess: string, selected_games: GameList, seed: string | null = null) {

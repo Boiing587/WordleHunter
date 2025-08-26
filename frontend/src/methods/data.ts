@@ -1,6 +1,6 @@
 import type { GameList, GameNames, Monster } from "@models/types";
 
-const dev = false
+const dev = true
 const base_url = !dev ? "https://wordlehunter-api.azurewebsites.net" : "http://localhost:5000"
 
 async function apiFetch(url: string, method: string = 'GET', headers: HeadersInit | undefined = undefined, body: BodyInit | undefined = undefined) {
@@ -29,7 +29,7 @@ async function getMonsterList(game_selection: GameList) {
 function formatGameSelection(game_selection: GameNames) {
   const formatted_game_selection: GameList = {}
   for (const gen in game_selection) {
-    formatted_game_selection[gen] = game_selection[gen].map(game => game.code)
+    formatted_game_selection[gen] = game_selection[gen].map(game => game.name)
   }
   return formatted_game_selection
 }

@@ -26,10 +26,10 @@
       game_list.value = games
     })
 
-  let game_selection = ref<GameNames>({gen1: [], gen2: [], gen3: [], gen4: [], gen5: [], frontier: []})
+  let game_selection = ref<GameNames>({gen1: [], gen2: [], gen3: [], gen4: [], gen5: [], gen6: [], frontier: []})
 
   function clearGameSelection(): void {
-    game_selection.value = {gen1: [], gen2: [], gen3: [], gen4: [], gen5: [], frontier: []}
+    game_selection.value = {gen1: [], gen2: [], gen3: [], gen4: [], gen5: [], gen6: [], frontier: []}
   }
 
   function selectAll(): void {
