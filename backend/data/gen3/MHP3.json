@@ -1,325 +1,697 @@
 [
   {
-    "name": "Amatsu",
-    "type": "Elder Dragon",
-    "suborder": "Base Species",
+    "name": "Great Wroggi",
+    "icon": "./icons/monsters/Great_Wroggi.webp",
+    "description": "Wroggi are bird wyverns that travel in packs that are led by largest and most toxic member. Be careful when one raises its head and its poison sac expands\u2014that signals that it's about to spit a cloud of poisonous mist.",
     "games": [
-      "MHP3",
-      "MHGen",
-      "MHGU",
-      "MHRS",
-      "MHFZ"
-    ],
-    "elements": [
-      "Water",
-      "Thunder"
-    ],
-    "statuses": [],
-    "weaknesses": [
-      "Fire",
-      "Dragon"
-    ]
-  },
-  {
-    "name": "Arzuros",
-    "type": "Fanged Beast",
-    "suborder": "Base Species",
-    "games": [
-      "MHP3",
-      "MH3U",
-      "MHGen",
-      "MHGU",
-      "MHR",
-      "MHRS"
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
     ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": [
-      "Fire",
-      "Ice"
-    ]
-  },
-  {
-    "name": "Baleful Gigginox",
-    "type": "Flying Wyvern",
-    "suborder": "Subspecies",
-    "games": [
-      "MHP3",
-      "MH3U"
-    ],
-    "elements": [
-      "Thunder"
-    ],
     "statuses": [
-      "Paralysis"
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": null
+      }
     ],
     "weaknesses": [
-      "Water"
-    ]
-  },
-  {
-    "name": "Brute Tigrex",
-    "type": "Flying Wyvern",
-    "suborder": "Subspecies",
-    "games": [
-      "MHP3",
-      "MH4",
-      "MH4U",
-      "MHWI"
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
     ],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": [
-      "Water"
+    "type": "Bird Wyvern",
+    "alias": "Poison Dog Wyvern (\u6bd2\u72d7\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Wroggi"
     ]
   },
   {
     "name": "Crimson Qurupeco",
-    "type": "Bird Wyvern",
-    "suborder": "Subspecies",
+    "icon": "./icons/monsters/Crimson_Qurupeco.webp",
+    "description": "A subspecies of Qurupeco, with vibrant red plumage. Skilled in mimicry and dancing. The flints in their wings generate electricity, which can be discharged as either shocking jolts or intense flashes of light.",
     "games": [
-      "MHP3",
-      "MH3U"
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Portable 3rd"
     ],
     "elements": [
-      "Thunder"
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
     ],
     "statuses": [
-      "Stun",
-      "Sleep"
+      {
+        "name": "Thunderblight",
+        "icon": "./icons/attributes/Thunderblight.webp",
+        "note": null
+      },
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      },
+      {
+        "name": "Sleep Attribute",
+        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "note": "In G Rank"
+      },
+      {
+        "name": "Resistance Down",
+        "icon": "./icons/attributes/Resistance_Down.webp",
+        "note": null
+      }
     ],
     "weaknesses": [
-      "Ice"
-    ]
-  },
-  {
-    "name": "Duramboros",
-    "type": "Brute Wyvern",
-    "suborder": "Base Species",
-    "games": [
-      "MHP3",
-      "MH3U",
-      "MHGen",
-      "MHGU"
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
     ],
-    "elements": [],
-    "statuses": [
-      "Stun"
-    ],
-    "weaknesses": [
-      "Fire"
-    ]
-  },
-  {
-    "name": "Glacial Agnaktor",
-    "type": "Leviathan",
-    "suborder": "Subspecies",
-    "games": [
-      "MHP3",
-      "MH3U"
-    ],
-    "elements": [
-      "Water",
-      "Ice"
-    ],
-    "statuses": [],
-    "weaknesses": [
-      "Fire",
-      "Dragon"
-    ]
-  },
-  {
-    "name": "Great Wroggi",
     "type": "Bird Wyvern",
-    "suborder": "Base Species",
-    "games": [
-      "MHP3",
-      "MH3U",
-      "MHR",
-      "MHRS"
-    ],
-    "elements": [],
-    "statuses": [
-      "Poison"
-    ],
-    "weaknesses": [
-      "Ice"
-    ]
-  },
-  {
-    "name": "Green Nargacuga",
-    "type": "Flying Wyvern",
+    "alias": "Crimson Colorful Bird (\u7d05\u5f69\u9ce5)",
     "suborder": "Subspecies",
-    "games": [
-      "MHP3",
-      "MH3U"
-    ],
-    "elements": [],
-    "statuses": [
-      "Stun"
-    ],
-    "weaknesses": [
-      "Fire",
-      "Thunder"
+    "related": [
+      "Qurupeco"
     ]
   },
   {
     "name": "Jade Barroth",
+    "icon": "./icons/monsters/Jade_Barroth.webp",
+    "description": "A subspecies of Barroth found in colder climates that coat themselves in ice an snow for protection. They are also known for bashing their overgrown crowns into the ice, and subsist primarily on Bnahabra.",
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Portable 3rd"
+    ],
+    "elements": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Iceblight",
+        "icon": "./icons/attributes/Iceblight.webp",
+        "note": null
+      },
+      {
+        "name": "Snowman",
+        "icon": "./icons/attributes/Snowman.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": "With Snow Armor"
+      }
+    ],
     "type": "Brute Wyvern",
+    "alias": "Ice Crushing Wyvern (\u6c37\u7815\u7adc)",
     "suborder": "Subspecies",
-    "games": [
-      "MHP3",
-      "MH3U"
-    ],
-    "elements": [
-      "Ice"
-    ],
-    "statuses": [
-      "Snowman"
-    ],
-    "weaknesses": [
-      "Fire",
-      "Thunder"
+    "related": [
+      "Barroth"
     ]
   },
   {
-    "name": "Lagombi",
-    "type": "Fanged Beast",
+    "name": "Duramboros",
+    "icon": "./icons/monsters/Duramboros.webp",
+    "description": "Their hammer-like tails are great at both self-defense and felling the trees that primarily subsist on. Despite their gentle temperament, their strong frame and incredible power should not be underestimated.",
+    "games": [
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Brute Wyvern",
+    "alias": "Tail Hammer Wyvern (\u5c3e\u69cc\u7adc)",
     "suborder": "Base Species",
-    "games": [
-      "MHP3",
-      "MH3U",
-      "MH4",
-      "MH4U",
-      "MHGen",
-      "MHGU",
-      "MHR",
-      "MHRS"
-    ],
-    "elements": [
-      "Ice"
-    ],
-    "statuses": [
-      "Snowman"
-    ],
-    "weaknesses": [
-      "Fire",
-      "Thunder"
-    ]
-  },
-  {
-    "name": "Nibelsnarf",
-    "type": "Leviathan",
-    "suborder": "Base Species",
-    "games": [
-      "MHP3",
-      "MH3U",
-      "MHGen",
-      "MHGU"
-    ],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": [
-      "Thunder",
-      "Ice"
-    ]
-  },
-  {
-    "name": "Purple Ludroth",
-    "type": "Leviathan",
-    "suborder": "Subspecies",
-    "games": [
-      "MHP3",
-      "MH3U"
-    ],
-    "elements": [],
-    "statuses": [
-      "Poison",
-      "Noxious Poison"
-    ],
-    "weaknesses": [
-      "Fire",
-      "Thunder"
-    ]
-  },
-  {
-    "name": "Sand Barioth",
-    "type": "Flying Wyvern",
-    "suborder": "Subspecies",
-    "games": [
-      "MHP3",
-      "MH3U"
-    ],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": [
-      "Thunder",
-      "Ice"
+    "related": [
+      "Rust Duramboros"
     ]
   },
   {
     "name": "Steel Uragaan",
-    "type": "Brute Wyvern",
-    "suborder": "Subspecies",
+    "icon": "./icons/monsters/Steel_Uragaan.webp",
+    "description": "A metallic subspecies of Uragaan with an unusual diet that allows it to create a powerful, noxious gas. The gas permeates the rocks on its body, which then emit foul fumes when scattered. Like regular Uragaan, they can travel quickly by rolling.",
     "games": [
-      "MHP3",
-      "MH3U"
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Portable 3rd"
     ],
     "elements": [
-      "Fire"
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
     ],
     "statuses": [
-      "Soiled"
+      {
+        "name": "Soiled",
+        "icon": "./icons/attributes/Soiled.webp",
+        "note": null
+      }
     ],
     "weaknesses": [
-      "Water",
-      "Dragon"
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Brute Wyvern",
+    "alias": "Steel Hammer Wyvern (\u92fc\u939a\u7adc)",
+    "suborder": "Subspecies",
+    "related": [
+      "Uragaan",
+      "Crystalbeard Uragaan"
+    ]
+  },
+  {
+    "name": "Amatsu",
+    "icon": "./icons/monsters/Amatsu.webp",
+    "description": "Elder dragons that can manipulate the weather and are able to conjure up unrelenting gales. Amatsu glide through the air on currents they create using their wing membrane, making it look as if they're dancing in the sky. The storms they summon are extremely destructive and can lay entire cities to waste, thus they are known as the \"Looming Calamity.\" When enraged, their storms become even more violent, enveloping the area with unrelenting lighting strikes.",
+    "games": [
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": "In Monster Hunter Rise: Sunbreak"
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": "In Monster Hunter Frontier"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "icon": "./icons/attributes/Waterblight.webp",
+        "note": null
+      },
+      {
+        "name": "Thunderblight",
+        "icon": "./icons/attributes/Thunderblight.webp",
+        "note": "In Monster Hunter Rise: Sunbreak"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Storm Dragon (\u5d50\u9f8d)",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
+    "name": "Arzuros",
+    "icon": "./icons/monsters/Arzuros.webp",
+    "description": "Bear-like monsters found in warm, damp environments. They attack with their powerful front paws, which are armored with thick shell and equipped with razor-sharp claws. If they are not enjoying their favorite meal of honey, they will be found by a river fishing for a snack.",
+    "games": [
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Beast",
+    "alias": "Blue Bear Beast (\u9752\u718a\u7363)",
+    "suborder": "Base Species",
+    "related": [
+      "Redhelm Arzuros",
+      "Apex Arzuros"
+    ]
+  },
+  {
+    "name": "Lagombi",
+    "icon": "./icons/monsters/Lagombi.webp",
+    "description": "White Fanged Beasts with acute hearing and warm pelts adapted to cold climates. They slide around at high speeds without making any noise, allowing them to catch unsuspecting prey. Able to launch blocks of snow at enemies from afar.",
+    "games": [
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
+    "elements": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Iceblight",
+        "icon": "./icons/attributes/Iceblight.webp",
+        "note": null
+      },
+      {
+        "name": "Snowman",
+        "icon": "./icons/attributes/Snowman.webp",
+        "note": "From Monster Hunter 3 Ultimate onwards"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Beast",
+    "alias": "White Rabbit Beast (\u767d\u514e\u7363)",
+    "suborder": "Base Species",
+    "related": [
+      "Snowbaron Lagombi"
     ]
   },
   {
     "name": "Volvidon",
-    "type": "Fanged Beast",
-    "suborder": "Base Species",
+    "icon": "./icons/monsters/Volvidon.webp",
+    "description": "Fanged beasts with thick red carapaces that are resistant to lava. Their rounded bodies are perfect for rolling across hot surfaces, and their long tongues are ideal for capturing insect prey. Their saliva emits a paralyzing toxin that should be avoided.",
     "games": [
-      "MHP3",
-      "MH3U",
-      "MHGen",
-      "MHGU",
-      "MHR",
-      "MHRS"
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
     ],
     "elements": [],
     "statuses": [
-      "Paralysis",
-      "Soiled"
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Soiled",
+        "icon": "./icons/attributes/Soiled.webp",
+        "note": null
+      }
     ],
     "weaknesses": [
-      "Water"
-    ]
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Beast",
+    "alias": "Red Shell Beast (\u8d64\u7532\u7363)",
+    "suborder": "Base Species",
+    "related": []
   },
   {
     "name": "Zinogre",
-    "type": "Fanged Wyvern",
-    "suborder": "Base Species",
+    "icon": "./icons/monsters/Zinogre.webp",
+    "description": "Fanged Wyverns that bear a mantle of electricity with razor-sharp claws and sturdy limbs. Found in unforgiving mountain ranges, where they gather countless Thunderbugs to store their electrical energy. Their electrical attacks are said to rival even lightning strikes.",
     "games": [
-      "MHP3",
-      "MH3U",
-      "MH4",
-      "MH4U",
-      "MHGen",
-      "MHGU",
-      "MHWI",
-      "MHR",
-      "MHRS",
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [
-      "Thunder"
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
     ],
+    "statuses": [
+      {
+        "name": "Thunderblight",
+        "icon": "./icons/attributes/Thunderblight.webp",
+        "note": null
+      },
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": "Apex (Monster Hunter 4 Ultimate)"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Wyvern",
+    "alias": "Thunder Wolf Wyvern (\u96f7\u72fc\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Stygian Zinogre",
+      "Thunderlord Zinogre",
+      "Apex Zinogre",
+      "Howling Zinogre",
+      "Immortal Zinogre"
+    ]
+  },
+  {
+    "name": "Sand Barioth",
+    "icon": "./icons/monsters/Sand_Barioth.webp",
+    "description": "A subspecies of Barioth. Their breath is strong enough to generate tornados, which they then use to travel at high speeds across the desert sands. Their yellow carapaces are tinted red, and their stained fangs shine deep blue when polished clean.",
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Portable 3rd"
+    ],
+    "elements": [],
     "statuses": [],
     "weaknesses": [
-      "Ice"
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Wing Fang Wyvern (\u98a8\u7259\u7adc)",
+    "suborder": "Subspecies",
+    "related": [
+      "Barioth",
+      "Frostfang Barioth"
+    ]
+  },
+  {
+    "name": "Baleful Gigginox",
+    "icon": "./icons/monsters/Baleful_Gigginox.webp",
+    "description": "A subspecies of Gigginox that uses electricity to stun prey. It is believed to be a random mutation, and as such, sightings are relatively rare. It may be possible to weaken its electrical powers by destroying the capacitor organs on its body.",
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Portable 3rd"
+    ],
+    "elements": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Thunderblight",
+        "icon": "./icons/attributes/Thunderblight.webp",
+        "note": null
+      },
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Electric Creeping Wyvern (\u96fb\u602a\u7adc)",
+    "suborder": "Subspecies",
+    "related": [
+      "Gigginox",
+      "Giggi"
+    ]
+  },
+  {
+    "name": "Green Nargacuga",
+    "icon": "./icons/monsters/Green_Nargacuga.webp",
+    "description": "A subspecies of Nargacuga with mottled green fur allowing for excellent camouflage in their habitat. They are extremely agile, and their favored attack is to lash at prey with their long, spiked tails.",
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Portable 3rd"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Green Swift Wyvern (\u7dd1\u8fc5\u7adc)",
+    "suborder": "Subspecies",
+    "related": [
+      "Nargacuga",
+      "Silverwind Nargacuga",
+      "Lucent Nargacuga"
+    ]
+  },
+  {
+    "name": "Brute Tigrex",
+    "icon": "./icons/monsters/Brute_Tigrex.webp",
+    "description": "A black subspecies of Tigrex. The force and range of their roar is far more fearsome than that of their Tigrex cousins. Extremely vicious with a practically insatiable appetite. Just like regular Tigrex, there have been reports of them traveling incredibly far distances to hunt for prey.",
+    "games": [
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter World: Iceborne"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": "Depends on terrain"
+      },
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": "Depends on terrain"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "Depends on terrain"
+      },
+      {
+        "name": "Waterblight",
+        "icon": "./icons/attributes/Waterblight.webp",
+        "note": "Depends on terrain"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Black Roaring Wyvern (\u9ed2\u8f5f\u7adc)",
+    "suborder": "Subspecies",
+    "related": [
+      "Tigrex",
+      "Molten Tigrex",
+      "Grimclaw Tigrex"
+    ]
+  },
+  {
+    "name": "Glacial Agnaktor",
+    "icon": "./icons/monsters/Glacial_Agnaktor.webp",
+    "description": "A subspecies of Agnaktor. With their tough scales, even the tundra presents no obstacle with their movements. They burrow into the permafrost and clad themselves in a layer of icy armor to protect themselves. Their frosty breath attacks are chillingly powerful.",
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Portable 3rd"
+    ],
+    "elements": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "icon": "./icons/attributes/Waterblight.webp",
+        "note": null
+      },
+      {
+        "name": "Iceblight",
+        "icon": "./icons/attributes/Iceblight.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": "With Softened/Broken armour"
+      }
+    ],
+    "type": "Leviathan",
+    "alias": "Freeze Pike Wyvern (\u51cd\u6208\u7adc)",
+    "suborder": "Subspecies",
+    "related": [
+      "Agnaktor",
+      "Uroktor"
+    ]
+  },
+  {
+    "name": "Nibelsnarf",
+    "icon": "./icons/monsters/Nibelsnarf.webp",
+    "description": "Leviathans that have adapted to live in sandy areas. They burrow beneath the desert and locate prey aurally, then suck both the target and any surrounding sand into their maws. The gill-like organs in their mouths are thought to absorb nutrients.",
+    "games": [
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate"
+    ],
+    "elements": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "icon": "./icons/attributes/Waterblight.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Leviathan",
+    "alias": "Lurking Mouth Wyvern (\u6f5c\u53e3\u7adc)",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
+    "name": "Purple Ludroth",
+    "icon": "./icons/monsters/Purple_Ludroth.webp",
+    "description": "A subspecies of Royal Ludroth with a spongey purple mane that can both store and disperse a powerful toxin. Moistening this mane seems to revitalize the creature.",
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Portable 3rd"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Noxious Poison",
+        "icon": "./icons/attributes/Noxious_Poison.webp",
+        "note": "In G Rank"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Leviathan",
+    "alias": "Purple Water Beast (\u7d2b\u6c34\u7363)",
+    "suborder": "Subspecies",
+    "related": [
+      "Royal Ludroth",
+      "Ludroth"
     ]
   }
 ]

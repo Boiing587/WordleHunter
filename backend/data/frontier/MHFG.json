@@ -1,576 +1,1270 @@
 [
   {
-    "name": "Anorupatisu",
-    "type": "Flying Wyvern",
-    "suborder": "Base Species",
+    "name": "Giaorg",
+    "icon": "./icons/monsters/Giaorg.webp",
+    "description": "",
     "games": [
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [
-      "Ice",
-      "Dragon"
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
     ],
     "statuses": [
-      "Stun",
-      "Snowman"
+      {
+        "name": "Snowman",
+        "icon": "./icons/attributes/Snowman.webp",
+        "note": null
+      },
+      {
+        "name": "Defense",
+        "icon": "./icons/attributes/Defense.webp",
+        "note": null
+      }
     ],
     "weaknesses": [
-      "Fire",
-      "Thunder"
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Brute Wyvern",
+    "alias": "Ice Ferocious Wyvern (\u6c37\u7370\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Zenith Giaorg",
+      "Abiorg"
     ]
   },
   {
-    "name": "Baruragaru",
+    "name": "Anorpatis",
+    "icon": "./icons/monsters/Anorpatis.webp",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Snowman",
+        "icon": "./icons/attributes/Snowman.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Violent Saw Wyvern (\u66b4\u92f8\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Zenith Anorpatis"
+    ]
+  },
+  {
+    "name": "Barlagual",
+    "icon": "./icons/monsters/Barlagual.webp",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": "After sucking Gendrome blood"
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": "After sucking Iodrome blood"
+      },
+      {
+        "name": "Defense",
+        "icon": "./icons/attributes/Defense.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": "When tongue is bleeding/When enraged without blood stored"
+      }
+    ],
     "type": "Leviathan",
+    "alias": "Bloodsucking Wyvern (\u55b0\u8840\u7adc)",
     "suborder": "Base Species",
-    "games": [
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Water"
-    ],
-    "statuses": [
-      "Poison",
-      "Paralysis",
-      "Defense Down"
-    ],
-    "weaknesses": [
-      "Fire",
-      "Thunder"
+    "related": [
+      "Zenith Barlagual"
     ]
   },
   {
-    "name": "Berserk Raviente",
-    "type": "Unclassified",
-    "suborder": "Rare Species",
+    "name": "Varsablos",
+    "icon": "./icons/monsters/Varsablos.webp",
+    "description": "",
     "games": [
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [
-      "Fire"
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
     ],
-    "statuses": [
-      "Paralysis",
-      "Stun"
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
     ],
-    "weaknesses": []
-  },
-  {
-    "name": "Diorex",
     "type": "Flying Wyvern",
+    "alias": "Flame Horn Wyvern (\u708e\u89d2\u7adc)",
     "suborder": "Burst Species",
-    "games": [
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Thunder"
-    ],
-    "statuses": [],
-    "weaknesses": [
-      "Ice",
-      "Dragon"
+    "related": [
+      "Diablos"
     ]
   },
   {
-    "name": "Disufiroa",
-    "type": "Elder Dragon",
-    "suborder": "Base Species",
+    "name": "Dolemdira",
+    "icon": "./icons/monsters/Dolemdira.webp",
+    "description": "",
     "games": [
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [
-      "Frozen Seraphim"
-    ],
-    "statuses": [],
-    "weaknesses": [
-      "Fire",
-      "Water",
-      "Thunder",
-      "Dragon"
-    ]
-  },
-  {
-    "name": "Duremudira",
-    "type": "Elder Dragon",
-    "suborder": "Base Species",
-    "games": [
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Ice"
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
     ],
     "statuses": [
-      "Frostbite",
-      "Corrupted Poison"
+      {
+        "name": "Frostbite",
+        "icon": "./icons/attributes/Frostbite.webp",
+        "note": null
+      },
+      {
+        "name": "Corrupted Poison",
+        "icon": "./icons/attributes/Corrupted_Poison.webp",
+        "note": null
+      }
     ],
     "weaknesses": [
-      "Fire",
-      "Dragon"
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Guardian of the Sky Corridor (\u5929\u5eca\u306e\u756a\u4eba)",
+    "suborder": "Base Species",
+    "related": [
+      "Prideful Dolemdira"
     ]
   },
   {
-    "name": "Farunokku",
+    "name": "Falnocatrice",
+    "icon": "./icons/monsters/Falnocatrice.webp",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Thunderblight",
+        "icon": "./icons/attributes/Thunderblight.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
     "type": "Bird Wyvern",
+    "alias": "Thunder Bird (\u50be\u96f7\u9ce5)",
     "suborder": "Base Species",
-    "games": [
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Thunder"
-    ],
-    "statuses": [],
-    "weaknesses": [
-      "Water",
-      "Ice"
+    "related": [
+      "Hypnocatrice"
     ]
   },
   {
-    "name": "Forokururu",
-    "type": "Bird Wyvern",
-    "suborder": "Base Species",
+    "name": "Gasrabazra",
+    "icon": "./icons/monsters/Gasrabazra.webp",
+    "description": "",
     "games": [
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Fire"
-    ],
-    "statuses": [
-      "Poison",
-      "Paralysis",
-      "Sleep",
-      "Soiled",
-      "Defense Down",
-      "Dark"
-    ],
-    "weaknesses": [
-      "Thunder",
-      "Ice"
-    ]
-  },
-  {
-    "name": "Garuba Daora",
-    "type": "Elder Dragon",
-    "suborder": "Burst Species",
-    "games": [
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Wind"
-    ],
-    "statuses": [
-      "Crystallization"
-    ],
-    "weaknesses": [
-      "Thunder"
-    ]
-  },
-  {
-    "name": "Gasurabazura",
-    "type": "Brute Wyvern",
-    "suborder": "Base Species",
-    "games": [
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [],
     "statuses": [
-      "Poison",
-      "Stun"
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": null
+      }
     ],
     "weaknesses": [
-      "Thunder",
-      "Ice"
-    ]
-  },
-  {
-    "name": "Giaorugu",
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
     "type": "Brute Wyvern",
+    "alias": "Angry Appearance Wyvern (\u6012\u8c8c\u7adc)",
     "suborder": "Base Species",
-    "games": [
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Ice"
-    ],
-    "statuses": [
-      "Defense Down",
-      "Snowman"
-    ],
-    "weaknesses": [
-      "Fire"
+    "related": [
+      "Zenith Gasrabazra"
     ]
   },
   {
-    "name": "Guanzorumu",
-    "type": "Elder Dragon",
-    "suborder": "Base Species",
+    "name": "Greadios",
+    "icon": "./icons/monsters/Greadios.webp",
+    "description": "",
     "games": [
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [
-      "Fire",
-      "Dragon"
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
     ],
     "statuses": [],
     "weaknesses": [
-      "Water",
-      "Dragon"
-    ]
-  },
-  {
-    "name": "Gureadomosu",
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
     "type": "Flying Wyvern",
+    "alias": "Water Fortress Wyvern (\u6c34\u7826\u7adc)",
     "suborder": "Origin Species",
-    "games": [
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Water"
-    ],
-    "statuses": [],
-    "weaknesses": [
-      "Fire",
-      "Thunder"
+    "related": [
+      "Gravios",
+      "Black Gravios",
+      "Zenith Gravios",
+      "Basarios"
     ]
   },
   {
-    "name": "Harudomerugu",
-    "type": "Elder Dragon",
-    "suborder": "Base Species",
+    "name": "Guanzorm",
+    "icon": "./icons/monsters/Guanzorm.webp",
+    "description": "",
     "games": [
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Imperial Conqueror Dragon (\u5e1d\u5f81\u9f8d)",
+    "suborder": "Base Species",
+    "related": [
+      "Overlord Guanzorm",
+      "Equibra"
+    ]
+  },
+  {
+    "name": "Haldmerg",
+    "icon": "./icons/monsters/Haldmerg.webp",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [],
     "statuses": [],
     "weaknesses": [
-      "Dragon",
-      "Black Flame"
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Silver Controlling Dragon (\u53f8\u9280\u9f8d)",
+    "suborder": "Base Species",
+    "related": [
+      "Zenith Haldmerg"
     ]
   },
   {
     "name": "Hyujikiki",
-    "type": "Flying Wyvern",
-    "suborder": "Base Species",
+    "icon": "./icons/monsters/Hyujikiki.webp",
+    "description": "",
     "games": [
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [],
     "statuses": [
-      "Poison",
-      "Paralysis",
-      "Sleep"
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Sleep Attribute",
+        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": null
+      }
     ],
     "weaknesses": [
-      "Fire",
-      "Thunder"
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Needle-Clad Wyvern (\u91dd\u7e8f\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Zenith Hyujikiki"
     ]
   },
   {
     "name": "Inagami",
-    "type": "Elder Dragon",
-    "suborder": "Base Species",
+    "icon": "./icons/monsters/Inagami.webp",
+    "description": "",
     "games": [
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [],
     "statuses": [
-      "Sleep"
+      {
+        "name": "Sleep Attribute",
+        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "note": null
+      }
     ],
     "weaknesses": [
-      "Fire"
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Elegant Elderly Dragon (\u96c5\u7fc1\u9f8d)",
+    "suborder": "Base Species",
+    "related": [
+      "Zenith Inagami"
+    ]
+  },
+  {
+    "name": "Garbha Daora",
+    "icon": "./icons/monsters/Garbha_Daora.webp",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Crystallization",
+        "icon": "./icons/attributes/Crystallization.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Gold Dust Dragon (\u91d1\u5875\u9f8d)",
+    "suborder": "Burst Species",
+    "related": [
+      "Kushala Daora",
+      "Rusted Kushala Daora",
+      "Risen Kushala Daora"
     ]
   },
   {
     "name": "Lolo Gougarf",
-    "type": "Fanged Beast",
-    "suborder": "Base Species",
+    "icon": "./icons/monsters/Lolo_Gougarf.webp",
+    "description": "",
     "games": [
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [],
     "statuses": [
-      "Stun",
-      "Magnet"
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      },
+      {
+        "name": "Magnetism",
+        "icon": "./icons/attributes/Magnetism.webp",
+        "note": null
+      }
     ],
     "weaknesses": [
-      "Water"
-    ]
-  },
-  {
-    "name": "Meraginasu",
-    "type": "Flying Wyvern",
-    "suborder": "Burst Species",
-    "games": [
-      "MHFG",
-      "MHFZ"
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
     ],
-    "elements": [
-      "Darkness"
-    ],
-    "statuses": [],
-    "weaknesses": [
-      "Fire",
-      "Light"
-    ]
-  },
-  {
-    "name": "Mi Ru",
-    "type": "Flying Wyvern",
-    "suborder": "Base Species",
-    "games": [
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Fire"
-    ],
-    "statuses": [
-      "Stun",
-      "Crystallization"
-    ],
-    "weaknesses": [
-      "Fire",
-      "Water",
-      "Thunder",
-      "Ice",
-      "Dragon"
-    ]
-  },
-  {
-    "name": "Midogaron",
     "type": "Fanged Beast",
+    "alias": "Red Fighting Beast (\u8d64\u95d8\u7363)",
     "suborder": "Base Species",
-    "games": [
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Fire"
-    ],
-    "statuses": [
-      "Stun"
-    ],
-    "weaknesses": [
-      "Water",
-      "Ice"
-    ]
-  },
-  {
-    "name": "Poborubarumu",
-    "type": "Flying Wyvern",
-    "suborder": "Base Species",
-    "games": [
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Kanade"
-    ],
-    "statuses": [
-      "Confusion"
-    ],
-    "weaknesses": [
-      "Fire",
-      "Thunder"
-    ]
-  },
-  {
-    "name": "Pokaradon",
-    "type": "Leviathan",
-    "suborder": "Base Species",
-    "games": [
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Water"
-    ],
-    "statuses": [
-      "Stun",
-      "Snowman"
-    ],
-    "weaknesses": [
-      "Fire",
-      "Thunder"
+    "related": [
+      "Ray Gougarf"
     ]
   },
   {
     "name": "Ray Gougarf",
-    "type": "Fanged Beast",
-    "suborder": "Base Species",
+    "icon": "./icons/monsters/Ray_Gougarf.webp",
+    "description": "",
     "games": [
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [],
     "statuses": [
-      "Stun",
-      "Magnet"
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      },
+      {
+        "name": "Magnetism",
+        "icon": "./icons/attributes/Magnetism.webp",
+        "note": null
+      }
     ],
     "weaknesses": [
-      "Fire"
-    ]
-  },
-  {
-    "name": "Rebidiora",
-    "type": "Elder Dragon",
-    "suborder": "Subspecies",
-    "games": [
-      "MHFG",
-      "MHFZ"
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
     ],
-    "elements": [
-      "Thunder Pole"
-    ],
-    "statuses": [
-      "Magnet"
-    ],
-    "weaknesses": [
-      "Water",
-      "Ice",
-      "Dragon"
-    ]
-  },
-  {
-    "name": "Shantien",
-    "type": "Elder Dragon",
+    "type": "Fanged Beast",
+    "alias": "Blue Fighting Beast (\u9752\u95d8\u7363)",
     "suborder": "Base Species",
-    "games": [
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Tenshou"
-    ],
-    "statuses": [
-      "Paralysis"
-    ],
-    "weaknesses": [
-      "Ice",
-      "Dragon"
+    "related": [
+      "Lolo Gougarf"
     ]
   },
   {
-    "name": "Toa Tesukatora",
-    "type": "Elder Dragon",
-    "suborder": "Origin Species",
+    "name": "Mi Ru",
+    "icon": "./icons/monsters/Mi_Ru.webp",
+    "description": "",
     "games": [
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [
-      "Ice"
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
     ],
     "statuses": [
-      "Frostbite"
+      {
+        "name": "Crystallization",
+        "icon": "./icons/attributes/Crystallization.webp",
+        "note": null
+      }
     ],
     "weaknesses": [
-      "Fire",
-      "Dragon"
-    ]
-  },
-  {
-    "name": "Toridcless",
-    "type": "Bird Wyvern",
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": "Forelegs"
+      },
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": "Hindlegs"
+      },
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": "Back"
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": "Underbelly"
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": "Tail"
+      }
+    ],
+    "type": "Unclassified",
+    "alias": "Black Fox Wyvern (\u9ed2\u72d0\u7adc)",
     "suborder": "Base Species",
-    "games": [
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Thunder Pole"
-    ],
-    "statuses": [
-      "Stun",
-      "Paralysis"
-    ],
-    "weaknesses": [
-      "Water",
-      "Dragon"
+    "related": [
+      "Dazzling Mi Ru",
+      "Duragaua"
     ]
   },
   {
-    "name": "Varusaburosu",
+    "name": "Midogaron",
+    "icon": "./icons/monsters/Midogaron.webp",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Beast",
+    "alias": "Explosion Wolf (\u7206\u72fc)",
+    "suborder": "Base Species",
+    "related": [
+      "Kamu Orgaron",
+      "Nono Orgaron",
+      "Zenith Midogaron"
+    ]
+  },
+  {
+    "name": "Pobolbarm",
+    "icon": "./icons/monsters/Pobolbarm.webp",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Confusion",
+        "icon": "./icons/attributes/Confusion.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
     "type": "Flying Wyvern",
-    "suborder": "Burst Species",
+    "alias": "Creation Sound Wyvern (\u5275\u97f3\u7adc)",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
+    "name": "Pokaradon",
+    "icon": "./icons/monsters/Pokaradon.webp",
+    "description": "",
     "games": [
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [
-      "Fire"
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
     ],
-    "statuses": [],
+    "statuses": [
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      },
+      {
+        "name": "Snowman",
+        "icon": "./icons/attributes/Snowman.webp",
+        "note": null
+      }
+    ],
     "weaknesses": [
-      "Water"
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Leviathan",
+    "alias": "Frozen Sea Beast (\u51cd\u6d77\u7363)",
+    "suborder": "Base Species",
+    "related": [
+      "Pokara"
     ]
   },
   {
     "name": "Voljang",
-    "type": "Fanged Beast",
-    "suborder": "Origin Species",
+    "icon": "./icons/monsters/Voljang.webp",
+    "description": "",
     "games": [
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [
-      "Fire"
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Beast",
+    "alias": "Infernal Lion (\u7d05\u84ee\u7345\u5b50)",
+    "suborder": "Origin Species",
+    "related": [
+      "Rajang"
+    ]
+  },
+  {
+    "name": "Zerulos",
+    "icon": "./icons/monsters/Zerulos.webp",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
     ],
     "statuses": [],
     "weaknesses": [
-      "Water",
-      "Ice"
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Celestial Wyvern (\u8f1d\u754c\u7adc)",
+    "suborder": "Burst Species",
+    "related": [
+      "Radiant Zerulos",
+      "Rathalos"
     ]
+  },
+  {
+    "name": "Berserk Raviente",
+    "icon": "./icons/monsters/Berserk_Raviente.webp",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      },
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Unclassified",
+    "alias": "Great Crag Wyvern (\u5927\u5dcc\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Raviente",
+      "Violent Raviente"
+    ]
+  },
+  {
+    "name": "Levidiora",
+    "icon": "./icons/monsters/Levidiora.webp",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Magnetism",
+        "icon": "./icons/attributes/Magnetism.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Electromagnetic Dragon (\u96f7\u6975\u9f8d)",
+    "suborder": "Subspecies",
+    "related": [
+      "Rukodiora"
+    ]
+  },
+  {
+    "name": "Shantien",
+    "icon": "./icons/monsters/Shantien.webp",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Soaring Dragon (\u5929\u7fd4\u9f8d)",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
+    "name": "Toastra",
+    "icon": "./icons/monsters/Toastra.webp",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Frostbite",
+        "icon": "./icons/attributes/Frostbite.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Frozen King Dragon (\u51cd\u738b\u9f8d)",
+    "suborder": "Origin Species",
+    "related": [
+      "Teostra",
+      "Lunastra"
+    ]
+  },
+  {
+    "name": "Diorex",
+    "icon": "./icons/monsters/Diorex.webp",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Thunder Roaring Wyvern (\u96f7\u8f5f\u7adc)",
+    "suborder": "Burst Species",
+    "related": [
+      "Tigrex",
+      "Zenith Tigrex"
+    ]
+  },
+  {
+    "name": "Toridcless",
+    "icon": "./icons/monsters/Toridcless.webp",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      },
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Bird Wyvern",
+    "alias": "Shining Thunder Bird (\u7167\u96f7\u9ce5)",
+    "suborder": "Base Species",
+    "related": [
+      "Zenith Toridcless"
+    ]
+  },
+  {
+    "name": "Vorsphyroa",
+    "icon": "./icons/monsters/Vorsphyroa.webp",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Frozen Ember Dragon (\u71be\u51cd\u9f8d)",
+    "suborder": "Base Species",
+    "related": []
   },
   {
     "name": "Yama Kurai",
-    "type": "Elder Dragon",
-    "suborder": "Origin Species",
+    "icon": "./icons/monsters/Yama_Kurai.webp",
+    "description": "",
     "games": [
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [],
     "statuses": [
-      "Poison",
-      "Paralysis",
-      "Sleep"
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Sleep Attribute",
+        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": null
+      }
     ],
     "weaknesses": [
-      "Fire"
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Floating Peak Dragon (\u6d6e\u5cf0\u9f8d)",
+    "suborder": "Origin Species",
+    "related": [
+      "Yama Tsukami"
     ]
   },
   {
-    "name": "Zerureusu",
-    "type": "Flying Wyvern",
-    "suborder": "Burst Species",
+    "name": "Melaginas",
+    "icon": "./icons/monsters/Melaginas.webp",
+    "description": "",
     "games": [
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [
-      "Light"
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
     ],
-    "statuses": [],
+    "statuses": [
+      {
+        "name": "Iceblight",
+        "icon": "./icons/attributes/Iceblight.webp",
+        "note": null
+      },
+      {
+        "name": "Dragonblight",
+        "icon": "./icons/attributes/Dragonblight.webp",
+        "note": null
+      }
+    ],
     "weaknesses": [
-      "Dragon",
-      "Darkness"
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Black Drill Wyvern (\u9ed2\u7a7f\u7adc)",
+    "suborder": "Burst Species",
+    "related": [
+      "Espinas"
     ]
+  },
+  {
+    "name": "Foroclore",
+    "icon": "./icons/monsters/Foroclore.webp",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": "Depends on nectar"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": "Depends on nectar"
+      },
+      {
+        "name": "Sleep Attribute",
+        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "note": "Depends on nectar"
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": "Depends on nectar"
+      },
+      {
+        "name": "Soiled",
+        "icon": "./icons/attributes/Soiled.webp",
+        "note": "Depends on nectar"
+      },
+      {
+        "name": "Defense",
+        "icon": "./icons/attributes/Defense.webp",
+        "note": "Depends on nectar"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Bird Wyvern",
+    "alias": "Fabled Floral Bird (\u83ef\u9cf3\u9ce5)",
+    "suborder": "Base Species",
+    "related": []
   }
 ]

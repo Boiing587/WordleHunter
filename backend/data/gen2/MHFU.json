@@ -1,194 +1,377 @@
 [
   {
-    "name": "Copper Blangonga",
-    "type": "Fanged Beast",
-    "suborder": "Subspecies",
+    "name": "Yian Garuga",
+    "icon": "./icons/monsters/Yian_Garuga.webp",
+    "description": "A short-tempered bird wyvern marked by its hard, black scales and impressive mane. It strikes with its distinctive beak.",
     "games": [
-      "MHFU"
-    ],
-    "elements": [],
-    "statuses": [
-      "Stun"
-    ],
-    "weaknesses": [
-      "Ice"
-    ]
-  },
-  {
-    "name": "Emerald Congalala",
-    "type": "Fanged Beast",
-    "suborder": "Subspecies",
-    "games": [
-      "MHFU",
-      "MH4",
-      "MH4U"
-    ],
-    "elements": [],
-    "statuses": [
-      "Sleep",
-      "Soiled",
-      "Poison",
-      "Paralysis"
-    ],
-    "weaknesses": [
-      "Ice"
-    ]
-  },
-  {
-    "name": "Furious Rajang",
-    "type": "Fanged Beast",
-    "suborder": "Variant",
-    "games": [
-      "MHFU",
-      "MH4",
-      "MH4U",
-      "MHGen",
-      "MHGU",
-      "MHWI",
-      "MHRS"
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [
-      "Thunder"
-    ],
-    "statuses": [],
-    "weaknesses": [
-      "Ice"
-    ]
-  },
-  {
-    "name": "King Shakalaka",
-    "type": "Lynian",
-    "suborder": "Base Species",
-    "games": [
-      "MHFU"
-    ],
-    "elements": [
-      "Fire"
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
     ],
     "statuses": [
-      "Sleep"
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "From Monster Hunter 4 onwards"
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": null
+      }
     ],
     "weaknesses": [
-      "Ice"
-    ]
-  },
-  {
-    "name": "Nargacuga",
-    "type": "Flying Wyvern",
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Bird Wyvern",
+    "alias": "Black Wolf Bird (\u9ed2\u72fc\u9ce5)",
     "suborder": "Base Species",
-    "games": [
-      "MHFU",
-      "MHP3",
-      "MH3U",
-      "MHGen",
-      "MHGU",
-      "MHWI",
-      "MHR",
-      "MHRS",
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [],
-    "statuses": [
-      "Bleed"
-    ],
-    "weaknesses": [
-      "Fire",
-      "Thunder"
+    "related": [
+      "Scarred Yian Garuga",
+      "One-Eared Yian Garuga",
+      "Deadeye Yian Garuga",
+      "Yian Kut-Ku"
     ]
   },
   {
     "name": "Plum Daimyo Hermitaur",
-    "type": "Carapaceon",
-    "suborder": "Subspecies",
+    "icon": "./icons/monsters/Plum_Daimyo_Hermitaur.webp",
+    "description": "Armored Carapaceons that approach their prey with blinding speed, then strike using their powerful claws. Considerably more aggressive than their standard cousins. Upon their back is the skull of a monster adorned with two massive horns.",
     "games": [
-      "MHFU",
-      "MH4U"
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate"
     ],
     "elements": [
-      "Water"
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
     ],
-    "statuses": [],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "icon": "./icons/attributes/Waterblight.webp",
+        "note": "From Monster Hunter 4 Ultimate onwards"
+      }
+    ],
     "weaknesses": [
-      "Thunder",
-      "Ice"
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Carapaceon",
+    "alias": "Purple Shield Crab (\u7d2b\u76fe\u87f9)",
+    "suborder": "Subspecies",
+    "related": [
+      "Daimyo Hermitaur",
+      "Stonefist Hermitaur",
+      "Hermitaur"
     ]
   },
   {
     "name": "Terra Shogun Ceanataur",
-    "type": "Carapaceon",
-    "suborder": "Subspecies",
+    "icon": "./icons/monsters/Terra_Shogun_Ceanataur.webp",
+    "description": "A large Carapaceon with a giant monster's skull on its back. Its long, sharp pincers allow it to pierce volcanic bedrock and travel along ceilings. Sometimes, a precious and valuable pearl can be found inside its shell.",
     "games": [
-      "MHFU"
+      "Monster Hunter Freedom Unite"
     ],
     "elements": [
-      "Water"
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
     ],
     "statuses": [],
     "weaknesses": [
-      "Thunder"
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Carapaceon",
+    "alias": "Sickle Crab (\u938c\u87f9)",
+    "suborder": "Subspecies",
+    "related": [
+      "Shogun Ceanataur",
+      "Rustrazor Ceanataur",
+      "Ceanataur"
+    ]
+  },
+  {
+    "name": "Copper Blangonga",
+    "icon": "./icons/monsters/Copper_Blangonga.webp",
+    "description": "???",
+    "games": [
+      "Monster Hunter Freedom Unite"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Beast",
+    "alias": "Sand Lion (\u7802\u7345\u5b50)",
+    "suborder": "Subspecies",
+    "related": [
+      "Blangonga",
+      "Blango"
+    ]
+  },
+  {
+    "name": "Emerald Congalala",
+    "icon": "./icons/monsters/Emerald_Congalala.webp",
+    "description": "A green-furred subspecies of Congalala. The decorative fur on their heads is particularly flamboyant. More ravenous than ordinary Congalala, they can store a greater amount of gas in their bodies, which means they can produce a wider-reaching flatulence when threatened or provoked.",
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": "Depends on Mushroom eaten"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "Depends on Mushroom eaten"
+      },
+      {
+        "name": "Blastblight",
+        "icon": "./icons/attributes/Blastblight.webp",
+        "note": "Depends on Mushroom eaten"
+      },
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": "Depends on Mushroom eaten"
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": "Depends on Mushroom eaten"
+      },
+      {
+        "name": "Soiled",
+        "icon": "./icons/attributes/Soiled.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Beast",
+    "alias": "Green Fur Beast (\u7dd1\u6bdb\u7363)",
+    "suborder": "Subspecies",
+    "related": [
+      "Congalala",
+      "Conga"
+    ]
+  },
+  {
+    "name": "Furious Rajang",
+    "icon": "./icons/monsters/Furious_Rajang.webp",
+    "description": "Furious Rajang are Rajang variants that are covered in golden fur. Normally Rajang return to their black-furred state after being agitated for a time to conserve energy, but these beasts have lost their ability to curb their anger. Outclassing the standard Rajang's attack power, they assault with seething rage. At the apex of their fury they become enraged and turn into destructive demons with electrified manes.",
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise: Sunbreak"
+    ],
+    "elements": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Thunderblight",
+        "icon": "./icons/attributes/Thunderblight.webp",
+        "note": "From Monster Hunter 4 onwards"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Beast",
+    "alias": "Gold Lion (\u91d1\u7345\u5b50)",
+    "suborder": "Base Species",
+    "related": [
+      "Rajang"
+    ]
+  },
+  {
+    "name": "Nargacuga",
+    "icon": "./icons/monsters/Nargacuga.webp",
+    "description": "Flying Wyverns that have evolved to live in thickly wooded areas. These sly beasts stalk their prey from the shadows with ferocious speed and dogged tenacity. Their massive tails are so dexterous as they are deadly, and powerful enough to slay smaller monsters with one strike.",
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Bleeding",
+        "icon": "./icons/attributes/Bleeding.webp",
+        "note": "In Monster Hunter World: Iceborne"
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": "In Monster Hunter Frontier"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Swift Wyvern (\u8fc5\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Green Nargacuga",
+      "Silverwind Nargacuga",
+      "Lucent Nargacuga",
+      "Blinking Nargacuga",
+      "Fiercewater Nargacuga"
     ]
   },
   {
     "name": "Ukanlos",
-    "type": "Flying Wyvern",
-    "suborder": "Base Species",
+    "icon": "./icons/monsters/Ukanlos.webp",
+    "description": "An enigmatic dragon sighted only deep within the most remote extremes. Its jaws are capable of crushing ice and rock alike. The natives of one region claim its appearance mirrors that of the white god of their legends.",
     "games": [
-      "MHFU",
-      "MHP3",
-      "MH4U",
-      "MHGen",
-      "MHGU"
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate"
     ],
     "elements": [
-      "Ice"
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
     ],
     "statuses": [
-      "Snowman"
+      {
+        "name": "Iceblight",
+        "icon": "./icons/attributes/Iceblight.webp",
+        "note": "From Monster Hunter Portable 3rd onwards"
+      },
+      {
+        "name": "Snowman",
+        "icon": "./icons/attributes/Snowman.webp",
+        "note": null
+      }
     ],
     "weaknesses": [
-      "Fire",
-      "Thunder"
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Avalanche Wyvern (\u5d29\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Akantor"
     ]
   },
   {
     "name": "Vespoid Queen",
-    "type": "Neopteron",
-    "suborder": "Base Species",
+    "icon": "./icons/monsters/Vespoid_Queen.webp",
+    "description": "A massive thorax and brilliant, gigantic wings mark the Vespoid Queen. It commands its subjects through unique flight patterns, and will stab any intruders with a poisonous stinger that also causes paralysis. It also spits acidic bodily fluid at its prey.",
     "games": [
-      "MHFU"
+      "Monster Hunter Freedom Unite"
     ],
     "elements": [],
     "statuses": [
-      "Defense Down",
-      "Paralysis"
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Defense",
+        "icon": "./icons/attributes/Defense.webp",
+        "note": null
+      }
     ],
     "weaknesses": [
-      "Fire"
-    ]
-  },
-  {
-    "name": "Yian Garuga",
-    "type": "Bird Wyvern",
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Neopteron",
+    "alias": "Giant Insect (\u5973\u738b\u866b)",
     "suborder": "Base Species",
-    "games": [
-      "MHFU",
-      "MHGen",
-      "MHGU",
-      "MHWI",
-      "MHF",
-      "MHFF",
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Fire"
-    ],
-    "statuses": [
-      "Poison"
-    ],
-    "weaknesses": [
-      "Water"
+    "related": [
+      "Vespoid"
     ]
   }
 ]

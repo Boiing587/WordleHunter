@@ -1,273 +1,567 @@
 [
   {
-    "name": "Dah'ren Mohran",
-    "type": "Elder Dragon",
-    "suborder": "Base Species",
-    "games": [
-      "MH4",
-      "MH4U"
-    ],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": [
-      "Thunder",
-      "Dragon"
-    ]
-  },
-  {
-    "name": "Dalamadur",
-    "type": "Elder Dragon",
-    "suborder": "Base Species",
-    "games": [
-      "MH4",
-      "MH4U"
-    ],
-    "elements": [],
-    "statuses": [
-      "Paralysis"
-    ],
-    "weaknesses": [
-      "Dragon"
-    ]
-  },
-  {
-    "name": "Gore Magala",
-    "type": "???",
-    "suborder": "Base Species",
-    "games": [
-      "MH4",
-      "MH4U",
-      "MHGen",
-      "MHGU",
-      "MHRS",
-      "MHFZ"
-    ],
-    "elements": [],
-    "statuses": [
-      "Frenzy"
-    ],
-    "weaknesses": [
-      "Fire",
-      "Thunder",
-      "Dragon"
-    ]
-  },
-  {
-    "name": "Kecha Wacha",
-    "type": "Fanged Beast",
-    "suborder": "Base Species",
-    "games": [
-      "MH4",
-      "MH4U",
-      "MHGen",
-      "MHGU"
-    ],
-    "elements": [
-      "Water"
-    ],
-    "statuses": [],
-    "weaknesses": [
-      "Fire",
-      "Thunder"
-    ]
-  },
-  {
-    "name": "Molten Tigrex",
-    "type": "Flying Wyvern",
-    "suborder": "Rare Species",
-    "games": [
-      "MH4",
-      "MH4U"
-    ],
-    "elements": [],
-    "statuses": [
-      "Blastblight"
-    ],
-    "weaknesses": [
-      "Water",
-      "Ice"
-    ]
-  },
-  {
-    "name": "Najarala",
-    "type": "Snake Wyvern",
-    "suborder": "Base Species",
-    "games": [
-      "MH4",
-      "MH4U",
-      "MHGen",
-      "MHGU"
-    ],
-    "elements": [],
-    "statuses": [
-      "Paralysis",
-      "Stun"
-    ],
-    "weaknesses": [
-      "Water",
-      "Ice"
-    ]
-  },
-  {
-    "name": "Nerscylla",
-    "type": "Temnoceran",
-    "suborder": "Base Species",
-    "games": [
-      "MH4",
-      "MH4U",
-      "MHGU"
-    ],
-    "elements": [],
-    "statuses": [
-      "Poison",
-      "Noxious Poison",
-      "Sleep",
-      "Webbed"
-    ],
-    "weaknesses": [
-      "Fire",
-      "Thunder"
-    ]
-  },
-  {
-    "name": "Oroshi Kirin",
-    "type": "Elder Dragon",
-    "suborder": "Subspecies",
-    "games": [
-      "MH4",
-      "MH4U"
-    ],
-    "elements": [
-      "Ice"
-    ],
-    "statuses": [
-      "Snowman"
-    ],
-    "weaknesses": [
-      "Fire",
-      "Water"
-    ]
-  },
-  {
-    "name": "Ruby Basarios",
-    "type": "Flying Wyvern",
-    "suborder": "Subspecies",
-    "games": [
-      "MH4",
-      "MH4U"
-    ],
-    "elements": [
-      "Fire"
-    ],
-    "statuses": [
-      "Poison",
-      "Noxious Poison",
-      "Sleep",
-      "Stun"
-    ],
-    "weaknesses": [
-      "Ice"
-    ]
-  },
-  {
-    "name": "Seltas",
-    "type": "Neopteron",
-    "suborder": "Base Species",
-    "games": [
-      "MH4",
-      "MH4U",
-      "MHGen",
-      "MHGU"
-    ],
-    "elements": [],
-    "statuses": [
-      "Defense Down"
-    ],
-    "weaknesses": [
-      "Fire",
-      "Thunder"
-    ]
-  },
-  {
-    "name": "Seltas Queen",
-    "type": "Neopteron",
-    "suborder": "Base Species",
-    "games": [
-      "MH4",
-      "MH4U",
-      "MHGen",
-      "MHGU"
-    ],
-    "elements": [
-      "Water"
-    ],
-    "statuses": [
-      "Soiled",
-      "Stun"
-    ],
-    "weaknesses": [
-      "Fire",
-      "Ice"
-    ]
-  },
-  {
-    "name": "Shagaru Magala",
-    "type": "Elder Dragon",
-    "suborder": "Base Species",
-    "games": [
-      "MH4",
-      "MH4U",
-      "MHGen",
-      "MHGU",
-      "MHRS",
-      "MHFZ"
-    ],
-    "elements": [],
-    "statuses": [
-      "Frenzy"
-    ],
-    "weaknesses": [
-      "Fire",
-      "Dragon"
-    ]
-  },
-  {
     "name": "Tetsucabra",
-    "type": "Amphibian",
-    "suborder": "Base Species",
+    "icon": "./icons/monsters/Tetsucabra.webp",
+    "description": "Amphibians with powerful hind legs allowing them to leap up even the steepest of slopes. The terrifying tusks on their enormous jaws allow them to excavate deep trenches, effectively trapping their prey.",
     "games": [
-      "MH4",
-      "MH4U",
-      "MHGen",
-      "MHGU"
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate"
     ],
     "elements": [],
-    "statuses": [],
+    "statuses": [
+      {
+        "name": "Fatigued",
+        "icon": "./icons/attributes/Fatigued.webp",
+        "note": null
+      }
+    ],
     "weaknesses": [
-      "Water",
-      "Thunder"
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Amphibian",
+    "alias": "Oni Frog (\u9b3c\u86d9)",
+    "suborder": "Base Species",
+    "related": [
+      "Berserk Tetsucabra",
+      "Drilltusk Tetsucabra"
     ]
   },
   {
     "name": "Zamtrios",
-    "type": "Amphibian",
-    "suborder": "Base Species",
+    "icon": "./icons/monsters/Zamtrios.webp",
+    "description": "Amphibian monsters known for the astonishing changes that occur when they coat their bodies in icy armor. They are able to create this armor by spraying themselves with a special liquid that builds up in their bodies.",
     "games": [
-      "MH4",
-      "MH4U",
-      "MHGen",
-      "MHGU"
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate"
     ],
     "elements": [
-      "Water",
-      "Ice"
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
     ],
     "statuses": [
-      "Snowman"
+      {
+        "name": "Iceblight",
+        "icon": "./icons/attributes/Iceblight.webp",
+        "note": null
+      },
+      {
+        "name": "Snowman",
+        "icon": "./icons/attributes/Snowman.webp",
+        "note": null
+      }
     ],
     "weaknesses": [
-      "Fire",
-      "Thunder"
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": "With Ice armour"
+      }
+    ],
+    "type": "Amphibian",
+    "alias": "Transforming Shark (\u5316\u3051\u9bab)",
+    "suborder": "Base Species",
+    "related": [
+      "Tigerstripe Zamtrios",
+      "Zamite"
+    ]
+  },
+  {
+    "name": "Gore Magala",
+    "icon": "./icons/monsters/Gore_Magala.webp",
+    "description": "Monsters that drape themselves in their great wings, like a black overcoat. They have no eye sensory organs, so instead they use a scattering of fine scales from their wings to locate prey. When their sensory capacity increases, antennae appear on their heads and they unfurl their wings, entering the aggressive Frenzy State. Their black scales can Frenzy other creatures as well, making them fearsome adversaries.",
+    "games": [
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Wilds",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Frenzy Virus",
+        "icon": "./icons/attributes/Frenzy_Virus.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Demi Elder (6th Gen)??? (4th and 5th Gen)",
+    "alias": "Black Eclipse Wyvern (\u9ed2\u8755\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Chaotic Gore Magala",
+      "Shagaru Magala",
+      "Risen Shagaru Magala"
+    ]
+  },
+  {
+    "name": "Dah'ren Mohran",
+    "icon": "./icons/monsters/Dah'ren_Mohran.webp",
+    "description": "Colossal elder dragons that swim through the Great Desert, smashing obstacles with their spiral horns. Their unique color comes from the thick layer of oxidized metals and other rare minerals that lodge in their hides over their long lives.",
+    "games": [
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Huge Mountain Dragon (\u8c6a\u5c71\u9f8d)",
+    "suborder": "Base Species",
+    "related": [
+      "Jhen Mohran"
+    ]
+  },
+  {
+    "name": "Dalamadur",
+    "icon": "./icons/monsters/Dalamadur.webp",
+    "description": "A huge elder dragon, massive beyond human comprehension. The only mention of its existence is found in fairy tales, which claim it can warp the very surface of the world and level mountains with a single twitch.",
+    "games": [
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Serpent King Dragon (\u86c7\u738b\u9f8d)",
+    "suborder": "Base Species",
+    "related": [
+      "Shah Dalamadur"
+    ]
+  },
+  {
+    "name": "Oroshi Kirin",
+    "icon": "./icons/monsters/Oroshi_Kirin.webp",
+    "description": "Mythical beasts that very few have encountered. Unlike their cousins, their bodies are colored an ebony-black. According to the scarce reports available, it is said that the temperatures around them plummet below zero, creating a frozen veil of mystery.",
+    "games": [
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate"
+    ],
+    "elements": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Iceblight",
+        "icon": "./icons/attributes/Iceblight.webp",
+        "note": null
+      },
+      {
+        "name": "Snowman",
+        "icon": "./icons/attributes/Snowman.webp",
+        "note": "In G Rank"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Phantom Beast (\u865a\u5e7b\u7363)",
+    "suborder": "Subspecies",
+    "related": [
+      "Kirin"
+    ]
+  },
+  {
+    "name": "Shagaru Magala",
+    "icon": "./icons/monsters/Shagaru_Magala.webp",
+    "description": "The form taken by Gore Magala once they mature and molt. Gorgeous, glittering scales cover Shagaru Magala, and their divine wings are large enough to wrap around their entire body. According to records, one was once said to have scattered its black scales over an area the size of a mountain, annihilating any and all lifeforms inhabiting that region.",
+    "games": [
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Frenzy Virus",
+        "icon": "./icons/attributes/Frenzy_Virus.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Heavenly Revolving Dragon (\u5929\u5efb\u9f8d)",
+    "suborder": "Base Species",
+    "related": [
+      "Risen Shagaru Magala",
+      "Gore Magala"
+    ]
+  },
+  {
+    "name": "Kecha Wacha",
+    "icon": "./icons/monsters/Kecha_Wacha.webp",
+    "description": "Fanged Beasts with limbs well adapted to swinging through the treetops. Curious by nature, they will drop down and attack any passersby, making them quite the nuisance. When provoked, they shield their faces with giant ears, blocking out any loud noises or bright light.",
+    "games": [
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate"
+    ],
+    "elements": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "icon": "./icons/attributes/Waterblight.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Fanged Beast",
+    "alias": "Strange Monkey Fox (\u5947\u733f\u72d0)",
+    "suborder": "Base Species",
+    "related": [
+      "Ash Kecha Wacha"
+    ]
+  },
+  {
+    "name": "Ruby Basarios",
+    "icon": "./icons/monsters/Ruby_Basarios.webp",
+    "description": "This subspecies of Basarios coat their carapace with rare ore, which they scatter with great force during battle. Unlike regular Basarios, they can discharge both noxious poison and a sleep-inducing gas.",
+    "games": [
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": null
+      },
+      {
+        "name": "Sleep Attribute",
+        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Noxious Poison",
+        "icon": "./icons/attributes/Noxious_Poison.webp",
+        "note": "In G Rank"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Peach Rock Wyvern (\u6843\u5ca9\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Basarios",
+      "Gravios"
+    ]
+  },
+  {
+    "name": "Molten Tigrex",
+    "icon": "./icons/monsters/Molten_Tigrex.webp",
+    "description": "A rare subspecies of Tigrex. While traces of claw marks and footprints thought to belong to this monster have been discovered, its existence is unconfirmed due to the lack of first-hand sightings...",
+    "games": [
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Blastblight",
+        "icon": "./icons/attributes/Blastblight.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Great Roaring Wyvern (\u5927\u8f5f\u7adc)",
+    "suborder": "Rare Species",
+    "related": [
+      "Tigrex",
+      "Brute Tigrex",
+      "Grimclaw Tigrex"
+    ]
+  },
+  {
+    "name": "Seltas",
+    "icon": "./icons/monsters/Seltas.webp",
+    "description": "Swift, agile Neopterons that swoop down and attack their prey from the sky. They can also store a corrosive liquid inside themselves, which they can spray from their stinger-shaped abdomens.",
+    "games": [
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Defense",
+        "icon": "./icons/attributes/Defense.webp",
+        "note": null
+      },
+      {
+        "name": "Fatigued",
+        "icon": "./icons/attributes/Fatigued.webp",
+        "note": "When fused with Seltas Queen"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Neopteron",
+    "alias": "Piercing Beetle (\u5fb9\u7532\u866b)",
+    "suborder": "Base Species",
+    "related": [
+      "Desert Seltas",
+      "Seltas Queen"
+    ]
+  },
+  {
+    "name": "Seltas Queen",
+    "icon": "./icons/monsters/Seltas_Queen.webp",
+    "description": "These large monsters have shrunk back in the process of evolution, rendering them flightless. They excrete pheromones to attract the male Seltas, and work together with them to hunt down prey.",
+    "games": [
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate"
+    ],
+    "elements": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "icon": "./icons/attributes/Waterblight.webp",
+        "note": null
+      },
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      },
+      {
+        "name": "Soiled",
+        "icon": "./icons/attributes/Soiled.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Neopteron",
+    "alias": "Heavy Beetle (\u91cd\u7532\u866b)",
+    "suborder": "Base Species",
+    "related": [
+      "Desert Seltas Queen",
+      "Seltas"
+    ]
+  },
+  {
+    "name": "Najarala",
+    "icon": "./icons/monsters/Najarala.webp",
+    "description": "A monster that stuns its prey with vibrations from its scales, then wraps around and constricts its victims. Once a Najarala start to coil around its prey, a quick escape or a mortal blow to it are the only things that will offer a chance at survival.",
+    "games": [
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      },
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Snake Wyvern",
+    "alias": "Constricting Snake Wyvern (\u7d5e\u86c7\u7adc)",
+    "suborder": "Base Species",
+    "related": [
+      "Tidal Najarala"
+    ]
+  },
+  {
+    "name": "Nerscylla",
+    "icon": "./icons/monsters/Nerscylla.webp",
+    "description": "Temnocerans that inhabit the Iceshard Cliffs. They weave vast, sticky webs across their territory, using them and various status ailments to corner prey before utilizing pincer-like jaws to finish it off. Sometimes dead Gypceros can be found in the webs, the hide of which Nerscylla are known to adorn themselves with after devouring the rest of the carcass.",
+    "games": [
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Wilds"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Sleep Attribute",
+        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Noxious Poison",
+        "icon": "./icons/attributes/Noxious_Poison.webp",
+        "note": "In High Rank (Monster Hunter 4 Ultimate)/G Rank (Monster Hunter Generations Ultimate)"
+      },
+      {
+        "name": "Webbed",
+        "icon": "./icons/attributes/Webbed.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": "When hide is broken."
+      }
+    ],
+    "type": "Temnoceran",
+    "alias": "Shadow Spider (\u5f71\u8718\u86db)",
+    "suborder": "Base Species",
+    "related": [
+      "Shrouded Nerscylla",
+      "Nerscylla Hatchling"
     ]
   }
 ]

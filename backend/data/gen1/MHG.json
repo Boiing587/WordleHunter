@@ -1,367 +1,737 @@
 [
   {
-    "name": "Ashen Lao-Shan Lung",
-    "type": "Elder Dragon",
-    "suborder": "Subspecies",
+    "name": "Purple Gypceros",
+    "icon": "./icons/monsters/Purple_Gypceros.webp",
+    "description": "A purple-skinned subspecies of Gypceros. When enraged, they become more violent than their standard cousins, stomping wildly over anything that crosses their path. Not only is their venom more potent, but they also store a greater amount of it, making them a much deadlier foe.",
     "games": [
-      "MHG",
-      "MHF1",
-      "MH2",
-      "MHF2",
-      "MHFU",
-      "MHF",
-      "MHFF",
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [],
-    "statuses": [],
-    "weaknesses": [
-      "Fire",
-      "Dragon"
-    ]
-  },
-  {
-    "name": "Azure Rathalos",
-    "type": "Flying Wyvern",
-    "suborder": "Subspecies",
-    "games": [
-      "MHG",
-      "MHF1",
-      "MH2",
-      "MHF2",
-      "MHFU",
-      "MH3U",
-      "MH4",
-      "MH4U",
-      "MHW",
-      "MHWI",
-      "MHF",
-      "MHFF",
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Fire"
-    ],
     "statuses": [
-      "Poison"
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": "Until Monster Hunter 4"
+      },
+      {
+        "name": "Noxious Poison",
+        "icon": "./icons/attributes/Noxious_Poison.webp",
+        "note": null
+      }
     ],
     "weaknesses": [
-      "Ice",
-      "Dragon"
-    ]
-  },
-  {
-    "name": "Black Diablos",
-    "type": "Flying Wyvern",
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": "Monster Hunter Frontier"
+      }
+    ],
+    "type": "Bird Wyvern",
+    "alias": "Purple Poison Bird (\u7d2b\u6bd2\u9ce5)",
     "suborder": "Subspecies",
-    "games": [
-      "MHG",
-      "MHF1",
-      "MH2",
-      "MHF2",
-      "MHFU",
-      "MHP3",
-      "MH3U",
-      "MH4U",
-      "MHW",
-      "MHWI",
-      "MHF",
-      "MHFF",
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": [
-      "Ice"
-    ]
-  },
-  {
-    "name": "Black Gravios",
-    "type": "Flying Wyvern",
-    "suborder": "Subspecies",
-    "games": [
-      "MHG",
-      "MHF1",
-      "MH2",
-      "MHF2",
-      "MHFU",
-      "MH4",
-      "MH4U",
-      "MHF",
-      "MHFF",
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Fire"
-    ],
-    "statuses": [
-      "Sleep"
-    ],
-    "weaknesses": [
-      "Ice"
+    "related": [
+      "Gypceros"
     ]
   },
   {
     "name": "Blue Yian Kut-Ku",
-    "type": "Bird Wyvern",
-    "suborder": "Subspecies",
+    "icon": "./icons/monsters/Blue_Yian_Kut-Ku.webp",
+    "description": "A subspecies of Yian Kut-Ku. Their blue coloration and physical prowess set them apart from their pink kin. Unlike their cowardly cousins, they become increasingly dangerous when angered, and should not be underestimated.",
     "games": [
-      "MHG",
-      "MHF1",
-      "MH2",
-      "MHF2",
-      "MHFU",
-      "MH4",
-      "MH4U",
-      "MHF",
-      "MHFF",
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [
-      "Fire"
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
     ],
-    "statuses": [],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "From Monster Hunter 4 onwards"
+      }
+    ],
     "weaknesses": [
-      "Water",
-      "Thunder"
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": "Monster Hunter Frontier"
+      }
+    ],
+    "type": "Bird Wyvern",
+    "alias": "Blue Strange Bird (\u9752\u602a\u9ce5)",
+    "suborder": "Subspecies",
+    "related": [
+      "Yian Kut-Ku",
+      "Yian Garuga"
     ]
   },
   {
     "name": "Crimson Fatalis",
+    "icon": "./icons/monsters/Crimson_Fatalis.webp",
+    "description": "???",
+    "games": [
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": "Until Monster Hunter 4"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "From Monster Hunter 4 onwards"
+      },
+      {
+        "name": "Blastblight",
+        "icon": "./icons/attributes/Blastblight.webp",
+        "note": "From Monster Hunter 4 onwards"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
     "type": "Elder Dragon",
+    "alias": "Crimson Dragon (\u7d05\u9f8d)",
     "suborder": "Base Species",
-    "games": [
-      "MHG",
-      "MHF1",
-      "MH2",
-      "MHF2",
-      "MHFU",
-      "MH4",
-      "MH4U",
-      "MHGU",
-      "MHF",
-      "MHFF",
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Fire",
-      "Dragon"
-    ],
-    "statuses": [
-      "Blastblight"
-    ],
-    "weaknesses": [
-      "Ice",
-      "Dragon"
+    "related": [
+      "Fatalis",
+      "Old Fatalis"
     ]
   },
   {
-    "name": "Gold Rathian",
-    "type": "Flying Wyvern",
-    "suborder": "Rare Species",
+    "name": "Ashen Lao-Shan Lung",
+    "icon": "./icons/monsters/Ashen_Lao-Shan_Lung.webp",
+    "description": "A giant dragon few have seen and lived to tell the tale. When on the rampage it wreaks havoc on all in its path. The guild has built a fortress to repel the beast, but will it hold?",
     "games": [
-      "MHG",
-      "MHF1",
-      "MH2",
-      "MHF2",
-      "MHFU",
-      "MHP3",
-      "MH3U",
-      "MH4",
-      "MH4U",
-      "MHGen",
-      "MHGU",
-      "MHWI",
-      "MHRS",
-      "MHF",
-      "MHFF",
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom",
+      "Monster Hunter G",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [
-      "Fire"
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
     ],
-    "statuses": [
-      "Poison",
-      "Noxious Poison"
-    ],
+    "statuses": [],
     "weaknesses": [
-      "Water",
-      "Thunder"
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Elder Dragon",
+    "alias": "Rock Mountain Dragon (\u5ca9\u5c71\u9f8d)",
+    "suborder": "Base Species",
+    "related": [
+      "Lao-Shan Lung"
     ]
   },
   {
-    "name": "Green Plesioth",
-    "type": "Piscine Wyvern",
-    "suborder": "Subspecies",
+    "name": "Black Diablos",
+    "icon": "./icons/monsters/Black_Diablos.webp",
+    "description": "A subspecies of Diablos. Females darken in the mating season so as to warn off other creatures. Even more aggressive than the regular species, they will go out of their way to attack anything they see with their menacing horns.",
     "games": [
-      "MHG",
-      "MHF1",
-      "MH2",
-      "MHF2",
-      "MHFU",
-      "MH3U",
-      "MHF",
-      "MHFF",
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Water"
-    ],
-    "statuses": [
-      "Sleep"
-    ],
-    "weaknesses": [
-      "Fire",
-      "Thunder"
-    ]
-  },
-  {
-    "name": "Pink Rathian",
-    "type": "Flying Wyvern",
-    "suborder": "Subspecies",
-    "games": [
-      "MHG",
-      "MHF1",
-      "MH2",
-      "MHF2",
-      "MHFU",
-      "MH3U",
-      "MH4",
-      "MH4U",
-      "MHW",
-      "MHWI",
-      "MHF",
-      "MHFF",
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Fire"
-    ],
-    "statuses": [
-      "Poison",
-      "Noxious Poison"
-    ],
-    "weaknesses": [
-      "Thunder",
-      "Dragon"
-    ]
-  },
-  {
-    "name": "Purple Gypceros",
-    "type": "Bird Wyvern",
-    "suborder": "Subspecies",
-    "games": [
-      "MHG",
-      "MHF1",
-      "MH2",
-      "MHF2",
-      "MHFU",
-      "MH4",
-      "MH4U",
-      "MHF",
-      "MHFF",
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [],
     "statuses": [
-      "Poison",
-      "Noxious Poison",
-      "Stun"
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": "In Monster Hunter World: Iceborne"
+      }
     ],
     "weaknesses": [
-      "Water",
-      "Fire"
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": "First Generation"
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": "Monster Hunter Frontier"
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Black Two-Horned Wyvern (\u9ed2\u89d2\u7adc)",
+    "suborder": "Subspecies",
+    "related": [
+      "Diablos",
+      "Bloodbath Diablos",
+      "Apex Diablos",
+      "Monoblos"
+    ]
+  },
+  {
+    "name": "Black Gravios",
+    "icon": "./icons/monsters/Black_Gravios.webp",
+    "description": "A Gravios subspecies distinguished by a hard black carapace that allows them to contain their own extraordinarily high internal temperatures. They sometimes discharge this thermal energy as an extremely powerful heat ray.",
+    "games": [
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "From Monster Hunter 4 onwards"
+      },
+      {
+        "name": "Sleep Attribute",
+        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": "In Monster Hunter Frontier"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Black Armor Wyvern (\u9ed2\u93a7\u7adc)",
+    "suborder": "Subspecies",
+    "related": [
+      "Gravios",
+      "Zenith Gravios",
+      "Basarios",
+      "Greadios"
     ]
   },
   {
     "name": "Red Khezu",
+    "icon": "./icons/monsters/Red_Khezu.webp",
+    "description": "A subspecies of Khezu that has red bodies. Their electrical power is far more advanced than that of normal Khezu, giving them a wider variety of attacks to disable and ensnare prey.",
+    "games": [
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Thunderblight",
+        "icon": "./icons/attributes/Thunderblight.webp",
+        "note": "From Monster Hunter 4 onwards"
+      },
+      {
+        "name": "Stun",
+        "icon": "./icons/attributes/Stun.webp",
+        "note": null
+      },
+      {
+        "name": "Paralysis Attribute",
+        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Resistance Down",
+        "icon": "./icons/attributes/Resistance_Down.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
     "type": "Flying Wyvern",
+    "alias": "Red Strange Wyvern (\u8d64\u602a\u7adc)",
     "suborder": "Subspecies",
-    "games": [
-      "MHG",
-      "MHF1",
-      "MH2",
-      "MHF2",
-      "MHFU",
-      "MH4",
-      "MH4U",
-      "MHF",
-      "MHFF",
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Thunder"
-    ],
-    "statuses": [
-      "Paralysis"
-    ],
-    "weaknesses": [
-      "Water"
-    ]
-  },
-  {
-    "name": "Silver Rathalos",
-    "type": "Flying Wyvern",
-    "suborder": "Rare Species",
-    "games": [
-      "MHG",
-      "MHF1",
-      "MH2",
-      "MHF2",
-      "MHFU",
-      "MHP3",
-      "MH3U",
-      "MH4",
-      "MH4U",
-      "MHGen",
-      "MHGU",
-      "MHWI",
-      "MHRS",
-      "MHF",
-      "MHFF",
-      "MHFG",
-      "MHFZ"
-    ],
-    "elements": [
-      "Fire"
-    ],
-    "statuses": [
-      "Poison"
-    ],
-    "weaknesses": [
-      "Water",
-      "Thunder"
+    "related": [
+      "Khezu"
     ]
   },
   {
     "name": "White Monoblos",
-    "type": "Flying Wyvern",
-    "suborder": "Subspecies",
+    "icon": "./icons/monsters/White_Monoblos.webp",
+    "description": "A white-colored subspecies of Monoblos encased in a tough outer shell. They have a fiercer temperament than regular Monoblos, and will hunt down their quarry relentlessly. Sightings of these monsters are incredibly rare.",
     "games": [
-      "MHG",
-      "MHF1",
-      "MH2",
-      "MHF2",
-      "MHFU",
-      "MH4U",
-      "MHF",
-      "MHFF",
-      "MHFG",
-      "MHFZ"
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom",
+      "Monster Hunter G",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
     ],
     "elements": [],
     "statuses": [],
-    "weaknesses": []
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": "Monster Hunter Frontier"
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "White One Horn Wyvern (\u767d\u4e00\u89d2\u7adc)",
+    "suborder": "Subspecies",
+    "related": [
+      "Monoblos",
+      "Black Diablos",
+      "Diablos"
+    ]
+  },
+  {
+    "name": "Azure Rathalos",
+    "icon": "./icons/monsters/Azure_Rathalos.webp",
+    "description": "An azure-colored subspecies of Rathalos. More mobile than their standard cousins, they locate prey from the air and quickly swoop in for the kill.",
+    "games": [
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": "Until Monster Hunter 3 Ultimate"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "From Monster Hunter 3 Ultimate onwards"
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": "Monster Hunter Frontier"
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Azure Fire Wyvern (\u84bc\u706b\u7adc)",
+    "suborder": "Subspecies",
+    "related": [
+      "Rathalos",
+      "Silver Rathalos",
+      "Dreadking Rathalos",
+      "Apex Rathalos",
+      "Rathian"
+    ]
+  },
+  {
+    "name": "Silver Rathalos",
+    "icon": "./icons/monsters/Silver_Rathalos.webp",
+    "description": "A rare species of Rathalos covered in shimmering silver scales. Known as the Silver Fire Wyvern, or alternatively the Silver Sun, as inspired by their majestic appearance. These wyverns are known for their fierce breath and even fiercer claws, giving these threatening beasts exceptional combat ability. In battle, their attacks grow only more intense when in their Incandescent state.",
+    "games": [
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": "Until Monster Hunter Portable 3rd."
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "From Monster Hunter Portable 3rd onwards."
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": "Until Monster Hunter Portable 3rd."
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Silver Fire Wyvern (\u9280\u706b\u7adc)",
+    "suborder": "Rare Species",
+    "related": [
+      "Rathalos",
+      "Azure Rathalos",
+      "Dreadking Rathalos",
+      "Apex Rathalos",
+      "Rathian"
+    ]
+  },
+  {
+    "name": "Pink Rathian",
+    "icon": "./icons/monsters/Pink_Rathian.webp",
+    "description": "A subspecies of Rathian with vibrant pink scales. They wield their toxic tails more deftly than normal Rathian, weakening prey with poison before finishing them off.",
+    "games": [
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "From Monster Hunter 3 Ultimate onwards"
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": null
+      },
+      {
+        "name": "Noxious Poison",
+        "icon": "./icons/attributes/Noxious_Poison.webp",
+        "note": "In Master Rank (Monster Hunter World: Iceborne)"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon Element",
+        "icon": "./icons/attributes/Dragon_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": "Monster Hunter Frontier"
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Cherry Blossom Fire Wyvern (\u685c\u706b\u7adc)",
+    "suborder": "Subspecies",
+    "related": [
+      "Rathian",
+      "Gold Rathian",
+      "Dreadqueen Rathian",
+      "Apex Rathian",
+      "Rathalos"
+    ]
+  },
+  {
+    "name": "Gold Rathian",
+    "icon": "./icons/monsters/Gold_Rathian.webp",
+    "description": "A rare species of Rathian covered in shimmering golden scales. Known as the Gold Fire Wyvern, or alternatively the Golden Moon, as inspired by their divine appearance. These wyverns are infamous for their strong scales and attacks with their reinforced tails, giving these beasts exceptional combat ability. In battle, their attacks grow only more intense when in their Incandescent state.",
+    "games": [
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire Element",
+        "icon": "./icons/attributes/Fire_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "icon": "./icons/attributes/Fireblight.webp",
+        "note": "From Monster Hunter Portable 3rd onwards."
+      },
+      {
+        "name": "Poison Attribute",
+        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "note": "Until Monster Hunter World: Iceborne."
+      },
+      {
+        "name": "Noxious Poison",
+        "icon": "./icons/attributes/Noxious_Poison.webp",
+        "note": "From Monster Hunter World: Iceborne onwards."
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      }
+    ],
+    "type": "Flying Wyvern",
+    "alias": "Gold Fire Wyvern (\u91d1\u706b\u7adc)",
+    "suborder": "Rare Species",
+    "related": [
+      "Rathian",
+      "Pink Rathian",
+      "Dreadqueen Rathian",
+      "Apex Rathian"
+    ]
+  },
+  {
+    "name": "Green Plesioth",
+    "icon": "./icons/monsters/Green_Plesioth.webp",
+    "description": "A subspecies of Plesioth named for their jade-green scales. Astonishingly agile and tenacious, they aggressively pursue their target on land or in water, destroying everything in their path untill they catch their prey.",
+    "games": [
+      "Monster Hunter G",
+      "Monster Hunter Freedom",
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Water Element",
+        "icon": "./icons/attributes/Water_Element.webp",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "icon": "./icons/attributes/Waterblight.webp",
+        "note": "From Monster Hunter 3 Ultimate onwards"
+      },
+      {
+        "name": "Sleep Attribute",
+        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "note": "Until Monster Hunter 3 Ultimate"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder Element",
+        "icon": "./icons/attributes/Thunder_Element.webp",
+        "note": null
+      },
+      {
+        "name": "Ice Element",
+        "icon": "./icons/attributes/Ice_Element.webp",
+        "note": "Monster Hunter Frontier"
+      }
+    ],
+    "type": "Piscine Wyvern",
+    "alias": "Green Water Wyvern (\u7fe0\u6c34\u7adc)",
+    "suborder": "Subspecies",
+    "related": [
+      "Plesioth"
+    ]
   }
 ]
