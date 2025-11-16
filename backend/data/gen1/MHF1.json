@@ -1,8 +1,7 @@
 [
   {
     "name": "Scarred Yian Garuga",
-    "icon": "./icons/monsters/Scarred_Yian_Garuga.webp",
-    "description": "A tempered Yian Garuga that has survived a grueling battle with just a scar on its head. Be careful of its successive breath attacks.",
+    "description": "A tempered ___ that has survived a grueling battle with just a scar on its head. Be careful of its successive breath attacks.",
     "games": [
       "Monster Hunter Freedom",
       "Monster Hunter 2",
@@ -18,32 +17,31 @@
     ],
     "elements": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
         "note": null
       },
       {
-        "name": "Poison Attribute",
-        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "name": "Poison",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
+        "name": "Water",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Bird Wyvern",
-    "alias": "Black Wolf Bird (\u9ed2\u72fc\u9ce5)",
+    "alias": "Black Wolf Bird (\u9ed2\u72fc\u9ce5)\n",
     "suborder": "Variant",
     "related": [
       "Yian Garuga",

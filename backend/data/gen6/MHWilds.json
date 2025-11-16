@@ -1,646 +1,614 @@
 [
   {
-    "name": "Chatacabra",
-    "icon": "./icons/monsters/Chatacabra.webp",
-    "description": "Amphibians that use their long tongues to seize and devour prey such as Bulaqchi. Their evolved forelimbs store a sticky mucus-like substance. When agitated, Chatacabra rub their forelimbs against the ground to collect stone and ore, widening the range and destructiveness of their blows.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": [
-      {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Amphibian",
-    "alias": "Binding Frog (\u7e8f\u86d9)",
-    "suborder": "Base Species",
-    "related": []
-  },
-  {
-    "name": "Rompopolo",
-    "icon": "./icons/monsters/Rompopolo.webp",
-    "description": "Dappled brute wyverns that prowl Oilwell Basin. They use their tails to inject gas into the ground and detonate it, then feed on the small creatures that are unearthed. The toxic gas they spray from their tongues serve to weaken prey, which they then finish off with the blasts. Rompopolo are extremely territorial and will readily engage their own kind.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
-    "elements": [],
-    "statuses": [
-      {
-        "name": "Poison Attribute",
-        "icon": "./icons/attributes/Poison_Attribute.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Brute Wyvern",
-    "alias": "Swamp Spouting Wyvern (\u6cbc\u5674\u7adc)",
-    "suborder": "Base Species",
-    "related": []
-  },
-  {
-    "name": "Quematrice",
-    "icon": "./icons/monsters/Quematrice.webp",
-    "description": "Brute Wyverns with disproportionately long tails. They spread a flammable substance which vaporizes quickly, then it ignite it by dragging their tails along the ground. By nature, Quematrice rarely hunt their own prey, and instead scavenge herbivore carrion left behind by other predators. This often leads to confrontations with other, smaller carnivores.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
-    "elements": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Brute Wyvern",
-    "alias": "Flame Tail Wyvern (\u708e\u5c3e\u7adc)",
-    "suborder": "Base Species",
-    "related": []
-  },
-  {
-    "name": "Nu Udra",
-    "icon": "./icons/monsters/Nu_Udra.webp",
-    "description": "The cephalopod that reigns supreme over Oilwell Basin's ecosystem. Usually, when sighted, Nu Udra is covered in oilsilt, but when enraged it will ignite the coating, transfiguring itself into a horror of flame. The oculi that appear on its body and many arms are presumed to be sensory organs, but the truth is still being investigated.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
-    "elements": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Cephalopod",
-    "alias": "Hell Flame Octopus (\u7344\u7114\u86f8)",
-    "suborder": "Base Species",
-    "related": []
-  },
-  {
-    "name": "Xu Wu",
-    "icon": "./icons/monsters/Xu_Wu.webp",
-    "description": "Cephalopod predators whose prey include Guardian monsters. The mucus secreted from their tentacles hardens quickly into sharp edges that resemble blades or spears, which is why some call Xu Wu the \"Piercing Assassin\". The sizable mouth hidden on their underside allows them to devour even rather large prey.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": [
-      {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Cephalopod",
-    "alias": "Concealed Weapon Octopus (\u6697\u5668\u86f8)",
-    "suborder": "Base Species",
-    "related": []
-  },
-  {
-    "name": "Guardian Arkveld",
-    "icon": "./icons/monsters/Guardian_Arkveld.webp",
-    "description": "An artificial species created by an ancient civilization and imbued with the power of a monster called Arkveld. It cannot reproduce and does not require food, relying instead on Wyvern Milk for energy. In addition to absorbing and discharging energy the way other Guardians do, Guardian Arkveld can also absorb elemental energy through the chainblades on its wings and use it for sustenance.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
-    "elements": [
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Dragonblight",
-        "icon": "./icons/attributes/Dragonblight.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Construct",
-    "alias": "Guardian Chain Blade Wyvern (\u8b77\u9396\u5203\u7adc)",
-    "suborder": "Guardian",
-    "related": [
-      "Arkveld"
-    ]
-  },
-  {
-    "name": "Guardian Doshaguma",
-    "icon": "./icons/monsters/Guardian_Doshaguma.webp",
-    "description": "An artificial monster species created by an ancient civilization and imbued with Doshaguma's power. Guardian Doshaguma cannot reproduce and do not require food, relying instead on Wyvern Milk for energy. While anything but agile, they're tough enough to charge right through attacks without flinching, making them extremely dangerous.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
-    "elements": [],
-    "statuses": [
-      {
-        "name": "Defense",
-        "icon": "./icons/attributes/Defense.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Construct",
-    "alias": "Guardian Pioneer Beast (\u8b77\u95e2\u7363)",
-    "suborder": "Guardian",
-    "related": [
-      "Doshaguma"
-    ]
-  },
-  {
-    "name": "Guardian Ebony Odogaron",
-    "icon": "./icons/monsters/Guardian_Ebony_Odogaron.webp",
-    "description": "An artificial monster species created by an ancient civilization and imbued with Ebony Odogaron's power. Guardian Ebony Odogaron cannot reproduce and do not require food, relying instead on Wyvern Milk for energy. They will attempt to corner targets with flurries of attacks from their well-developed claws and tails.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
-    "elements": [
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Dragonblight",
-        "icon": "./icons/attributes/Dragonblight.webp",
-        "note": null
-      },
-      {
-        "name": "Bleeding",
-        "icon": "./icons/attributes/Bleeding.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Construct",
-    "alias": "Guardian Wicked Claw Wyvern (\u8b77\u5147\u722a\u7adc)",
-    "suborder": "Guardian",
-    "related": [
-      "Ebony Odogaron"
-    ]
-  },
-  {
-    "name": "Guardian Fulgur Anjanath",
-    "icon": "./icons/monsters/Guardian_Fulgur_Anjanath.webp",
-    "description": "An artificial monster species created by an ancient civilization and imbued with Fulgur Anjanath's power. Guardian Fulgur Anjanath cannot reproduce and do not require food, relying instead on Wyvern Milk for energy. Not only can the lightning charged in their bodies be released as an attack, they can also use it to empower themselves and perform vicious biting attacks.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
-    "elements": [
-      {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Thunderblight",
-        "icon": "./icons/attributes/Thunderblight.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Construct",
-    "alias": "Guardian Thunder Jaw Wyvern (\u8b77\u96f7\u984e\u7adc)",
-    "suborder": "Guardian",
-    "related": [
-      "Fulgur Anjanath"
-    ]
-  },
-  {
-    "name": "Guardian Rathalos",
-    "icon": "./icons/monsters/Guardian_Rathalos.webp",
-    "description": "An artificial monster species created by an ancient civilization and imbued with Rathalos's power. Guardian Rathalos cannot reproduce and do not require food, relying instead on Wyvern Milk for energy. Just like the original Rathalos, they are superior fliers and will attack more violently with their claws while airborne.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
-    "elements": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
-        "note": null
-      },
-      {
-        "name": "Poison Attribute",
-        "icon": "./icons/attributes/Poison_Attribute.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Construct",
-    "alias": "Guardian Fire Wyvern (\u8b77\u706b\u7adc)",
-    "suborder": "Guardian",
-    "related": [
-      "Rathalos"
-    ]
-  },
-  {
-    "name": "Zoh Shia",
-    "icon": "./icons/monsters/Zoh_Shia.webp",
-    "description": "A massive Guardian that has been feeding off the Dragontorch's energy. Its body is encased in crystallized Wyvern Milk, allowing it to regenerate. Zoh Shia, like other Guardians, excels at energy attacks and can produce repeated explosions to crystallize the whole area. Beneath its white Guardian coat, its body pulses with dark recollection - which you may see, should it reveal its full power from the days of yore.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
-    "elements": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      },
-      {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
-        "note": null
-      },
-      {
-        "name": "Thunderblight",
-        "icon": "./icons/attributes/Thunderblight.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Construct",
-    "alias": "White Seraph Dragon (\u767d\u71be\u9f8d)",
-    "suborder": "Base Species",
-    "related": []
-  },
-  {
     "name": "Ajarakan",
-    "icon": "./icons/monsters/Ajarakan.webp",
-    "description": "Characteristic by their highly developed carapaces, Ajarakan wrap themselves in molten metal that they rub together to heat up and create explosions. Presumably due to the friction of the metal, they can reach high enough temperatures to melt even the ground or bullets. They can also use their strong limbs to grip onto the ceiling and move around freely, so a hunter must watch out from every angle, including above.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
+    "description": "Characteristic by their highly developed carapaces, ___ wrap themselves in molten metal that they rub together to heat up and create explosions. Presumably due to the friction of the metal, they can reach high enough temperatures to melt even the ground or bullets. They can also use their strong limbs to grip onto the ceiling and move around freely, so a hunter must watch out from every angle, including above.",
+    "games": ["Monster Hunter Wilds"],
     "elements": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Blastblight",
-        "icon": "./icons/attributes/Blastblight.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
+        "name": "Water",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Fanged Beast",
-    "alias": "Glowing Monkey Beast (\u8d6b\u733f\u7363)",
+    "alias": "Glowing Monkey Beast (\u8d6b\u733f\u7363)\n",
     "suborder": "Base Species",
     "related": []
   },
   {
-    "name": "Doshaguma",
-    "icon": "./icons/monsters/Doshaguma.webp",
-    "description": "Fanged beasts that are sometimes seen traveling in packs. Ruggedly built and extremely aggressive, Doshaguma won't hesitate to throw everything they've got at enemies - even other small monsters. They have been known to take prey back to their dens, which sometimes leads to violent disputes.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Fanged Beast",
-    "alias": "Pioneer Beast (\u95e2\u7363)",
-    "suborder": "Base Species",
-    "related": [
-      "Guardian Doshaguma"
-    ]
-  },
-  {
     "name": "Arkveld",
-    "icon": "./icons/monsters/Arkveld.webp",
     "description": "A flying wyvern that was considered extinct according to documents left behind by the Guild. Their wings have a unique, chain-like blade that can extend and retract freely to reap their prey. They feed on elemental energy absorbed through these chainblades, and are able to convert the energy to unleash dragon element attacks.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
+    "games": ["Monster Hunter Wilds"],
     "elements": [
       {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
+        "name": "Dragon",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Dragonblight",
-        "icon": "./icons/attributes/Dragonblight.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
+        "name": "Dragon",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Flying Wyvern",
-    "alias": "Chain Blade Wyvern (\u9396\u5203\u7adc)",
+    "alias": "Chain Blade Wyvern (\u9396\u5203\u7adc)\n",
     "suborder": "Base Species",
-    "related": [
-      "Guardian Arkveld"
-    ]
+    "related": ["Guardian Arkveld"]
   },
   {
-    "name": "Rey Dau",
-    "icon": "./icons/monsters/Rey_Dau.webp",
-    "description": "The flying wyvern that reigns supreme over the Windward Plains' ecosystem. It has adapted to the Sandtide - when it most frequently appears - and is able to store, amplify and discharge the storm's heavy lightning to lethal effect. Rey Dau is highly territorial and will attack any and all intruders on sight. The fulgurite against its carapace emits a sound that puts every monster in the region on guard.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
+    "name": "Balahara",
+    "description": "Desert-dwelling leviathans that build carapaces out of fulgurite formed by lightning strikes. They use their flexible skeletons and serpentine bodies to create quicksand traps for unwary prey. Inside their mouths are multiple eye-like sensory organs. The mucus they secrete contains luminous bacteria and is believed to aid visibility while they are submerged and other low-light conditions like sandstorms.",
+    "games": ["Monster Hunter Wilds"],
     "elements": [
       {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
+        "name": "Water",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Leviathan",
+    "alias": "Sand Sea Wyvern (\u6c99\u6d77\u7adc)\n",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
+    "name": "Chatacabra",
+    "description": "Amphibians that use their long tongues to seize and devour prey such as Bulaqchi. Their evolved forelimbs store a sticky mucus-like substance. When agitated, ___ rub their forelimbs against the ground to collect stone and ore, widening the range and destructiveness of their blows.",
+    "games": ["Monster Hunter Wilds"],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Thunder",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Amphibian",
+    "alias": "Binding Frog (\u7e8f\u86d9)\n",
+    "suborder": "Base Species",
+    "related": ["Feral Chatacabra"]
+  },
+  {
+    "name": "Doshaguma",
+    "description": "Fanged beasts that are sometimes seen traveling in packs. Ruggedly built and extremely aggressive, ___ won't hesitate to throw everything they've got at enemies - even other small monsters. They have been known to take prey back to their dens, which sometimes leads to violent disputes.",
+    "games": ["Monster Hunter Wilds"],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Fanged Beast",
+    "alias": "Pioneer Beast (\u95e2\u7363)\n",
+    "suborder": "Base Species",
+    "related": ["Guardian Doshaguma"]
+  },
+  {
+    "name": "Guardian Arkveld",
+    "description": "An artificial species created by an ancient civilization and imbued with the power of a monster called ___. It cannot reproduce and does not require food, relying instead on Wyvern Milk for energy. In addition to absorbing and discharging energy the way other Guardians do, ___ can also absorb elemental energy through the chainblades on its wings and use it for sustenance.",
+    "games": ["Monster Hunter Wilds"],
+    "elements": [
+      {
+        "name": "Dragon",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Dragonblight",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Construct",
+    "alias": "Guardian Chain Blade Wyvern (\u8b77\u9396\u5203\u7adc)\n",
+    "suborder": "Guardian",
+    "related": ["Arkveld"]
+  },
+  {
+    "name": "Guardian Doshaguma",
+    "description": "An artificial monster species created by an ancient civilization and imbued with ___'s power. ___ cannot reproduce and do not require food, relying instead on Wyvern Milk for energy. While anything but agile, they're tough enough to charge right through attacks without flinching, making them extremely dangerous.",
+    "games": ["Monster Hunter Wilds"],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Defense",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Construct",
+    "alias": "Guardian Pioneer Beast (\u8b77\u95e2\u7363)\n",
+    "suborder": "Guardian",
+    "related": ["Doshaguma"]
+  },
+  {
+    "name": "Guardian Ebony Odogaron",
+    "description": "An artificial monster species created by an ancient civilization and imbued with ___'s power. Guardian ___ cannot reproduce and do not require food, relying instead on Wyvern Milk for energy. They will attempt to corner targets with flurries of attacks from their well-developed claws and tails.",
+    "games": ["Monster Hunter Wilds"],
+    "elements": [
+      {
+        "name": "Dragon",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Dragonblight",
+        "note": null
+      },
+      {
+        "name": "Bleeding",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Construct",
+    "alias": "Guardian Wicked Claw Wyvern (\u8b77\u5147\u722a\u7adc)\n",
+    "suborder": "Guardian",
+    "related": ["Ebony Odogaron"]
+  },
+  {
+    "name": "Guardian Fulgur Anjanath",
+    "description": "An artificial monster species created by an ancient civilization and imbued with ___'s power. Guardian ___ cannot reproduce and do not require food, relying instead on Wyvern Milk for energy. Not only can the lightning charged in their bodies be released as an attack, they can also use it to empower themselves and perform vicious biting attacks.",
+    "games": ["Monster Hunter Wilds"],
+    "elements": [
+      {
+        "name": "Thunder",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Thunderblight",
-        "icon": "./icons/attributes/Thunderblight.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Ice",
         "note": null
       }
     ],
-    "type": "Flying Wyvern",
-    "alias": "Bright Thunder Wyvern (\u714c\u96f7\u7adc)",
-    "suborder": "Base Species",
-    "related": []
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Construct",
+    "alias": "Guardian Thunder Jaw Wyvern (\u8b77\u96f7\u984e\u7adc)\n",
+    "suborder": "Guardian",
+    "related": ["Fulgur Anjanath"]
   },
   {
-    "name": "Balahara",
-    "icon": "./icons/monsters/Balahara.webp",
-    "description": "Desert-dwelling leviathans that build carapaces out of fulgurite formed by lightning strikes. They use their flexible skeletons and serpentine bodies to create quicksand traps for unwary prey. Inside their mouths are multiple eye-like sensory organs. The mucus they secrete contains luminous bacteria and is believed to aid visibility while they are submerged and other low-light conditions like sandstorms.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
+    "name": "Guardian Rathalos",
+    "description": "An artificial monster species created by an ancient civilization and imbued with ___'s power. Guardian ___ cannot reproduce and do not require food, relying instead on Wyvern Milk for energy. Just like the original ___, they are superior fliers and will attack more violently with their claws while airborne.",
+    "games": ["Monster Hunter Wilds"],
     "elements": [
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
     "statuses": [
       {
-        "name": "Waterblight",
-        "icon": "./icons/attributes/Waterblight.webp",
+        "name": "Fireblight",
+        "note": null
+      },
+      {
+        "name": "Poison",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
+        "name": "Dragon",
         "note": null
       }
     ],
-    "type": "Leviathan",
-    "alias": "Sand Sea Wyvern (\u6c99\u6d77\u7adc)",
-    "suborder": "Base Species",
-    "related": []
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Construct",
+    "alias": "Guardian Fire Wyvern (\u8b77\u706b\u7adc)\n",
+    "suborder": "Guardian",
+    "related": ["Rathalos"]
   },
   {
     "name": "Hirabami",
-    "icon": "./icons/monsters/Hirabami.webp",
-    "description": "Leviathans that inhabit the Iceshard Cliffs. They have sharp, pincer-like tails and peculiar membranes on their necks that catch the wind and keep them aloft. Hirabami can sometimes be sighted nesting in groups along the cliffs, using their scales or foreclaws to cling to walls or ceiling while they sleep.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
+    "description": "Leviathans that inhabit the Iceshard Cliffs. They have sharp, pincer-like tails and peculiar membranes on their necks that catch the wind and keep them aloft. ___ can sometimes be sighted nesting in groups along the cliffs, using their scales or foreclaws to cling to walls or ceiling while they sleep.",
+    "games": ["Monster Hunter Wilds"],
     "elements": [
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Ice",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Frostblight",
-        "icon": "./icons/attributes/Frostblight.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       },
       {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
+        "name": "Thunder",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Leviathan",
-    "alias": "Wind Scissors Wyvern (\u98a8\u92cf\u7adc)",
+    "alias": "Wind Scissors Wyvern (\u98a8\u92cf\u7adc)\n",
     "suborder": "Base Species",
     "related": []
   },
   {
     "name": "Jin Dahaad",
-    "icon": "./icons/monsters/Jin_Dahaad.webp",
     "description": "A leviathan that sits at the peak of the Iceshard Cliffs' ecosystem. It surrounds its massive form in cold temperatures via ridge-like cooling organs across its body; the frost its limbs produce doubles as a potent weapon and a way to travel along walls and floating rocks.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
+    "games": ["Monster Hunter Wilds"],
     "elements": [
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Ice",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Frostblight",
-        "icon": "./icons/attributes/Frostblight.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Leviathan",
-    "alias": "Frozen Peak Wyvern (\u51cd\u5cf0\u7adc)",
+    "alias": "Frozen Peak Wyvern (\u51cd\u5cf0\u7adc)\n",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
+    "name": "Lala Barina",
+    "description": "Temnocerans native to the Scarlet Forest with distinctive, pirouette-like movements. Their fluids contain a neuroplegic agent which they mix with water to produce red, petal-like bristles on their abdomens. When agitated, ___ open these bristles like a deadly, blossoming flower and release them as florets that paralyze whatever they come into contact with.",
+    "games": ["Monster Hunter Wilds"],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Paralysis",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Temnoceran",
+    "alias": "Thorny Flower Spider (\u523a\u82b1\u8718\u86db)\n",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
+    "name": "Nu Udra",
+    "description": "The cephalopod that reigns supreme over Oilwell Basin's ecosystem. Usually, when sighted, ___ is covered in oilsilt, but when enraged it will ignite the coating, transfiguring itself into a horror of flame. The oculi that appear on its body and many arms are presumed to be sensory organs, but the truth is still being investigated.",
+    "games": ["Monster Hunter Wilds"],
+    "elements": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Cephalopod",
+    "alias": "Hell Flame Octopus (\u7344\u7114\u86f8)\n",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
+    "name": "Omega Planetes",
+    "description": "An ___ frame that has crossed the interdimensional rift and descended on the Forbidden Lands in search for more powerful lifeforms and planets to invade. Named ___ to distinguish it from other ___ frames, it plans to study this world's lifeforms, primarily the monsters of the Forbidden Lands, in order to evolve and subjugate everything in its path.",
+    "games": ["Monster Hunter Wilds"],
+    "elements": [
+      {
+        "name": "Fire",
+        "note": null
+      },
+      {
+        "name": "Ice",
+        "note": "Savage Omega Planetes"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "note": null
+      },
+      {
+        "name": "Frostblight",
+        "note": "Savage Omega Planetes"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "???",
+    "alias": "None\n",
+    "suborder": "Base Species",
+    "related": ["Omega Micros", "Nerscylla Clone"]
+  },
+  {
+    "name": "Quematrice",
+    "description": "Brute Wyverns with disproportionately long tails. They spread a flammable substance which vaporizes quickly, then it ignite it by dragging their tails along the ground. By nature, ___ rarely hunt their own prey, and instead scavenge herbivore carrion left behind by other predators. This often leads to confrontations with other, smaller carnivores.",
+    "games": ["Monster Hunter Wilds"],
+    "elements": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Brute Wyvern",
+    "alias": "Flame Tail Wyvern (\u708e\u5c3e\u7adc)\n",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
+    "name": "Rey Dau",
+    "description": "The flying wyvern that reigns supreme over the Windward Plains' ecosystem. It has adapted to the Sandtide - when it most frequently appears - and is able to store, amplify and discharge the storm's heavy lightning to lethal effect. ___ is highly territorial and will attack any and all intruders on sight. The fulgurite against its carapace emits a sound that puts every monster in the region on guard.",
+    "games": ["Monster Hunter Wilds"],
+    "elements": [
+      {
+        "name": "Thunder",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Thunderblight",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Flying Wyvern",
+    "alias": "Bright Thunder Wyvern (\u714c\u96f7\u7adc)\n",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
+    "name": "Rompopolo",
+    "description": "Dappled brute wyverns that prowl Oilwell Basin. They use their tails to inject gas into the ground and detonate it, then feed on the small creatures that are unearthed. The toxic gas they spray from their tongues serve to weaken prey, which they then finish off with the blasts. ___ are extremely territorial and will readily engage their own kind.",
+    "games": ["Monster Hunter Wilds"],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Poison",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Brute Wyvern",
+    "alias": "Swamp Spouting Wyvern (\u6cbc\u5674\u7adc)\n",
     "suborder": "Base Species",
     "related": []
   },
   {
     "name": "Uth Duna",
-    "icon": "./icons/monsters/Uth_Duna.webp",
-    "description": "The leviathan that reigns supreme over the Scarlet Forest's ecosystem. It has adapted to water-rich environments and is sighted most often during the Downpour. Uth Duna's secretions when combined with water form a protective veil that not only absorbs hostile blows but also adds weight, which it slams down with enough force to sweep away surrounding threats in the resulting wave.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
+    "description": "The leviathan that reigns supreme over the Scarlet Forest's ecosystem. It has adapted to water-rich environments and is sighted most often during the Downpour. ___'s secretions when combined with water form a protective veil that not only absorbs hostile blows but also adds weight, which it slams down with enough force to sweep away surrounding threats in the resulting wave.",
+    "games": ["Monster Hunter Wilds"],
     "elements": [
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
+        "name": "Water",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Waterblight",
-        "icon": "./icons/attributes/Waterblight.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
+        "name": "Thunder",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Leviathan",
-    "alias": "Wave Dress Wyvern (\u6ce2\u8863\u7adc)",
+    "alias": "Wave Dress Wyvern (\u6ce2\u8863\u7adc)\n",
     "suborder": "Base Species",
     "related": []
   },
   {
-    "name": "Lala Barina",
-    "icon": "./icons/monsters/Lala_Barina.webp",
-    "description": "Temnocerans native to the Scarlet Forest with distinctive, pirouette-like movements. Their fluids contain a neuroplegic agent which they mix with water to produce red, petal-like bristles on their abdomens. When agitated, Lala Barina open these bristles like a deadly, blossoming flower and release them as florets that paralyze whatever they come into contact with.",
-    "games": [
-      "Monster Hunter Wilds"
-    ],
+    "name": "Xu Wu",
+    "description": "Cephalopod predators whose prey include Guardian monsters. The mucus secreted from their tentacles hardens quickly into sharp edges that resemble blades or spears, which is why some call ___ the \"Piercing Assassin\". The sizable mouth hidden on their underside allows them to devour even rather large prey.",
+    "games": ["Monster Hunter Wilds"],
     "elements": [],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Ice",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Cephalopod",
+    "alias": "Concealed Weapon Octopus (\u6697\u5668\u86f8)\n",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
+    "name": "Zoh Shia",
+    "description": "A massive Guardian that has been feeding off the Dragontorch's energy. Its body is encased in crystallized Wyvern Milk, allowing it to regenerate. ___, like other Guardians, excels at energy attacks and can produce repeated explosions to crystallize the whole area. Beneath its white Guardian coat, its body pulses with dark recollection - which you may see, should it reveal its full power from the days of yore.",
+    "games": ["Monster Hunter Wilds"],
+    "elements": [
+      {
+        "name": "Fire",
+        "note": null
+      },
+      {
+        "name": "Thunder",
+        "note": null
+      }
+    ],
     "statuses": [
       {
-        "name": "Paralysis Attribute",
-        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "name": "Fireblight",
+        "note": null
+      },
+      {
+        "name": "Thunderblight",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Dragon",
         "note": null
       }
     ],
-    "type": "Temnoceran",
-    "alias": "Thorny Flower Spider (\u523a\u82b1\u8718\u86db)",
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Construct",
+    "alias": "White Seraph Dragon (\u767d\u71be\u9f8d)[a]\n",
     "suborder": "Base Species",
     "related": []
   }

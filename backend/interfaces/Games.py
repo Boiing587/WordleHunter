@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 
+
 class Games(BaseModel):
     gen1: list[str]
     gen2: list[str]
@@ -10,67 +11,68 @@ class Games(BaseModel):
     frontier: list[str]
 
     @staticmethod
-    def generationMapping() -> dict[str,list[str]]:
+    def generationMapping() -> dict[str, list[str]]:
         return {
-            'gen1': [ "MH1", "MHG", "MHF1" ],
-            'gen2': [ "MH2", "MHF2", "MHFU" ],
-            'gen3': [ "MH3", "MHP3", "MH3U" ],
-            'gen4': [ "MH4", "MH4U", "MHGen", "MHGU" ],
-            'gen5': [ "MHWorld", "MHWI", "MHRise", "MHRS" ],
-            'gen6': [ "MHWilds" ],
-            'frontier': [ "MHFrontier", "MHFF", "MHFG", "MHFZ" ]
+            "gen1": ["MH1", "MHG", "MHF1"],
+            "gen2": ["MH2", "MHF2", "MHFU"],
+            "gen3": ["MH3", "MHP3", "MH3U"],
+            "gen4": ["MH4", "MH4U", "MHGen", "MHGU"],
+            "gen5": ["MHWorld", "MHWI", "MHRise", "MHRS"],
+            "gen6": ["MHWilds"],
+            "frontier": ["MHFrontier", "MHFF", "MHFG", "MHFZ"],
         }
-    
+
     @staticmethod
     def reverseGenerationMapping() -> dict[str, str]:
         generation_map = Games.generationMapping()
-        reverse_map: dict[str, str] = {v: k for k, values in generation_map.items() for v in values}
+        reverse_map: dict[str, str] = {
+            v: k for k, values in generation_map.items() for v in values
+        }
         return reverse_map
-    
+
     @staticmethod
-    def gameNames() -> dict[str,list[dict[str,str]]]:
+    def gameNames() -> dict[str, list[dict[str, str]]]:
         return {
             "gen1": [
-                { "code": "MH1", "name": "Monster Hunter" },
-                { "code": "MHG", "name": "Monster Hunter G" },
-                { "code": "MHF1", "name": "Monster Hunter Freedom" }
+                {"code": "MH1", "name": "Monster Hunter"},
+                {"code": "MHG", "name": "Monster Hunter G"},
+                {"code": "MHF1", "name": "Monster Hunter Freedom"},
             ],
             "gen2": [
-                { "code": "MH2", "name": "Monster Hunter Dos" },
-                { "code": "MHF2", "name": "Monster Hunter Freedom 2" },
-                { "code": "MHFU", "name": "Monster Hunter Freedom Unite" }
+                {"code": "MH2", "name": "Monster Hunter 2"},
+                {"code": "MHF2", "name": "Monster Hunter Freedom 2"},
+                {"code": "MHFU", "name": "Monster Hunter Freedom Unite"},
             ],
             "gen3": [
-                { "code": "MH3", "name": "Monster Hunter 3" },
-                { "code": "MHP3", "name": "Monster Hunter Portable 3rd" },
-                { "code": "MH3U", "name": "Monster Hunter 3 Ultimate" }
+                {"code": "MH3", "name": "Monster Hunter 3"},
+                {"code": "MHP3", "name": "Monster Hunter Portable 3rd"},
+                {"code": "MH3U", "name": "Monster Hunter 3 Ultimate"},
             ],
             "gen4": [
-                { "code": "MH4", "name": "Monster Hunter 4" },
-                { "code": "MH4U", "name": "Monster Hunter 4 Ultimate" },
-                { "code": "MHGen", "name": "Monster Hunter Generations" },
-                { "code": "MHGU", "name": "Monster Hunter Generations Ultimate" }
+                {"code": "MH4", "name": "Monster Hunter 4"},
+                {"code": "MH4U", "name": "Monster Hunter 4 Ultimate"},
+                {"code": "MHGen", "name": "Monster Hunter Generations"},
+                {"code": "MHGU", "name": "Monster Hunter Generations Ultimate"},
             ],
             "gen5": [
-                { "code": "MHWorld", "name": "Monster Hunter: World" },
-                { "code": "MHWI", "name": "Monster Hunter World: Iceborne" },
-                { "code": "MHRise", "name": "Monster Hunter Rise" },
-                { "code": "MHRS", "name": "Monster Hunter Rise: Sunbreak" }
+                {"code": "MHWorld", "name": "Monster Hunter: World"},
+                {"code": "MHWI", "name": "Monster Hunter World: Iceborne"},
+                {"code": "MHRise", "name": "Monster Hunter Rise"},
+                {"code": "MHRS", "name": "Monster Hunter Rise: Sunbreak"},
             ],
-            "gen6": [
-                { "code": "MHWilds", "name": "Monster Hunter Wilds" }
-            ],
+            "gen6": [{"code": "MHWilds", "name": "Monster Hunter Wilds"}],
             "frontier": [
-                { "code": "MHFrontier", "name": "Monster Hunter Frontier" },
-                { "code": "MHFF", "name": "Monster Hunter Frontier Forward" },
-                { "code": "MHFG", "name": "Monster Hunter Frontier G" },
-                { "code": "MHFZ", "name": "Monster Hunter Frontier Z / Z Zenith" }
-            ]
+                {"code": "MHFrontier", "name": "Monster Hunter Frontier"},
+                {"code": "MHFF", "name": "Monster Hunter Frontier Forward"},
+                {"code": "MHFG", "name": "Monster Hunter Frontier G"},
+                {"code": "MHFZ", "name": "Monster Hunter Frontier Z / Z Zenith"},
+            ],
         }
 
     @staticmethod
     def nameToCode(name: str) -> str:
-        print(name)
-        all_games = [game for generation in Games.gameNames().values() for game in generation]
-        filtered = list(filter(lambda x: x['name'] == name, all_games))[0]
-        return filtered['code']
+        all_games = [
+            game for generation in Games.gameNames().values() for game in generation
+        ]
+        filtered = list(filter(lambda x: x["name"] == name, all_games))[0]
+        return filtered["code"]

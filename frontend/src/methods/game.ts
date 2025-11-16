@@ -17,19 +17,6 @@ async function submitGuess(guess: string, selected_games: GameList, seed: string
   return guess_response
 }
 
-function formatMonsterInfoData(property_name: string, property_value: string | string[]) {
-  if (typeof property_value === 'string') {
-    return [property_value]
-  }
-  if (property_value.length === 0) {
-    return ['None']
-  }
-  if (property_name == 'games' && property_value.length > 5) { // Only the games property can have more than 5 items
-    return [property_value[0], `${property_value.length} games`]
-  }
-  return property_value
-}
-
 function responseInfoStyle(property_name: string, response: GuessResponse) {
   const result = response.result
   switch (property_name) {

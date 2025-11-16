@@ -3,14 +3,18 @@ from interfaces.Games import Games
 from interfaces.Monster import Monster
 from interfaces.Proximity import ProximityResponse, PropertyProximity
 
-from methods.monster import getRelatives, loadMonsterList #, inSameCategory, inSameGeneration
+from methods.monster import getRelatives, loadMonsterList
 
-def compareAttributes(guess_attributes: list[Attribute], motd_attributes: list[Attribute]) -> list[Attribute]:
+
+def compareAttributes(
+    guess_attributes: list[Attribute], motd_attributes: list[Attribute]
+) -> list[Attribute]:
     guess_attribute_names = set(map(lambda attr: attr.name, guess_attributes))
     motd_attribute_names = set(map(lambda attr: attr.name, motd_attributes))
-    
+
     shared_attributes = guess_attribute_names & motd_attribute_names
     return list(filter(lambda attr: attr.name in shared_attributes, guess_attributes))
+
 
 # NOTE removed introduced property
 #  first game in list is game monster was introduced
@@ -29,7 +33,7 @@ def compareGuess(guess: Monster, motd: Monster) -> ProximityResponse | None:
         return None
 
     comparison = ProximityResponse()
-    newline_list = '\n - '
+    newline_list = "\n - "
 
     if guess == motd:
         comparison.correct.status = 0
@@ -73,7 +77,9 @@ def compareGuess(guess: Monster, motd: Monster) -> ProximityResponse | None:
         comparison.game.hint = "The monster was introduced in the same game."
     elif guess.generation() == motd.generation():
         comparison.game.status = 1
-        comparison.game.hint = "The monster was introduced in the same generation, but not the same game."
+        comparison.game.hint = (
+            "The monster was introduced in the same generation, but not the same game."
+        )
     else:
         comparison.game.status = 2
         comparison.game.hint = "The monster was introduced in a different generation"
@@ -81,7 +87,7 @@ def compareGuess(guess: Monster, motd: Monster) -> ProximityResponse | None:
     if guess.elements == motd.elements:
         comparison.elements.status = 0
         comparison.elements.hint = "The monster uses the same elements."
-    elif (common_elements := compareAttributes(guess.elements, motd.elements)):
+    elif common_elements := compareAttributes(guess.elements, motd.elements):
         comparison.elements.status = 1
         comparison.elements.hint = f"The monster shares the following elements:\n - {newline_list.join(element.name for element in common_elements)}"
     else:
@@ -91,7 +97,7 @@ def compareGuess(guess: Monster, motd: Monster) -> ProximityResponse | None:
     if guess.statuses == motd.statuses:
         comparison.statuses.status = 0
         comparison.statuses.hint = "The monster uses the same statuses."
-    elif (common_statuses := compareAttributes(guess.statuses, motd.statuses)):
+    elif common_statuses := compareAttributes(guess.statuses, motd.statuses):
         comparison.statuses.status = 1
         comparison.statuses.hint = f"The monster shares the following statuses:\n - {newline_list.join(status.name for status in common_statuses)}"
     else:
@@ -101,7 +107,7 @@ def compareGuess(guess: Monster, motd: Monster) -> ProximityResponse | None:
     if guess.weaknesses == motd.weaknesses:
         comparison.weaknesses.status = 0
         comparison.weaknesses.hint = "The monster has the same weaknesses."
-    elif (common_weaknesses := compareAttributes(guess.weaknesses, motd.weaknesses)):
+    elif common_weaknesses := compareAttributes(guess.weaknesses, motd.weaknesses):
         comparison.weaknesses.status = 1
         comparison.weaknesses.hint = f"The monster shares the following weaknesses:\n - {newline_list.join(weakness.name for weakness in common_weaknesses)}"
     else:

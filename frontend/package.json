@@ -16,6 +16,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "postcss-nesting": "^13.0.2",
     "primeicons": "^7.0.0",
     "primevue": "^3.49.1",
     "vue": "^3.4.15",

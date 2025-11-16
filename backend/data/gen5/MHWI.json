@@ -1,616 +1,535 @@
 [
   {
-    "name": "Coral Pukei-Pukei",
-    "icon": "./icons/monsters/Coral_Pukei-Pukei.webp",
-    "description": "A type of bird wyvern that stores large quantities of water in its body. It launches powerful water attacks from its mouth and tail. Considered a subspecies of Pukei-Pukei.",
-    "games": [
-      "Monster Hunter World: Iceborne"
-    ],
-    "elements": [
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Waterblight",
-        "icon": "./icons/attributes/Waterblight.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Bird Wyvern",
-    "alias": "Water Bewitching Bird (\u6c34\u5996\u9ce5)",
-    "suborder": "Subspecies",
-    "related": [
-      "Pukei-Pukei"
-    ]
-  },
-  {
-    "name": "Fulgur Anjanath",
-    "icon": "./icons/monsters/Fulgur_Anjanath.webp",
-    "description": "An extremely adaptable subspecies of Anjanath that electrifies its jaws and dorsal membrane with every blow rendering them even stronger.",
-    "games": [
-      "Monster Hunter World: Iceborne"
-    ],
-    "elements": [
-      {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Thunderblight",
-        "icon": "./icons/attributes/Thunderblight.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Brute Wyvern",
-    "alias": "Thunder Jaw Wyvern (\u96f7\u984e\u7adc)",
-    "suborder": "Base Species",
-    "related": [
-      "Anjanath",
-      "Guardian Fulgur Anjanath"
-    ]
-  },
-  {
-    "name": "Banbaro",
-    "icon": "./icons/monsters/Banbaro.webp",
-    "description": "A monster recognizable by the pair of gigantic horns atop its head. It rushes forward while scraping the ground with its horns, with nearby trees sometimes even getting caught up in its headlong attacks.",
-    "games": [
-      "Monster Hunter World: Iceborne"
-    ],
-    "elements": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": "Depends on terrain"
-      },
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": "Depends on terrain"
-      },
-      {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
-        "note": "Depends on terrain"
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
-        "note": "Depends on terrain"
-      },
-      {
-        "name": "Waterblight",
-        "icon": "./icons/attributes/Waterblight.webp",
-        "note": "Depends on terrain"
-      },
-      {
-        "name": "Iceblight",
-        "icon": "./icons/attributes/Iceblight.webp",
-        "note": "Depends on terrain"
-      },
-      {
-        "name": "Effluvium",
-        "icon": "./icons/attributes/Effluvium.webp",
-        "note": "Depends on terrain"
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Brute Wyvern",
-    "alias": "Ferocious Bull Wyvern (\u731b\u725b\u7adc)",
-    "suborder": "Base Species",
-    "related": []
-  },
-  {
     "name": "Acidic Glavenus",
-    "icon": "./icons/monsters/Acidic_Glavenus.webp",
-    "description": "A subspecies of Glavenus found in the Rotten Vale. A corrosive fluid has crystallized on its tail, spraying acid with each swing.",
-    "games": [
-      "Monster Hunter World: Iceborne"
-    ],
+    "description": "A subspecies of ___ found in the Rotten Vale. A corrosive fluid has crystallized on its tail, spraying acid with each swing.",
+    "games": ["Monster Hunter World: Iceborne"],
     "elements": [],
     "statuses": [
       {
         "name": "Defense",
-        "icon": "./icons/attributes/Defense.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Brute Wyvern",
-    "alias": "Sulfur Slashing Wyvern (\u786b\u65ac\u7adc)",
+    "alias": "Sulfur Slashing Wyvern (\u786b\u65ac\u7adc)\n",
     "suborder": "Subspecies",
-    "related": [
-      "Glavenus",
-      "Hellblade Glavenus"
-    ]
+    "related": ["Glavenus", "Hellblade Glavenus"]
   },
   {
-    "name": "Namielle",
-    "icon": "./icons/monsters/Namielle.webp",
-    "description": "An elder dragon coated in water and able to freely control lightning. A unique organ allows it to pump electricity into the pools of water it creates, causing massive bursts of steam.",
-    "games": [
-      "Monster Hunter World: Iceborne"
-    ],
+    "name": "Banbaro",
+    "description": "A monster recognizable by the pair of gigantic horns atop its head. It rushes forward while scraping the ground with its horns, with nearby trees sometimes even getting caught up in its headlong attacks.",
+    "games": ["Monster Hunter World: Iceborne"],
     "elements": [
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
+        "name": "Fire",
         "note": null
       },
       {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Waterblight",
-        "icon": "./icons/attributes/Waterblight.webp",
+        "name": "Water",
         "note": null
       },
       {
-        "name": "Thunderblight",
-        "icon": "./icons/attributes/Thunderblight.webp",
-        "note": null
-      },
-      {
-        "name": "Stun",
-        "icon": "./icons/attributes/Stun.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      },
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": "When Dehydrated"
-      }
-    ],
-    "type": "Elder Dragon",
-    "alias": "Abyssal Dragon (\u6e9f\u9f8d)",
-    "suborder": "Base Species",
-    "related": []
-  },
-  {
-    "name": "Ruiner Nergigante",
-    "icon": "./icons/monsters/Ruiner_Nergigante.webp",
-    "description": "Countless battles have only hardened this Nergigante variant. In addition to healing, its spikes grow tougher as it loses health.",
-    "games": [
-      "Monster Hunter World: Iceborne"
-    ],
-    "elements": [],
-    "statuses": [
-      {
-        "name": "Bleeding",
-        "icon": "./icons/attributes/Bleeding.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Elder Dragon",
-    "alias": "Extinction Dragon (\u6ec5\u5c3d\u9f8d)",
-    "suborder": "Variant",
-    "related": [
-      "Nergigante"
-    ]
-  },
-  {
-    "name": "Safi'jiiva",
-    "icon": "./icons/monsters/Safi'jiiva.webp",
-    "description": "The fully-grown form of Xeno'jiiva. It absorbs energy from its environment to heal itself and change the ecosystem.",
-    "games": [
-      "Monster Hunter World: Iceborne"
-    ],
-    "elements": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
+        "name": "Ice",
+        "note": "Depends on terrain"
       }
     ],
     "statuses": [
       {
         "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
+        "note": null
+      },
+      {
+        "name": "Waterblight",
+        "note": null
+      },
+      {
+        "name": "Iceblight",
+        "note": null
+      },
+      {
+        "name": "Effluvium",
+        "note": "Depends on terrain"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon",
         "note": null
       }
     ],
-    "weaknesses": [],
-    "type": "Elder Dragon",
-    "alias": "Red Dragon (\u8d64\u9f8d)",
+    "parentheses_elements": true,
+    "parentheses_statuses": true,
+    "parentheses_weaknesses": false,
+    "type": "Brute Wyvern",
+    "alias": "Ferocious Bull Wyvern (\u731b\u725b\u7adc)\n",
     "suborder": "Base Species",
-    "related": [
-      "Xeno'jiiva"
-    ]
+    "related": []
   },
   {
-    "name": "Shara Ishvalda",
-    "icon": "./icons/monsters/Shara_Ishvalda.webp",
-    "description": "A mysterious elder dragon able to manipulate the earth itself. Vibrations from its wingtips reshape the earth, denying hunters footing.",
-    "games": [
-      "Monster Hunter World: Iceborne"
+    "name": "Beotodus",
+    "description": "This piscine monster\u2019s wedge-shaped head allows it to freely swim through the tundra snow. Frequently seen flinging snow at prey.",
+    "games": ["Monster Hunter World: Iceborne"],
+    "elements": [
+      {
+        "name": "Ice",
+        "note": null
+      }
     ],
-    "elements": [],
     "statuses": [
       {
-        "name": "Stun",
-        "icon": "./icons/attributes/Stun.webp",
+        "name": "Iceblight",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
-    "type": "Elder Dragon",
-    "alias": "Earth Singing Dragon (\u5730\u557c\u9f8d)",
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Piscine Wyvern",
+    "alias": "Frozen Fish Wyvern (\u51cd\u9b5a\u7adc)\n",
     "suborder": "Base Species",
     "related": []
   },
   {
     "name": "Blackveil Vaal Hazak",
-    "icon": "./icons/monsters/Blackveil_Vaal_Hazak.webp",
-    "description": "A Vaal Hazak variant encrusted with spores that spew a torrent of toxic effluvium at any who draw close.",
-    "games": [
-      "Monster Hunter World: Iceborne"
-    ],
+    "description": "A ___ variant encrusted with spores that spew a torrent of toxic effluvium at any who draw close.",
+    "games": ["Monster Hunter World: Iceborne"],
     "elements": [],
     "statuses": [
       {
         "name": "Effluvium",
-        "icon": "./icons/attributes/Effluvium.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Elder Dragon",
-    "alias": "Corpse Coat Dragon (\u5c4d\u5957\u9f8d)",
+    "alias": "Corpse Coat Dragon (\u5c4d\u5957\u9f8d)\n",
     "suborder": "Variant",
-    "related": [
-      "Vaal Hazak"
-    ]
+    "related": ["Vaal Hazak"]
   },
   {
-    "name": "Velkhana",
-    "icon": "./icons/monsters/Velkhana.webp",
-    "description": "Known as the \"Ice Dragons that Freeze All\" or the \"Iceborne Wyvern,\" few records of Velkhana exist, as such, they remain shrouded in mystery. Their icy breath is so cold that it can form massive spires and walls of ice out of nowhere, and it is even powerful enough to freeze other monsters. Some reports indicate that Velkhana will freeze their rivals in order to establish their domain.",
-    "games": [
-      "Monster Hunter World: Iceborne",
-      "Monster Hunter Rise: Sunbreak"
-    ],
+    "name": "Coral Pukei-Pukei",
+    "description": "A type of bird wyvern that stores large quantities of water in its body. It launches powerful water attacks from its mouth and tail. Considered a subspecies of ___.",
+    "games": ["Monster Hunter World: Iceborne"],
     "elements": [
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Water",
         "note": null
       }
     ],
     "statuses": [
       {
-        "name": "Iceblight",
-        "icon": "./icons/attributes/Iceblight.webp",
-        "note": null
-      },
-      {
-        "name": "Frostblight",
-        "icon": "./icons/attributes/Frostblight.webp",
+        "name": "Waterblight",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Ice",
         "note": null
       }
     ],
-    "type": "Elder Dragon",
-    "alias": "Ice Dragon (\u51b0\u9f8d)",
-    "suborder": "Base Species",
-    "related": []
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Bird Wyvern",
+    "alias": "Water Bewitching Bird (\u6c34\u5996\u9ce5)\n",
+    "suborder": "Subspecies",
+    "related": ["Pukei-Pukei"]
   },
   {
     "name": "Ebony Odogaron",
-    "icon": "./icons/monsters/Ebony_Odogaron.webp",
-    "description": "This Odogaron subspecies is forever on the prowl for its next meal, and is often seen carrying fresh kills in its mouth. Reports indicate it goes into a frenzy upon eating.",
-    "games": [
-      "Monster Hunter World: Iceborne"
-    ],
+    "description": "This ___ subspecies is forever on the prowl for its next meal, and is often seen carrying fresh kills in its mouth. Reports indicate it goes into a frenzy upon eating.",
+    "games": ["Monster Hunter World: Iceborne"],
     "elements": [
       {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
+        "name": "Dragon",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Dragonblight",
-        "icon": "./icons/attributes/Dragonblight.webp",
         "note": null
       },
       {
         "name": "Bleeding",
-        "icon": "./icons/attributes/Bleeding.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
+        "name": "Water",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Fanged Wyvern",
-    "alias": "Wicked Claw Wyvern (\u5147\u722a\u7adc)",
-    "suborder": "Base Species",
-    "related": [
-      "Odogaron",
-      "Guardian Ebony Odogaron"
-    ]
-  },
-  {
-    "name": "Viper Tobi-Kadachi",
-    "icon": "./icons/monsters/Viper_Tobi-Kadachi.webp",
-    "description": "The tail of this subspecies secretes a toxin while its fangs paralyze prey. It can also glide without climbing trees.",
-    "games": [
-      "Monster Hunter World: Iceborne"
-    ],
-    "elements": [],
-    "statuses": [
-      {
-        "name": "Paralysis Attribute",
-        "icon": "./icons/attributes/Paralysis_Attribute.webp",
-        "note": null
-      },
-      {
-        "name": "Poison Attribute",
-        "icon": "./icons/attributes/Poison_Attribute.webp",
-        "note": null
-      },
-      {
-        "name": "Noxious Poison",
-        "icon": "./icons/attributes/Noxious_Poison.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Fanged Wyvern",
-    "alias": "Flying Poison Wyvern (\u98db\u6bd2\u7adc)",
+    "alias": "Wicked Claw Wyvern (\u5147\u722a\u7adc)\n",
     "suborder": "Subspecies",
-    "related": [
-      "Tobi-Kadachi"
-    ]
+    "related": ["Odogaron", "Guardian Ebony Odogaron"]
   },
   {
     "name": "Frostfang Barioth",
-    "icon": "./icons/monsters/Frostfang_Barioth.webp",
-    "description": "A Barioth variant capable of spewing a sub-zero breath attack that it uses to slow down prey. Be careful, as this attack can freeze you as well.",
-    "games": [
-      "Monster Hunter World: Iceborne"
-    ],
+    "description": "A ___ variant capable of spewing a sub-zero breath attack that it uses to slow down prey. Be careful, as this attack can freeze you as well.",
+    "games": ["Monster Hunter World: Iceborne"],
     "elements": [
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Ice",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Iceblight",
-        "icon": "./icons/attributes/Iceblight.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Flying Wyvern",
-    "alias": "Ice Fang Wyvern (\u6c37\u7259\u7adc)",
+    "alias": "Ice Fang Wyvern (\u6c37\u7259\u7adc)\n",
     "suborder": "Variant",
-    "related": [
-      "Barioth",
-      "Sand Barioth"
-    ]
+    "related": ["Barioth", "Sand Barioth"]
   },
   {
-    "name": "Seething Bazelgeuse",
-    "icon": "./icons/monsters/Seething_Bazelgeuse.webp",
-    "description": "A Bazelgeuse variant whose body seems to smolder, like it could go critical at any moment. The heat of their explosive scales have grown, their pale blue glow worthy of the \"Seething\" moniker. Their scales are blisteringly hot in this state, capable of scorching the very earth with their volatile force.",
-    "games": [
-      "Monster Hunter World: Iceborne",
-      "Monster Hunter Rise: Sunbreak"
-    ],
+    "name": "Fulgur Anjanath",
+    "description": "An extremely adaptable subspecies of ___ that electrifies its jaws and dorsal membrane with every blow rendering them even stronger.",
+    "games": ["Monster Hunter World: Iceborne"],
     "elements": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Thunder",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Thunderblight",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Brute Wyvern",
+    "alias": "Thunder Jaw Wyvern (\u96f7\u984e\u7adc)\n",
+    "suborder": "Subspecies",
+    "related": ["Anjanath", "Guardian Fulgur Anjanath"]
+  },
+  {
+    "name": "Namielle",
+    "description": "An elder dragon coated in water and able to freely control lightning. A unique organ allows it to pump electricity into the pools of water it creates, causing massive bursts of steam.",
+    "games": ["Monster Hunter World: Iceborne"],
+    "elements": [
+      {
+        "name": "Water",
+        "note": null
+      },
+      {
+        "name": "Thunder",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "note": null
+      },
+      {
+        "name": "Thunderblight",
+        "note": null
+      },
+      {
+        "name": "Stun",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire",
+        "note": null
+      },
+      {
+        "name": "Dragon",
+        "note": "When Dehydrated"
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": true,
+    "type": "Elder Dragon",
+    "alias": "Abyssal Dragon (\u6e9f\u9f8d)\n",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
+    "name": "Nightshade Paolumu",
+    "description": "A subspecies of ___, classified as being of the sleep element. Exhaling the air stored in its neck, it emits a sleep-inducing breath in all directions.",
+    "games": ["Monster Hunter World: Iceborne"],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Sleep",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Flying Wyvern",
+    "alias": "Floating Sleep Wyvern (\u6d6e\u7720\u7adc)\n",
+    "suborder": "Subspecies",
+    "related": ["Paolumu"]
+  },
+  {
+    "name": "Ruiner Nergigante",
+    "description": "Countless battles have only hardened this ___ variant. In addition to healing, its spikes grow tougher as it loses health.",
+    "games": ["Monster Hunter World: Iceborne"],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Bleeding",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Elder Dragon",
+    "alias": "Extinction Dragon (\u6ec5\u5c3d\u9f8d)\n",
+    "suborder": "Variant",
+    "related": ["Nergigante"]
+  },
+  {
+    "name": "Safi'jiiva",
+    "description": "The fully-grown form of ___. It absorbs energy from its environment to heal itself and change the ecosystem.",
+    "games": ["Monster Hunter World: Iceborne"],
+    "elements": [
+      {
+        "name": "Fire",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
         "note": null
       }
     ],
-    "weaknesses": [
-      {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Flying Wyvern",
-    "alias": "Explosive Scale Wyvern (\u7206\u9c57\u7adc)",
-    "suborder": "Variant",
-    "related": [
-      "Bazelgeuse"
-    ]
+    "weaknesses": [],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Elder Dragon",
+    "alias": "Red Dragon (\u8d64\u9f8d)\n",
+    "suborder": "Base Species",
+    "related": ["Xeno'jiiva"]
   },
   {
-    "name": "Shrieking Legiana",
-    "icon": "./icons/monsters/Shrieking_Legiana.webp",
-    "description": "A Legiana variant shrouded in white frost. It specializes in freezing prey with the powerful chill it emits, then swooping down to strike at them from overhead.",
+    "name": "Seething Bazelgeuse",
+    "description": "A ___ variant whose body seems to smolder, like it could go critical at any moment. The heat of their explosive scales have grown, their pale blue glow worthy of the \"Seething\" moniker. Their scales are blisteringly hot in this state, capable of scorching the very earth with their volatile force.",
     "games": [
-      "Monster Hunter World: Iceborne"
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise: Sunbreak"
     ],
     "elements": [
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
     "statuses": [
       {
-        "name": "Iceblight",
-        "icon": "./icons/attributes/Iceblight.webp",
+        "name": "Fireblight",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Ice",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Flying Wyvern",
-    "alias": "Wind Drifting Wyvern (\u98a8\u6f02\u7adc)",
+    "alias": "Explosive Scale Wyvern (\u7206\u9c57\u7adc)\n",
     "suborder": "Variant",
-    "related": [
-      "Legiana"
-    ]
+    "related": ["Bazelgeuse"]
   },
   {
-    "name": "Nightshade Paolumu",
-    "icon": "./icons/monsters/Nightshade_Paolumu.webp",
-    "description": "A subspecies of Paolumu, classified as being of the sleep element. Exhaling the air stored in its neck, it emits a sleep-inducing breath in all directions.",
-    "games": [
-      "Monster Hunter World: Iceborne"
-    ],
+    "name": "Shara Ishvalda",
+    "description": "A mysterious elder dragon able to manipulate the earth itself. Vibrations from its wingtips reshape the earth, denying hunters footing.",
+    "games": ["Monster Hunter World: Iceborne"],
     "elements": [],
     "statuses": [
       {
-        "name": "Sleep Attribute",
-        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "name": "Stun",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
+        "name": "Ice",
         "note": null
       }
     ],
-    "type": "Flying Wyvern",
-    "alias": "Floating Sleep Wyvern (\u6d6e\u7720\u7adc)",
-    "suborder": "Subspecies",
-    "related": [
-      "Paolumu"
-    ]
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Elder Dragon",
+    "alias": "Earth Singing Dragon (\u5730\u557c\u9f8d)\n",
+    "suborder": "Base Species",
+    "related": []
   },
   {
-    "name": "Beotodus",
-    "icon": "./icons/monsters/Beotodus.webp",
-    "description": "This piscine monster\u2019s wedge-shaped head allows it to freely swim through the tundra snow. Frequently seen flinging snow at prey.",
-    "games": [
-      "Monster Hunter World: Iceborne"
-    ],
+    "name": "Shrieking Legiana",
+    "description": "A ___ variant shrouded in white frost. It specializes in freezing prey with the powerful chill it emits, then swooping down to strike at them from overhead.",
+    "games": ["Monster Hunter World: Iceborne"],
     "elements": [
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Ice",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Iceblight",
-        "icon": "./icons/attributes/Iceblight.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
-    "type": "Piscine Wyvern",
-    "alias": "Frozen Fish Wyvern (\u51cd\u9b5a\u7adc)",
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Flying Wyvern",
+    "alias": "Wind Drifting Wyvern (\u98a8\u6f02\u7adc)\n",
+    "suborder": "Variant",
+    "related": ["Legiana"]
+  },
+  {
+    "name": "Velkhana",
+    "description": "Known as the \"Ice Dragons that Freeze All\" or the \"Iceborne Wyvern,\" few records of ___ exist, as such, they remain shrouded in mystery. Their icy breath is so cold that it can form massive spires and walls of ice out of nowhere, and it is even powerful enough to freeze other monsters. Some reports indicate that ___ will freeze their rivals in order to establish their domain.",
+    "games": [
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise: Sunbreak"
+    ],
+    "elements": [
+      {
+        "name": "Ice",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Iceblight",
+        "note": null
+      },
+      {
+        "name": "Frostblight",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Elder Dragon",
+    "alias": "Ice Dragon (\u51b0\u9f8d)\n",
     "suborder": "Base Species",
     "related": []
+  },
+  {
+    "name": "Viper Tobi-Kadachi",
+    "description": "The tail of this subspecies secretes a toxin while its fangs paralyze prey. It can also glide without climbing trees.",
+    "games": ["Monster Hunter World: Iceborne"],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Paralysis",
+        "note": null
+      },
+      {
+        "name": "Poison",
+        "note": null
+      },
+      {
+        "name": "Noxious Poison",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Fanged Wyvern",
+    "alias": "Flying Poison Wyvern (\u98db\u6bd2\u7adc)\n",
+    "suborder": "Subspecies",
+    "related": ["Tobi-Kadachi"]
   }
 ]

@@ -13,12 +13,20 @@ interface GameList {
 
 interface Monster {
   name: string
-  type: string
-  suborder: string
+  description: string
   games: string[]
-  elements: string[]
-  statuses: string[]
-  weaknesses: string[]
+  elements: Attribute[]
+  statuses: Attribute[]
+  weaknesses: Attribute[]
+  type: string
+  alias: string
+  suborder: string
+  related: string[]
+}
+
+interface Attribute {
+  name: string
+  note: string
 }
 
 interface Proximity {

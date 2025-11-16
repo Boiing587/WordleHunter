@@ -1,50 +1,7 @@
 [
   {
-    "name": "Giadrome",
-    "icon": "./icons/monsters/Giadrome.webp",
-    "description": "The alpha leader of a pack of Giaprey, the Giadrome sports a beautiful crest. Larger than a Giaprey, any hunter silly enough to encroach on its turf will be frozen in a hail of ice.",
-    "games": [
-      "Monster Hunter Freedom 2",
-      "Monster Hunter Freedom Unite",
-      "Monster Hunter Generations Ultimate"
-    ],
-    "elements": [
-      {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Iceblight",
-        "icon": "./icons/attributes/Iceblight.webp",
-        "note": "From Monster Hunter Generations Ultimate onwards"
-      },
-      {
-        "name": "Snowman",
-        "icon": "./icons/attributes/Snowman.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Bird Wyvern",
-    "alias": "None",
-    "suborder": "Base Species",
-    "related": [
-      "Giaprey"
-    ]
-  },
-  {
     "name": "Akantor",
-    "icon": "./icons/monsters/Akantor.webp",
-    "description": "A wyvern shrouded in mystery and known by many names -- \"the black god\" to some, \"the tyrant of fire\" to others, but usually called \"Akantor\" by the Guild. Its giant spines and tusks make for a fearsome sight in the volcanic areas it frequents.",
+    "description": "A wyvern shrouded in mystery and known by many names -- \"the black god\" to some, \"the tyrant of fire\" to others, but usually called \"___\" by the Guild. Its giant spines and tusks make for a fearsome sight in the volcanic areas it frequents.",
     "games": [
       "Monster Hunter Freedom 2",
       "Monster Hunter Freedom Unite",
@@ -60,50 +17,82 @@
     ],
     "elements": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       },
       {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
+        "name": "Dragon",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
         "note": "From Monster Hunter Portable 3rd onwards"
       },
       {
         "name": "Dragonblight",
-        "icon": "./icons/attributes/Dragonblight.webp",
         "note": "From Monster Hunter 4 onwards"
       },
       {
         "name": "Defense",
-        "icon": "./icons/attributes/Defense.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
+        "name": "Dragon",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Flying Wyvern",
-    "alias": "Supremacy Wyvern (\u8987\u7adc)",
+    "alias": "Supremacy Wyvern (\u8987\u7adc)\n",
     "suborder": "Base Species",
-    "related": [
-      "Ukanlos"
-    ]
+    "related": ["Ukanlos"]
+  },
+  {
+    "name": "Giadrome",
+    "description": "The alpha leader of a pack of ___, the ___ sports a beautiful crest. Larger than a ___, any hunter silly enough to encroach on its turf will be frozen in a hail of ice.",
+    "games": [
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Generations Ultimate"
+    ],
+    "elements": [
+      {
+        "name": "Ice",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Iceblight",
+        "note": "From Monster Hunter Generations Ultimate onwards"
+      },
+      {
+        "name": "Snowman",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Bird Wyvern",
+    "alias": "None\n",
+    "suborder": "Base Species",
+    "related": ["Velocidrome", "Giaprey"]
   },
   {
     "name": "Tigrex",
-    "icon": "./icons/monsters/Tigrex.webp",
     "description": "Primeval in appearance, these Flying Wyverns possess fearsome limbs, jaws and claws. Capable of unleashing an ear-splitting roar, they will roam to the far reaches of the coldest climates in search of prey.",
     "games": [
       "Monster Hunter Freedom 2",
@@ -123,57 +112,48 @@
     ],
     "elements": [
       {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
+        "name": "Dragon",
         "note": "Until Monster Hunter Portable 3rd"
       },
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": "Depends on terrain"
+        "name": "Fire",
+        "note": null
       },
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": "Depends on terrain"
+        "name": "Water",
+        "note": null
       },
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Ice",
         "note": "Depends on terrain"
       }
     ],
     "statuses": [
       {
         "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
-        "note": "Depends on terrain"
+        "note": null
       },
       {
         "name": "Waterblight",
-        "icon": "./icons/attributes/Waterblight.webp",
-        "note": "Depends on terrain"
+        "note": null
       },
       {
         "name": "Iceblight",
-        "icon": "./icons/attributes/Iceblight.webp",
         "note": "Depends on terrain"
       }
     ],
     "weaknesses": [
       {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
+        "name": "Thunder",
         "note": null
       }
     ],
+    "parentheses_elements": true,
+    "parentheses_statuses": true,
+    "parentheses_weaknesses": false,
     "type": "Flying Wyvern",
-    "alias": "Roaring Wyvern (\u8f5f\u7adc)",
+    "alias": "Roaring Wyvern (\u8f5f\u7adc)\n",
     "suborder": "Base Species",
-    "related": [
-      "Brute Tigrex",
-      "Molten Tigrex",
-      "Grimclaw Tigrex"
-    ]
+    "related": ["Brute Tigrex", "Molten Tigrex", "Grimclaw Tigrex"]
   }
 ]

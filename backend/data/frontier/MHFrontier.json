@@ -1,7 +1,305 @@
 [
   {
+    "name": "Aqra Jebia",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Paralysis",
+        "note": null
+      },
+      {
+        "name": "Crystallization",
+        "note": null
+      }
+    ],
+    "weaknesses": [],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Carapaceon",
+    "alias": "Ashen Crystal Scorpion (\u7070\u6676\u880d)\n",
+    "suborder": "Subspecies",
+    "related": ["Aqra Vashim"]
+  },
+  {
+    "name": "Aqra Vashim",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Crystallization",
+        "note": null
+      },
+      {
+        "name": "Paralysis Attribute",
+        "note": null
+      }
+    ],
+    "weaknesses": [],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Carapaceon",
+    "alias": "Tail Crystal Scorpion (\u5c3e\u6676\u880d)\n",
+    "suborder": "Base Species",
+    "related": ["Zenith Aqra Vashim", "Aqra Jebia", "Kusubami"]
+  },
+  {
+    "name": "Belkuros",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Thunder",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Paralysis",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Flying Wyvern",
+    "alias": "Dancing Thunder Wyvern (\u821e\u96f7\u7adc)\n",
+    "suborder": "Base Species",
+    "related": ["Draguros", "Zenith Draguros"]
+  },
+  {
+    "name": "Draguros",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Dragon",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Paralysis",
+        "note": null
+      },
+      {
+        "name": "Stun",
+        "note": "Supreme"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": true,
+    "parentheses_weaknesses": false,
+    "type": "Flying Wyvern",
+    "alias": "Dark Thunder Wyvern (\u51a5\u96f7\u7adc)\n",
+    "suborder": "Subspecies",
+    "related": ["Zenith Draguros", "Belkuros"]
+  },
+  {
+    "name": "Duragaua",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Ice",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Sleep",
+        "note": null
+      },
+      {
+        "name": "Frostbite",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Flying Wyvern",
+    "alias": "Ice Fox Wyvern (\u6c37\u72d0\u7adc)\n",
+    "suborder": "Base Species",
+    "related": ["Mi Ru"]
+  },
+  {
+    "name": "Espinas",
+    "description": "Flying Wyverns known for the red spikes on their tough green frame, forming both a means of attack and defense, thus generally keeping foes at bay. As a result, they are often seen sprawled out and relaxing in their domain. Once they sense danger, however, they expand their blood vessels to turn their hide and wing membranes a bright red, and they will run riot with noteworthy brutality.",
+    "games": [
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "note": "From Monster Hunter Rise: Sunbreak onwards"
+      },
+      {
+        "name": "Paralysis",
+        "note": null
+      },
+      {
+        "name": "Poison",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Flying Wyvern",
+    "alias": "Thorny Wyvern (\u68d8\u7adc)\n",
+    "suborder": "Base Species",
+    "related": [
+      "Flaming Espinas",
+      "Pearl Espinas",
+      "Zenith Espinas",
+      "Melaginas"
+    ]
+  },
+  {
+    "name": "Flaming Espinas",
+    "description": "An ___ subspecies with a slightly more muted body color. The boldness of the standard ___ remains: run-of-the-mill attacks won't rouse ___ from their slumber. Their breath attack contains a powerful poison, and a dense acid that deteriorates armor. Take this attack head-on, and you won't stand a chance...",
+    "games": [
+      "Monster Hunter Rise: Sunbreak",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "note": "From Monster Hunter Rise: Sunbreak onwards"
+      },
+      {
+        "name": "Poison",
+        "note": null
+      },
+      {
+        "name": "Defense",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Flying Wyvern",
+    "alias": "Brown Thorny Wyvern (\u68d8\u8336\u7adc)\n",
+    "suborder": "Subspecies",
+    "related": ["Espinas", "Pearl Espinas", "Zenith Espinas", "Melaginas"]
+  },
+  {
+    "name": "Grenzebul",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Water",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Paralysis",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Flying Wyvern",
+    "alias": "Barbarous Wyvern (\u86ee\u7adc)\n",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
     "name": "Hypnocatrice",
-    "icon": "./icons/monsters/Hypnocatrice.webp",
     "description": "A rust-colored bird wyvern with beautiful tail feathers found mainly in forests. A highly pacifistic wyvern by nature, it breathes sleeping gas on its enemies and prey alike. Its strong, developed legs pack a serious punch, so be careful!",
     "games": [
       "Monster Hunter Freedom Unite",
@@ -13,20 +311,21 @@
     "elements": [],
     "statuses": [
       {
-        "name": "Sleep Attribute",
-        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "name": "Sleep",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Bird Wyvern",
-    "alias": "Sleep Bird (\u7720\u9ce5)",
+    "alias": "Sleep Bird (\u7720\u9ce5)\n",
     "suborder": "Base Species",
     "related": [
       "Vivid Hypnocatrice",
@@ -37,11 +336,9 @@
     ]
   },
   {
-    "name": "Espinas",
-    "icon": "./icons/monsters/Espinas.webp",
-    "description": "Flying Wyverns known for the red spikes on their tough green frame, forming both a means of attack and defense, thus generally keeping foes at bay. As a result, they are often seen sprawled out and relaxing in their domain. Once they sense danger, however, they expand their blood vessels to turn their hide and wing membranes a bright red, and they will run riot with noteworthy brutality.",
+    "name": "Kamu Orgaron",
+    "description": "",
     "games": [
-      "Monster Hunter Rise: Sunbreak",
       "Monster Hunter Frontier",
       "Monster Hunter Frontier Forward",
       "Monster Hunter Frontier G",
@@ -49,101 +346,41 @@
     ],
     "elements": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
+        "name": "Ice",
+        "note": "In G Rank"
       }
     ],
     "statuses": [
       {
-        "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
-        "note": "From Monster Hunter Rise: Sunbreak onwards"
-      },
-      {
-        "name": "Paralysis Attribute",
-        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "name": "Stun",
         "note": null
       },
       {
-        "name": "Poison Attribute",
-        "icon": "./icons/attributes/Poison_Attribute.webp",
-        "note": null
+        "name": "Snowman",
+        "note": "In G Rank"
       }
     ],
     "weaknesses": [
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Water",
         "note": null
+      },
+      {
+        "name": "Fire",
+        "note": "On frozen parts"
       }
     ],
-    "type": "Flying Wyvern",
-    "alias": "Thorny Wyvern (\u68d8\u7adc)",
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": true,
+    "type": "Fanged Beast",
+    "alias": "Male Sound Wolf (\u96c4\u97ff\u72fc)\n",
     "suborder": "Base Species",
-    "related": [
-      "Flaming Espinas",
-      "Pearl Espinas",
-      "Zenith Espinas",
-      "Melaginas"
-    ]
-  },
-  {
-    "name": "Flaming Espinas",
-    "icon": "./icons/monsters/Flaming_Espinas.webp",
-    "description": "An Espinas subspecies with a slightly more muted body color. The boldness of the standard Espinas remains: run-of-the-mill attacks won't rouse Flaming Espinas from their slumber. Their breath attack contains a powerful poison, and a dense acid that deteriorates armor. Take this attack head-on, and you won't stand a chance...",
-    "games": [
-      "Monster Hunter Rise: Sunbreak",
-      "Monster Hunter Frontier",
-      "Monster Hunter Frontier Forward",
-      "Monster Hunter Frontier G",
-      "Monster Hunter Frontier Z / Z Zenith"
-    ],
-    "elements": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
-        "note": "From Monster Hunter Rise: Sunbreak onwards"
-      },
-      {
-        "name": "Poison Attribute",
-        "icon": "./icons/attributes/Poison_Attribute.webp",
-        "note": null
-      },
-      {
-        "name": "Defense",
-        "icon": "./icons/attributes/Defense.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Flying Wyvern",
-    "alias": "Brown Thorny Wyvern (\u68d8\u8336\u7adc)",
-    "suborder": "Subspecies",
-    "related": [
-      "Espinas",
-      "Pearl Espinas",
-      "Zenith Espinas",
-      "Melaginas"
-    ]
+    "related": ["Midogaron", "Nono Orgaron"]
   },
   {
     "name": "Lavasioth",
-    "icon": "./icons/monsters/Lavasioth.webp",
-    "description": "Lavasioths utilize molten lava as armor. They are extremely aggressive and will attack without prejudice until the threat has been eliminated.",
+    "description": "___s utilize molten lava as armor. They are extremely aggressive and will attack without prejudice until the threat has been eliminated.",
     "games": [
       "Monster Hunter Freedom Unite",
       "Monster Hunter Generations",
@@ -157,42 +394,79 @@
     ],
     "elements": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
         "note": "From Monster Hunter Generations onwards"
       }
     ],
     "weaknesses": [
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
+        "name": "Water",
         "note": null
       },
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": "With Hardened Armour (Monster Hunter World: Iceborne)"
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": true,
     "type": "Piscine Wyvern",
-    "alias": "Lava Wyvern (\u6eb6\u5ca9\u7adc)",
+    "alias": "Lava Wyvern (\u6eb6\u5ca9\u7adc)\n",
     "suborder": "Base Species",
-    "related": [
-      "Red Lavasioth",
-      "Argasioth",
-      "Aurisioth"
-    ]
+    "related": ["Red Lavasioth", "Argasioth", "Aurisioth"]
   },
   {
-    "name": "Aqra Vashim",
-    "icon": "./icons/monsters/Aqra_Vashim.webp",
+    "name": "Nono Orgaron",
+    "description": "",
+    "games": [
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Ice",
+        "note": "In G Rank"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Stun",
+        "note": null
+      },
+      {
+        "name": "Snowman",
+        "note": "In G Rank"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water",
+        "note": null
+      },
+      {
+        "name": "Fire",
+        "note": "On frozen parts"
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": true,
+    "type": "Fanged Beast",
+    "alias": "Female Sound Wolf (\u96cc\u97ff\u72fc)\n",
+    "suborder": "Base Species",
+    "related": ["Kamu Orgaron"]
+  },
+  {
+    "name": "Pale Hypnocatrice",
     "description": "",
     "games": [
       "Monster Hunter Frontier",
@@ -203,60 +477,26 @@
     "elements": [],
     "statuses": [
       {
-        "name": "Crystallization",
-        "icon": "./icons/attributes/Crystallization.webp",
-        "note": null
-      },
-      {
-        "name": "Paralysis Attribute",
-        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "name": "Sleep",
         "note": null
       }
     ],
-    "weaknesses": [],
-    "type": "Carapaceon",
-    "alias": "Tail Crystal Scorpion (\u5c3e\u6676\u880d)",
-    "suborder": "Base Species",
-    "related": [
-      "Zenith Aqra Vashim",
-      "Aqra Jebia",
-      "Kusubami"
-    ]
-  },
-  {
-    "name": "Aqra Jebia",
-    "icon": "./icons/monsters/Aqra_Jebia.webp",
-    "description": "",
-    "games": [
-      "Monster Hunter Frontier",
-      "Monster Hunter Frontier Forward",
-      "Monster Hunter Frontier G",
-      "Monster Hunter Frontier Z / Z Zenith"
-    ],
-    "elements": [],
-    "statuses": [
+    "weaknesses": [
       {
-        "name": "Paralysis Attribute",
-        "icon": "./icons/attributes/Paralysis_Attribute.webp",
-        "note": null
-      },
-      {
-        "name": "Crystallization",
-        "icon": "./icons/attributes/Crystallization.webp",
+        "name": "Ice",
         "note": null
       }
     ],
-    "weaknesses": [],
-    "type": "Carapaceon",
-    "alias": "Ashen Crystal Scorpion (\u7070\u6676\u880d)",
-    "suborder": "Subspecies",
-    "related": [
-      "Aqra Vashim"
-    ]
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Bird Wyvern",
+    "alias": "Pale Sleep Bird (\u84bc\u767d\u7720\u9ce5)\n",
+    "suborder": "Rare Species",
+    "related": ["Hypnocatrice", "Vivid Hypnocatrice", "Zenith Hypnocatrice"]
   },
   {
-    "name": "Belkuros",
-    "icon": "./icons/monsters/Belkuros.webp",
+    "name": "Pariapuria",
     "description": "",
     "games": [
       "Monster Hunter Frontier",
@@ -266,79 +506,44 @@
     ],
     "elements": [
       {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
+        "name": "Water",
         "note": null
       }
     ],
     "statuses": [
       {
-        "name": "Paralysis Attribute",
-        "icon": "./icons/attributes/Paralysis_Attribute.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Flying Wyvern",
-    "alias": "Dancing Thunder Wyvern (\u821e\u96f7\u7adc)",
-    "suborder": "Base Species",
-    "related": [
-      "Draguros",
-      "Zenith Draguros"
-    ]
-  },
-  {
-    "name": "Duragaua",
-    "icon": "./icons/monsters/Duragaua.webp",
-    "description": "",
-    "games": [
-      "Monster Hunter Frontier",
-      "Monster Hunter Frontier Forward",
-      "Monster Hunter Frontier G",
-      "Monster Hunter Frontier Z / Z Zenith"
-    ],
-    "elements": [
-      {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Sleep Attribute",
-        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "name": "Paralysis",
         "note": null
       },
       {
-        "name": "Frostbite",
-        "icon": "./icons/attributes/Frostbite.webp",
+        "name": "Sleep",
+        "note": null
+      },
+      {
+        "name": "Poison",
+        "note": null
+      },
+      {
+        "name": "Soiled",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Flying Wyvern",
-    "alias": "Ice Fox Wyvern (\u6c37\u72d0\u7adc)",
+    "alias": "Swallowing Wyvern (\u5451\u7adc)\n",
     "suborder": "Base Species",
-    "related": [
-      "Mi Ru"
-    ]
+    "related": ["Ravenous Pariapuria"]
   },
   {
     "name": "Pearl Espinas",
-    "icon": "./icons/monsters/Pearl_Espinas.webp",
     "description": "",
     "games": [
       "Monster Hunter Frontier",
@@ -348,47 +553,40 @@
     ],
     "elements": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
     "statuses": [
       {
-        "name": "Paralysis Attribute",
-        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "name": "Paralysis",
         "note": null
       },
       {
-        "name": "Poison Attribute",
-        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "name": "Poison",
         "note": null
       },
       {
         "name": "Defense",
-        "icon": "./icons/attributes/Defense.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
+        "name": "Water",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Flying Wyvern",
-    "alias": "White Thorn Wyvern (\u68d8\u767d\u7adc)",
+    "alias": "White Thorn Wyvern (\u68d8\u767d\u7adc)\n",
     "suborder": "Rare Species",
-    "related": [
-      "Espinas",
-      "Flaming Espinas",
-      "Zenith Espinas"
-    ]
+    "related": ["Espinas", "Flaming Espinas", "Zenith Espinas"]
   },
   {
-    "name": "Grenzebul",
-    "icon": "./icons/monsters/Grenzebul.webp",
+    "name": "Raviente",
     "description": "",
     "games": [
       "Monster Hunter Frontier",
@@ -398,106 +596,52 @@
     ],
     "elements": [
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
     "statuses": [
       {
-        "name": "Paralysis Attribute",
-        "icon": "./icons/attributes/Paralysis_Attribute.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Flying Wyvern",
-    "alias": "Barbarous Wyvern (\u86ee\u7adc)",
-    "suborder": "Base Species",
-    "related": []
-  },
-  {
-    "name": "Vivid Hypnocatrice",
-    "icon": "./icons/monsters/Vivid_Hypnocatrice.webp",
-    "description": "",
-    "games": [
-      "Monster Hunter Frontier",
-      "Monster Hunter Frontier Forward",
-      "Monster Hunter Frontier G",
-      "Monster Hunter Frontier Z / Z Zenith"
-    ],
-    "elements": [],
-    "statuses": [
-      {
-        "name": "Sleep Attribute",
-        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "name": "Stun",
         "note": null
       },
       {
-        "name": "Stun",
-        "icon": "./icons/attributes/Stun.webp",
-        "note": "Hardcore"
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Bird Wyvern",
-    "alias": "Blue Sleep Bird (\u84bc\u7720\u9ce5)",
-    "suborder": "Variant",
-    "related": [
-      "Hypnocatrice",
-      "Pale Hypnocatrice",
-      "Zenith Hypnocatrice"
-    ]
-  },
-  {
-    "name": "Pale Hypnocatrice",
-    "icon": "./icons/monsters/Pale_Hypnocatrice.webp",
-    "description": "",
-    "games": [
-      "Monster Hunter Frontier",
-      "Monster Hunter Frontier Forward",
-      "Monster Hunter Frontier G",
-      "Monster Hunter Frontier Z / Z Zenith"
-    ],
-    "elements": [],
-    "statuses": [
-      {
-        "name": "Sleep Attribute",
-        "icon": "./icons/attributes/Sleep_Attribute.webp",
+        "name": "Paralysis",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Fire",
+        "note": null
+      },
+      {
+        "name": "Ice",
+        "note": null
+      },
+      {
+        "name": "Water",
+        "note": null
+      },
+      {
+        "name": "Thunder",
+        "note": null
+      },
+      {
+        "name": "Dragon",
         "note": null
       }
     ],
-    "type": "Bird Wyvern",
-    "alias": "Pale Sleep Bird (\u84bc\u767d\u7720\u9ce5)",
-    "suborder": "Rare Species",
-    "related": [
-      "Hypnocatrice",
-      "Vivid Hypnocatrice",
-      "Zenith Hypnocatrice"
-    ]
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Unclassified",
+    "alias": "Great Crag Wyvern (\u5927\u5dcc\u7adc)\n",
+    "suborder": "Base Species",
+    "related": ["Violent Raviente", "Berserk Raviente"]
   },
   {
     "name": "Red Lavasioth",
-    "icon": "./icons/monsters/Red_Lavasioth.webp",
     "description": "",
     "games": [
       "Monster Hunter Frontier",
@@ -507,190 +651,27 @@
     ],
     "elements": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
     "statuses": [],
     "weaknesses": [
       {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
+        "name": "Dragon",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Piscine Wyvern",
-    "alias": "Crimson Lava Wyvern (\u7d05\u6eb6\u5ca9\u7adc)",
-    "suborder": "Base Species",
-    "related": [
-      "Lavasioth"
-    ]
-  },
-  {
-    "name": "Pariapuria",
-    "icon": "./icons/monsters/Pariapuria.webp",
-    "description": "",
-    "games": [
-      "Monster Hunter Frontier",
-      "Monster Hunter Frontier Forward",
-      "Monster Hunter Frontier G",
-      "Monster Hunter Frontier Z / Z Zenith"
-    ],
-    "elements": [
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Paralysis Attribute",
-        "icon": "./icons/attributes/Paralysis_Attribute.webp",
-        "note": null
-      },
-      {
-        "name": "Sleep Attribute",
-        "icon": "./icons/attributes/Sleep_Attribute.webp",
-        "note": null
-      },
-      {
-        "name": "Poison Attribute",
-        "icon": "./icons/attributes/Poison_Attribute.webp",
-        "note": null
-      },
-      {
-        "name": "Soiled",
-        "icon": "./icons/attributes/Soiled.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Flying Wyvern",
-    "alias": "Swallowing Wyvern (\u5451\u7adc)",
-    "suborder": "Base Species",
-    "related": [
-      "Ravenous Pariapuria"
-    ]
-  },
-  {
-    "name": "Raviente",
-    "icon": "./icons/monsters/Raviente.webp",
-    "description": "",
-    "games": [
-      "Monster Hunter Frontier",
-      "Monster Hunter Frontier Forward",
-      "Monster Hunter Frontier G",
-      "Monster Hunter Frontier Z / Z Zenith"
-    ],
-    "elements": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Stun",
-        "icon": "./icons/attributes/Stun.webp",
-        "note": null
-      },
-      {
-        "name": "Paralysis Attribute",
-        "icon": "./icons/attributes/Paralysis_Attribute.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      },
-      {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
-        "note": null
-      },
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": null
-      },
-      {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
-        "note": null
-      },
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Unclassified",
-    "alias": "Great Crag Wyvern (\u5927\u5dcc\u7adc)",
-    "suborder": "Base Species",
-    "related": [
-      "Violent Raviente",
-      "Berserk Raviente"
-    ]
-  },
-  {
-    "name": "Draguros",
-    "icon": "./icons/monsters/Draguros.webp",
-    "description": "",
-    "games": [
-      "Monster Hunter Frontier",
-      "Monster Hunter Frontier Forward",
-      "Monster Hunter Frontier G",
-      "Monster Hunter Frontier Z / Z Zenith"
-    ],
-    "elements": [
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Paralysis Attribute",
-        "icon": "./icons/attributes/Paralysis_Attribute.webp",
-        "note": null
-      },
-      {
-        "name": "Stun",
-        "icon": "./icons/attributes/Stun.webp",
-        "note": "Supreme"
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Flying Wyvern",
-    "alias": "Dark Thunder Wyvern (\u51a5\u96f7\u7adc)",
+    "alias": "Crimson Lava Wyvern (\u7d05\u6eb6\u5ca9\u7adc)\n",
     "suborder": "Subspecies",
-    "related": [
-      "Zenith Draguros",
-      "Belkuros"
-    ]
+    "related": ["Lavasioth"]
   },
   {
-    "name": "Kamu Orgaron",
-    "icon": "./icons/monsters/Kamu_Orgaron.webp",
+    "name": "Vivid Hypnocatrice",
     "description": "",
     "games": [
       "Monster Hunter Frontier",
@@ -698,91 +679,29 @@
       "Monster Hunter Frontier G",
       "Monster Hunter Frontier Z / Z Zenith"
     ],
-    "elements": [
-      {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
-        "note": "In G Rank"
-      }
-    ],
+    "elements": [],
     "statuses": [
       {
-        "name": "Stun",
-        "icon": "./icons/attributes/Stun.webp",
+        "name": "Sleep",
         "note": null
       },
       {
-        "name": "Snowman",
-        "icon": "./icons/attributes/Snowman.webp",
-        "note": "In G Rank"
+        "name": "Stun",
+        "note": "Hardcore"
       }
     ],
     "weaknesses": [
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
+        "name": "Thunder",
         "note": null
-      },
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": "On frozen parts"
       }
     ],
-    "type": "Fanged Beast",
-    "alias": "Male Sound Wolf (\u96c4\u97ff\u72fc)",
-    "suborder": "Base Species",
-    "related": [
-      "Midogaron",
-      "Nono Orgaron"
-    ]
-  },
-  {
-    "name": "Nono Orgaron",
-    "icon": "./icons/monsters/Nono_Orgaron.webp",
-    "description": "",
-    "games": [
-      "Monster Hunter Frontier",
-      "Monster Hunter Frontier Forward",
-      "Monster Hunter Frontier G",
-      "Monster Hunter Frontier Z / Z Zenith"
-    ],
-    "elements": [
-      {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
-        "note": "In G Rank"
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Stun",
-        "icon": "./icons/attributes/Stun.webp",
-        "note": null
-      },
-      {
-        "name": "Snowman",
-        "icon": "./icons/attributes/Snowman.webp",
-        "note": "In G Rank"
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": null
-      },
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": "On frozen parts"
-      }
-    ],
-    "type": "Fanged Beast",
-    "alias": "Female Sound Wolf (\u96cc\u97ff\u72fc)",
-    "suborder": "Base Species",
-    "related": [
-      "Kamu Orgaron"
-    ]
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Bird Wyvern",
+    "alias": "Blue Sleep Bird (\u84bc\u7720\u9ce5)\n",
+    "suborder": "Variant",
+    "related": ["Hypnocatrice", "Pale Hypnocatrice", "Zenith Hypnocatrice"]
   }
 ]

@@ -1,277 +1,46 @@
 [
   {
-    "name": "Great Baggi",
-    "icon": "./icons/monsters/Great_Baggi.webp",
-    "description": "A carnivorous bird wyvern. Noted for their projecting cranial crests and bluish-white skin that's adapted to snowy climates. Great Baggi craftily command other Baggi to surround their prey and stun them with a tranquilizing fluid.",
+    "name": "Agnaktor",
+    "description": "___ use their tough beaks and powerful muscles to burrow through rock, moving freely through the earth. Their tough armor is actually made of molten magma, which coats their bodies and adheres to them as it cools down.",
     "games": [
       "Monster Hunter 3",
       "Monster Hunter Portable 3rd",
       "Monster Hunter 3 Ultimate",
-      "Monster Hunter Rise",
-      "Monster Hunter Rise: Sunbreak"
-    ],
-    "elements": [],
-    "statuses": [
-      {
-        "name": "Sleep Attribute",
-        "icon": "./icons/attributes/Sleep_Attribute.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Bird Wyvern",
-    "alias": "Sleep Dog Wyvern (\u7720\u72d7\u7adc)",
-    "suborder": "Base Species",
-    "related": [
-      "Baggi"
-    ]
-  },
-  {
-    "name": "Great Jaggi",
-    "icon": "./icons/monsters/Great_Jaggi.webp",
-    "description": "Alpha monsters that lead packs of Jaggi. At a certain age, males leave the pack to live on their own before returning to fight for the right to become leader. They have a very commanding presence. It has been said they can call and give complex orders to their pack with their howls and barks.",
-    "games": [
-      "Monster Hunter 3",
-      "Monster Hunter Portable 3rd",
-      "Monster Hunter 3 Ultimate",
-      "Monster Hunter 4",
-      "Monster Hunter 4 Ultimate"
-    ],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Bird Wyvern",
-    "alias": "Dog Wyvern (\u72d7\u7adc)",
-    "suborder": "Base Species",
-    "related": [
-      "Jaggi",
-      "Jaggia"
-    ]
-  },
-  {
-    "name": "Qurupeco",
-    "icon": "./icons/monsters/Qurupeco.webp",
-    "description": "Bird Wyverns with colorful plumage. Using thoracic vocal organs, they imitate the calls of other monsters. When threatened, they mimic the cries of Flying Wyverns, utilizing their presence as a distraction to flee.",
-    "games": [
-      "Monster Hunter 3 Ultimate",
-      "Monster Hunter Portable 3rd",
-      "Monster Hunter 3"
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate"
     ],
     "elements": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
-        "note": null
-      },
-      {
-        "name": "Sleep Attribute",
-        "icon": "./icons/attributes/Sleep_Attribute.webp",
-        "note": "In G Rank"
-      },
-      {
-        "name": "Resistance Down",
-        "icon": "./icons/attributes/Resistance_Down.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Water",
         "note": null
+      },
+      {
+        "name": "Dragon",
+        "note": "With Soften/Broken armour."
       }
     ],
-    "type": "Bird Wyvern",
-    "alias": "Colorful Bird (\u5f69\u9ce5)",
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": true,
+    "type": "Leviathan",
+    "alias": "Fire Pike Wyvern (\u708e\u6208\u7adc)\n",
     "suborder": "Base Species",
-    "related": [
-      "Crimson Qurupeco"
-    ]
-  },
-  {
-    "name": "Barroth",
-    "icon": "./icons/monsters/Barroth.webp",
-    "description": "Barroth usually remain beneath the mud, perhaps to shield themselves from heat; they are even known to attack by flinging mud. They will charge in a frenzy at anything that disturbs their bogs.",
-    "games": [
-      "Monster Hunter 3",
-      "Monster Hunter Portable 3rd",
-      "Monster Hunter 3 Ultimate",
-      "Monster Hunter Generations Ultimate",
-      "Monster Hunter: World",
-      "Monster Hunter World: Iceborne",
-      "Monster Hunter Rise",
-      "Monster Hunter Rise: Sunbreak"
-    ],
-    "elements": [
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": "From Monster Hunter: World onwards"
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Waterblight",
-        "icon": "./icons/attributes/Waterblight.webp",
-        "note": "From Monster Hunter: World onwards"
-      },
-      {
-        "name": "Muddy",
-        "icon": "./icons/attributes/Muddy.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      },
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": "With Mud Armor"
-      }
-    ],
-    "type": "Brute Wyvern",
-    "alias": "Earth Sand Wyvern (\u571f\u7802\u7adc)",
-    "suborder": "Base Species",
-    "related": [
-      "Jade Barroth"
-    ]
-  },
-  {
-    "name": "Deviljho",
-    "icon": "./icons/monsters/Deviljho.webp",
-    "description": "The dreaded, nomadic Deviljho have no specific territory of their own. Their muscles swell if provoked, revealing old wounds. They need to feed constantly due to high body heat and can hunt nearby animals to extinction.",
-    "games": [
-      "Monster Hunter G",
-      "Monster Hunter 3",
-      "Monster Hunter Portable 3rd",
-      "Monster Hunter 3 Ultimate",
-      "Monster Hunter 4",
-      "Monster Hunter 4 Ultimate",
-      "Monster Hunter Generations",
-      "Monster Hunter Generations Ultimate",
-      "Monster Hunter: World",
-      "Monster Hunter World: Iceborne",
-      "Monster Hunter Frontier",
-      "Monster Hunter Frontier Forward",
-      "Monster Hunter Frontier G",
-      "Monster Hunter Frontier Z / Z Zenith"
-    ],
-    "elements": [
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Dragonblight",
-        "icon": "./icons/attributes/Dragonblight.webp",
-        "note": null
-      },
-      {
-        "name": "Defense",
-        "icon": "./icons/attributes/Defense.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
-        "note": null
-      },
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Brute Wyvern",
-    "alias": "Terrible Violent Wyvern (\u6050\u66b4\u7adc)",
-    "suborder": "Base Species",
-    "related": [
-      "Savage Deviljho"
-    ]
-  },
-  {
-    "name": "Uragaan",
-    "icon": "./icons/monsters/Uragaan.webp",
-    "description": "Brute Wyverns with mighty jaws. The vibration from their bodies send the stones and ore stuck to them flying in all directions in deadly explosive attacks. They can also detonate Powderstones by striking them with incredible force with their chins.",
-    "games": [
-      "Monster Hunter 3",
-      "Monster Hunter Portable 3rd",
-      "Monster Hunter 3 Ultimate",
-      "Monster Hunter Generations",
-      "Monster Hunter Generations Ultimate",
-      "Monster Hunter: World",
-      "Monster Hunter World: Iceborne",
-      "Monster Hunter Frontier",
-      "Monster Hunter Frontier Forward",
-      "Monster Hunter Frontier G",
-      "Monster Hunter Frontier Z / Z Zenith"
-    ],
-    "elements": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
-        "note": null
-      },
-      {
-        "name": "Sleep Attribute",
-        "icon": "./icons/attributes/Sleep_Attribute.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Brute Wyvern",
-    "alias": "Explosive Hammer Wyvern (\u7206\u939a\u7adc)",
-    "suborder": "Base Species",
-    "related": [
-      "Steel Uragaan",
-      "Crystalbeard Uragaan",
-      "Radobaan"
-    ]
+    "related": ["Glacial Agnaktor", "Uroktor"]
   },
   {
     "name": "Alatreon",
-    "icon": "./icons/monsters/Alatreon.webp",
     "description": "Blazing black dragons, so named for resembling both lightning and darkness. They mercilessly tear apart whoever touches their sharp scales. Elementally unstable, their actions can affect the very weather. Living natural disasters.",
     "games": [
       "Monster Hunter 3",
@@ -283,166 +52,76 @@
     ],
     "elements": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       },
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
+        "name": "Water",
         "note": "In Monster Hunter World: Iceborne"
       },
       {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
+        "name": "Thunder",
         "note": null
       },
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Ice",
         "note": null
       },
       {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
+        "name": "Dragon",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
         "note": null
       },
       {
         "name": "Waterblight",
-        "icon": "./icons/attributes/Waterblight.webp",
         "note": "In Monster Hunter World: Iceborne"
       },
       {
         "name": "Thunderblight",
-        "icon": "./icons/attributes/Thunderblight.webp",
         "note": null
       },
       {
         "name": "Iceblight",
-        "icon": "./icons/attributes/Iceblight.webp",
         "note": null
       },
       {
         "name": "Dragonblight",
-        "icon": "./icons/attributes/Dragonblight.webp",
         "note": null
       },
       {
         "name": "Snowman",
-        "icon": "./icons/attributes/Snowman.webp",
         "note": "Until Monster Hunter World: Iceborne"
       }
     ],
     "weaknesses": [
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Ice",
         "note": "In Ground Mode/When Fire Active"
       },
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": "When Ice Active"
       },
       {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
+        "name": "Dragon",
         "note": "In Flight Mode/When Dragon Active"
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": true,
     "type": "Elder Dragon",
-    "alias": "Blazing Black Dragon (\u714c\u9ed2\u9f8d)",
+    "alias": "Blazing Black Dragon (\u714c\u9ed2\u9f8d)\n",
     "suborder": "Base Species",
     "related": []
   },
   {
-    "name": "Ceadeus",
-    "icon": "./icons/monsters/Ceadeus.webp",
-    "description": "Legendary elder dragons known as both \"shining giants of the depths\" and \"great sea dragons.\" Not confirmed to exist until recently. The Moga quakes were due to a Ceadeus butting its abnormally long horns into the earth.",
-    "games": [
-      "Monster Hunter 3 Ultimate",
-      "Monster Hunter 3"
-    ],
-    "elements": [
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": null
-      },
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": "In Monster Hunter 3"
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Waterblight",
-        "icon": "./icons/attributes/Waterblight.webp",
-        "note": null
-      },
-      {
-        "name": "Dragonblight",
-        "icon": "./icons/attributes/Dragonblight.webp",
-        "note": "In Monster Hunter 3"
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Elder Dragon",
-    "alias": "Ocean Dragon (\u5927\u6d77\u9f8d)",
-    "suborder": "Base Species",
-    "related": [
-      "Goldbeard Ceadeus"
-    ]
-  },
-  {
-    "name": "Jhen Mohran",
-    "icon": "./icons/monsters/Jhen_Mohran.webp",
-    "description": "Rare ore can be mined from these enormous dragons' backs; thus they are considered prosperity symbols. They swallow vast amounts of organic material and are always surrounded by scavenging Delex, which sailors use to locate them.",
-    "games": [
-      "Monster Hunter 3 Ultimate",
-      "Monster Hunter Portable 3rd",
-      "Monster Hunter 3"
-    ],
-    "elements": [
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": "In Monster Hunter 3"
-      }
-    ],
-    "statuses": [],
-    "weaknesses": [
-      {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Elder Dragon",
-    "alias": "Peak Mountain Dragon (\u5cef\u5c71\u9f8d)",
-    "suborder": "Base Species",
-    "related": [
-      "Hallowed Jhen Mohran",
-      "Dah'ren Mohran"
-    ]
-  },
-  {
     "name": "Barioth",
-    "icon": "./icons/monsters/Barioth.webp",
     "description": "Flying Wyverns that rule the frozen wastes, armed with characteristic giant tusks and sharp spikes. Their spikey scaled wings and tail allow them to run effortlessly across the ice, making them difficult to keep up with.",
     "games": [
       "Monster Hunter 3",
@@ -459,168 +138,331 @@
     ],
     "elements": [
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Ice",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Iceblight",
-        "icon": "./icons/attributes/Iceblight.webp",
         "note": null
       },
       {
         "name": "Snowman",
-        "icon": "./icons/attributes/Snowman.webp",
         "note": "Until Monster Hunter World: Iceborne"
       }
     ],
     "weaknesses": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Flying Wyvern",
-    "alias": "Ice Fang Wyvern (\u6c37\u7259\u7adc)",
+    "alias": "Ice Fang Wyvern (\u6c37\u7259\u7adc)\n",
     "suborder": "Base Species",
-    "related": [
-      "Sand Barioth",
-      "Frostfang Barioth"
-    ]
+    "related": ["Sand Barioth", "Frostfang Barioth"]
+  },
+  {
+    "name": "Barroth",
+    "description": "___ usually remain beneath the mud, perhaps to shield themselves from heat; they are even known to attack by flinging mud. They will charge in a frenzy at anything that disturbs their bogs.",
+    "games": [
+      "Monster Hunter 3",
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
+    "elements": [
+      {
+        "name": "Water",
+        "note": "From Monster Hunter: World onwards"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "note": "From Monster Hunter: World onwards"
+      },
+      {
+        "name": "Muddy",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire",
+        "note": null
+      },
+      {
+        "name": "Water",
+        "note": "With Mud Armor"
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": true,
+    "type": "Brute Wyvern",
+    "alias": "Earth Sand Wyvern (\u571f\u7802\u7adc)\n",
+    "suborder": "Base Species",
+    "related": ["Jade Barroth"]
+  },
+  {
+    "name": "Ceadeus",
+    "description": "Legendary elder dragons known as both \"shining giants of the depths\" and \"great sea dragons.\" Not confirmed to exist until recently. The Moga quakes were due to a ___ butting its abnormally long horns into the earth.",
+    "games": ["Monster Hunter 3 Ultimate", "Monster Hunter 3"],
+    "elements": [
+      {
+        "name": "Water",
+        "note": null
+      },
+      {
+        "name": "Dragon",
+        "note": "In Monster Hunter 3"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "note": null
+      },
+      {
+        "name": "Dragonblight",
+        "note": "In Monster Hunter 3"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Elder Dragon",
+    "alias": "Ocean Dragon (\u5927\u6d77\u9f8d)\n",
+    "suborder": "Base Species",
+    "related": ["Goldbeard Ceadeus"]
+  },
+  {
+    "name": "Deviljho",
+    "description": "The dreaded, nomadic ___ have no specific territory of their own. Their muscles swell if provoked, revealing old wounds. They need to feed constantly due to high body heat and can hunt nearby animals to extinction.",
+    "games": [
+      "Monster Hunter 3",
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Dragon",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Dragonblight",
+        "note": null
+      },
+      {
+        "name": "Defense",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Thunder",
+        "note": null
+      },
+      {
+        "name": "Dragon",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Brute Wyvern",
+    "alias": "Terrible Violent Wyvern (\u6050\u66b4\u7adc)\n",
+    "suborder": "Base Species",
+    "related": ["Savage Deviljho"]
   },
   {
     "name": "Gigginox",
-    "icon": "./icons/monsters/Gigginox.webp",
-    "description": "Wyverns that inhabit the Tundra. Gigginox live in darkness and thus have degraded vision; they detect prey via body heat, then attack with poison. When excited, their color changes and parts of their body harden. Extremely fertile, laying innumerable eggs.",
+    "description": "Wyverns that inhabit the Tundra. ___nox live in darkness and thus have degraded vision; they detect prey via body heat, then attack with poison. When excited, their color changes and parts of their body harden. Extremely fertile, laying innumerable eggs.",
     "games": [
-      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 3",
       "Monster Hunter Portable 3rd",
-      "Monster Hunter 3"
+      "Monster Hunter 3 Ultimate"
     ],
     "elements": [],
     "statuses": [
       {
-        "name": "Poison Attribute",
-        "icon": "./icons/attributes/Poison_Attribute.webp",
+        "name": "Poison",
         "note": null
       },
       {
         "name": "Noxious Poison",
-        "icon": "./icons/attributes/Noxious_Poison.webp",
         "note": "In High Rank onwards"
       }
     ],
     "weaknesses": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Flying Wyvern",
-    "alias": "Creeping Venom Wyvern (\u6bd2\u602a\u7adc)",
+    "alias": "Creeping Venom Wyvern (\u6bd2\u602a\u7adc)\n",
     "suborder": "Base Species",
-    "related": [
-      "Baleful Gigginox",
-      "Giggi"
-    ]
-  },
-  {
-    "name": "Agnaktor",
-    "icon": "./icons/monsters/Agnaktor.webp",
-    "description": "Agnaktor use their tough beaks and powerful muscles to burrow through rock, moving freely through the earth. Their tough armor is actually made of molten magma, which coats their bodies and adheres to them as it cools down.",
-    "games": [
-      "Monster Hunter 3",
-      "Monster Hunter Portable 3rd",
-      "Monster Hunter 3 Ultimate",
-      "Monster Hunter Generations",
-      "Monster Hunter Generations Ultimate"
-    ],
-    "elements": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": null
-      },
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": "With Soften/Broken armour."
-      }
-    ],
-    "type": "Leviathan",
-    "alias": "Fire Pike Wyvern (\u708e\u6208\u7adc)",
-    "suborder": "Base Species",
-    "related": [
-      "Glacial Agnaktor",
-      "Uroktor"
-    ]
+    "related": ["Baleful Gigginox", "Giggi"]
   },
   {
     "name": "Gobul",
-    "icon": "./icons/monsters/Gobul.webp",
-    "description": "Monsters with strong camouflage skills and powerful neurotoxins. Poor swimmers, Gobul conceal themselves and lure prey by imitating plants with their barbels. Can reportedly swallow Epioth whole. They love frogs.",
-    "games": [
-      "Monster Hunter 3 Ultimate",
-      "Monster Hunter 3"
-    ],
+    "description": "Monsters with strong camouflage skills and powerful neurotoxins. Poor swimmers, ___ conceal themselves and lure prey by imitating plants with their barbels. Can reportedly swallow Epioth whole. They love frogs.",
+    "games": ["Monster Hunter 3 Ultimate", "Monster Hunter 3"],
     "elements": [
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
+        "name": "Water",
         "note": "While underwater"
       }
     ],
     "statuses": [
       {
         "name": "Waterblight",
-        "icon": "./icons/attributes/Waterblight.webp",
         "note": "While underwater"
       },
       {
         "name": "Stun",
-        "icon": "./icons/attributes/Stun.webp",
         "note": null
       },
       {
-        "name": "Paralysis Attribute",
-        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "name": "Paralysis",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
+        "name": "Thunder",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Leviathan",
-    "alias": "Lantern Fish Wyvern (\u706f\u9b5a\u7adc)",
+    "alias": "Lantern Fish Wyvern (\u706f\u9b5a\u7adc)\n",
     "suborder": "Base Species",
     "related": []
   },
   {
+    "name": "Great Baggi",
+    "description": "A carnivorous bird wyvern. Noted for their projecting cranial crests and bluish-white skin that's adapted to snowy climates. Great ___ craftily command other ___ to surround their prey and stun them with a tranquilizing fluid.",
+    "games": [
+      "Monster Hunter 3",
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Sleep",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Bird Wyvern",
+    "alias": "Sleep Dog Wyvern (\u7720\u72d7\u7adc)\n",
+    "suborder": "Base Species",
+    "related": ["Baggi"]
+  },
+  {
+    "name": "Great Jaggi",
+    "description": "Alpha monsters that lead packs of ___. At a certain age, males leave the pack to live on their own before returning to fight for the right to become leader. They have a very commanding presence. It has been said they can call and give complex orders to their pack with their howls and barks.",
+    "games": [
+      "Monster Hunter 3",
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4",
+      "Monster Hunter 4 Ultimate"
+    ],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Bird Wyvern",
+    "alias": "Dog Wyvern (\u72d7\u7adc)\n",
+    "suborder": "Base Species",
+    "related": ["Jaggi", "Jaggia"]
+  },
+  {
+    "name": "Jhen Mohran",
+    "description": "Rare ore can be mined from these enormous dragons' backs; thus they are considered prosperity symbols. They swallow vast amounts of organic material and are always surrounded by scavenging Delex, which sailors use to locate them.",
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3"
+    ],
+    "elements": [
+      {
+        "name": "Dragon",
+        "note": "In Monster Hunter 3"
+      }
+    ],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Ice",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Elder Dragon",
+    "alias": "Peak Mountain Dragon (\u5cef\u5c71\u9f8d)\n",
+    "suborder": "Base Species",
+    "related": ["Hallowed Jhen Mohran", "Dah'ren Mohran"]
+  },
+  {
     "name": "Lagiacrus",
-    "icon": "./icons/monsters/Lagiacrus.webp",
-    "description": "Leviathans that exist atop the vast aquatic food chain. Lagiacrus generate electricity via their hides to store in their spinal organs, and are capable of discharging a current strong enough to boil the seawater around them. They have been sighted fighting other monsters in the Scarlet Forest, presumably drawn in from other regions in search of prey and more fertile environs.",
+    "description": "Leviathans that exist atop the vast aquatic food chain. ___ generate electricity via their hides to store in their spinal organs, and are capable of discharging a current strong enough to boil the seawater around them. They have been sighted fighting other monsters in the Scarlet Forest, presumably drawn in from other regions in search of prey and more fertile environs.",
     "games": [
       "Monster Hunter 3",
       "Monster Hunter 3 Ultimate",
@@ -630,47 +472,83 @@
     ],
     "elements": [
       {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
+        "name": "Thunder",
         "note": null
       },
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
+        "name": "Water",
         "note": "While Underwater in Monster Hunter 3/Monster Hunter 3 Ultimate."
       }
     ],
     "statuses": [
       {
         "name": "Thunderblight",
-        "icon": "./icons/attributes/Thunderblight.webp",
         "note": null
       },
       {
         "name": "Waterblight",
-        "icon": "./icons/attributes/Waterblight.webp",
         "note": "While Underwater in Monster Hunter 3/Monster Hunter 3 Ultimate."
       }
     ],
     "weaknesses": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Leviathan",
-    "alias": "Sea Wyvern (\u6d77\u7adc)",
+    "alias": "Sea Wyvern (\u6d77\u7adc)\n",
     "suborder": "Base Species",
-    "related": [
-      "Ivory Lagiacrus",
-      "Abyssal Lagiacrus"
-    ]
+    "related": ["Ivory Lagiacrus", "Abyssal Lagiacrus"]
+  },
+  {
+    "name": "Qurupeco",
+    "description": "Bird Wyverns with colorful plumage. Using thoracic vocal organs, they imitate the calls of other monsters. When threatened, they mimic the cries of Flying Wyverns, utilizing their presence as a distraction to flee.",
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3"
+    ],
+    "elements": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "note": null
+      },
+      {
+        "name": "Sleep",
+        "note": "In G Rank"
+      },
+      {
+        "name": "Resistance Down",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Bird Wyvern",
+    "alias": "Colorful Bird (\u5f69\u9ce5)\n",
+    "suborder": "Base Species",
+    "related": ["Crimson Qurupeco"]
   },
   {
     "name": "Royal Ludroth",
-    "icon": "./icons/monsters/Royal_Ludroth.webp",
-    "description": "Royal Ludroth use their sponge-like neck scales to absorb water and keep from drying out on land. Once the sponge loses moisture, they will attempt to re-enter the water to recover. They are also known to spew up mucus to trip up their prey.",
+    "description": "___ use their sponge-like neck scales to absorb water and keep from drying out on land. Once the sponge loses moisture, they will attempt to re-enter the water to recover. They are also known to spew up mucus to trip up their prey.",
     "games": [
       "Monster Hunter 3",
       "Monster Hunter Portable 3rd",
@@ -682,31 +560,74 @@
     ],
     "elements": [
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
+        "name": "Water",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Waterblight",
-        "icon": "./icons/attributes/Waterblight.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Leviathan",
-    "alias": "Water Beast (\u6c34\u7363)",
+    "alias": "Water Beast (\u6c34\u7363)\n",
     "suborder": "Base Species",
-    "related": [
-      "Purple Ludroth",
-      "Ludroth"
-    ]
+    "related": ["Purple Ludroth", "Ludroth"]
+  },
+  {
+    "name": "Uragaan",
+    "description": "Brute Wyverns with mighty jaws. The vibration from their bodies send the stones and ore stuck to them flying in all directions in deadly explosive attacks. They can also detonate Powderstones by striking them with incredible force with their chins.",
+    "games": [
+      "Monster Hunter 3",
+      "Monster Hunter Portable 3rd",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Generations",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne",
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
+    "elements": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "note": null
+      },
+      {
+        "name": "Sleep",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Brute Wyvern",
+    "alias": "Explosive Hammer Wyvern (\u7206\u939a\u7adc)\n",
+    "suborder": "Base Species",
+    "related": ["Steel Uragaan", "Crystalbeard Uragaan", "Radobaan"]
   }
 ]

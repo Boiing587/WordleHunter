@@ -15,25 +15,30 @@ def loadMonsterList(filter: Games | None = None) -> list[Monster]:
 
     Args:
         filter (optional): Games object containing what games to pick monsters from
-    
+
     Returns:
         list of Monster objects
     """
 
     full_monster_list: list[Monster] = []
-    for root, _, files in walk('./data'):
+    for root, _, files in walk("./data"):
         for file in files:
-            if not file.endswith('.json'): continue
+            if not file.endswith(".json"):
+                continue
             file_path = join(root, file)
             with open(file_path) as f:
-                full_monster_list += [Monster.model_validate(monster) for monster in json.load(f)]
+                full_monster_list += [
+                    Monster.model_validate(monster) for monster in json.load(f)
+                ]
     if filter is None or not any([gen[1] for gen in filter]):
         return full_monster_list
 
     generations = [generation for generation, _ in filter.__annotations__.items()]
     games = [game for generation in generations for game in getattr(filter, generation)]
 
-    filtered_monster_list = [monster for monster in full_monster_list if set(monster.games) & set(games)]
+    filtered_monster_list = [
+        monster for monster in full_monster_list if set(monster.games) & set(games)
+    ]
     return filtered_monster_list
 
 
@@ -53,15 +58,15 @@ def getMonster(name: str) -> Monster | None:
         return result[0]
     return None
 
+
 # REFACTOR edgecases
 #  e.g. magalas, not all greats are related
 def getRelatives(monster: Monster, monster_list: list[Monster]) -> list[Monster]:
-    substring = ""
-    for entry in monster_list:
-        if entry == monster: continue
-        match = SequenceMatcher(None, monster.name, entry.name).find_longest_match(0, len(monster.name), 0, len(entry.name))
-        substring = max(substring, monster.name[match.a : match.a + match.size], key=len).strip()
-    return [relative for relative in monster_list if relative != monster and substring in relative.name]
+    related: list[Monster] = []
+    for relative in monster.related:
+        if (rel := getMonster(relative)) is not None:
+            related.append(rel)
+    return related
 
 
 def monsterOfTheDay(monster_list: list[Monster], seed: str | None = None) -> Monster:
@@ -80,4 +85,6 @@ def monsterOfTheDay(monster_list: list[Monster], seed: str | None = None) -> Mon
     random.seed(seed)
     random.shuffle(monsterNames)
     monster_of_the_day = random.choice(monsterNames)
-    return [monster for monster in monster_list if monster.name == monster_of_the_day][0]
+    return [monster for monster in monster_list if monster.name == monster_of_the_day][
+        0
+    ]

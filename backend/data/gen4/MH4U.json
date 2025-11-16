@@ -1,8 +1,41 @@
 [
   {
+    "name": "Ash Kecha Wacha",
+    "description": "This subspecies has pale, multicolored fur. Able to spit combustible fluids from their nose, they cover their faces with their hardened ears to form a protective mask. They make sport of their prey with their cunning attacks.",
+    "games": [
+      "Monster Hunter 4 Ultimate"
+    ],
+    "elements": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Fanged Beast",
+    "alias": "White Monkey Fox (\u767d\u733f\u72d0)\n",
+    "suborder": "Base Species",
+    "related": [
+      "Kecha Wacha"
+    ]
+  },
+  {
     "name": "Berserk Tetsucabra",
-    "icon": "./icons/monsters/Berserk_Tetsucabra.webp",
-    "description": "An amphibious monster known for its distinctive markings resembling a painted face. These beasts dig up and hurl boulders in the same way as a standard Tetsucabra does, but the stones thrown by this Berserk variety explode upon impact.",
+    "description": "An amphibious monster known for its distinctive markings resembling a painted face. These beasts dig up and hurl boulders in the same way as a standard ___ does, but the stones thrown by this Berserk variety explode upon impact.",
     "games": [
       "Monster Hunter 4 Ultimate"
     ],
@@ -10,19 +43,20 @@
     "statuses": [
       {
         "name": "Fatigued",
-        "icon": "./icons/attributes/Fatigued.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Ice",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Amphibian",
-    "alias": "Rough Oni Frog (\u8352\u9b3c\u86d9)",
+    "alias": "Rough Oni Frog (\u8352\u9b3c\u86d9)\n",
     "suborder": "Base Species",
     "related": [
       "Tetsucabra",
@@ -30,49 +64,150 @@
     ]
   },
   {
-    "name": "Tigerstripe Zamtrios",
-    "icon": "./icons/monsters/Tigerstripe_Zamtrios.webp",
-    "description": "Unlike its standard counterpart, this distinctively-striped Zamtrios subspecies dwells primarily in desert climes, and can employ its ability to expand and contract its body even while in motion, making it an even more formidable adversary.",
+    "name": "Chaotic Gore Magala",
+    "description": "___ that have fallen into chaos, having been denied their evolution into ___. They maintain their original power, while possessing the potential of ___, making them incredibly unstable. Sometimes this leads them to fall into a state of anguish and violence. When attacking their prey, they repeatedly fold and unfurl their wings, as if to show their internal struggle with their own form.",
+    "games": [
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise: Sunbreak"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Frenzy Virus",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "???",
+    "alias": "Black Eclipse Wyvern (\u9ed2\u8755\u7adc)\n",
+    "suborder": "Variant",
+    "related": [
+      "Gore Magala",
+      "Shagaru Magala"
+    ]
+  },
+  {
+    "name": "Desert Seltas",
+    "description": "A mid-sized Neopteron whose forked horns and broad foreleg- attack range set it apart from its more common cousins. ___ have also been known to burrow freely through the ground.",
+    "games": [
+      "Monster Hunter 4 Ultimate"
+    ],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Paralysis",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Neopteron",
+    "alias": "Axe Beetle (\u65a7\u7532\u866b)\n",
+    "suborder": "Base Species",
+    "related": [
+      "Seltas",
+      "Desert Seltas Queen"
+    ]
+  },
+  {
+    "name": "Desert Seltas Queen",
+    "description": "A subspecies of ___, with a larger, more powerful body. Their specialized pincer-tail is used to grab and pull their unfortunate ___ out of the sand.",
     "games": [
       "Monster Hunter 4 Ultimate"
     ],
     "elements": [
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
+        "name": "Water",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Waterblight",
-        "icon": "./icons/attributes/Waterblight.webp",
         "note": null
       },
       {
-        "name": "Paralysis Attribute",
-        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "name": "Stun",
+        "note": null
+      },
+      {
+        "name": "Soiled",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Ice",
         "note": null
       }
     ],
-    "type": "Amphibian",
-    "alias": "Tiger Shark (\u864e\u9bab)",
-    "suborder": "Subspecies",
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Neopteron",
+    "alias": "Cannon Beetle (\u7832\u7532\u866b)\n",
+    "suborder": "Base Species",
     "related": [
-      "Zamtrios"
+      "Seltas Queen",
+      "Desert Seltas"
     ]
   },
   {
+    "name": "Gogmazios",
+    "description": "Coated in a thick, sticky fluid, this massive elder dragon appears unhindered by the Dragonator lodged in its back. Eyewitness reports suggest that, despite its massive size, this mysterious behemoth is indeed capable of flight.",
+    "games": [
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Wilds"
+    ],
+    "elements": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "note": null
+      },
+      {
+        "name": "Tarred",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Elder Dragon",
+    "alias": "Giant Halberd Dragon (\u5de8\u621f\u9f8d)\n",
+    "suborder": "Base Species",
+    "related": []
+  },
+  {
     "name": "Raging Brachydios",
-    "icon": "./icons/monsters/Raging_Brachydios.webp",
-    "description": "A Brachydios variant that is much larger than the normal species. The slime on its body will activate over time and detonate.",
+    "description": "A ___ variant that is much larger than the normal species. The slime on its body will activate over time and detonate.",
     "games": [
       "Monster Hunter 4 Ultimate",
       "Monster Hunter Generations Ultimate",
@@ -80,153 +215,47 @@
     ],
     "elements": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Blastblight",
-        "icon": "./icons/attributes/Blastblight.webp",
         "note": "Until Monster Hunter World: Iceborne"
       },
       {
         "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
-        "note": "In Monster Hunter World: Iceborne"
+        "note": null
       },
       {
         "name": "Blastscourge",
-        "icon": "./icons/attributes/Blastscourge.webp",
         "note": "In Monster Hunter World: Iceborne"
       }
     ],
     "weaknesses": [
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Ice",
         "note": null
       },
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
+        "name": "Water",
         "note": "On Flashpoint Slime (Monster Hunter World: Iceborne)"
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": true,
+    "parentheses_weaknesses": true,
     "type": "Brute Wyvern",
-    "alias": "Crushing Wyvern (\u7815\u7adc)",
+    "alias": "Crushing Wyvern (\u7815\u7adc)\n",
     "suborder": "Variant",
     "related": [
       "Brachydios"
     ]
   },
   {
-    "name": "Shah Dalamadur",
-    "icon": "./icons/monsters/Shah_Dalamadur.webp",
-    "description": "A Dalamadur subspecies easily identified by the red spines lining its back. Though they were once thought to exist only in legend, multiple sightings in the past few years have led many to fear Shah Dalamadur as an omen of grave things to come.",
-    "games": [
-      "Monster Hunter 4 Ultimate"
-    ],
-    "elements": [],
-    "statuses": [
-      {
-        "name": "Paralysis Attribute",
-        "icon": "./icons/attributes/Paralysis_Attribute.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Elder Dragon",
-    "alias": "Serpent Emperor Dragon (\u86c7\u5e1d\u9f8d)",
-    "suborder": "Subspecies",
-    "related": [
-      "Dalamadur"
-    ]
-  },
-  {
-    "name": "Gogmazios",
-    "icon": "./icons/monsters/Gogmazios.webp",
-    "description": "Coated in a thick, sticky fluid, this massive elder dragon appears unhindered by the Dragonator lodged in its back. Eyewitness reports suggest that, despite its massive size, this mysterious behemoth is indeed capable of flight.",
-    "games": [
-      "Monster Hunter 4 Ultimate"
-    ],
-    "elements": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
-        "note": null
-      },
-      {
-        "name": "Tarred",
-        "icon": "./icons/attributes/Tarred.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Elder Dragon",
-    "alias": "Giant Halberd Dragon (\u5de8\u621f\u9f8d)",
-    "suborder": "Base Species",
-    "related": []
-  },
-  {
-    "name": "Ash Kecha Wacha",
-    "icon": "./icons/monsters/Ash_Kecha_Wacha.webp",
-    "description": "This subspecies has pale, multicolored fur. Able to spit combustible fluids from their nose, they cover their faces with their hardened ears to form a protective mask. They make sport of their prey with their cunning attacks.",
-    "games": [
-      "Monster Hunter 4 Ultimate"
-    ],
-    "elements": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Fanged Beast",
-    "alias": "White Monkey Fox",
-    "suborder": "Base Species",
-    "related": [
-      "Kecha Wacha"
-    ]
-  },
-  {
     "name": "Seregios",
-    "icon": "./icons/monsters/Seregios.webp",
-    "description": "Fiercely territorial flying wyverns known for the sharp, blade-like scales covering their bodies. Boasting swift aerial mobility and lightning-fast footwork, Seregios use their powerful hind legs to make quick work of their prey. Reports confirm that Seregios also have the ability to launch the scales from their bodies, causing lacerations that bleed profusely.",
+    "description": "Fiercely territorial flying wyverns known for the sharp, blade-like scales covering their bodies. Boasting swift aerial mobility and lightning-fast footwork, ___ use their powerful hind legs to make quick work of their prey. Reports confirm that ___ also have the ability to launch the scales from their bodies, causing lacerations that bleed profusely.",
     "games": [
       "Monster Hunter 4 Ultimate",
       "Monster Hunter Generations",
@@ -242,212 +271,167 @@
     "statuses": [
       {
         "name": "Bleeding",
-        "icon": "./icons/attributes/Bleeding.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
+        "name": "Thunder",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Flying Wyvern",
-    "alias": "Thousand Blade Wyvern (\u5343\u5203\u7adc)",
+    "alias": "Thousand Blade Wyvern (\u5343\u5203\u7adc)\n",
     "suborder": "Base Species",
     "related": []
   },
   {
-    "name": "Desert Seltas",
-    "icon": "./icons/monsters/Desert_Seltas.webp",
-    "description": "A mid-sized Neopteron whose forked horns and broad foreleg- attack range set it apart from its more common cousins. Desert Seltas have also been known to burrow freely through the ground.",
+    "name": "Shah Dalamadur",
+    "description": "A ___ subspecies easily identified by the red spines lining its back. Though they were once thought to exist only in legend, multiple sightings in the past few years have led many to fear ___ as an omen of grave things to come.",
     "games": [
       "Monster Hunter 4 Ultimate"
     ],
     "elements": [],
     "statuses": [
       {
-        "name": "Paralysis Attribute",
-        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "name": "Paralysis",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Dragon",
         "note": null
       }
     ],
-    "type": "Neopteron",
-    "alias": "Axe Beetle (\u65a7\u7532\u866b)",
-    "suborder": "Base Species",
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Elder Dragon",
+    "alias": "Serpent Emperor Dragon (\u86c7\u5e1d\u9f8d)\n",
+    "suborder": "Subspecies",
     "related": [
-      "Seltas",
-      "Desert Seltas Queen"
-    ]
-  },
-  {
-    "name": "Desert Seltas Queen",
-    "icon": "./icons/monsters/Desert_Seltas_Queen.webp",
-    "description": "A subspecies of Seltas Queen, with a larger, more powerful body. Their specialized pincer-tail is used to grab and pull their unfortunate Seltas out of the sand.",
-    "games": [
-      "Monster Hunter 4 Ultimate"
-    ],
-    "elements": [
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Waterblight",
-        "icon": "./icons/attributes/Waterblight.webp",
-        "note": null
-      },
-      {
-        "name": "Stun",
-        "icon": "./icons/attributes/Stun.webp",
-        "note": null
-      },
-      {
-        "name": "Soiled",
-        "icon": "./icons/attributes/Soiled.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Neopteron",
-    "alias": "Cannon Beetle (\u7832\u7532\u866b)",
-    "suborder": "Base Species",
-    "related": [
-      "Seltas Queen",
-      "Desert Seltas"
-    ]
-  },
-  {
-    "name": "Tidal Najarala",
-    "icon": "./icons/monsters/Tidal_Najarala.webp",
-    "description": "A Najarala subspecies that makes deadly use of its long body. Tidal Najarala respond to threats by spitting a watery substance at targets and have even been known to use their own scales to deflect this liquid bile so that they can snipe at more elusive prey.",
-    "games": [
-      "Monster Hunter 4 Ultimate"
-    ],
-    "elements": [
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Waterblight",
-        "icon": "./icons/attributes/Waterblight.webp",
-        "note": null
-      },
-      {
-        "name": "Paralysis Attribute",
-        "icon": "./icons/attributes/Paralysis_Attribute.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Snake Wyvern",
-    "alias": "Water Snake Wyvern (\u6c34\u86c7\u7adc)",
-    "suborder": "Base Species",
-    "related": [
-      "Najarala"
+      "Dalamadur"
     ]
   },
   {
     "name": "Shrouded Nerscylla",
-    "icon": "./icons/monsters/Shrouded_Nerscylla.webp",
-    "description": "A subspecies of Nerscylla that inhabits arid desert areas. Rather than spinning a web, they lurk beneath the sands in order to ambush unsuspecting prey. Similar to their standard cousins, they have a tendency to wear their prey's skin.",
+    "description": "A subspecies of ___ that inhabits arid desert areas. Rather than spinning a web, they lurk beneath the sands in order to ambush unsuspecting prey. Similar to their standard cousins, they have a tendency to wear their prey's skin.",
     "games": [
       "Monster Hunter 4 Ultimate"
     ],
     "elements": [],
     "statuses": [
       {
-        "name": "Paralysis Attribute",
-        "icon": "./icons/attributes/Paralysis_Attribute.webp",
+        "name": "Paralysis",
         "note": null
       },
       {
         "name": "Noxious Poison",
-        "icon": "./icons/attributes/Noxious_Poison.webp",
         "note": null
       },
       {
         "name": "Webbed",
-        "icon": "./icons/attributes/Webbed.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       },
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Ice",
         "note": "When hide is broken"
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": true,
     "type": "Temnoceran",
-    "alias": "Corpse Spider (\u9ab8\u8718\u86db)",
+    "alias": "Corpse Spider (\u9ab8\u8718\u86db)\n",
     "suborder": "Base Species",
     "related": [
       "Nerscylla"
     ]
   },
   {
-    "name": "Chaotic Gore Magala",
-    "icon": "./icons/monsters/Chaotic_Gore_Magala.webp",
-    "description": "Gore Magala that have fallen into chaos, having been denied their evolution into Shagaru Magala. They maintain their original power, while possessing the potential of Shagaru Magala, making them incredibly unstable. Sometimes this leads them to fall into a state of anguish and violence. When attacking their prey, they repeatedly fold and unfurl their wings, as if to show their internal struggle with their own form.",
+    "name": "Tidal Najarala",
+    "description": "A ___ subspecies that makes deadly use of its long body. ___ respond to threats by spitting a watery substance at targets and have even been known to use their own scales to deflect this liquid bile so that they can snipe at more elusive prey.",
     "games": [
-      "Monster Hunter 4 Ultimate",
-      "Monster Hunter Generations Ultimate",
-      "Monster Hunter Rise: Sunbreak"
+      "Monster Hunter 4 Ultimate"
     ],
-    "elements": [],
+    "elements": [
+      {
+        "name": "Water",
+        "note": null
+      }
+    ],
     "statuses": [
       {
-        "name": "Frenzy Virus",
-        "icon": "./icons/attributes/Frenzy_Virus.webp",
+        "name": "Waterblight",
+        "note": null
+      },
+      {
+        "name": "Paralysis",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
-    "type": "???",
-    "alias": "Black Eclipse Wyvern (\u9ed2\u8755\u7adc)",
-    "suborder": "Variant",
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Snake Wyvern",
+    "alias": "Water Snake Wyvern (\u6c34\u86c7\u7adc)\n",
+    "suborder": "Base Species",
     "related": [
-      "Gore Magala",
-      "Shagaru Magala"
+      "Najarala"
+    ]
+  },
+  {
+    "name": "Tigerstripe Zamtrios",
+    "description": "Unlike its standard counterpart, this distinctively-striped ___ subspecies dwells primarily in desert climes, and can employ its ability to expand and contract its body even while in motion, making it an even more formidable adversary.",
+    "games": [
+      "Monster Hunter 4 Ultimate"
+    ],
+    "elements": [
+      {
+        "name": "Water",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "note": null
+      },
+      {
+        "name": "Paralysis",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Amphibian",
+    "alias": "Tiger Shark (\u864e\u9bab)\n",
+    "suborder": "Subspecies",
+    "related": [
+      "Zamtrios"
     ]
   }
 ]

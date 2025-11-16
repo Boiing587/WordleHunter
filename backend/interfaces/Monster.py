@@ -3,9 +3,9 @@ from pydantic import BaseModel
 from interfaces.Attribute import Attribute
 from interfaces.Games import Games
 
+
 class Monster(BaseModel):
     name: str
-    icon: str
     description: str
     games: list[str]
     elements: list[Attribute]
@@ -19,20 +19,24 @@ class Monster(BaseModel):
     @staticmethod
     def suborderMapping():
         return {
-            "base": [ "Base Species" ],
-            "sub": [ "Subspecies", "Rare Species", "Origin Species", "Burst Species" ],
-            "variant": [ "Variant", "Risen", "Deviant" ],
-            "apex": [ "Apex", "Zenith" ]
+            "base": ["Base Species"],
+            "sub": ["Subspecies", "Rare Species", "Origin Species", "Burst Species"],
+            "variant": ["Variant", "Risen", "Deviant", "Guardian"],
+            "apex": ["Apex", "Zenith Species"],
         }
 
     def suborderCategory(self):
         suborder_map = self.suborderMapping()
-        reverse_map: dict[str, str] = {v: k for k, values in suborder_map.items() for v in values}
+        reverse_map: dict[str, str] = {
+            v: k for k, values in suborder_map.items() for v in values
+        }
         category = suborder_map[str(reverse_map.get(self.suborder))]
         return category
 
     def generation(self):
         generation_map = Games.generationMapping()
         reverse_map = Games.reverseGenerationMapping()
-        generation = generation_map[str(reverse_map.get(Games.nameToCode(self.games[0])))]
+        generation = generation_map[
+            str(reverse_map.get(Games.nameToCode(self.games[0])))
+        ]
         return generation

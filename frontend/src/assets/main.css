@@ -9,14 +9,27 @@
 @layer tailwind-utilities {
   @tailwind utilities;
   @tailwind variants;
-} 
+}
+
+body {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 #app {
-  margin: 0 auto;
+  margin: 2.5rem auto;
   padding: 2rem;
   font-weight: normal;
   display: flex;
   justify-content: center;
+  background: #181818dd;
+  width: calc(100% - 5rem);
+  min-height: calc(100vh - 5rem);
+  height: fit-content;
+  border-radius: 15px;
 }
 
 a,
@@ -32,4 +45,3 @@ a,
     background-color: hsla(160, 100%, 37%, 0.2);
   }
 }
-

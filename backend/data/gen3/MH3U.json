@@ -1,7 +1,44 @@
 [
   {
+    "name": "Abyssal Lagiacrus",
+    "description": "A rare species of ___ known only from an ancient scroll:From the abyss' darkest caveComes the master of the waveConsumer of the world entireDevil of the sea most direFear it as you fear the grave.",
+    "games": ["Monster Hunter 3 Ultimate"],
+    "elements": [
+      {
+        "name": "Water",
+        "note": null
+      },
+      {
+        "name": "Thunder",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "note": null
+      },
+      {
+        "name": "Thunderblight",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Leviathan",
+    "alias": "Dark Sea Wyvern (\u51a5\u6d77\u7adc)\n",
+    "suborder": "Rare Species",
+    "related": ["Lagiacrus", "Ivory Lagiacrus"]
+  },
+  {
     "name": "Brachydios",
-    "icon": "./icons/monsters/Brachydios.webp",
     "description": "Brute Wyverns coated in a volatile, green substance. Their saliva can be used to ignite this coating, with explosive results. Few monsters possess this peculiar ability or aggressive temperament. They can deliver staggering blunt-force attacks with their strong, quick-moving forelegs.",
     "games": [
       "Monster Hunter 3 Ultimate",
@@ -17,46 +54,225 @@
     ],
     "elements": [
       {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
+        "name": "Fire",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Blastblight",
-        "icon": "./icons/attributes/Blastblight.webp",
         "note": "Until Monster Hunter World: Iceborne"
       },
       {
         "name": "Blastscourge",
-        "icon": "./icons/attributes/Blastscourge.webp",
         "note": "In Monster Hunter World: Iceborne"
       }
     ],
     "weaknesses": [
       {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
+        "name": "Water",
         "note": "Third Generation/Fourth Generation"
       },
       {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
+        "name": "Ice",
         "note": "Fifth Generation"
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Brute Wyvern",
-    "alias": "Crushing Wyvern (\u7815\u7adc)",
+    "alias": "Crushing Wyvern (\u7815\u7adc)\n",
     "suborder": "Base Species",
-    "related": [
-      "Raging Brachydios"
-    ]
+    "related": ["Raging Brachydios"]
+  },
+  {
+    "name": "Dire Miralis",
+    "description": "Some legends consider this great dragon to be the devil fated to destroy the world, while others claim it is the giant who birthed creation. Is there any way for mere humans to quell its unending rage?",
+    "games": ["Monster Hunter 3 Ultimate"],
+    "elements": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Fireblight",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Elder Dragon",
+    "alias": "Molten Black Dragon (\u7149\u9ed2\u9f8d)\n",
+    "suborder": "[24]",
+    "related": []
+  },
+  {
+    "name": "Goldbeard Ceadeus",
+    "description": "A rarely-seen subspecies of ___ confirmed to exist deep within ocean ruins. The golden light they cast in the dark depths befits a creature of such legendary status. Sadly, little is known about their relationship to the standard ___.",
+    "games": ["Monster Hunter 3 Ultimate"],
+    "elements": [
+      {
+        "name": "Water",
+        "note": null
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Waterblight",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Dragon",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Elder Dragon",
+    "alias": "Emperor Ocean Dragon (\u7687\u6d77\u9f8d)\n",
+    "suborder": "Subspecies",
+    "related": ["Ceadeus"]
+  },
+  {
+    "name": "Hallowed Jhen Mohran",
+    "description": "A subspecies of ___ whose appearance has been likened to a crystal shimmering in the darkness. It inspires such awe and wonder that news of a sighting draws a stampede of hunters from across the land.",
+    "games": ["Monster Hunter 3 Ultimate"],
+    "elements": [],
+    "statuses": [],
+    "weaknesses": [
+      {
+        "name": "Fire",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Elder Dragon",
+    "alias": "Sacred Mountain Dragon (\u970a\u5c71\u9f8d)\n",
+    "suborder": "Subspecies",
+    "related": ["Jhen Mohran", "Dah'ren Mohran"]
+  },
+  {
+    "name": "Ivory Lagiacrus",
+    "description": "A subspecies of ___ adapted to life on land. Their beautiful white carapace belies their vicious nature. Their agility coupled with their dash and breath attacks are nothing short of devastating. The electrical charges they emit when enraged are truly fearsome.",
+    "games": ["Monster Hunter 3 Ultimate"],
+    "elements": [
+      {
+        "name": "Thunder",
+        "note": null
+      },
+      {
+        "name": "Water",
+        "note": "While Underwater"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Thunderblight",
+        "note": null
+      },
+      {
+        "name": "Waterblight",
+        "note": "While Underwater"
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Fire",
+        "note": null
+      },
+      {
+        "name": "Dragon",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Leviathan",
+    "alias": "White Sea Wyvern (\u767d\u6d77\u7adc)\n",
+    "suborder": "Subspecies",
+    "related": ["Lagiacrus", "Abyssal Lagiacrus"]
+  },
+  {
+    "name": "Lucent Nargacuga",
+    "description": "___ clad in radiant fur and lives in fog-shrouded lands. Lucent ___ hide in the night's fog and moonlight, springing assaults with neither shape nor shadow. Astounding agility and marvelous mobility makes them difficult to capture with the naked eye. The throng of toxic tailspikes they launch makes these wyverns perilous beasts indeed.",
+    "games": ["Monster Hunter 3 Ultimate", "Monster Hunter Rise: Sunbreak"],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Stun",
+        "note": "In Monster Hunter Rise: Sunbreak"
+      },
+      {
+        "name": "Poison",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Ice",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Flying Wyvern",
+    "alias": "Moon Swift Wyvern\n",
+    "suborder": "Rare Species",
+    "related": ["Nargacuga", "Green Nargacuga", "Silverwind Nargacuga"]
+  },
+  {
+    "name": "Rust Duramboros",
+    "description": "A reddish-brown subspecies of ___ with an axe-shaped tail. The tail is especially well-suited to desert life, as it scatters sand each time it is swung. Despite the desert heat, these creatures can remain active for long periods of time.",
+    "games": ["Monster Hunter 3 Ultimate"],
+    "elements": [],
+    "statuses": [
+      {
+        "name": "Stun",
+        "note": null
+      },
+      {
+        "name": "Muddy",
+        "note": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "name": "Water",
+        "note": null
+      },
+      {
+        "name": "Ice",
+        "note": null
+      }
+    ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
+    "type": "Brute Wyvern",
+    "alias": "Tail Axe Wyvern (\u5c3e\u65a7\u7adc )\n",
+    "suborder": "Subspecies",
+    "related": ["Duramboros"]
   },
   {
     "name": "Savage Deviljho",
-    "icon": "./icons/monsters/Savage_Deviljho.webp",
-    "description": "A mutated Deviljho variant, driven mad by its overpowering hunger. It will attempt to feed on all it sees.",
+    "description": "A mutated ___ variant, driven mad by its overpowering hunger. It will attempt to feed on all it sees.",
     "games": [
       "Monster Hunter 3 Ultimate",
       "Monster Hunter 4",
@@ -67,177 +283,41 @@
     ],
     "elements": [
       {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
+        "name": "Dragon",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Dragonblight",
-        "icon": "./icons/attributes/Dragonblight.webp",
         "note": null
       },
       {
         "name": "Defense",
-        "icon": "./icons/attributes/Defense.webp",
         "note": null
       }
     ],
     "weaknesses": [
       {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
+        "name": "Thunder",
         "note": null
       },
       {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
+        "name": "Dragon",
         "note": "In Monster Hunter World: Iceborne"
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Brute Wyvern",
-    "alias": "Terrible Violent Wyvern (\u6050\u66b4\u7adc)",
+    "alias": "Terrible Violent Wyvern (\u6050\u66b4\u7adc)\n",
     "suborder": "Variant",
-    "related": [
-      "Deviljho"
-    ]
-  },
-  {
-    "name": "Rust Duramboros",
-    "icon": "./icons/monsters/Rust_Duramboros.webp",
-    "description": "A reddish-brown subspecies of Duramboros with an axe-shaped tail. The tail is especially well-suited to desert life, as it scatters sand each time it is swung. Despite the desert heat, these creatures can remain active for long periods of time.",
-    "games": [
-      "Monster Hunter 3 Ultimate"
-    ],
-    "elements": [],
-    "statuses": [
-      {
-        "name": "Stun",
-        "icon": "./icons/attributes/Stun.webp",
-        "note": null
-      },
-      {
-        "name": "Muddy",
-        "icon": "./icons/attributes/Muddy.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": null
-      },
-      {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Brute Wyvern",
-    "alias": "Tail Axe Wyvern (\u5c3e\u65a7\u7adc )",
-    "suborder": "Subspecies",
-    "related": [
-      "Duramboros"
-    ]
-  },
-  {
-    "name": "Goldbeard Ceadeus",
-    "icon": "./icons/monsters/Goldbeard_Ceadeus.webp",
-    "description": "A rarely-seen subspecies of Ceadeus confirmed to exist deep within ocean ruins. The golden light they cast in the dark depths befits a creature of such legendary status. Sadly, little is known about their relationship to the standard Ceadeus.",
-    "games": [
-      "Monster Hunter 3 Ultimate"
-    ],
-    "elements": [
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Waterblight",
-        "icon": "./icons/attributes/Waterblight.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Elder Dragon",
-    "alias": "Emperor Ocean Dragon (\u7687\u6d77\u9f8d)",
-    "suborder": "Subspecies",
-    "related": [
-      "Ceadeus"
-    ]
-  },
-  {
-    "name": "Dire Miralis",
-    "icon": "./icons/monsters/Dire_Miralis.webp",
-    "description": "Some legends consider this great dragon to be the devil fated to destroy the world, while others claim it is the giant who birthed creation. Is there any way for mere humans to quell its unending rage?",
-    "games": [
-      "Monster Hunter 3 Ultimate"
-    ],
-    "elements": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Fireblight",
-        "icon": "./icons/attributes/Fireblight.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Elder Dragon",
-    "alias": "Molten Black Dragon (\u7149\u9ed2\u9f8d)",
-    "suborder": "Base Species",
-    "related": []
-  },
-  {
-    "name": "Hallowed Jhen Mohran",
-    "icon": "./icons/monsters/Hallowed_Jhen_Mohran.webp",
-    "description": "A subspecies of Jhen Mohran whose appearance has been likened to a crystal shimmering in the darkness. It inspires such awe and wonder that news of a sighting draws a stampede of hunters from across the land.",
-    "games": [
-      "Monster Hunter 3 Ultimate"
-    ],
-    "elements": [],
-    "statuses": [],
-    "weaknesses": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Elder Dragon",
-    "alias": "Sacred Mountain Dragon (\u970a\u5c71\u9f8d)",
-    "suborder": "Subspecies",
-    "related": [
-      "Jhen Mohran",
-      "Dah'ren Mohran"
-    ]
+    "related": ["Deviljho"]
   },
   {
     "name": "Stygian Zinogre",
-    "icon": "./icons/monsters/Stygian_Zinogre.webp",
-    "description": "Feeding on Dracophage Bugs has given this subspecies of Zinogre extraordinary brute strength. They have a dark crimson hue, and are far more hostile than regular Zinogre. Their fierce attacks are enough to make their foes shriek in fright.",
+    "description": "Feeding on Dracophage Bugs has given this subspecies of ___ extraordinary brute strength. They have a dark crimson hue, and are far more hostile than regular ___. Their fierce attacks are enough to make their foes shriek in fright.",
     "games": [
       "Monster Hunter 3 Ultimate",
       "Monster Hunter 4",
@@ -250,171 +330,32 @@
     ],
     "elements": [
       {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
+        "name": "Dragon",
         "note": null
       }
     ],
     "statuses": [
       {
         "name": "Dragonblight",
-        "icon": "./icons/attributes/Dragonblight.webp",
         "note": null
       },
       {
         "name": "Dracophage Erosion",
-        "icon": "./icons/attributes/Dracophage_Erosion.webp",
         "note": "In Monster Hunter Frontier"
       }
     ],
     "weaknesses": [
       {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
+        "name": "Thunder",
         "note": null
       }
     ],
+    "parentheses_elements": false,
+    "parentheses_statuses": false,
+    "parentheses_weaknesses": false,
     "type": "Fanged Wyvern",
-    "alias": "Hell Wolf Wyvern (\u7344\u72fc\u7adc)",
+    "alias": "Hell Wolf Wyvern (\u7344\u72fc\u7adc)\n",
     "suborder": "Subspecies",
-    "related": [
-      "Zinogre",
-      "Thunderlord Zinogre",
-      "Apex Zinogre"
-    ]
-  },
-  {
-    "name": "Lucent Nargacuga",
-    "icon": "./icons/monsters/Lucent_Nargacuga.webp",
-    "description": "Nargacuga clad in radiant fur and lives in fog-shrouded lands. Lucent Nargacuga hide in the night's fog and moonlight, springing assaults with neither shape nor shadow. Astounding agility and marvelous mobility makes them difficult to capture with the naked eye. The throng of toxic tailspikes they launch makes these wyverns perilous beasts indeed.",
-    "games": [
-      "Monster Hunter 3 Ultimate",
-      "Monster Hunter Rise: Sunbreak"
-    ],
-    "elements": [],
-    "statuses": [
-      {
-        "name": "Stun",
-        "icon": "./icons/attributes/Stun.webp",
-        "note": "In Monster Hunter Rise: Sunbreak"
-      },
-      {
-        "name": "Poison Attribute",
-        "icon": "./icons/attributes/Poison_Attribute.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Ice Element",
-        "icon": "./icons/attributes/Ice_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Flying Wyvern",
-    "alias": "Moon Swift Wyvern",
-    "suborder": "Rare Species",
-    "related": [
-      "Nargacuga",
-      "Green Nargacuga",
-      "Silverwind Nargacuga"
-    ]
-  },
-  {
-    "name": "Ivory Lagiacrus",
-    "icon": "./icons/monsters/Ivory_Lagiacrus.webp",
-    "description": "A subspecies of Lagiacrus adapted to life on land. Their beautiful white carapace belies their vicious nature. Their agility coupled with their dash and breath attacks are nothing short of devastating. The electrical charges they emit when enraged are truly fearsome.",
-    "games": [
-      "Monster Hunter 3 Ultimate"
-    ],
-    "elements": [
-      {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
-        "note": null
-      },
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": "While Underwater"
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Thunderblight",
-        "icon": "./icons/attributes/Thunderblight.webp",
-        "note": null
-      },
-      {
-        "name": "Waterblight",
-        "icon": "./icons/attributes/Waterblight.webp",
-        "note": "While Underwater"
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Fire Element",
-        "icon": "./icons/attributes/Fire_Element.webp",
-        "note": null
-      },
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Leviathan",
-    "alias": "White Sea Wyvern (\u767d\u6d77\u7adc)",
-    "suborder": "Subspecies",
-    "related": [
-      "Lagiacrus",
-      "Abyssal Lagiacrus"
-    ]
-  },
-  {
-    "name": "Abyssal Lagiacrus",
-    "icon": "./icons/monsters/Abyssal_Lagiacrus.webp",
-    "description": "A rare species of Lagiacrus known only from an ancient scroll:From the abyss' darkest caveComes the master of the waveConsumer of the world entireDevil of the sea most direFear it as you fear the grave.",
-    "games": [
-      "Monster Hunter 3 Ultimate"
-    ],
-    "elements": [
-      {
-        "name": "Water Element",
-        "icon": "./icons/attributes/Water_Element.webp",
-        "note": null
-      },
-      {
-        "name": "Thunder Element",
-        "icon": "./icons/attributes/Thunder_Element.webp",
-        "note": null
-      }
-    ],
-    "statuses": [
-      {
-        "name": "Waterblight",
-        "icon": "./icons/attributes/Waterblight.webp",
-        "note": null
-      },
-      {
-        "name": "Thunderblight",
-        "icon": "./icons/attributes/Thunderblight.webp",
-        "note": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "name": "Dragon Element",
-        "icon": "./icons/attributes/Dragon_Element.webp",
-        "note": null
-      }
-    ],
-    "type": "Leviathan",
-    "alias": "Dark Sea Wyvern (\u51a5\u6d77\u7adc)",
-    "suborder": "Rare Species",
-    "related": [
-      "Lagiacrus",
-      "Ivory Lagiacrus"
-    ]
+    "related": ["Zinogre", "Thunderlord Zinogre", "Apex Zinogre"]
   }
 ]
