@@ -61,11 +61,8 @@ function generateSeed(mode: string = 'daily'): string {
 }
 
 function getIcon(location: string, name: string) {
-  const formattedName = name
-    .split('')
-    .map((char) => (char === '' ? '_' : char))
-    .join('')
-  const url = new URL(`../../icons/${location}/${formattedName}.webp`, import.meta.url).href
+  const url = new URL(`../../icons/${location}/${name.replace(/ /g, '_')}.webp`, import.meta.url)
+    .href
   return url
 }
 
