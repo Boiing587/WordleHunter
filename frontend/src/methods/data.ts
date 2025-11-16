@@ -1,6 +1,6 @@
 import type { GameList, GameNames, Monster } from '@models/types'
 
-const dev = true
+const dev = false
 const base_url = !dev ? 'https://wordlehunter-api.azurewebsites.net' : 'http://localhost:5000'
 
 async function apiFetch(
@@ -61,8 +61,11 @@ function generateSeed(mode: string = 'daily'): string {
 }
 
 function getIcon(location: string, name: string) {
-  const url = new URL(`../../icons/${location}/${name.replaceAll(' ', '_')}.webp`, import.meta.url)
-    .href
+  const formattedName = name
+    .split('')
+    .map((char) => (char === '' ? '_' : char))
+    .join('')
+  const url = new URL(`../../icons/${location}/${formattedName}.webp`, import.meta.url).href
   return url
 }
 
