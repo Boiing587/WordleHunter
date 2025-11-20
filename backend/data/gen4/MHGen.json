@@ -39,7 +39,9 @@
     "type": "Flying Wyvern",
     "alias": "Electric Wyvern (\u96fb\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Boltreaver Astalos"]
+    "related": [
+      "Boltreaver Astalos"
+    ]
   },
   {
     "name": "Crystalbeard Uragaan",
@@ -80,7 +82,10 @@
     "type": "Brute Wyvern",
     "alias": "Explosive Hammer Wyvern (\u7206\u939a\u7adc)\n",
     "suborder": "Deviant",
-    "related": ["Uragaan", "Steel Uragaan"]
+    "related": [
+      "Uragaan",
+      "Steel Uragaan"
+    ]
   },
   {
     "name": "Deadeye Yian Garuga",
@@ -125,7 +130,10 @@
     "type": "Bird Wyvern",
     "alias": "Black Wolf Bird (\u9ed2\u72fc\u9ce5)\n",
     "suborder": "Deviant",
-    "related": ["Yian Garuga", "Scarred Yian Garuga"]
+    "related": [
+      "Yian Garuga",
+      "Scarred Yian Garuga"
+    ]
   },
   {
     "name": "Dreadking Rathalos",
@@ -213,7 +221,12 @@
     "type": "Flying Wyvern",
     "alias": "Female Fire Wyvern (\u96cc\u706b\u7adc)\n",
     "suborder": "Deviant",
-    "related": ["Rathian", "Pink Rathian", "Gold Rathian", "Apex Rathian"]
+    "related": [
+      "Rathian",
+      "Pink Rathian",
+      "Gold Rathian",
+      "Apex Rathian"
+    ]
   },
   {
     "name": "Drilltusk Tetsucabra",
@@ -245,7 +258,10 @@
     "type": "Amphibian",
     "alias": "Oni Frog (\u9b3c\u86d9)\n",
     "suborder": "Deviant",
-    "related": ["Tetsucabra", "Berserk Tetsucabra"]
+    "related": [
+      "Tetsucabra",
+      "Berserk Tetsucabra"
+    ]
   },
   {
     "name": "Gammoth",
@@ -286,7 +302,9 @@
     "type": "Fanged Beast",
     "alias": "Giant Beast (\u5de8\u7363)\n",
     "suborder": "Base Species",
-    "related": ["Elderfrost Gammoth"]
+    "related": [
+      "Elderfrost Gammoth"
+    ]
   },
   {
     "name": "Glavenus",
@@ -321,11 +339,14 @@
     "type": "Brute Wyvern",
     "alias": "Slashing Wyvern (\u65ac\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Acidic Glavenus", "Hellblade Glavenus"]
+    "related": [
+      "Acidic Glavenus",
+      "Hellblade Glavenus"
+    ]
   },
   {
     "name": "Great Maccao",
-    "description": "Leader of the pack-hunting ___, the ___ is easily spotted by its large size and feather-like yellow crest. It can balance on its tail and spring forward for a deadly strike, but when weakened, its lesser ___ cousins are quick to turn tail and run.",
+    "description": "Leader of the pack-hunting ___, the ___ is easily spotted by its large size and feather-like yellow crest. It can balance on its tail and spring forward for a deadly strike, but, when weakened, its lesser ___ cousins are quick to turn tail and run.",
     "games": [
       "Monster Hunter Generations",
       "Monster Hunter Generations Ultimate"
@@ -344,7 +365,9 @@
     "type": "Bird Wyvern",
     "alias": "Leaping Dog Wyvern (\u8df3\u72d7\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Maccao"]
+    "related": [
+      "Maccao"
+    ]
   },
   {
     "name": "Grimclaw Tigrex",
@@ -385,7 +408,11 @@
     "type": "Flying Wyvern",
     "alias": "Roaring Wyvern (\u8f5f\u7adc)\n",
     "suborder": "Deviant",
-    "related": ["Tigrex", "Brute Tigrex", "Molten Tigrex"]
+    "related": [
+      "Tigrex",
+      "Brute Tigrex",
+      "Molten Tigrex"
+    ]
   },
   {
     "name": "Hellblade Glavenus",
@@ -426,7 +453,10 @@
     "type": "Brute Wyvern",
     "alias": "Slashing Wyvern (\u65ac\u7adc)\n",
     "suborder": "Deviant",
-    "related": ["Glavenus", "Acidic Glavenus"]
+    "related": [
+      "Glavenus",
+      "Acidic Glavenus"
+    ]
   },
   {
     "name": "Malfestio",
@@ -458,7 +488,9 @@
     "type": "Bird Wyvern",
     "alias": "Nocturnal Bird (\u591c\u9ce5)\n",
     "suborder": "Base Species",
-    "related": ["Nightcloak Malfestio"]
+    "related": [
+      "Nightcloak Malfestio"
+    ]
   },
   {
     "name": "Mizutsune",
@@ -510,7 +542,11 @@
     "type": "Leviathan",
     "alias": "Bubble Fox Wyvern (\u6ce1\u72d0\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Violet Mizutsune", "Soulseer Mizutsune", "Apex Mizutsune"]
+    "related": [
+      "Violet Mizutsune",
+      "Soulseer Mizutsune",
+      "Apex Mizutsune"
+    ]
   },
   {
     "name": "Nakarkos",
@@ -603,7 +639,10 @@
     "type": "Fanged Beast",
     "alias": "Blue Bear Beast (\u9752\u718a\u7363)\n",
     "suborder": "Deviant",
-    "related": ["Arzuros", "Apex Arzuros"]
+    "related": [
+      "Arzuros",
+      "Apex Arzuros"
+    ]
   },
   {
     "name": "Silverwind Nargacuga",
@@ -631,7 +670,11 @@
     "type": "Flying Wyvern",
     "alias": "Swift Wyvern (\u8fc5\u7adc)\n",
     "suborder": "Deviant",
-    "related": ["Nargacuga", "Green Nargacuga", "Lucent Nargacuga"]
+    "related": [
+      "Nargacuga",
+      "Green Nargacuga",
+      "Lucent Nargacuga"
+    ]
   },
   {
     "name": "Snowbaron Lagombi",
@@ -672,7 +715,9 @@
     "type": "Fanged Beast",
     "alias": "White Rabbit Beast (\u767d\u514e\u7363)\n",
     "suborder": "Deviant",
-    "related": ["Lagombi"]
+    "related": [
+      "Lagombi"
+    ]
   },
   {
     "name": "Stonefist Hermitaur",
@@ -705,7 +750,10 @@
     "type": "Carapaceon",
     "alias": "Shield Crab (\u76fe\u87f9)\n",
     "suborder": "Deviant",
-    "related": ["Daimyo Hermitaur", "Plum Daimyo Hermitaur"]
+    "related": [
+      "Daimyo Hermitaur",
+      "Plum Daimyo Hermitaur"
+    ]
   },
   {
     "name": "Thunderlord Zinogre",
@@ -742,6 +790,10 @@
     "type": "Fanged Wyvern",
     "alias": "Thunder Wolf Wyvern (\u96f7\u72fc\u7adc)\n",
     "suborder": "Deviant",
-    "related": ["Zinogre", "Stygian Zinogre", "Apex Zinogre"]
+    "related": [
+      "Zinogre",
+      "Stygian Zinogre",
+      "Apex Zinogre"
+    ]
   }
 ]

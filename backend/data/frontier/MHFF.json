@@ -35,7 +35,11 @@
     "type": "Brute Wyvern",
     "alias": "Ferocious Wyvern (\u7370\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Giaorg", "Zenith Giaorg", "Deviljho"]
+    "related": [
+      "Giaorg",
+      "Zenith Giaorg",
+      "Deviljho"
+    ]
   },
   {
     "name": "Argasioth",
@@ -69,7 +73,10 @@
     "type": "Piscine Wyvern",
     "alias": "Silver Piscine Wyvern (\u767d\u9280\u9b5a\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Aurisioth", "Lavasioth"]
+    "related": [
+      "Aurisioth",
+      "Lavasioth"
+    ]
   },
   {
     "name": "Aurisioth",
@@ -103,7 +110,10 @@
     "type": "Piscine Wyvern",
     "alias": "Golden Piscine Wyvern (\u9ec4\u91d1\u9b5a\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Argasioth", "Lavasioth"]
+    "related": [
+      "Argasioth",
+      "Lavasioth"
+    ]
   },
   {
     "name": "Gogomoa",
@@ -136,7 +146,9 @@
     "type": "Fanged Beast",
     "alias": "Jumping Cardinal Beast (\u8df3\u7dcb\u7363)\n",
     "suborder": "Base Species",
-    "related": ["Kokomoa"]
+    "related": [
+      "Kokomoa"
+    ]
   },
   {
     "name": "Odibataurus",
@@ -164,7 +176,10 @@
     "type": "Flying Wyvern",
     "alias": "Rock Cannon Wyvern (\u5f29\u5ca9\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Akantor", "Ukanlos"]
+    "related": [
+      "Akantor",
+      "Ukanlos"
+    ]
   },
   {
     "name": "Quarzeps",
@@ -244,7 +259,10 @@
     "type": "Elder Dragon",
     "alias": "Magnetic Dragon (\u6975\u9f8d)\n",
     "suborder": "Base Species",
-    "related": ["Zenith Rukodiora", "Levidiora"]
+    "related": [
+      "Zenith Rukodiora",
+      "Levidiora"
+    ]
   },
   {
     "name": "Taikun Zamuza",
@@ -294,7 +312,9 @@
     "type": "Carapaceon",
     "alias": "Multi-Shell Crab (\u591a\u6bbb\u87f9)\n",
     "suborder": "Base Species",
-    "related": ["Zenith Taikun Zamuza"]
+    "related": [
+      "Zenith Taikun Zamuza"
+    ]
   },
   {
     "name": "Unknown",
@@ -344,7 +364,9 @@
     "type": "Flying Wyvern",
     "alias": "Black Flying Wyvern (\u9ed2\u98db\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Rathian"]
+    "related": [
+      "Rathian"
+    ]
   },
   {
     "name": "Violent Raviente",
@@ -398,6 +420,9 @@
     "type": "Unclassified",
     "alias": "Great Crag Wyvern (\u5927\u5dcc\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Raviente", "Berserk Raviente"]
+    "related": [
+      "Raviente",
+      "Berserk Raviente"
+    ]
   }
 ]

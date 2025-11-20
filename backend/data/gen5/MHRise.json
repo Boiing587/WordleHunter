@@ -2,7 +2,10 @@
   {
     "name": "Aknosom",
     "description": "Tending to stand on one leg, this monster somewhat resembles an umbrella. The ___ is highly territorial; it will spread out its wings and show off its characteristic comb to scare off threats. It also bears flammable venom that burns fiercely and lingers on the ground when lit. Draw the beast to water for an easier fight.",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [
       {
         "name": "Fire",
@@ -32,7 +35,10 @@
   {
     "name": "Almudron",
     "description": "As its name implies, ___ spends a great deal of time lurking in mud - at least until it emerges to smother approaching prey. From its tail oozes a strange golden fluid, which ___ uses to dissolve the ground beneath its prey, arresting them in a mire so that it can drag them under. When enraged, it produces more fluid, turning the mud golden. When you see gold, watch out!",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [
       {
         "name": "Water",
@@ -61,12 +67,17 @@
     "type": "Leviathan",
     "alias": "Elderly Mud Wyvern (\u6ce5\u7fc1\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Magma Almudron"]
+    "related": [
+      "Magma Almudron"
+    ]
   },
   {
     "name": "Apex Arzuros",
     "description": "An ___ so mighty, it was crowned an Apex. It is eternally possessed by wrath and terror, possibly due to the myriad wounds that cover its body. Its forelegs are massive, deft removers of any who'd stand in their way. The call of an Apex unleashes its tortured anger on nearby beasts, driving them into a frenzy.",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -86,12 +97,18 @@
     "type": "Fanged Beast",
     "alias": "Blue Bear Beast (\u9752\u718a\u7363)\n",
     "suborder": "Apex",
-    "related": ["Arzuros", "Redhelm Arzuros"]
+    "related": [
+      "Arzuros",
+      "Redhelm Arzuros"
+    ]
   },
   {
     "name": "Apex Diablos",
     "description": "A ___ so mighty, it was crowned an Apex. It is eternally possessed by wrath and terror, possibly due to the myriad wounds that cover its body. Its supremely developed horns adds to the lethality of its charge. The call of an Apex unleashes its tortured anger on nearby beasts, driving them into a frenzy.",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [],
     "statuses": [],
     "weaknesses": [
@@ -106,12 +123,19 @@
     "type": "Flying Wyvern",
     "alias": "Two-Horned Wyvern (\u89d2\u7adc)\n",
     "suborder": "Apex",
-    "related": ["Diablos", "Black Diablos", "Bloodbath Diablos"]
+    "related": [
+      "Diablos",
+      "Black Diablos",
+      "Bloodbath Diablos"
+    ]
   },
   {
     "name": "Apex Mizutsune",
     "description": "A ___ so mighty it was crowned an Apex. It is eternally possessed by wrath and terror, possibly due to the myriad wounds that cover its body. Its bubbles and huge tail have no trouble sending foes packing. The call of an Apex unleashes its tortured anger on nearby beasts, driving them into a frenzy.",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [
       {
         "name": "Water",
@@ -148,12 +172,19 @@
     "type": "Leviathan",
     "alias": "Bubble Fox Wyvern (\u6ce1\u72d0\u7adc)\n",
     "suborder": "Apex",
-    "related": ["Mizutsune", "Violet Mizutsune", "Soulseer Mizutsune"]
+    "related": [
+      "Mizutsune",
+      "Violet Mizutsune",
+      "Soulseer Mizutsune"
+    ]
   },
   {
     "name": "Apex Rathalos",
     "description": "A ___ so mighty, it was crowned an Apex. It is eternally possessed by wrath and terror, possibly due to the myriad wounds that cover its body. Its every breath releases flaming jets that singe the very air.. The call of an Apex unleashes its tortured anger on nearby beasts, driving them into a frenzy.",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [
       {
         "name": "Fire",
@@ -193,7 +224,10 @@
   {
     "name": "Apex Rathian",
     "description": "A ___ so mighty, it was crowned an Apex. It is eternally possessed by wrath and terror, possibly due to the myriad wounds that cover its body. Its tail oozes a venom far deadlier than any of a normal monster. The call of an Apex unleashes its tortured anger on nearby beasts, driving them into a frenzy.",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [
       {
         "name": "Fire",
@@ -237,7 +271,10 @@
   {
     "name": "Apex Zinogre",
     "description": "A ___ so mighty, it was crowned an Apex. Its body is covered in scars and wounds as if it had been caught in a storm, and it's seemingly always dominated by wrath and terror. Its forelegs - and their every strike - brim with ferocious sparks. The call of an Apex unleashes its tortured anger on nearby beasts, driving them into a frenzy.",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [
       {
         "name": "Thunder",
@@ -262,12 +299,19 @@
     "type": "Fanged Wyvern",
     "alias": "Thunder Wolf Wyvern (\u96f7\u72fc\u7adc)\n",
     "suborder": "Apex",
-    "related": ["Zinogre", "Stygian Zinogre", "Thunderlord Zinogre"]
+    "related": [
+      "Zinogre",
+      "Stygian Zinogre",
+      "Thunderlord Zinogre"
+    ]
   },
   {
     "name": "Bishaten",
     "description": "A monster with a distinctive tail. While it is omnivorous, it has a preference for fruit, and keeps various fruits with all kinds of effects in its belly pouch. An incredibly curious beast, it enjoys playing tricks on people, and has been seen to bat fruit at its prey using its tail.",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -295,12 +339,17 @@
     "type": "Fanged Beast",
     "alias": "Tengu Beast (\u5929\u72d7\u7363)\n",
     "suborder": "Base Species",
-    "related": ["Blood Orange Bishaten"]
+    "related": [
+      "Blood Orange Bishaten"
+    ]
   },
   {
     "name": "Crimson Glow Valstrax",
     "description": "A mutant ___ fearsomely dubbed the \"Crimson Glow\". This elder dragon typically secludes itself in the upper atmosphere, but it has been driven mad by its own rampant energy, causing to lash out at anything in its sight. Once it sights its prey, it swoops down, trampling them beneath its shifting wingblades. Several have been sighted all over, so be prepared to encounter one at any time.",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [
       {
         "name": "Dragon",
@@ -337,12 +386,18 @@
     "type": "Elder Dragon",
     "alias": "Sky Comet Dragon (\u5929\u5f57\u9f8d)\n",
     "suborder": "Variant",
-    "related": ["Valstrax", "Risen Crimson Glow Valstrax"]
+    "related": [
+      "Valstrax",
+      "Risen Crimson Glow Valstrax"
+    ]
   },
   {
     "name": "Goss Harag",
     "description": "A monster native to ice-cold climates. Covered in fur so thick it keeps out the harsh frost, it roams the snowy plains in search of prey. It can inhale the cold air to freeze its own bodily fluids and then spit them out to create icy blades on its arms. When riled up, the ___ turns red and becomes exceedingly dangerous.",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [
       {
         "name": "Ice",
@@ -372,7 +427,10 @@
   {
     "name": "Great Izuchi",
     "description": "The alpha ___ of its pack, identified by its larger build, upended white fur and scythe-like tail. A ___ forms a herd of many smaller ___ and selects two from the group to accompany it on territory patrols. Once it spots prey or senses danger, the ___ issues commands to their fellow ___, and coordinates their movements. Take care that you don't get overwhelmed.",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [],
     "statuses": [],
     "weaknesses": [
@@ -387,12 +445,17 @@
     "type": "Bird Wyvern",
     "alias": "Kamaitachi Wyvern (\u938c\u9f2c\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Izuchi"]
+    "related": [
+      "Izuchi"
+    ]
   },
   {
     "name": "Magnamalo",
     "description": "A monster covered in an armour-like carapace. Feeding on the bones of corpses, it accumulates gas in its body that, when emitted, resembles ghostly flames parading around it. if struck by an attack while it is covered in this gas, you will be inflicted with hellfireblight, causing you to explode after a certain period of time.",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -416,12 +479,17 @@
     "type": "Fanged Wyvern",
     "alias": "Malice Tiger Wyvern (\u6028\u864e\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Scorned Magnamalo"]
+    "related": [
+      "Scorned Magnamalo"
+    ]
   },
   {
     "name": "Narwa the Allmother",
     "description": "Having absorbed the lifeforce of her \"king\", Narwa has transformed and become imbued with new power. She now possesses Ibushi\u2019s mastery over wind as well as her own control over thunder, and lusts for utter annihilation.",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [
       {
         "name": "Thunder",
@@ -454,12 +522,18 @@
     "type": "Elder Dragon",
     "alias": "Thunder God Dragon (\u96f7\u795e\u9f8d)\n",
     "suborder": "Variant",
-    "related": ["Thunder Serpent Narwa", "Wind Serpent Ibushi"]
+    "related": [
+      "Thunder Serpent Narwa",
+      "Wind Serpent Ibushi"
+    ]
   },
   {
     "name": "Rakna-Kadaki",
     "description": "A ___ is usually seen covered in sticky webbing. Clinging to its abdomen are its offspring, known as ___, which it controls using the flammable gas that builds up there. ___ spit fire, capture prey, and support the ___'s massive body. As their numbers dwindle, the beast will hatch more, at which point it is extremely dangerous.",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [
       {
         "name": "Fire",
@@ -488,12 +562,18 @@
     "type": "Temnoceran",
     "alias": "Empress Spider (\u5983\u8718\u86db)\n",
     "suborder": "Base Species",
-    "related": ["Pyre Rakna-Kadaki", "Rachnoid"]
+    "related": [
+      "Pyre Rakna-Kadaki",
+      "Rachnoid"
+    ]
   },
   {
     "name": "Somnacanth",
     "description": "A formidable aquatic serpent that crests on moonlit nights\u2014likely why it has often been mistaken for a mermaid. It expels an intoxicating sleep powder from its neck gills and tail, knocking out prey before it can resist. Some ___ sightings tell of this species making use of unusual shells, so exercise caution if you catch one swimming towards you with a shell in its claws.",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [
       {
         "name": "Water",
@@ -530,12 +610,17 @@
     "type": "Leviathan",
     "alias": "Mermaid Wyvern (\u4eba\u9b5a\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Aurora Somnacanth"]
+    "related": [
+      "Aurora Somnacanth"
+    ]
   },
   {
     "name": "Tetranadon",
     "description": "An amphibious monster resembling a frog. Its appetite is infinite, and if it sees anything moving, it will gobble it up, dirt and all. It's theorized that the dirt it consumes builds up in its stomach and aids in digestion. If it eats something that it cannot digest, it will throw it back up. The cranial disc protecting its tender head is said to harden and become a more brilliant blue over time.",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [
       {
         "name": "Water",
@@ -564,12 +649,17 @@
     "type": "Amphibian",
     "alias": "Kappa Frog (\u6cb3\u7ae5\u86d9)\n",
     "suborder": "Base Species",
-    "related": ["Feral Tetranadon"]
+    "related": [
+      "Feral Tetranadon"
+    ]
   },
   {
     "name": "Thunder Serpent Narwa",
     "description": "An elder dragon and ___\u2019s \"queen.\" Its thundersacs glow with accumulated electrical charge; it is thought that these organs therefore generate the powerful magnetic field that lifts the creature and anything around it high into the air.",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [
       {
         "name": "Thunder",
@@ -602,12 +692,18 @@
     "type": "Elder Dragon",
     "alias": "Thunder God Dragon (\u96f7\u795e\u9f8d)\n",
     "suborder": "Base Species",
-    "related": ["Wind Serpent Ibushi", "Narwa the Allmother"]
+    "related": [
+      "Wind Serpent Ibushi",
+      "Narwa the Allmother"
+    ]
   },
   {
     "name": "Wind Serpent Ibushi",
     "description": "A male elder dragon that exhibits inexplicable behaviors such as floating upside down midair. Research indicates that the emission of a special gas from all over its body, and the modulation of this gas, is what allows it to move freely. It shoots air from gills on its arms and tail to fly, creating its own turbulence and soaring to great heights.",
-    "games": ["Monster Hunter Rise", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter Rise",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [
       {
         "name": "Dragon",
@@ -632,6 +728,9 @@
     "type": "Elder Dragon",
     "alias": "Wind God Dragon (\u98a8\u795e\u9f8d)\n",
     "suborder": "Base Species",
-    "related": ["Thunder Serpent Narwa", "Narwa the Allmother"]
+    "related": [
+      "Thunder Serpent Narwa",
+      "Narwa the Allmother"
+    ]
   }
 ]

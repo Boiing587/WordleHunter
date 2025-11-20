@@ -37,11 +37,14 @@
     "type": "Leviathan",
     "alias": "Fire Pike Wyvern (\u708e\u6208\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Glacial Agnaktor", "Uroktor"]
+    "related": [
+      "Glacial Agnaktor",
+      "Uroktor"
+    ]
   },
   {
     "name": "Alatreon",
-    "description": "Blazing black dragons, so named for resembling both lightning and darkness. They mercilessly tear apart whoever touches their sharp scales. Elementally unstable, their actions can affect the very weather. Living natural disasters.",
+    "description": "Known as a symbol of destruction, people fear even uttering its name. It's rumored to control all of the elements, but most, if not all, records of its existence have been burned.",
     "games": [
       "Monster Hunter 3",
       "Monster Hunter Portable 3rd",
@@ -164,7 +167,10 @@
     "type": "Flying Wyvern",
     "alias": "Ice Fang Wyvern (\u6c37\u7259\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Sand Barioth", "Frostfang Barioth"]
+    "related": [
+      "Sand Barioth",
+      "Frostfang Barioth"
+    ]
   },
   {
     "name": "Barroth",
@@ -211,12 +217,17 @@
     "type": "Brute Wyvern",
     "alias": "Earth Sand Wyvern (\u571f\u7802\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Jade Barroth"]
+    "related": [
+      "Jade Barroth"
+    ]
   },
   {
     "name": "Ceadeus",
     "description": "Legendary elder dragons known as both \"shining giants of the depths\" and \"great sea dragons.\" Not confirmed to exist until recently. The Moga quakes were due to a ___ butting its abnormally long horns into the earth.",
-    "games": ["Monster Hunter 3 Ultimate", "Monster Hunter 3"],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 3"
+    ],
     "elements": [
       {
         "name": "Water",
@@ -249,7 +260,9 @@
     "type": "Elder Dragon",
     "alias": "Ocean Dragon (\u5927\u6d77\u9f8d)\n",
     "suborder": "Base Species",
-    "related": ["Goldbeard Ceadeus"]
+    "related": [
+      "Goldbeard Ceadeus"
+    ]
   },
   {
     "name": "Deviljho",
@@ -301,7 +314,9 @@
     "type": "Brute Wyvern",
     "alias": "Terrible Violent Wyvern (\u6050\u66b4\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Savage Deviljho"]
+    "related": [
+      "Savage Deviljho"
+    ]
   },
   {
     "name": "Gigginox",
@@ -334,12 +349,18 @@
     "type": "Flying Wyvern",
     "alias": "Creeping Venom Wyvern (\u6bd2\u602a\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Baleful Gigginox", "Giggi"]
+    "related": [
+      "Baleful Gigginox",
+      "Giggi"
+    ]
   },
   {
     "name": "Gobul",
     "description": "Monsters with strong camouflage skills and powerful neurotoxins. Poor swimmers, ___ conceal themselves and lure prey by imitating plants with their barbels. Can reportedly swallow Epioth whole. They love frogs.",
-    "games": ["Monster Hunter 3 Ultimate", "Monster Hunter 3"],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 3"
+    ],
     "elements": [
       {
         "name": "Water",
@@ -403,7 +424,9 @@
     "type": "Bird Wyvern",
     "alias": "Sleep Dog Wyvern (\u7720\u72d7\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Baggi"]
+    "related": [
+      "Baggi"
+    ]
   },
   {
     "name": "Great Jaggi",
@@ -429,7 +452,10 @@
     "type": "Bird Wyvern",
     "alias": "Dog Wyvern (\u72d7\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Jaggi", "Jaggia"]
+    "related": [
+      "Jaggi",
+      "Jaggia"
+    ]
   },
   {
     "name": "Jhen Mohran",
@@ -458,7 +484,10 @@
     "type": "Elder Dragon",
     "alias": "Peak Mountain Dragon (\u5cef\u5c71\u9f8d)\n",
     "suborder": "Base Species",
-    "related": ["Hallowed Jhen Mohran", "Dah'ren Mohran"]
+    "related": [
+      "Hallowed Jhen Mohran",
+      "Dah'ren Mohran"
+    ]
   },
   {
     "name": "Lagiacrus",
@@ -502,7 +531,10 @@
     "type": "Leviathan",
     "alias": "Sea Wyvern (\u6d77\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Ivory Lagiacrus", "Abyssal Lagiacrus"]
+    "related": [
+      "Ivory Lagiacrus",
+      "Abyssal Lagiacrus"
+    ]
   },
   {
     "name": "Qurupeco",
@@ -544,7 +576,9 @@
     "type": "Bird Wyvern",
     "alias": "Colorful Bird (\u5f69\u9ce5)\n",
     "suborder": "Base Species",
-    "related": ["Crimson Qurupeco"]
+    "related": [
+      "Crimson Qurupeco"
+    ]
   },
   {
     "name": "Royal Ludroth",
@@ -582,7 +616,10 @@
     "type": "Leviathan",
     "alias": "Water Beast (\u6c34\u7363)\n",
     "suborder": "Base Species",
-    "related": ["Purple Ludroth", "Ludroth"]
+    "related": [
+      "Purple Ludroth",
+      "Ludroth"
+    ]
   },
   {
     "name": "Uragaan",
@@ -628,6 +665,10 @@
     "type": "Brute Wyvern",
     "alias": "Explosive Hammer Wyvern (\u7206\u939a\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Steel Uragaan", "Crystalbeard Uragaan", "Radobaan"]
+    "related": [
+      "Steel Uragaan",
+      "Crystalbeard Uragaan",
+      "Radobaan"
+    ]
   }
 ]

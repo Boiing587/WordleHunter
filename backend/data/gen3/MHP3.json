@@ -75,12 +75,18 @@
     "type": "Fanged Beast",
     "alias": "Blue Bear Beast (\u9752\u718a\u7363)\n",
     "suborder": "Base Species",
-    "related": ["Redhelm Arzuros", "Apex Arzuros"]
+    "related": [
+      "Redhelm Arzuros",
+      "Apex Arzuros"
+    ]
   },
   {
     "name": "Baleful Gigginox",
     "description": "A subspecies of ___nox that uses electricity to stun prey. It is believed to be a random mutation, and as such, sightings are relatively rare. It may be possible to weaken its electrical powers by destroying the capacitor organs on its body.",
-    "games": ["Monster Hunter 3 Ultimate", "Monster Hunter Portable 3rd"],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Portable 3rd"
+    ],
     "elements": [
       {
         "name": "Thunder",
@@ -109,7 +115,10 @@
     "type": "Flying Wyvern",
     "alias": "Electric Creeping Wyvern (\u96fb\u602a\u7adc)\n",
     "suborder": "Subspecies",
-    "related": ["Gigginox", "Giggi"]
+    "related": [
+      "Gigginox",
+      "Giggi"
+    ]
   },
   {
     "name": "Brute Tigrex",
@@ -152,12 +161,19 @@
     "type": "Flying Wyvern",
     "alias": "Black Roaring Wyvern (\u9ed2\u8f5f\u7adc)\n",
     "suborder": "Subspecies",
-    "related": ["Tigrex", "Molten Tigrex", "Grimclaw Tigrex"]
+    "related": [
+      "Tigrex",
+      "Molten Tigrex",
+      "Grimclaw Tigrex"
+    ]
   },
   {
     "name": "Crimson Qurupeco",
     "description": "A subspecies of ___, with vibrant red plumage. Skilled in mimicry and dancing. The flints in their wings generate electricity, which can be discharged as either shocking jolts or intense flashes of light.",
-    "games": ["Monster Hunter 3 Ultimate", "Monster Hunter Portable 3rd"],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Portable 3rd"
+    ],
     "elements": [
       {
         "name": "Thunder",
@@ -194,7 +210,9 @@
     "type": "Bird Wyvern",
     "alias": "Crimson Colorful Bird (\u7d05\u5f69\u9ce5)\n",
     "suborder": "Subspecies",
-    "related": ["Qurupeco"]
+    "related": [
+      "Qurupeco"
+    ]
   },
   {
     "name": "Duramboros",
@@ -224,12 +242,17 @@
     "type": "Brute Wyvern",
     "alias": "Tail Hammer Wyvern (\u5c3e\u69cc\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Rust Duramboros"]
+    "related": [
+      "Rust Duramboros"
+    ]
   },
   {
     "name": "Glacial Agnaktor",
     "description": "A subspecies of ___. With their tough scales, even the tundra presents no obstacle with their movements. They burrow into the permafrost and clad themselves in a layer of icy armor to protect themselves. Their frosty breath attacks are chillingly powerful.",
-    "games": ["Monster Hunter 3 Ultimate", "Monster Hunter Portable 3rd"],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Portable 3rd"
+    ],
     "elements": [
       {
         "name": "Water",
@@ -266,11 +289,14 @@
     "type": "Leviathan",
     "alias": "Freeze Pike Wyvern (\u51cd\u6208\u7adc)\n",
     "suborder": "Subspecies",
-    "related": ["Agnaktor", "Uroktor"]
+    "related": [
+      "Agnaktor",
+      "Uroktor"
+    ]
   },
   {
     "name": "Great Wroggi",
-    "description": "___ are bird wyverns that travel in packs that are led by largest and most toxic member. Be careful when one raises its head and its poison sac expands\u2014that signals that it's about to spit a cloud of poisonous mist.",
+    "description": "___ are bird wyverns that travel in packs that are led by the largest and most toxic member. Be careful when once raises its head and its poison sac expands\u2014that signals that it's about to spit a cloud of poisonous mist.",
     "games": [
       "Monster Hunter Portable 3rd",
       "Monster Hunter 3 Ultimate",
@@ -296,12 +322,17 @@
     "type": "Bird Wyvern",
     "alias": "Poison Dog Wyvern (\u6bd2\u72d7\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Wroggi"]
+    "related": [
+      "Wroggi"
+    ]
   },
   {
     "name": "Green Nargacuga",
     "description": "A subspecies of ___ with mottled green fur allowing for excellent camouflage in their habitat. They are extremely agile, and their favored attack is to lash at prey with their long, spiked tails.",
-    "games": ["Monster Hunter 3 Ultimate", "Monster Hunter Portable 3rd"],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Portable 3rd"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -321,12 +352,19 @@
     "type": "Flying Wyvern",
     "alias": "Green Swift Wyvern (\u7dd1\u8fc5\u7adc)\n",
     "suborder": "Subspecies",
-    "related": ["Nargacuga", "Silverwind Nargacuga", "Lucent Nargacuga"]
+    "related": [
+      "Nargacuga",
+      "Silverwind Nargacuga",
+      "Lucent Nargacuga"
+    ]
   },
   {
     "name": "Jade Barroth",
     "description": "A subspecies of ___ found in colder climates that coat themselves in ice an snow for protection. They are also known for bashing their overgrown crowns into the ice, and subsist primarily on Bnahabra.",
-    "games": ["Monster Hunter 3 Ultimate", "Monster Hunter Portable 3rd"],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Portable 3rd"
+    ],
     "elements": [
       {
         "name": "Ice",
@@ -359,7 +397,9 @@
     "type": "Brute Wyvern",
     "alias": "Ice Crushing Wyvern (\u6c37\u7815\u7adc)\n",
     "suborder": "Subspecies",
-    "related": ["Barroth"]
+    "related": [
+      "Barroth"
+    ]
   },
   {
     "name": "Lagombi",
@@ -402,7 +442,9 @@
     "type": "Fanged Beast",
     "alias": "White Rabbit Beast (\u767d\u514e\u7363)\n",
     "suborder": "Base Species",
-    "related": ["Snowbaron Lagombi"]
+    "related": [
+      "Snowbaron Lagombi"
+    ]
   },
   {
     "name": "Nibelsnarf",
@@ -442,7 +484,10 @@
   {
     "name": "Purple Ludroth",
     "description": "A subspecies of ___ with a spongey purple mane that can both store and disperse a powerful toxin. Moistening this mane seems to revitalize the creature.",
-    "games": ["Monster Hunter 3 Ultimate", "Monster Hunter Portable 3rd"],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Portable 3rd"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -466,12 +511,18 @@
     "type": "Leviathan",
     "alias": "Purple Water Beast (\u7d2b\u6c34\u7363)\n",
     "suborder": "Subspecies",
-    "related": ["Royal Ludroth", "Ludroth"]
+    "related": [
+      "Royal Ludroth",
+      "Ludroth"
+    ]
   },
   {
     "name": "Sand Barioth",
     "description": "A subspecies of ___. Their breath is strong enough to generate tornados, which they then use to travel at high speeds across the desert sands. Their yellow carapaces are tinted red, and their stained fangs shine deep blue when polished clean.",
-    "games": ["Monster Hunter 3 Ultimate", "Monster Hunter Portable 3rd"],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Portable 3rd"
+    ],
     "elements": [],
     "statuses": [],
     "weaknesses": [
@@ -486,12 +537,18 @@
     "type": "Flying Wyvern",
     "alias": "Wing Fang Wyvern (\u98a8\u7259\u7adc)\n",
     "suborder": "Subspecies",
-    "related": ["Barioth", "Frostfang Barioth"]
+    "related": [
+      "Barioth",
+      "Frostfang Barioth"
+    ]
   },
   {
     "name": "Steel Uragaan",
     "description": "A metallic subspecies of ___ with an unusual diet that allows it to create a powerful, noxious gas. The gas permeates the rocks on its body, which then emit foul fumes when scattered. Like regular ___, they can travel quickly by rolling.",
-    "games": ["Monster Hunter 3 Ultimate", "Monster Hunter Portable 3rd"],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Portable 3rd"
+    ],
     "elements": [
       {
         "name": "Fire",
@@ -516,7 +573,10 @@
     "type": "Brute Wyvern",
     "alias": "Steel Hammer Wyvern (\u92fc\u939a\u7adc)\n",
     "suborder": "Subspecies",
-    "related": ["Uragaan", "Crystalbeard Uragaan"]
+    "related": [
+      "Uragaan",
+      "Crystalbeard Uragaan"
+    ]
   },
   {
     "name": "Volvidon",

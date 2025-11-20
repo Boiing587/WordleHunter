@@ -38,7 +38,9 @@
     "type": "Flying Wyvern",
     "alias": "Violent Saw Wyvern (\u66b4\u92f8\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Zenith Anorpatis"]
+    "related": [
+      "Zenith Anorpatis"
+    ]
   },
   {
     "name": "Barlagual",
@@ -83,7 +85,9 @@
     "type": "Leviathan",
     "alias": "Bloodsucking Wyvern (\u55b0\u8840\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Zenith Barlagual"]
+    "related": [
+      "Zenith Barlagual"
+    ]
   },
   {
     "name": "Berserk Raviente",
@@ -136,7 +140,10 @@
     "type": "Unclassified",
     "alias": "Great Crag Wyvern (\u5927\u5dcc\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Raviente", "Violent Raviente"]
+    "related": [
+      "Raviente",
+      "Violent Raviente"
+    ]
   },
   {
     "name": "Diorex",
@@ -164,7 +171,10 @@
     "type": "Flying Wyvern",
     "alias": "Thunder Roaring Wyvern (\u96f7\u8f5f\u7adc)\n",
     "suborder": "Burst Species",
-    "related": ["Tigrex", "Zenith Tigrex"]
+    "related": [
+      "Tigrex",
+      "Zenith Tigrex"
+    ]
   },
   {
     "name": "Dolemdira",
@@ -205,7 +215,9 @@
     "type": "Elder Dragon",
     "alias": "Guardian of the Sky Corridor (\u5929\u5eca\u306e\u756a\u4eba)\n",
     "suborder": "Base Species",
-    "related": ["Prideful Dolemdira"]
+    "related": [
+      "Prideful Dolemdira"
+    ]
   },
   {
     "name": "Falnocatrice",
@@ -246,7 +258,9 @@
     "type": "Bird Wyvern",
     "alias": "Thunder Bird (\u50be\u96f7\u9ce5)\n",
     "suborder": "Base Species",
-    "related": ["Hypnocatrice"]
+    "related": [
+      "Hypnocatrice"
+    ]
   },
   {
     "name": "Foroclore",
@@ -332,7 +346,11 @@
     "type": "Elder Dragon",
     "alias": "Gold Dust Dragon (\u91d1\u5875\u9f8d)\n",
     "suborder": "Burst Species",
-    "related": ["Kushala Daora", "Rusted Kushala Daora", "Risen Kushala Daora"]
+    "related": [
+      "Kushala Daora",
+      "Rusted Kushala Daora",
+      "Risen Kushala Daora"
+    ]
   },
   {
     "name": "Gasrabazra",
@@ -364,7 +382,9 @@
     "type": "Brute Wyvern",
     "alias": "Angry Appearance Wyvern (\u6012\u8c8c\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Zenith Gasrabazra"]
+    "related": [
+      "Zenith Gasrabazra"
+    ]
   },
   {
     "name": "Giaorg",
@@ -401,7 +421,10 @@
     "type": "Brute Wyvern",
     "alias": "Ice Ferocious Wyvern (\u6c37\u7370\u7adc)\n",
     "suborder": "Subspecies",
-    "related": ["Zenith Giaorg", "Abiorg"]
+    "related": [
+      "Zenith Giaorg",
+      "Abiorg"
+    ]
   },
   {
     "name": "Greadios",
@@ -433,7 +456,12 @@
     "type": "Flying Wyvern",
     "alias": "Water Fortress Wyvern (\u6c34\u7826\u7adc)\n",
     "suborder": "Origin Species",
-    "related": ["Gravios", "Black Gravios", "Zenith Gravios", "Basarios"]
+    "related": [
+      "Gravios",
+      "Black Gravios",
+      "Zenith Gravios",
+      "Basarios"
+    ]
   },
   {
     "name": "Guanzorm",
@@ -465,7 +493,10 @@
     "type": "Elder Dragon",
     "alias": "Imperial Conqueror Dragon (\u5e1d\u5f81\u9f8d)\n",
     "suborder": "Base Species",
-    "related": ["Overlord Guanzorm", "Equibra"]
+    "related": [
+      "Overlord Guanzorm",
+      "Equibra"
+    ]
   },
   {
     "name": "Haldmerg",
@@ -488,7 +519,9 @@
     "type": "Elder Dragon",
     "alias": "Silver Controlling Dragon (\u53f8\u9280\u9f8d)\n",
     "suborder": "Base Species",
-    "related": ["Zenith Haldmerg"]
+    "related": [
+      "Zenith Haldmerg"
+    ]
   },
   {
     "name": "Hyujikiki",
@@ -524,7 +557,9 @@
     "type": "Flying Wyvern",
     "alias": "Needle-Clad Wyvern (\u91dd\u7e8f\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Zenith Hyujikiki"]
+    "related": [
+      "Zenith Hyujikiki"
+    ]
   },
   {
     "name": "Inagami",
@@ -552,7 +587,9 @@
     "type": "Elder Dragon",
     "alias": "Elegant Elderly Dragon (\u96c5\u7fc1\u9f8d)\n",
     "suborder": "Base Species",
-    "related": ["Zenith Inagami"]
+    "related": [
+      "Zenith Inagami"
+    ]
   },
   {
     "name": "Levidiora",
@@ -593,7 +630,9 @@
     "type": "Elder Dragon",
     "alias": "Electromagnetic Dragon (\u96f7\u6975\u9f8d)\n",
     "suborder": "Subspecies",
-    "related": ["Rukodiora"]
+    "related": [
+      "Rukodiora"
+    ]
   },
   {
     "name": "Lolo Gougarf",
@@ -625,7 +664,9 @@
     "type": "Fanged Beast",
     "alias": "Red Fighting Beast (\u8d64\u95d8\u7363)\n",
     "suborder": "Base Species",
-    "related": ["Ray Gougarf"]
+    "related": [
+      "Ray Gougarf"
+    ]
   },
   {
     "name": "Melaginas",
@@ -666,7 +707,9 @@
     "type": "Flying Wyvern",
     "alias": "Black Drill Wyvern (\u9ed2\u7a7f\u7adc)\n",
     "suborder": "Burst Species",
-    "related": ["Espinas"]
+    "related": [
+      "Espinas"
+    ]
   },
   {
     "name": "Mi Ru",
@@ -715,7 +758,10 @@
     "type": "Unclassified",
     "alias": "Black Fox Wyvern (\u9ed2\u72d0\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Dazzling Mi Ru", "Duragaua"]
+    "related": [
+      "Dazzling Mi Ru",
+      "Duragaua"
+    ]
   },
   {
     "name": "Midogaron",
@@ -748,7 +794,11 @@
     "type": "Fanged Beast",
     "alias": "Explosion Wolf (\u7206\u72fc)\n",
     "suborder": "Base Species",
-    "related": ["Kamu Orgaron", "Nono Orgaron", "Zenith Midogaron"]
+    "related": [
+      "Kamu Orgaron",
+      "Nono Orgaron",
+      "Zenith Midogaron"
+    ]
   },
   {
     "name": "Pobolbarm",
@@ -822,7 +872,9 @@
     "type": "Leviathan",
     "alias": "Frozen Sea Beast (\u51cd\u6d77\u7363)\n",
     "suborder": "Base Species",
-    "related": ["Pokara"]
+    "related": [
+      "Pokara"
+    ]
   },
   {
     "name": "Ray Gougarf",
@@ -854,7 +906,9 @@
     "type": "Fanged Beast",
     "alias": "Blue Fighting Beast (\u9752\u95d8\u7363)\n",
     "suborder": "Base Species",
-    "related": ["Lolo Gougarf"]
+    "related": [
+      "Lolo Gougarf"
+    ]
   },
   {
     "name": "Shantien",
@@ -928,7 +982,10 @@
     "type": "Elder Dragon",
     "alias": "Frozen King Dragon (\u51cd\u738b\u9f8d)\n",
     "suborder": "Origin Species",
-    "related": ["Teostra", "Lunastra"]
+    "related": [
+      "Teostra",
+      "Lunastra"
+    ]
   },
   {
     "name": "Toridcless",
@@ -965,7 +1022,9 @@
     "type": "Bird Wyvern",
     "alias": "Shining Thunder Bird (\u7167\u96f7\u9ce5)\n",
     "suborder": "Base Species",
-    "related": ["Zenith Toridcless"]
+    "related": [
+      "Zenith Toridcless"
+    ]
   },
   {
     "name": "Varsablos",
@@ -993,7 +1052,9 @@
     "type": "Flying Wyvern",
     "alias": "Flame Horn Wyvern (\u708e\u89d2\u7adc)\n",
     "suborder": "Burst Species",
-    "related": ["Diablos"]
+    "related": [
+      "Diablos"
+    ]
   },
   {
     "name": "Voljang",
@@ -1026,7 +1087,9 @@
     "type": "Fanged Beast",
     "alias": "Infernal Lion (\u7d05\u84ee\u7345\u5b50)\n",
     "suborder": "Origin Species",
-    "related": ["Rajang"]
+    "related": [
+      "Rajang"
+    ]
   },
   {
     "name": "Vorsphyroa",
@@ -1102,7 +1165,9 @@
     "type": "Elder Dragon",
     "alias": "Floating Peak Dragon (\u6d6e\u5cf0\u9f8d)\n",
     "suborder": "Origin Species",
-    "related": ["Yama Tsukami"]
+    "related": [
+      "Yama Tsukami"
+    ]
   },
   {
     "name": "Zerulos",
@@ -1134,6 +1199,9 @@
     "type": "Flying Wyvern",
     "alias": "Celestial Wyvern (\u8f1d\u754c\u7adc)\n",
     "suborder": "Burst Species",
-    "related": ["Radiant Zerulos", "Rathalos"]
+    "related": [
+      "Radiant Zerulos",
+      "Rathalos"
+    ]
   }
 ]

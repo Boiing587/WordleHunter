@@ -82,7 +82,9 @@
     "type": "Fanged Beast",
     "alias": "Great Boar (\u5927\u732a)\n",
     "suborder": "Base Species",
-    "related": ["Bullfango"]
+    "related": [
+      "Bullfango"
+    ]
   },
   {
     "name": "Chameleos",
@@ -145,7 +147,9 @@
     "type": "Elder Dragon",
     "alias": "Mist Dragon (\u971e\u9f8d)\n",
     "suborder": "Base Species",
-    "related": ["Risen Chameleos"]
+    "related": [
+      "Risen Chameleos"
+    ]
   },
   {
     "name": "Congalala",
@@ -203,7 +207,10 @@
     "type": "Fanged Beast",
     "alias": "Pink Fur Beast (\u6843\u6bdb\u7363)\n",
     "suborder": "Base Species",
-    "related": ["Emerald Congalala", "Conga"]
+    "related": [
+      "Emerald Congalala",
+      "Conga"
+    ]
   },
   {
     "name": "Daimyo Hermitaur",
@@ -249,7 +256,11 @@
     "type": "Carapaceon",
     "alias": "Shield Crab (\u76fe\u87f9)\n",
     "suborder": "Base Species",
-    "related": ["Hermitaur", "Plum Daimyo Hermitaur", "Stonefist Hermitaur"]
+    "related": [
+      "Hermitaur",
+      "Plum Daimyo Hermitaur",
+      "Stonefist Hermitaur"
+    ]
   },
   {
     "name": "King Shakalaka",
@@ -285,7 +296,9 @@
     "type": "Lynian",
     "alias": "None\n",
     "suborder": "Base Species",
-    "related": ["Shakalaka"]
+    "related": [
+      "Shakalaka"
+    ]
   },
   {
     "name": "Kushala Daora",
@@ -347,7 +360,10 @@
     "type": "Elder Dragon",
     "alias": "Steel Dragon (\u92fc\u9f8d)\n",
     "suborder": "Base Species",
-    "related": ["Rusted Kushala Daora", "Risen Kushala Daora"]
+    "related": [
+      "Rusted Kushala Daora",
+      "Risen Kushala Daora"
+    ]
   },
   {
     "name": "Lunastra",
@@ -395,7 +411,9 @@
     "type": "Elder Dragon",
     "alias": "Flame Queen Dragon (\u708e\u5983\u9f8d)\n",
     "suborder": "Base Species",
-    "related": ["Teostra"]
+    "related": [
+      "Teostra"
+    ]
   },
   {
     "name": "Old Fatalis",
@@ -443,7 +461,10 @@
     "type": "Elder Dragon",
     "alias": "Ancestral Dragon (\u7956\u9f8d)[a]\n",
     "suborder": "Base Species",
-    "related": ["Fatalis", "Crimson Fatalis"]
+    "related": [
+      "Fatalis",
+      "Crimson Fatalis"
+    ]
   },
   {
     "name": "Rajang",
@@ -488,7 +509,9 @@
     "type": "Fanged Beast",
     "alias": "Gold Lion (\u91d1\u7345\u5b50)\n",
     "suborder": "Base Species",
-    "related": ["Furious Rajang"]
+    "related": [
+      "Furious Rajang"
+    ]
   },
   {
     "name": "Rusted Kushala Daora",
@@ -539,7 +562,10 @@
     "type": "Elder Dragon",
     "alias": "Steel Dragon (\u92fc\u9f8d)\n",
     "suborder": "Variant",
-    "related": ["Kushala Daora", "Risen Kushala Daora"]
+    "related": [
+      "Kushala Daora",
+      "Risen Kushala Daora"
+    ]
   },
   {
     "name": "Shen Gaoren",
@@ -616,7 +642,11 @@
     "type": "Carapaceon",
     "alias": "Sickle Crab (\u938c\u87f9)\n",
     "suborder": "Base Species",
-    "related": ["Terra Shogun Ceanataur", "Rustrazor Ceanataur", "Ceanataur"]
+    "related": [
+      "Terra Shogun Ceanataur",
+      "Rustrazor Ceanataur",
+      "Ceanataur"
+    ]
   },
   {
     "name": "Teostra",
@@ -678,7 +708,11 @@
     "type": "Elder Dragon",
     "alias": "Flame King Dragon (\u708e\u738b\u9f8d)\n",
     "suborder": "Base Species",
-    "related": ["Risen Teostra", "Lunastra", "Toastra"]
+    "related": [
+      "Risen Teostra",
+      "Lunastra",
+      "Toastra"
+    ]
   },
   {
     "name": "Yama Tsukami",
@@ -714,6 +748,9 @@
     "type": "Elder Dragon",
     "alias": "Floating Mountain Dragon (\u6d6e\u5cb3\u9f8d)\n",
     "suborder": "Base Species",
-    "related": ["Feral Yama Tsukami", "Yama Kurai"]
+    "related": [
+      "Feral Yama Tsukami",
+      "Yama Kurai"
+    ]
   }
 ]

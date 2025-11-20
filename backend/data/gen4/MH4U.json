@@ -28,7 +28,7 @@
     "parentheses_weaknesses": false,
     "type": "Fanged Beast",
     "alias": "White Monkey Fox (\u767d\u733f\u72d0)\n",
-    "suborder": "Base Species",
+    "suborder": "Subspecies",
     "related": [
       "Kecha Wacha"
     ]
@@ -57,7 +57,7 @@
     "parentheses_weaknesses": false,
     "type": "Amphibian",
     "alias": "Rough Oni Frog (\u8352\u9b3c\u86d9)\n",
-    "suborder": "Base Species",
+    "suborder": "Subspecies",
     "related": [
       "Tetsucabra",
       "Drilltusk Tetsucabra"
@@ -119,7 +119,7 @@
     "parentheses_weaknesses": false,
     "type": "Neopteron",
     "alias": "Axe Beetle (\u65a7\u7532\u866b)\n",
-    "suborder": "Base Species",
+    "suborder": "Subspecies",
     "related": [
       "Seltas",
       "Desert Seltas Queen"
@@ -162,7 +162,7 @@
     "parentheses_weaknesses": false,
     "type": "Neopteron",
     "alias": "Cannon Beetle (\u7832\u7532\u866b)\n",
-    "suborder": "Base Species",
+    "suborder": "Subspecies",
     "related": [
       "Seltas Queen",
       "Desert Seltas"
@@ -353,7 +353,7 @@
     "parentheses_weaknesses": true,
     "type": "Temnoceran",
     "alias": "Corpse Spider (\u9ab8\u8718\u86db)\n",
-    "suborder": "Base Species",
+    "suborder": "Subspecies",
     "related": [
       "Nerscylla"
     ]
@@ -391,7 +391,7 @@
     "parentheses_weaknesses": false,
     "type": "Snake Wyvern",
     "alias": "Water Snake Wyvern (\u6c34\u86c7\u7adc)\n",
-    "suborder": "Base Species",
+    "suborder": "Subspecies",
     "related": [
       "Najarala"
     ]

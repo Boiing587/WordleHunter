@@ -2,7 +2,9 @@
   {
     "name": "Copper Blangonga",
     "description": "???",
-    "games": ["Monster Hunter Freedom Unite"],
+    "games": [
+      "Monster Hunter Freedom Unite"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -22,7 +24,10 @@
     "type": "Fanged Beast",
     "alias": "Sand Lion (\u7802\u7345\u5b50)\n",
     "suborder": "Subspecies",
-    "related": ["Blangonga", "Blango"]
+    "related": [
+      "Blangonga",
+      "Blango"
+    ]
   },
   {
     "name": "Emerald Congalala",
@@ -72,7 +77,10 @@
     "type": "Fanged Beast",
     "alias": "Green Fur Beast (\u7dd1\u6bdb\u7363)\n",
     "suborder": "Subspecies",
-    "related": ["Congalala", "Conga"]
+    "related": [
+      "Congalala",
+      "Conga"
+    ]
   },
   {
     "name": "Furious Rajang",
@@ -110,7 +118,9 @@
     "type": "Fanged Beast",
     "alias": "Gold Lion (\u91d1\u7345\u5b50)\n",
     "suborder": "Variant",
-    "related": ["Rajang"]
+    "related": [
+      "Rajang"
+    ]
   },
   {
     "name": "Nargacuga",
@@ -163,7 +173,10 @@
   {
     "name": "Plum Daimyo Hermitaur",
     "description": "Armored Carapaceons that approach their prey with blinding speed, then strike using their powerful claws. Considerably more aggressive than their standard cousins. Upon their back is the skull of a monster adorned with two massive horns.",
-    "games": ["Monster Hunter Freedom Unite", "Monster Hunter 4 Ultimate"],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate"
+    ],
     "elements": [
       {
         "name": "Water",
@@ -188,12 +201,18 @@
     "type": "Carapaceon",
     "alias": "Purple Shield Crab (\u7d2b\u76fe\u87f9)\n",
     "suborder": "Subspecies",
-    "related": ["Daimyo Hermitaur", "Stonefist Hermitaur", "Hermitaur"]
+    "related": [
+      "Daimyo Hermitaur",
+      "Stonefist Hermitaur",
+      "Hermitaur"
+    ]
   },
   {
     "name": "Terra Shogun Ceanataur",
     "description": "A large Carapaceon with a giant monster's skull on its back. Its long, sharp pincers allow it to pierce volcanic bedrock and travel along ceilings. Sometimes, a precious and valuable pearl can be found inside its shell.",
-    "games": ["Monster Hunter Freedom Unite"],
+    "games": [
+      "Monster Hunter Freedom Unite"
+    ],
     "elements": [
       {
         "name": "Water",
@@ -213,7 +232,11 @@
     "type": "Carapaceon",
     "alias": "Sickle Crab (\u938c\u87f9)\n",
     "suborder": "Subspecies",
-    "related": ["Shogun Ceanataur", "Rustrazor Ceanataur", "Ceanataur"]
+    "related": [
+      "Shogun Ceanataur",
+      "Rustrazor Ceanataur",
+      "Ceanataur"
+    ]
   },
   {
     "name": "Ukanlos",
@@ -253,12 +276,16 @@
     "type": "Flying Wyvern",
     "alias": "Avalanche Wyvern (\u5d29\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Akantor"]
+    "related": [
+      "Akantor"
+    ]
   },
   {
     "name": "Vespoid Queen",
     "description": "A massive thorax and brilliant, gigantic wings mark the ___ Queen. It commands its subjects through unique flight patterns, and will stab any intruders with a poisonous stinger that also causes paralysis. It also spits acidic bodily fluid at its prey.",
-    "games": ["Monster Hunter Freedom Unite"],
+    "games": [
+      "Monster Hunter Freedom Unite"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -282,7 +309,9 @@
     "type": "Neopteron",
     "alias": "Giant Insect (\u5973\u738b\u866b)\n",
     "suborder": "Base Species",
-    "related": ["Vespoid"]
+    "related": [
+      "Vespoid"
+    ]
   },
   {
     "name": "Yian Garuga",

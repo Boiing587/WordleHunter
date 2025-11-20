@@ -2,7 +2,9 @@
   {
     "name": "Bogabador",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -26,12 +28,16 @@
     "type": "Flying Wyvern",
     "alias": "Explosive Mist Wyvern (\u7206\u9727\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Razing Bogabador"]
+    "related": [
+      "Razing Bogabador"
+    ]
   },
   {
     "name": "Elzelion",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [
       {
         "name": "Fire",
@@ -68,12 +74,16 @@
     "type": "Elder Dragon",
     "alias": "Burning Zero Dragon (\u707c\u96f6\u9f8d)\n",
     "suborder": "Base Species",
-    "related": ["Frostfire Elzelion"]
+    "related": [
+      "Frostfire Elzelion"
+    ]
   },
   {
     "name": "Keo'arbor",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [
       {
         "name": "Fire",
@@ -98,7 +108,9 @@
   {
     "name": "Zenaseris",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [
       {
         "name": "Water",
@@ -128,7 +140,9 @@
   {
     "name": "Zenith Anorpatis",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [
       {
         "name": "Ice",
@@ -165,12 +179,16 @@
     "type": "Flying Wyvern",
     "alias": "Violent Saw Wyvern (\u66b4\u92f8\u7adc)\n",
     "suborder": "Zenith Species",
-    "related": ["Anorpatis"]
+    "related": [
+      "Anorpatis"
+    ]
   },
   {
     "name": "Zenith Aqra Vashim",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -189,12 +207,16 @@
     "type": "Carapaceon",
     "alias": "Tail Crystal Scorpion (\u5c3e\u6676\u880d)\n",
     "suborder": "Zenith Species",
-    "related": ["Aqra Vashim"]
+    "related": [
+      "Aqra Vashim"
+    ]
   },
   {
     "name": "Zenith Barlagual",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [
       {
         "name": "Water",
@@ -223,12 +245,16 @@
     "type": "Leviathan",
     "alias": "Blood Eating Wyvern (\u55b0\u8840\u7adc)\n",
     "suborder": "Zenith Species",
-    "related": ["Barlagual"]
+    "related": [
+      "Barlagual"
+    ]
   },
   {
     "name": "Zenith Blangonga",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [
       {
         "name": "Ice",
@@ -253,12 +279,17 @@
     "type": "Fanged Beast",
     "alias": "Snow Lion (\u96ea\u7345\u5b50)\n",
     "suborder": "Zenith Species",
-    "related": ["Blangonga", "Blango"]
+    "related": [
+      "Blangonga",
+      "Blango"
+    ]
   },
   {
     "name": "Zenith Daimyo Hermitaur",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [
       {
         "name": "Water",
@@ -283,12 +314,17 @@
     "type": "Carapaceon",
     "alias": "Shield Crab (\u76fe\u87f9)\n",
     "suborder": "Zenith Species",
-    "related": ["Daimyo Hermitaur", "Hermitaur"]
+    "related": [
+      "Daimyo Hermitaur",
+      "Hermitaur"
+    ]
   },
   {
     "name": "Zenith Draguros",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [
       {
         "name": "Dragon",
@@ -313,12 +349,16 @@
     "type": "Flying Wyvern",
     "alias": "Dark Thunder Wyvern (\u51a5\u96f7\u7adc)\n",
     "suborder": "Zenith Species",
-    "related": ["Draguros"]
+    "related": [
+      "Draguros"
+    ]
   },
   {
     "name": "Zenith Espinas",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [
       {
         "name": "Fire",
@@ -347,12 +387,18 @@
     "type": "Flying Wyvern",
     "alias": "Thorny Wyvern\n",
     "suborder": "Zenith Species",
-    "related": ["Espinas", "Flaming Espinas", "Pearl Espinas"]
+    "related": [
+      "Espinas",
+      "Flaming Espinas",
+      "Pearl Espinas"
+    ]
   },
   {
     "name": "Zenith Gasrabazra",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -376,12 +422,16 @@
     "type": "Brute Wyvern",
     "alias": "Angry Appearance Wyvern (\u6012\u8c8c\u7adc)\n",
     "suborder": "Zenith Species",
-    "related": ["Gasrabazra"]
+    "related": [
+      "Gasrabazra"
+    ]
   },
   {
     "name": "Zenith Giaorg",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [
       {
         "name": "Ice",
@@ -414,12 +464,16 @@
     "type": "Brute Wyvern",
     "alias": "Ferocious Ice Wyvern (\u6c37\u7370\u7adc)\n",
     "suborder": "Zenith Species",
-    "related": ["Giaorg"]
+    "related": [
+      "Giaorg"
+    ]
   },
   {
     "name": "Zenith Gravios",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [
       {
         "name": "Fire",
@@ -444,12 +498,19 @@
     "type": "Flying Wyvern",
     "alias": "Armor Wyvern (\u93a7\u7adc)\n",
     "suborder": "Zenith Species",
-    "related": ["Gravios", "Black Gravios", "Basarios", "Greadios"]
+    "related": [
+      "Gravios",
+      "Black Gravios",
+      "Basarios",
+      "Greadios"
+    ]
   },
   {
     "name": "Zenith Haldmerg",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [],
     "statuses": [],
     "weaknesses": [
@@ -464,12 +525,16 @@
     "type": "Elder Dragon",
     "alias": "Silver Controlling Dragon (\u53f8\u9280\u9f8d)\n",
     "suborder": "Zenith Species",
-    "related": ["Haldmerg"]
+    "related": [
+      "Haldmerg"
+    ]
   },
   {
     "name": "Zenith Hypnocatrice",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -489,12 +554,16 @@
     "type": "Bird Wyvern",
     "alias": "Sleep Bird (\u7720\u9ce5)\n",
     "suborder": "Zenith Species",
-    "related": ["Hypnocatrice"]
+    "related": [
+      "Hypnocatrice"
+    ]
   },
   {
     "name": "Zenith Hyujikiki",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -518,12 +587,16 @@
     "type": "Flying Wyvern",
     "alias": "Needle-Clad Wyvern (\u91dd\u7e8f\u7adc)\n",
     "suborder": "Zenith Species",
-    "related": ["Hyujikiki"]
+    "related": [
+      "Hyujikiki"
+    ]
   },
   {
     "name": "Zenith Inagami",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -543,12 +616,16 @@
     "type": "Elder Dragon",
     "alias": "Elegant Elderly Dragon (\u96c5\u7fc1\u9f8d)\n",
     "suborder": "Zenith Species",
-    "related": ["Inagami"]
+    "related": [
+      "Inagami"
+    ]
   },
   {
     "name": "Zenith Khezu",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [
       {
         "name": "Thunder",
@@ -573,12 +650,16 @@
     "type": "Flying Wyvern",
     "alias": "Charging Wyvern (\u5e2f\u96fb\u98db\u7adc)\n",
     "suborder": "Zenith Species",
-    "related": ["Khezu"]
+    "related": [
+      "Khezu"
+    ]
   },
   {
     "name": "Zenith Midogaron",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [
       {
         "name": "Fire",
@@ -603,12 +684,16 @@
     "type": "Fanged Beast",
     "alias": "Explosion Wolf (\u7206\u72fc)\n",
     "suborder": "Zenith Species",
-    "related": ["Midogaron"]
+    "related": [
+      "Midogaron"
+    ]
   },
   {
     "name": "Zenith Plesioth",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [
       {
         "name": "Water",
@@ -633,12 +718,16 @@
     "type": "Piscine Wyvern",
     "alias": "Water Wyvern (\u6c34\u7adc)\n",
     "suborder": "Zenith Species",
-    "related": ["Plesioth"]
+    "related": [
+      "Plesioth"
+    ]
   },
   {
     "name": "Zenith Rathalos",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [
       {
         "name": "Fire",
@@ -667,12 +756,19 @@
     "type": "Flying Wyvern",
     "alias": "Fire Wyvern (\u706b\u7adc)\n",
     "suborder": "Zenith Species",
-    "related": ["Rathalos", "Zerulos", "Radiant Zerulos", "Rathian"]
+    "related": [
+      "Rathalos",
+      "Zerulos",
+      "Radiant Zerulos",
+      "Rathian"
+    ]
   },
   {
     "name": "Zenith Rukodiora",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [
       {
         "name": "Dragon",
@@ -705,12 +801,16 @@
     "type": "Elder Dragon",
     "alias": "Magnetic Dragon (\u6975\u9f8d)\n",
     "suborder": "Zenith Species",
-    "related": ["Rukodiora"]
+    "related": [
+      "Rukodiora"
+    ]
   },
   {
     "name": "Zenith Taikun Zamuza",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [
       {
         "name": "Thunder",
@@ -739,12 +839,16 @@
     "type": "Carapaceon",
     "alias": "Multi-Shell Crab (\u591a\u6bbb\u87f9)\n",
     "suborder": "Zenith Species",
-    "related": ["Taikun Zamuza"]
+    "related": [
+      "Taikun Zamuza"
+    ]
   },
   {
     "name": "Zenith Tigrex",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -764,12 +868,16 @@
     "type": "Flying Wyvern",
     "alias": "Roaring Wyvern (\u8f5f\u7adc)\n",
     "suborder": "Zenith Species",
-    "related": ["Tigrex"]
+    "related": [
+      "Tigrex"
+    ]
   },
   {
     "name": "Zenith Toridcless",
     "description": "",
-    "games": ["Monster Hunter Frontier Z / Z Zenith"],
+    "games": [
+      "Monster Hunter Frontier Z / Z Zenith"
+    ],
     "elements": [
       {
         "name": "Thunder",
@@ -802,6 +910,8 @@
     "type": "Bird Wyvern",
     "alias": "Shining Thunder Bird (\u7167\u96f7\u9ce5)\n",
     "suborder": "Zenith Species",
-    "related": ["Toridcless"]
+    "related": [
+      "Toridcless"
+    ]
   }
 ]

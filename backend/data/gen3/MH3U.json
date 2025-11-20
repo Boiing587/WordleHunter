@@ -2,7 +2,9 @@
   {
     "name": "Abyssal Lagiacrus",
     "description": "A rare species of ___ known only from an ancient scroll:From the abyss' darkest caveComes the master of the waveConsumer of the world entireDevil of the sea most direFear it as you fear the grave.",
-    "games": ["Monster Hunter 3 Ultimate"],
+    "games": [
+      "Monster Hunter 3 Ultimate"
+    ],
     "elements": [
       {
         "name": "Water",
@@ -35,7 +37,10 @@
     "type": "Leviathan",
     "alias": "Dark Sea Wyvern (\u51a5\u6d77\u7adc)\n",
     "suborder": "Rare Species",
-    "related": ["Lagiacrus", "Ivory Lagiacrus"]
+    "related": [
+      "Lagiacrus",
+      "Ivory Lagiacrus"
+    ]
   },
   {
     "name": "Brachydios",
@@ -84,12 +89,16 @@
     "type": "Brute Wyvern",
     "alias": "Crushing Wyvern (\u7815\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Raging Brachydios"]
+    "related": [
+      "Raging Brachydios"
+    ]
   },
   {
     "name": "Dire Miralis",
     "description": "Some legends consider this great dragon to be the devil fated to destroy the world, while others claim it is the giant who birthed creation. Is there any way for mere humans to quell its unending rage?",
-    "games": ["Monster Hunter 3 Ultimate"],
+    "games": [
+      "Monster Hunter 3 Ultimate"
+    ],
     "elements": [
       {
         "name": "Fire",
@@ -113,13 +122,15 @@
     "parentheses_weaknesses": false,
     "type": "Elder Dragon",
     "alias": "Molten Black Dragon (\u7149\u9ed2\u9f8d)\n",
-    "suborder": "[24]",
+    "suborder": "Base Species",
     "related": []
   },
   {
     "name": "Goldbeard Ceadeus",
     "description": "A rarely-seen subspecies of ___ confirmed to exist deep within ocean ruins. The golden light they cast in the dark depths befits a creature of such legendary status. Sadly, little is known about their relationship to the standard ___.",
-    "games": ["Monster Hunter 3 Ultimate"],
+    "games": [
+      "Monster Hunter 3 Ultimate"
+    ],
     "elements": [
       {
         "name": "Water",
@@ -144,12 +155,16 @@
     "type": "Elder Dragon",
     "alias": "Emperor Ocean Dragon (\u7687\u6d77\u9f8d)\n",
     "suborder": "Subspecies",
-    "related": ["Ceadeus"]
+    "related": [
+      "Ceadeus"
+    ]
   },
   {
     "name": "Hallowed Jhen Mohran",
     "description": "A subspecies of ___ whose appearance has been likened to a crystal shimmering in the darkness. It inspires such awe and wonder that news of a sighting draws a stampede of hunters from across the land.",
-    "games": ["Monster Hunter 3 Ultimate"],
+    "games": [
+      "Monster Hunter 3 Ultimate"
+    ],
     "elements": [],
     "statuses": [],
     "weaknesses": [
@@ -164,12 +179,17 @@
     "type": "Elder Dragon",
     "alias": "Sacred Mountain Dragon (\u970a\u5c71\u9f8d)\n",
     "suborder": "Subspecies",
-    "related": ["Jhen Mohran", "Dah'ren Mohran"]
+    "related": [
+      "Jhen Mohran",
+      "Dah'ren Mohran"
+    ]
   },
   {
     "name": "Ivory Lagiacrus",
     "description": "A subspecies of ___ adapted to life on land. Their beautiful white carapace belies their vicious nature. Their agility coupled with their dash and breath attacks are nothing short of devastating. The electrical charges they emit when enraged are truly fearsome.",
-    "games": ["Monster Hunter 3 Ultimate"],
+    "games": [
+      "Monster Hunter 3 Ultimate"
+    ],
     "elements": [
       {
         "name": "Thunder",
@@ -206,12 +226,18 @@
     "type": "Leviathan",
     "alias": "White Sea Wyvern (\u767d\u6d77\u7adc)\n",
     "suborder": "Subspecies",
-    "related": ["Lagiacrus", "Abyssal Lagiacrus"]
+    "related": [
+      "Lagiacrus",
+      "Abyssal Lagiacrus"
+    ]
   },
   {
     "name": "Lucent Nargacuga",
     "description": "___ clad in radiant fur and lives in fog-shrouded lands. Lucent ___ hide in the night's fog and moonlight, springing assaults with neither shape nor shadow. Astounding agility and marvelous mobility makes them difficult to capture with the naked eye. The throng of toxic tailspikes they launch makes these wyverns perilous beasts indeed.",
-    "games": ["Monster Hunter 3 Ultimate", "Monster Hunter Rise: Sunbreak"],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Rise: Sunbreak"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -235,12 +261,18 @@
     "type": "Flying Wyvern",
     "alias": "Moon Swift Wyvern\n",
     "suborder": "Rare Species",
-    "related": ["Nargacuga", "Green Nargacuga", "Silverwind Nargacuga"]
+    "related": [
+      "Nargacuga",
+      "Green Nargacuga",
+      "Silverwind Nargacuga"
+    ]
   },
   {
     "name": "Rust Duramboros",
     "description": "A reddish-brown subspecies of ___ with an axe-shaped tail. The tail is especially well-suited to desert life, as it scatters sand each time it is swung. Despite the desert heat, these creatures can remain active for long periods of time.",
-    "games": ["Monster Hunter 3 Ultimate"],
+    "games": [
+      "Monster Hunter 3 Ultimate"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -268,7 +300,9 @@
     "type": "Brute Wyvern",
     "alias": "Tail Axe Wyvern (\u5c3e\u65a7\u7adc )\n",
     "suborder": "Subspecies",
-    "related": ["Duramboros"]
+    "related": [
+      "Duramboros"
+    ]
   },
   {
     "name": "Savage Deviljho",
@@ -313,7 +347,9 @@
     "type": "Brute Wyvern",
     "alias": "Terrible Violent Wyvern (\u6050\u66b4\u7adc)\n",
     "suborder": "Variant",
-    "related": ["Deviljho"]
+    "related": [
+      "Deviljho"
+    ]
   },
   {
     "name": "Stygian Zinogre",
@@ -356,6 +392,10 @@
     "type": "Fanged Wyvern",
     "alias": "Hell Wolf Wyvern (\u7344\u72fc\u7adc)\n",
     "suborder": "Subspecies",
-    "related": ["Zinogre", "Thunderlord Zinogre", "Apex Zinogre"]
+    "related": [
+      "Zinogre",
+      "Thunderlord Zinogre",
+      "Apex Zinogre"
+    ]
   }
 ]

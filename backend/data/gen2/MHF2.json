@@ -51,11 +51,13 @@
     "type": "Flying Wyvern",
     "alias": "Supremacy Wyvern (\u8987\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Ukanlos"]
+    "related": [
+      "Ukanlos"
+    ]
   },
   {
     "name": "Giadrome",
-    "description": "The alpha leader of a pack of ___, the ___ sports a beautiful crest. Larger than a ___, any hunter silly enough to encroach on its turf will be frozen in a hail of ice.",
+    "description": "Alpha monsters that lead ___ packs. They sport splendid crests and are much bigger than the ___ they lead. They spit ice with deadly accuracy, and woe betide the Hunter who gets caught in it.",
     "games": [
       "Monster Hunter Freedom 2",
       "Monster Hunter Freedom Unite",
@@ -89,7 +91,10 @@
     "type": "Bird Wyvern",
     "alias": "None\n",
     "suborder": "Base Species",
-    "related": ["Velocidrome", "Giaprey"]
+    "related": [
+      "Velocidrome",
+      "Giaprey"
+    ]
   },
   {
     "name": "Tigrex",
@@ -154,6 +159,10 @@
     "type": "Flying Wyvern",
     "alias": "Roaring Wyvern (\u8f5f\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Brute Tigrex", "Molten Tigrex", "Grimclaw Tigrex"]
+    "related": [
+      "Brute Tigrex",
+      "Molten Tigrex",
+      "Grimclaw Tigrex"
+    ]
   }
 ]

@@ -32,7 +32,9 @@
     "type": "Elder Dragon",
     "alias": "Rock Mountain Dragon (\u5ca9\u5c71\u9f8d)\n",
     "suborder": "Subspecies",
-    "related": ["Lao-Shan Lung"]
+    "related": [
+      "Lao-Shan Lung"
+    ]
   },
   {
     "name": "Azure Rathalos",
@@ -143,7 +145,12 @@
     "type": "Flying Wyvern",
     "alias": "Black Two-Horned Wyvern (\u9ed2\u89d2\u7adc)\n",
     "suborder": "Subspecies",
-    "related": ["Diablos", "Bloodbath Diablos", "Apex Diablos", "Monoblos"]
+    "related": [
+      "Diablos",
+      "Bloodbath Diablos",
+      "Apex Diablos",
+      "Monoblos"
+    ]
   },
   {
     "name": "Black Gravios",
@@ -193,7 +200,12 @@
     "type": "Flying Wyvern",
     "alias": "Black Armor Wyvern (\u9ed2\u93a7\u7adc)\n",
     "suborder": "Subspecies",
-    "related": ["Gravios", "Zenith Gravios", "Basarios", "Greadios"]
+    "related": [
+      "Gravios",
+      "Zenith Gravios",
+      "Basarios",
+      "Greadios"
+    ]
   },
   {
     "name": "Blue Yian Kut-Ku",
@@ -239,7 +251,10 @@
     "type": "Bird Wyvern",
     "alias": "Blue Strange Bird (\u9752\u602a\u9ce5)\n",
     "suborder": "Subspecies",
-    "related": ["Yian Kut-Ku", "Yian Garuga"]
+    "related": [
+      "Yian Kut-Ku",
+      "Yian Garuga"
+    ]
   },
   {
     "name": "Crimson Fatalis",
@@ -290,7 +305,10 @@
     "type": "Elder Dragon",
     "alias": "Crimson Dragon (\u7d05\u9f8d)\n",
     "suborder": "Base Species",
-    "related": ["Fatalis", "Old Fatalis"]
+    "related": [
+      "Fatalis",
+      "Old Fatalis"
+    ]
   },
   {
     "name": "Gold Rathian",
@@ -346,7 +364,12 @@
     "type": "Flying Wyvern",
     "alias": "Gold Fire Wyvern (\u91d1\u706b\u7adc)\n",
     "suborder": "Rare Species",
-    "related": ["Rathian", "Pink Rathian", "Dreadqueen Rathian", "Apex Rathian"]
+    "related": [
+      "Rathian",
+      "Pink Rathian",
+      "Dreadqueen Rathian",
+      "Apex Rathian"
+    ]
   },
   {
     "name": "Green Plesioth",
@@ -396,7 +419,9 @@
     "type": "Piscine Wyvern",
     "alias": "Green Water Wyvern (\u7fe0\u6c34\u7adc)\n",
     "suborder": "Subspecies",
-    "related": ["Plesioth"]
+    "related": [
+      "Plesioth"
+    ]
   },
   {
     "name": "Pink Rathian",
@@ -508,7 +533,9 @@
     "type": "Bird Wyvern",
     "alias": "Purple Poison Bird (\u7d2b\u6bd2\u9ce5)\n",
     "suborder": "Subspecies",
-    "related": ["Gypceros"]
+    "related": [
+      "Gypceros"
+    ]
   },
   {
     "name": "Red Khezu",
@@ -562,7 +589,9 @@
     "type": "Flying Wyvern",
     "alias": "Red Strange Wyvern (\u8d64\u602a\u7adc)\n",
     "suborder": "Subspecies",
-    "related": ["Khezu"]
+    "related": [
+      "Khezu"
+    ]
   },
   {
     "name": "Silver Rathalos",
@@ -664,6 +693,10 @@
     "type": "Flying Wyvern",
     "alias": "White One Horn Wyvern (\u767d\u4e00\u89d2\u7adc)\n",
     "suborder": "Subspecies",
-    "related": ["Monoblos", "Black Diablos", "Diablos"]
+    "related": [
+      "Monoblos",
+      "Black Diablos",
+      "Diablos"
+    ]
   }
 ]

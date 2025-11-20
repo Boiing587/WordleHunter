@@ -2,7 +2,10 @@
   {
     "name": "Ancient Leshen",
     "description": "An old ___ that arrived through a portal to assume control over the Ancient Forest. Sometimes revered as an indigenous deity.",
-    "games": ["Monster Hunter: World", "Monster Hunter World: Iceborne"],
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -22,7 +25,9 @@
     "type": "Relict",
     "alias": "None\n",
     "suborder": "Base Species",
-    "related": ["Leshen"]
+    "related": [
+      "Leshen"
+    ]
   },
   {
     "name": "Anjanath",
@@ -57,7 +62,10 @@
     "type": "Brute Wyvern",
     "alias": "Savage Jaw Wyvern (\u86ee\u984e\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Fulgur Anjanath", "Guardian Fulgur Anjanath"]
+    "related": [
+      "Fulgur Anjanath",
+      "Guardian Fulgur Anjanath"
+    ]
   },
   {
     "name": "Bazelgeuse",
@@ -91,12 +99,17 @@
     "type": "Flying Wyvern",
     "alias": "Explosive Scale Wyvern (\u7206\u9c57\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Seething Bazelgeuse"]
+    "related": [
+      "Seething Bazelgeuse"
+    ]
   },
   {
     "name": "Behemoth",
     "description": "A powerful beast from another world. Its large horns and muscular frame defy nature. Unique strategies are required to battle it.",
-    "games": ["Monster Hunter: World", "Monster Hunter World: Iceborne"],
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
     "elements": [
       {
         "name": "Fire",
@@ -146,7 +159,9 @@
   {
     "name": "Dodogama",
     "description": "A monster that devours rock as its primary diet. The Crystals it devours mix with its saliva to produce explosive minerals that it can spit at its enemies.",
-    "games": ["Monster Hunter: World"],
+    "games": [
+      "Monster Hunter: World"
+    ],
     "elements": [
       {
         "name": "Fire",
@@ -171,12 +186,17 @@
     "type": "Fanged Wyvern",
     "alias": "Rock Bandit Wyvern (\u5ca9\u8cca\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Great Jagras"]
+    "related": [
+      "Great Jagras"
+    ]
   },
   {
     "name": "Great Girros",
     "description": "This carnivorous monster prowls its territory, seeking out prey. It takes down its target using the paralytic toxins secreted from its large fangs.",
-    "games": ["Monster Hunter: World", "Monster Hunter World: Iceborne"],
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -196,12 +216,17 @@
     "type": "Fanged Wyvern",
     "alias": "Paralyzing Bandit Wyvern (\u75fa\u8cca\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Girros"]
+    "related": [
+      "Girros"
+    ]
   },
   {
     "name": "Great Jagras",
     "description": "The leader of a pack of ___. Renowned for their voracious appetite, they will mercilessly assault even monsters higher up in the food chain. The sight of it devouring its prey whole is one to behold.",
-    "games": ["Monster Hunter: World", "Monster Hunter World: Iceborne"],
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
     "elements": [],
     "statuses": [],
     "weaknesses": [
@@ -216,7 +241,9 @@
     "type": "Fanged Wyvern",
     "alias": "Bandit Wyvern (\u8cca\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Jagras"]
+    "related": [
+      "Jagras"
+    ]
   },
   {
     "name": "Jyuratodus",
@@ -259,7 +286,9 @@
     "type": "Piscine Wyvern",
     "alias": "Mud Fish Wyvern (\u6ce5\u9b5a\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Lavasioth"]
+    "related": [
+      "Lavasioth"
+    ]
   },
   {
     "name": "Kulu-Ya-Ku",
@@ -298,12 +327,17 @@
     "type": "Bird Wyvern",
     "alias": "Scratching Bird (\u63bb\u9ce5)\n",
     "suborder": "Base Species",
-    "related": ["Tzitzi-Ya-Ku"]
+    "related": [
+      "Tzitzi-Ya-Ku"
+    ]
   },
   {
     "name": "Kulve Taroth",
     "description": "Elder Dragons that protect themselves with a glittering coat of metal over their scales. Some of the precious metal comes from the weapons of defeated Hunters who once tried to slay them.",
-    "games": ["Monster Hunter: World", "Monster Hunter World: Iceborne"],
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
     "elements": [
       {
         "name": "Fire",
@@ -337,7 +371,10 @@
   {
     "name": "Legiana",
     "description": "Not even the strongest winds can take away from the gracefulness with which ___ soar high in the skies. These swift, kite-like Flying Wyverns emit a chilling wind from their bodies, which dull their prey's ability to escape.",
-    "games": ["Monster Hunter: World", "Monster Hunter World: Iceborne"],
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
     "elements": [
       {
         "name": "Ice",
@@ -361,13 +398,18 @@
     "parentheses_weaknesses": false,
     "type": "Flying Wyvern",
     "alias": "Wind Drifting Wyvern (\u98a8\u6f02\u7adc)\n",
-    "suborder": "Base Species",
-    "related": ["Shrieking Legiana"]
+    "suborder": "Rathalos",
+    "related": [
+      "Shrieking Legiana"
+    ]
   },
   {
     "name": "Leshen",
     "description": "Dwelling deep inside the forest, these creatures use their innate magic to control all flora and fauna within their territory.",
-    "games": ["Monster Hunter: World", "Monster Hunter World: Iceborne"],
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -387,12 +429,17 @@
     "type": "Relict",
     "alias": "None\n",
     "suborder": "Base Species",
-    "related": ["Ancient Leshen"]
+    "related": [
+      "Ancient Leshen"
+    ]
   },
   {
     "name": "Nergigante",
     "description": "Large Elder Dragons bristling with sharp spikes, single-minded in spreading destruction. They possess an astonishing regenerative power, recovering from wounds almost instantly.",
-    "games": ["Monster Hunter: World", "Monster Hunter World: Iceborne"],
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
     "elements": [],
     "statuses": [],
     "weaknesses": [
@@ -407,12 +454,17 @@
     "type": "Elder Dragon",
     "alias": "Extinction Dragon (\u6ec5\u5c3d\u9f8d)\n",
     "suborder": "Base Species",
-    "related": ["Ruiner Nergigante"]
+    "related": [
+      "Ruiner Nergigante"
+    ]
   },
   {
     "name": "Odogaron",
     "description": "A fanged wyvern that roams about in search of carcasses. They have a habit of dragging their captured prey and hunks of meat back to their nest.",
-    "games": ["Monster Hunter: World", "Monster Hunter World: Iceborne"],
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -432,12 +484,18 @@
     "type": "Fanged Wyvern",
     "alias": "Cruel Claw Wyvern (\u60e8\u722a\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Ebony Odogaron", "Guardian Ebony Odogaron"]
+    "related": [
+      "Ebony Odogaron",
+      "Guardian Ebony Odogaron"
+    ]
   },
   {
     "name": "Paolumu",
     "description": "___ inflate the sacs in their bodies to float in the air, directing their flight by exhaling this way or that. They can slow down their prey with bursts of compressed air to create an opening for a powerful tail attack.",
-    "games": ["Monster Hunter: World", "Monster Hunter World: Iceborne"],
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
     "elements": [],
     "statuses": [],
     "weaknesses": [
@@ -452,7 +510,9 @@
     "type": "Flying Wyvern",
     "alias": "Floating Sky Wyvern (\u6d6e\u7a7a\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Nightshade Paolumu"]
+    "related": [
+      "Nightshade Paolumu"
+    ]
   },
   {
     "name": "Pukei-Pukei",
@@ -486,12 +546,17 @@
     "type": "Bird Wyvern",
     "alias": "Poison Bewitching Bird (\u6bd2\u5996\u9ce5)\n",
     "suborder": "Base Species",
-    "related": ["Coral Pukei-Pukei"]
+    "related": [
+      "Coral Pukei-Pukei"
+    ]
   },
   {
     "name": "Radobaan",
     "description": "A brute wyvern that feeds on the bones of corpses, adorning them all over its body. They have been sighted curling their bodies up into a ball and rolling around in order to attack foes.",
-    "games": ["Monster Hunter: World", "Monster Hunter World: Iceborne"],
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -511,7 +576,9 @@
     "type": "Brute Wyvern",
     "alias": "Bone Hammer Wyvern (\u9aa8\u939a\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Uragaan"]
+    "related": [
+      "Uragaan"
+    ]
   },
   {
     "name": "Tobi-Kadachi",
@@ -546,12 +613,17 @@
     "type": "Fanged Wyvern",
     "alias": "Flying Thunder Wyvern (\u98db\u96f7\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Viper Tobi-Kadachi"]
+    "related": [
+      "Viper Tobi-Kadachi"
+    ]
   },
   {
     "name": "Tzitzi-Ya-Ku",
     "description": "A monster that spreads its luminous pulsing organs when it spots prey or natural enemies, blinding them with a flash of light in order to create an opening. They make use of their astonishing leg power in order to finish off helpless prey.",
-    "games": ["Monster Hunter: World", "Monster Hunter World: Iceborne"],
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -575,12 +647,17 @@
     "type": "Bird Wyvern",
     "alias": "Dazzling Bird (\u7729\u9ce5)\n",
     "suborder": "Base Species",
-    "related": ["Kulu-Ya-Ku"]
+    "related": [
+      "Kulu-Ya-Ku"
+    ]
   },
   {
     "name": "Vaal Hazak",
     "description": "A grotesque Elder Dragon, that inhabits the deepest part of the Rotten Vale. It uses the fatal vapor of the vale in what appears to be a symbiotic relationship.",
-    "games": ["Monster Hunter: World", "Monster Hunter World: Iceborne"],
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
     "elements": [],
     "statuses": [
       {
@@ -600,12 +677,17 @@
     "type": "Elder Dragon",
     "alias": "Corpse Coat Dragon (\u5c4d\u5957\u9f8d)\n",
     "suborder": "Base Species",
-    "related": ["Blackveil Vaal Hazak"]
+    "related": [
+      "Blackveil Vaal Hazak"
+    ]
   },
   {
     "name": "Xeno'jiiva",
     "description": "A new species discovered in the depths of the Elder's Recess. Its relationship to the other elder dragons is unclear, as is its ecology.",
-    "games": ["Monster Hunter: World", "Monster Hunter World: Iceborne"],
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
     "elements": [
       {
         "name": "Fire",
@@ -654,12 +736,17 @@
     "type": "Elder Dragon",
     "alias": "Dark Beacon Dragon (\u51a5\u706f\u9f8d)[notes 1]\n",
     "suborder": "Base Species",
-    "related": ["Safi'jiiva"]
+    "related": [
+      "Safi'jiiva"
+    ]
   },
   {
     "name": "Zorah Magdaros",
     "description": "An elder dragon that rises from the earth like a volcano. Where it's headed, and why, the Research Commission has yet to figure out.",
-    "games": ["Monster Hunter: World", "Monster Hunter World: Iceborne"],
+    "games": [
+      "Monster Hunter: World",
+      "Monster Hunter World: Iceborne"
+    ],
     "elements": [
       {
         "name": "Fire",

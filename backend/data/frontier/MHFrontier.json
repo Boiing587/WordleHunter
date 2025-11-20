@@ -26,7 +26,9 @@
     "type": "Carapaceon",
     "alias": "Ashen Crystal Scorpion (\u7070\u6676\u880d)\n",
     "suborder": "Subspecies",
-    "related": ["Aqra Vashim"]
+    "related": [
+      "Aqra Vashim"
+    ]
   },
   {
     "name": "Aqra Vashim",
@@ -44,7 +46,7 @@
         "note": null
       },
       {
-        "name": "Paralysis Attribute",
+        "name": "Paralysis",
         "note": null
       }
     ],
@@ -55,7 +57,11 @@
     "type": "Carapaceon",
     "alias": "Tail Crystal Scorpion (\u5c3e\u6676\u880d)\n",
     "suborder": "Base Species",
-    "related": ["Zenith Aqra Vashim", "Aqra Jebia", "Kusubami"]
+    "related": [
+      "Zenith Aqra Vashim",
+      "Aqra Jebia",
+      "Kusubami"
+    ]
   },
   {
     "name": "Belkuros",
@@ -90,7 +96,10 @@
     "type": "Flying Wyvern",
     "alias": "Dancing Thunder Wyvern (\u821e\u96f7\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Draguros", "Zenith Draguros"]
+    "related": [
+      "Draguros",
+      "Zenith Draguros"
+    ]
   },
   {
     "name": "Draguros",
@@ -129,7 +138,10 @@
     "type": "Flying Wyvern",
     "alias": "Dark Thunder Wyvern (\u51a5\u96f7\u7adc)\n",
     "suborder": "Subspecies",
-    "related": ["Zenith Draguros", "Belkuros"]
+    "related": [
+      "Zenith Draguros",
+      "Belkuros"
+    ]
   },
   {
     "name": "Duragaua",
@@ -168,7 +180,9 @@
     "type": "Flying Wyvern",
     "alias": "Ice Fox Wyvern (\u6c37\u72d0\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Mi Ru"]
+    "related": [
+      "Mi Ru"
+    ]
   },
   {
     "name": "Espinas",
@@ -261,7 +275,12 @@
     "type": "Flying Wyvern",
     "alias": "Brown Thorny Wyvern (\u68d8\u8336\u7adc)\n",
     "suborder": "Subspecies",
-    "related": ["Espinas", "Pearl Espinas", "Zenith Espinas", "Melaginas"]
+    "related": [
+      "Espinas",
+      "Pearl Espinas",
+      "Zenith Espinas",
+      "Melaginas"
+    ]
   },
   {
     "name": "Grenzebul",
@@ -376,7 +395,10 @@
     "type": "Fanged Beast",
     "alias": "Male Sound Wolf (\u96c4\u97ff\u72fc)\n",
     "suborder": "Base Species",
-    "related": ["Midogaron", "Nono Orgaron"]
+    "related": [
+      "Midogaron",
+      "Nono Orgaron"
+    ]
   },
   {
     "name": "Lavasioth",
@@ -420,7 +442,11 @@
     "type": "Piscine Wyvern",
     "alias": "Lava Wyvern (\u6eb6\u5ca9\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Red Lavasioth", "Argasioth", "Aurisioth"]
+    "related": [
+      "Red Lavasioth",
+      "Argasioth",
+      "Aurisioth"
+    ]
   },
   {
     "name": "Nono Orgaron",
@@ -463,7 +489,9 @@
     "type": "Fanged Beast",
     "alias": "Female Sound Wolf (\u96cc\u97ff\u72fc)\n",
     "suborder": "Base Species",
-    "related": ["Kamu Orgaron"]
+    "related": [
+      "Kamu Orgaron"
+    ]
   },
   {
     "name": "Pale Hypnocatrice",
@@ -493,7 +521,11 @@
     "type": "Bird Wyvern",
     "alias": "Pale Sleep Bird (\u84bc\u767d\u7720\u9ce5)\n",
     "suborder": "Rare Species",
-    "related": ["Hypnocatrice", "Vivid Hypnocatrice", "Zenith Hypnocatrice"]
+    "related": [
+      "Hypnocatrice",
+      "Vivid Hypnocatrice",
+      "Zenith Hypnocatrice"
+    ]
   },
   {
     "name": "Pariapuria",
@@ -540,7 +572,9 @@
     "type": "Flying Wyvern",
     "alias": "Swallowing Wyvern (\u5451\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Ravenous Pariapuria"]
+    "related": [
+      "Ravenous Pariapuria"
+    ]
   },
   {
     "name": "Pearl Espinas",
@@ -583,7 +617,11 @@
     "type": "Flying Wyvern",
     "alias": "White Thorn Wyvern (\u68d8\u767d\u7adc)\n",
     "suborder": "Rare Species",
-    "related": ["Espinas", "Flaming Espinas", "Zenith Espinas"]
+    "related": [
+      "Espinas",
+      "Flaming Espinas",
+      "Zenith Espinas"
+    ]
   },
   {
     "name": "Raviente",
@@ -638,7 +676,10 @@
     "type": "Unclassified",
     "alias": "Great Crag Wyvern (\u5927\u5dcc\u7adc)\n",
     "suborder": "Base Species",
-    "related": ["Violent Raviente", "Berserk Raviente"]
+    "related": [
+      "Violent Raviente",
+      "Berserk Raviente"
+    ]
   },
   {
     "name": "Red Lavasioth",
@@ -668,7 +709,9 @@
     "type": "Piscine Wyvern",
     "alias": "Crimson Lava Wyvern (\u7d05\u6eb6\u5ca9\u7adc)\n",
     "suborder": "Subspecies",
-    "related": ["Lavasioth"]
+    "related": [
+      "Lavasioth"
+    ]
   },
   {
     "name": "Vivid Hypnocatrice",
@@ -702,6 +745,10 @@
     "type": "Bird Wyvern",
     "alias": "Blue Sleep Bird (\u84bc\u7720\u9ce5)\n",
     "suborder": "Variant",
-    "related": ["Hypnocatrice", "Pale Hypnocatrice", "Zenith Hypnocatrice"]
+    "related": [
+      "Hypnocatrice",
+      "Pale Hypnocatrice",
+      "Zenith Hypnocatrice"
+    ]
   }
 ]
