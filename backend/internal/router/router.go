@@ -2,6 +2,7 @@ package router
 
 import (
 	"net/http"
+	"wordlehunter/internal/handlers/status"
 )
 
 // Creates a new router
@@ -9,6 +10,7 @@ func NewRouter() *http.ServeMux {
 	r := http.NewServeMux()
 
 	// !!! Add API routes here
+	status.AddRoutes(r)
 
 	return r
 }
