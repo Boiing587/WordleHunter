@@ -188,11 +188,11 @@
     "name": "Espinas",
     "description": "Flying Wyverns known for the red spikes on their tough green frame, forming both a means of attack and defense, thus generally keeping foes at bay. As a result, they are often seen sprawled out and relaxing in their domain. Once they sense danger, however, they expand their blood vessels to turn their hide and wing membranes a bright red, and they will run riot with noteworthy brutality.",
     "games": [
-      "Monster Hunter Rise: Sunbreak",
       "Monster Hunter Frontier",
       "Monster Hunter Frontier Forward",
       "Monster Hunter Frontier G",
-      "Monster Hunter Frontier Z / Z Zenith"
+      "Monster Hunter Frontier Z / Z Zenith",
+      "Monster Hunter Rise: Sunbreak"
     ],
     "elements": [
       {
@@ -237,11 +237,11 @@
     "name": "Flaming Espinas",
     "description": "An ___ subspecies with a slightly more muted body color. The boldness of the standard ___ remains: run-of-the-mill attacks won't rouse ___ from their slumber. Their breath attack contains a powerful poison, and a dense acid that deteriorates armor. Take this attack head-on, and you won't stand a chance...",
     "games": [
-      "Monster Hunter Rise: Sunbreak",
       "Monster Hunter Frontier",
       "Monster Hunter Frontier Forward",
       "Monster Hunter Frontier G",
-      "Monster Hunter Frontier Z / Z Zenith"
+      "Monster Hunter Frontier Z / Z Zenith",
+      "Monster Hunter Rise: Sunbreak"
     ],
     "elements": [
       {
@@ -321,11 +321,11 @@
     "name": "Hypnocatrice",
     "description": "A rust-colored bird wyvern with beautiful tail feathers found mainly in forests. A highly pacifistic wyvern by nature, it breathes sleeping gas on its enemies and prey alike. Its strong, developed legs pack a serious punch, so be careful!",
     "games": [
-      "Monster Hunter Freedom Unite",
       "Monster Hunter Frontier",
       "Monster Hunter Frontier Forward",
       "Monster Hunter Frontier G",
-      "Monster Hunter Frontier Z / Z Zenith"
+      "Monster Hunter Frontier Z / Z Zenith",
+      "Monster Hunter Freedom Unite"
     ],
     "elements": [],
     "statuses": [
@@ -404,15 +404,15 @@
     "name": "Lavasioth",
     "description": "___s utilize molten lava as armor. They are extremely aggressive and will attack without prejudice until the threat has been eliminated.",
     "games": [
+      "Monster Hunter Frontier",
+      "Monster Hunter Frontier Forward",
+      "Monster Hunter Frontier G",
+      "Monster Hunter Frontier Z / Z Zenith",
       "Monster Hunter Freedom Unite",
       "Monster Hunter Generations",
       "Monster Hunter Generations Ultimate",
       "Monster Hunter: World",
-      "Monster Hunter World: Iceborne",
-      "Monster Hunter Frontier",
-      "Monster Hunter Frontier Forward",
-      "Monster Hunter Frontier G",
-      "Monster Hunter Frontier Z / Z Zenith"
+      "Monster Hunter World: Iceborne"
     ],
     "elements": [
       {
