@@ -266,6 +266,8 @@
     "name": "King Shakalaka",
     "description": "This ___ chieftain pulls together the ___'s as one, in order to act. Extremely quick to anger when approached, this hot-head can invoke his fiery wrath with emotion alone. Feared by even the most skilled hunters.",
     "games": [
+      "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
       "Monster Hunter Freedom Unite",
       "Monster Hunter Frontier",
       "Monster Hunter Frontier Forward",
@@ -571,9 +573,9 @@
     "name": "Shen Gaoren",
     "description": "A giant Carapaceon with an equally giant monster's skull on its back. Prone to roaming and fiercely territorial, any intruders will be met with opposition, so nearby forts or towns must be warned of its presence.",
     "games": [
-      "Monster Hunter Freedom Unite",
-      "Monster Hunter Freedom 2",
       "Monster Hunter 2",
+      "Monster Hunter Freedom 2",
+      "Monster Hunter Freedom Unite",
       "Monster Hunter Frontier",
       "Monster Hunter Frontier Forward",
       "Monster Hunter Frontier G",
