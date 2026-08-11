@@ -268,7 +268,7 @@ async function shareButton() {
           class="mb-0 mt-4 mx-2 px-2 py-1"
           :disabled="!remove_property_state.valueOf()"
           @click="casualModeFilter('games')"
-          >Games</Button
+          >Appearances</Button
         >
         <Button
           class="mb-0 mt-4 mx-2 px-2 py-1"
@@ -355,7 +355,7 @@ async function shareButton() {
         class="relative flex flex-col justify-center items-center p-4 my-4 min-w-20 border border-solid border-gray-600"
         :class="[`history_games`, responseInfoStyle('games', guess)]"
       >
-        <h1 class="absolute bottom-full">Games</h1>
+        <h1 class="absolute bottom-full">Appearances</h1>
         <div v-if="guess.guess.games.length <= 5" class="text-center">
           <div v-for="game in guess.guess.games" :key="game">{{ game }}</div>
         </div>
